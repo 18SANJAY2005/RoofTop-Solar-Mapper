@@ -1,0 +1,20 @@
+{
+  "lat": 13.005,
+  "lon": 80.255,
+  "monthly_kwh_m2_day": {
+    "JAN": 4.9,
+    "FEB": 5.6,
+    "MAR": 6.2,
+    "APR": 6.5,
+    "MAY": 6.3,
+    "JUN": 5.4,
+    "JUL": 5.1,
+    "AUG": 5.3,
+    "SEP": 5.4,
+    "OCT": 4.7,
+    "NOV": 4.2,
+    "DEC": 4.4,
+    "ANN": 5.33
+  },
+  "annual_avg_kwh_m2_day": 5.33
+}

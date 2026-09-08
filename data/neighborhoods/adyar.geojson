@@ -1,0 +1,4274 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10001,
+        "neighborhood": "Adyar",
+        "address": "#109, Padmanabha Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 101.4,
+        "roof_area_sqft": 1091.5,
+        "usable_area_m2": 73.0,
+        "usable_area_sqft": 785.8,
+        "orientation_deg": 10.9,
+        "aspect_ratio": 1.91,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 23011.0,
+        "monthly_generation_kwh": {
+          "JAN": 1787.3,
+          "FEB": 1863.7,
+          "MAR": 2292.2,
+          "APR": 2299.1,
+          "MAY": 2317.6,
+          "JUN": 1905.4,
+          "JUL": 1859.9,
+          "AUG": 1939.8,
+          "SEP": 1919.4,
+          "OCT": 1725.5,
+          "NOV": 1483.5,
+          "DEC": 1616.5
+        },
+        "recommended_system_size_kw": 16.7,
+        "recommended_panel_count": 37,
+        "solar_score": 58,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 918500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 840500.0,
+          "annual_savings_inr": 161077.0,
+          "monthly_savings_inr": 13423.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 5491353.0,
+          "co2_tons_annual": 18.87,
+          "trees_equivalent": 943,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25203198679104,
+              13.002149460680213
+            ],
+            [
+              80.25201915266513,
+              13.002214068024827
+            ],
+            [
+              80.2518930239642,
+              13.002189966118246
+            ],
+            [
+              80.25190585809011,
+              13.002125358773633
+            ],
+            [
+              80.25203198679104,
+              13.002149460680213
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10002,
+        "neighborhood": "Adyar",
+        "address": "#115, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 137.8,
+        "roof_area_sqft": 1483.3,
+        "usable_area_m2": 99.2,
+        "usable_area_sqft": 1067.8,
+        "orientation_deg": 176.8,
+        "aspect_ratio": 1.81,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 31270.0,
+        "monthly_generation_kwh": {
+          "JAN": 2428.7,
+          "FEB": 2532.5,
+          "MAR": 3114.9,
+          "APR": 3124.3,
+          "MAY": 3149.4,
+          "JUN": 2589.2,
+          "JUL": 2527.5,
+          "AUG": 2636.1,
+          "SEP": 2608.3,
+          "OCT": 2344.8,
+          "NOV": 2016.0,
+          "DEC": 2196.7
+        },
+        "recommended_system_size_kw": 22.5,
+        "recommended_panel_count": 50,
+        "solar_score": 66,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1237500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1159500.0,
+          "annual_savings_inr": 218890.0,
+          "monthly_savings_inr": 18241.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 7462284.0,
+          "co2_tons_annual": 25.64,
+          "trees_equivalent": 1282,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25326754484279,
+              13.001822787694636
+            ],
+            [
+              80.25327176608445,
+              13.001901481127167
+            ],
+            [
+              80.25312615039708,
+              13.001908994984849
+            ],
+            [
+              80.25312192915541,
+              13.001830301552317
+            ],
+            [
+              80.25326754484279,
+              13.001822787694636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10003,
+        "neighborhood": "Adyar",
+        "address": "#25, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 147.1,
+        "roof_area_sqft": 1583.4,
+        "usable_area_m2": 105.9,
+        "usable_area_sqft": 1139.9,
+        "orientation_deg": 14.1,
+        "aspect_ratio": 1.41,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 33382.0,
+        "monthly_generation_kwh": {
+          "JAN": 2592.8,
+          "FEB": 2703.6,
+          "MAR": 3325.3,
+          "APR": 3335.3,
+          "MAY": 3362.2,
+          "JUN": 2764.1,
+          "JUL": 2698.2,
+          "AUG": 2814.1,
+          "SEP": 2784.5,
+          "OCT": 2503.2,
+          "NOV": 2152.1,
+          "DEC": 2345.1
+        },
+        "recommended_system_size_kw": 24.3,
+        "recommended_panel_count": 54,
+        "solar_score": 67,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1336500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1258500.0,
+          "annual_savings_inr": 233674.0,
+          "monthly_savings_inr": 19473.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 7966292.0,
+          "co2_tons_annual": 27.37,
+          "trees_equivalent": 1369,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25483316889814,
+              13.002114783648759
+            ],
+            [
+              80.25480919333206,
+              13.002207536126354
+            ],
+            [
+              80.25471742633594,
+              13.002184717844598
+            ],
+            [
+              80.25472247261432,
+              13.002165195685194
+            ],
+            [
+              80.25468130783692,
+              13.002154959875712
+            ],
+            [
+              80.25470023712462,
+              13.002081729557522
+            ],
+            [
+              80.25483316889814,
+              13.002114783648759
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10004,
+        "neighborhood": "Adyar",
+        "address": "#76, Padmanabha Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 84.2,
+        "roof_area_sqft": 906.3,
+        "usable_area_m2": 60.6,
+        "usable_area_sqft": 652.3,
+        "orientation_deg": 135.2,
+        "aspect_ratio": 2.17,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 18518.0,
+        "monthly_generation_kwh": {
+          "JAN": 1438.3,
+          "FEB": 1499.7,
+          "MAR": 1844.6,
+          "APR": 1850.2,
+          "MAY": 1865.1,
+          "JUN": 1533.3,
+          "JUL": 1496.7,
+          "AUG": 1561.0,
+          "SEP": 1544.6,
+          "OCT": 1388.6,
+          "NOV": 1193.8,
+          "DEC": 1300.9
+        },
+        "recommended_system_size_kw": 14.0,
+        "recommended_panel_count": 31,
+        "solar_score": 54,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 770000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 692000.0,
+          "annual_savings_inr": 129626.0,
+          "monthly_savings_inr": 10802.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 4419142.0,
+          "co2_tons_annual": 15.18,
+          "trees_equivalent": 759,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25574614615554,
+              13.00196650929281
+            ],
+            [
+              80.25578649222302,
+              13.0020065839648
+            ],
+            [
+              80.25569780956694,
+              13.002092470087675
+            ],
+            [
+              80.25565746349946,
+              13.002052395415685
+            ],
+            [
+              80.25574614615554,
+              13.00196650929281
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10005,
+        "neighborhood": "Adyar",
+        "address": "#60, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 283.1,
+        "roof_area_sqft": 3047.3,
+        "usable_area_m2": 203.8,
+        "usable_area_sqft": 2193.7,
+        "orientation_deg": 10.5,
+        "aspect_ratio": 1.83,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 64242.0,
+        "monthly_generation_kwh": {
+          "JAN": 4989.7,
+          "FEB": 5203.0,
+          "MAR": 6399.3,
+          "APR": 6418.6,
+          "MAY": 6470.3,
+          "JUN": 5319.4,
+          "JUL": 5192.5,
+          "AUG": 5415.6,
+          "SEP": 5358.7,
+          "OCT": 4817.3,
+          "NOV": 4141.7,
+          "DEC": 4513.0
+        },
+        "recommended_system_size_kw": 46.8,
+        "recommended_panel_count": 104,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2574000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2496000.0,
+          "annual_savings_inr": 449694.0,
+          "monthly_savings_inr": 37474.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 15330734.0,
+          "co2_tons_annual": 52.68,
+          "trees_equivalent": 2634,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25717294438883,
+              13.002228488186706
+            ],
+            [
+              80.25715164578915,
+              13.002339089693347
+            ],
+            [
+              80.25694557536355,
+              13.002300916477548
+            ],
+            [
+              80.25696687396322,
+              13.002190314970907
+            ],
+            [
+              80.25717294438883,
+              13.002228488186706
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10006,
+        "neighborhood": "Adyar",
+        "address": "#44, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 160.1,
+        "roof_area_sqft": 1723.3,
+        "usable_area_m2": 115.3,
+        "usable_area_sqft": 1241.1,
+        "orientation_deg": 103.5,
+        "aspect_ratio": 1.33,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 35232.0,
+        "monthly_generation_kwh": {
+          "JAN": 2736.5,
+          "FEB": 2853.5,
+          "MAR": 3509.6,
+          "APR": 3520.2,
+          "MAY": 3548.5,
+          "JUN": 2917.3,
+          "JUL": 2847.7,
+          "AUG": 2970.1,
+          "SEP": 2938.9,
+          "OCT": 2641.9,
+          "NOV": 2271.4,
+          "DEC": 2475.1
+        },
+        "recommended_system_size_kw": 26.6,
+        "recommended_panel_count": 59,
+        "solar_score": 69,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1463000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1385000.0,
+          "annual_savings_inr": 246624.0,
+          "monthly_savings_inr": 20552.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8407777.0,
+          "co2_tons_annual": 28.89,
+          "trees_equivalent": 1445,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25810686845814,
+              13.002207381125144
+            ],
+            [
+              80.25820513202738,
+              13.002230878295792
+            ],
+            [
+              80.2581732577669,
+              13.002359102541613
+            ],
+            [
+              80.25807499419766,
+              13.002335605370964
+            ],
+            [
+              80.25810686845814,
+              13.002207381125144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10007,
+        "neighborhood": "Adyar",
+        "address": "#59, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 105.9,
+        "roof_area_sqft": 1139.9,
+        "usable_area_m2": 76.2,
+        "usable_area_sqft": 820.2,
+        "orientation_deg": 16.7,
+        "aspect_ratio": 1.34,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 24020.0,
+        "monthly_generation_kwh": {
+          "JAN": 1865.6,
+          "FEB": 1945.4,
+          "MAR": 2392.7,
+          "APR": 2399.9,
+          "MAY": 2419.2,
+          "JUN": 1988.9,
+          "JUL": 1941.5,
+          "AUG": 2024.9,
+          "SEP": 2003.6,
+          "OCT": 1801.2,
+          "NOV": 1548.6,
+          "DEC": 1687.4
+        },
+        "recommended_system_size_kw": 17.6,
+        "recommended_panel_count": 39,
+        "solar_score": 59,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 968000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 890000.0,
+          "annual_savings_inr": 168140.0,
+          "monthly_savings_inr": 14012.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 5732141.0,
+          "co2_tons_annual": 19.7,
+          "trees_equivalent": 985,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25933689065985,
+              13.002094276202257
+            ],
+            [
+              80.259313098663,
+              13.002171169339784
+            ],
+            [
+              80.25920792026531,
+              13.002139863674774
+            ],
+            [
+              80.25923171226216,
+              13.002062970537247
+            ],
+            [
+              80.25933689065985,
+              13.002094276202257
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10008,
+        "neighborhood": "Adyar",
+        "address": "#118, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 86.4,
+        "roof_area_sqft": 930.0,
+        "usable_area_m2": 62.2,
+        "usable_area_sqft": 669.5,
+        "orientation_deg": 3.6,
+        "aspect_ratio": 1.45,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 19607.0,
+        "monthly_generation_kwh": {
+          "JAN": 1522.9,
+          "FEB": 1587.9,
+          "MAR": 1953.1,
+          "APR": 1959.0,
+          "MAY": 1974.8,
+          "JUN": 1623.5,
+          "JUL": 1584.8,
+          "AUG": 1652.8,
+          "SEP": 1635.5,
+          "OCT": 1470.2,
+          "NOV": 1264.0,
+          "DEC": 1377.4
+        },
+        "recommended_system_size_kw": 14.0,
+        "recommended_panel_count": 31,
+        "solar_score": 56,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 770000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 692000.0,
+          "annual_savings_inr": 137249.0,
+          "monthly_savings_inr": 11437.0,
+          "payback_years": 5.0,
+          "lifetime_savings_25yr_inr": 4679022.0,
+          "co2_tons_annual": 16.08,
+          "trees_equivalent": 804,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26080627180505,
+              13.002229351251247
+            ],
+            [
+              80.26080159463486,
+              13.002299085285989
+            ],
+            [
+              80.26069877399573,
+              13.002292451342763
+            ],
+            [
+              80.26070345116592,
+              13.00222271730802
+            ],
+            [
+              80.26080627180505,
+              13.002229351251247
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10009,
+        "neighborhood": "Adyar",
+        "address": "#36, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 131.8,
+        "roof_area_sqft": 1418.7,
+        "usable_area_m2": 94.9,
+        "usable_area_sqft": 1021.5,
+        "orientation_deg": 15.7,
+        "aspect_ratio": 2.09,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 29914.0,
+        "monthly_generation_kwh": {
+          "JAN": 2323.4,
+          "FEB": 2422.8,
+          "MAR": 2979.9,
+          "APR": 2988.9,
+          "MAY": 3012.9,
+          "JUN": 2477.0,
+          "JUL": 2417.9,
+          "AUG": 2521.8,
+          "SEP": 2495.3,
+          "OCT": 2243.2,
+          "NOV": 1928.6,
+          "DEC": 2101.5
+        },
+        "recommended_system_size_kw": 21.6,
+        "recommended_panel_count": 48,
+        "solar_score": 64,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1188000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1110000.0,
+          "annual_savings_inr": 209398.0,
+          "monthly_savings_inr": 17450.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 7138688.0,
+          "co2_tons_annual": 24.53,
+          "trees_equivalent": 1226,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2521033688126,
+              13.003007355334836
+            ],
+            [
+              80.25208336785502,
+              13.003076468309558
+            ],
+            [
+              80.25193626150694,
+              13.00303551625561
+            ],
+            [
+              80.25195626246452,
+              13.002966403280887
+            ],
+            [
+              80.2521033688126,
+              13.003007355334836
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10010,
+        "neighborhood": "Adyar",
+        "address": "#98, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 90.5,
+        "roof_area_sqft": 974.1,
+        "usable_area_m2": 65.2,
+        "usable_area_sqft": 701.8,
+        "orientation_deg": 11.4,
+        "aspect_ratio": 1.85,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 20552.0,
+        "monthly_generation_kwh": {
+          "JAN": 1596.3,
+          "FEB": 1664.5,
+          "MAR": 2047.3,
+          "APR": 2053.5,
+          "MAY": 2070.0,
+          "JUN": 1701.8,
+          "JUL": 1661.2,
+          "AUG": 1732.6,
+          "SEP": 1714.4,
+          "OCT": 1541.1,
+          "NOV": 1325.0,
+          "DEC": 1443.8
+        },
+        "recommended_system_size_kw": 14.8,
+        "recommended_panel_count": 33,
+        "solar_score": 57,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 814000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 736000.0,
+          "annual_savings_inr": 143864.0,
+          "monthly_savings_inr": 11989.0,
+          "payback_years": 5.1,
+          "lifetime_savings_25yr_inr": 4904537.0,
+          "co2_tons_annual": 16.85,
+          "trees_equivalent": 843,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25326036449688,
+              13.00318552729919
+            ],
+            [
+              80.25324738964422,
+              13.003247522677482
+            ],
+            [
+              80.2531305449153,
+              13.003223998994487
+            ],
+            [
+              80.25314351976796,
+              13.003162003616195
+            ],
+            [
+              80.25326036449688,
+              13.00318552729919
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10011,
+        "neighborhood": "Adyar",
+        "address": "#88, Lattice Bridge Road, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 133.1,
+        "roof_area_sqft": 1432.7,
+        "usable_area_m2": 95.8,
+        "usable_area_sqft": 1031.2,
+        "orientation_deg": 91.6,
+        "aspect_ratio": 1.23,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 29274.0,
+        "monthly_generation_kwh": {
+          "JAN": 2273.7,
+          "FEB": 2370.9,
+          "MAR": 2916.0,
+          "APR": 2924.8,
+          "MAY": 2948.4,
+          "JUN": 2423.9,
+          "JUL": 2366.1,
+          "AUG": 2467.8,
+          "SEP": 2441.8,
+          "OCT": 2195.1,
+          "NOV": 1887.3,
+          "DEC": 2056.5
+        },
+        "recommended_system_size_kw": 22.1,
+        "recommended_panel_count": 49,
+        "solar_score": 63,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1215500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1137500.0,
+          "annual_savings_inr": 204918.0,
+          "monthly_savings_inr": 17076.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 6985958.0,
+          "co2_tons_annual": 24.0,
+          "trees_equivalent": 1200,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25453786209096,
+              13.00318872504034
+            ],
+            [
+              80.25463389360726,
+              13.003191689645192
+            ],
+            [
+              80.25463018779683,
+              13.00330716338802
+            ],
+            [
+              80.25453415628053,
+              13.00330419878317
+            ],
+            [
+              80.25453786209096,
+              13.00318872504034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10012,
+        "neighborhood": "Adyar",
+        "address": "#130, Lattice Bridge Road, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 165.3,
+        "roof_area_sqft": 1779.3,
+        "usable_area_m2": 119.0,
+        "usable_area_sqft": 1280.9,
+        "orientation_deg": 12.5,
+        "aspect_ratio": 1.65,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 37511.0,
+        "monthly_generation_kwh": {
+          "JAN": 2913.5,
+          "FEB": 3038.0,
+          "MAR": 3736.6,
+          "APR": 3747.9,
+          "MAY": 3778.1,
+          "JUN": 3106.0,
+          "JUL": 3031.9,
+          "AUG": 3162.2,
+          "SEP": 3129.0,
+          "OCT": 2812.8,
+          "NOV": 2418.4,
+          "DEC": 2635.2
+        },
+        "recommended_system_size_kw": 27.4,
+        "recommended_panel_count": 61,
+        "solar_score": 71,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1507000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1429000.0,
+          "annual_savings_inr": 262577.0,
+          "monthly_savings_inr": 21881.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 8951638.0,
+          "co2_tons_annual": 30.76,
+          "trees_equivalent": 1538,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25585337067955,
+              13.002977435407978
+            ],
+            [
+              80.2558328094502,
+              13.003067404115548
+            ],
+            [
+              80.25571083298723,
+              13.003040588565907
+            ],
+            [
+              80.25571470067422,
+              13.003023664928028
+            ],
+            [
+              80.25568526225813,
+              13.00301719312774
+            ],
+            [
+              80.25570195580048,
+              13.002944148058049
+            ],
+            [
+              80.25585337067955,
+              13.002977435407978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10013,
+        "neighborhood": "Adyar",
+        "address": "#5, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 270.8,
+        "roof_area_sqft": 2914.9,
+        "usable_area_m2": 195.0,
+        "usable_area_sqft": 2099.0,
+        "orientation_deg": 34.1,
+        "aspect_ratio": 2.11,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 59586.0,
+        "monthly_generation_kwh": {
+          "JAN": 4628.1,
+          "FEB": 4825.9,
+          "MAR": 5935.6,
+          "APR": 5953.5,
+          "MAY": 6001.4,
+          "JUN": 4933.9,
+          "JUL": 4816.2,
+          "AUG": 5023.1,
+          "SEP": 4970.3,
+          "OCT": 4468.1,
+          "NOV": 3841.5,
+          "DEC": 4185.9
+        },
+        "recommended_system_size_kw": 45.0,
+        "recommended_panel_count": 100,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2475000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2397000.0,
+          "annual_savings_inr": 417102.0,
+          "monthly_savings_inr": 34758.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 14219624.0,
+          "co2_tons_annual": 48.86,
+          "trees_equivalent": 2443,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2569469147656,
+              13.003272928498037
+            ],
+            [
+              80.25688817160187,
+              13.003357628641062
+            ],
+            [
+              80.25670592450295,
+              13.003236041713402
+            ],
+            [
+              80.25676466766669,
+              13.003151341570376
+            ],
+            [
+              80.2569469147656,
+              13.003272928498037
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10014,
+        "neighborhood": "Adyar",
+        "address": "#125, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 429.9,
+        "roof_area_sqft": 4627.4,
+        "usable_area_m2": 309.5,
+        "usable_area_sqft": 3331.4,
+        "orientation_deg": 100.4,
+        "aspect_ratio": 2.07,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 94574.0,
+        "monthly_generation_kwh": {
+          "JAN": 7345.6,
+          "FEB": 7659.6,
+          "MAR": 9420.8,
+          "APR": 9449.2,
+          "MAY": 9525.3,
+          "JUN": 7831.0,
+          "JUL": 7644.2,
+          "AUG": 7972.6,
+          "SEP": 7888.8,
+          "OCT": 7091.8,
+          "NOV": 6097.2,
+          "DEC": 6643.9
+        },
+        "recommended_system_size_kw": 71.1,
+        "recommended_panel_count": 158,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3910500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3832500.0,
+          "annual_savings_inr": 898453.0,
+          "monthly_savings_inr": 74871.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 30629592.0,
+          "co2_tons_annual": 77.55,
+          "trees_equivalent": 3878,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25809134173535,
+              13.002861509511018
+            ],
+            [
+              80.25822208325536,
+              13.002885459068011
+            ],
+            [
+              80.25817163903183,
+              13.003150358214306
+            ],
+            [
+              80.25804089751182,
+              13.003126408657312
+            ],
+            [
+              80.25809134173535,
+              13.002861509511018
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10015,
+        "neighborhood": "Adyar",
+        "address": "#109, Padmanabha Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 92.1,
+        "roof_area_sqft": 991.4,
+        "usable_area_m2": 66.3,
+        "usable_area_sqft": 713.6,
+        "orientation_deg": 14.6,
+        "aspect_ratio": 1.7,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 20899.0,
+        "monthly_generation_kwh": {
+          "JAN": 1623.2,
+          "FEB": 1692.6,
+          "MAR": 2081.8,
+          "APR": 2088.1,
+          "MAY": 2104.9,
+          "JUN": 1730.5,
+          "JUL": 1689.2,
+          "AUG": 1761.8,
+          "SEP": 1743.3,
+          "OCT": 1567.1,
+          "NOV": 1347.4,
+          "DEC": 1468.2
+        },
+        "recommended_system_size_kw": 14.8,
+        "recommended_panel_count": 33,
+        "solar_score": 57,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 814000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 736000.0,
+          "annual_savings_inr": 146293.0,
+          "monthly_savings_inr": 12191.0,
+          "payback_years": 5.0,
+          "lifetime_savings_25yr_inr": 4987345.0,
+          "co2_tons_annual": 17.14,
+          "trees_equivalent": 857,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25970347800543,
+              13.003340302260462
+            ],
+            [
+              80.25968622181401,
+              13.003404573983572
+            ],
+            [
+              80.25957450648826,
+              13.00337572099296
+            ],
+            [
+              80.25959176267969,
+              13.00331144926985
+            ],
+            [
+              80.25970347800543,
+              13.003340302260462
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10016,
+        "neighborhood": "Adyar",
+        "address": "#133, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 319.6,
+        "roof_area_sqft": 3440.1,
+        "usable_area_m2": 230.1,
+        "usable_area_sqft": 2476.8,
+        "orientation_deg": 13.0,
+        "aspect_ratio": 2.19,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 72532.0,
+        "monthly_generation_kwh": {
+          "JAN": 5633.6,
+          "FEB": 5874.4,
+          "MAR": 7225.2,
+          "APR": 7247.0,
+          "MAY": 7305.3,
+          "JUN": 6005.9,
+          "JUL": 5862.6,
+          "AUG": 6114.5,
+          "SEP": 6050.2,
+          "OCT": 5438.9,
+          "NOV": 4676.2,
+          "DEC": 5095.4
+        },
+        "recommended_system_size_kw": 52.6,
+        "recommended_panel_count": 117,
+        "solar_score": 80,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2893000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2815000.0,
+          "annual_savings_inr": 507724.0,
+          "monthly_savings_inr": 42310.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 17309063.0,
+          "co2_tons_annual": 59.48,
+          "trees_equivalent": 2974,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26094598352024,
+              13.003406219055515
+            ],
+            [
+              80.26092073416191,
+              13.003512493278704
+            ],
+            [
+              80.26068292997276,
+              13.003458143850493
+            ],
+            [
+              80.26070817933109,
+              13.003351869627304
+            ],
+            [
+              80.26094598352024,
+              13.003406219055515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10017,
+        "neighborhood": "Adyar",
+        "address": "#85, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 76.5,
+        "roof_area_sqft": 823.4,
+        "usable_area_m2": 55.1,
+        "usable_area_sqft": 593.1,
+        "orientation_deg": 177.1,
+        "aspect_ratio": 1.34,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 17369.0,
+        "monthly_generation_kwh": {
+          "JAN": 1349.0,
+          "FEB": 1406.7,
+          "MAR": 1730.1,
+          "APR": 1735.4,
+          "MAY": 1749.3,
+          "JUN": 1438.2,
+          "JUL": 1403.9,
+          "AUG": 1464.2,
+          "SEP": 1448.8,
+          "OCT": 1302.4,
+          "NOV": 1119.8,
+          "DEC": 1220.2
+        },
+        "recommended_system_size_kw": 12.6,
+        "recommended_panel_count": 28,
+        "solar_score": 54,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 693000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 615000.0,
+          "annual_savings_inr": 121583.0,
+          "monthly_savings_inr": 10132.0,
+          "payback_years": 5.1,
+          "lifetime_savings_25yr_inr": 4144944.0,
+          "co2_tons_annual": 14.24,
+          "trees_equivalent": 712,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25212057631582,
+              13.004238200655177
+            ],
+            [
+              80.252123970297,
+              13.00430881745849
+            ],
+            [
+              80.25205541884817,
+              13.00431198681494
+            ],
+            [
+              80.25205463709702,
+              13.004295721324874
+            ],
+            [
+              80.2520265475467,
+              13.00429701999615
+            ],
+            [
+              80.25202393531667,
+              13.004242668682902
+            ],
+            [
+              80.25212057631582,
+              13.004238200655177
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10018,
+        "neighborhood": "Adyar",
+        "address": "#122, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 100.6,
+        "roof_area_sqft": 1082.8,
+        "usable_area_m2": 72.4,
+        "usable_area_sqft": 779.3,
+        "orientation_deg": 107.1,
+        "aspect_ratio": 2.07,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 22123.0,
+        "monthly_generation_kwh": {
+          "JAN": 1718.3,
+          "FEB": 1791.8,
+          "MAR": 2203.8,
+          "APR": 2210.4,
+          "MAY": 2228.2,
+          "JUN": 1831.9,
+          "JUL": 1788.2,
+          "AUG": 1865.0,
+          "SEP": 1845.4,
+          "OCT": 1658.9,
+          "NOV": 1426.3,
+          "DEC": 1554.2
+        },
+        "recommended_system_size_kw": 16.7,
+        "recommended_panel_count": 37,
+        "solar_score": 57,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 918500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 840500.0,
+          "annual_savings_inr": 154861.0,
+          "monthly_savings_inr": 12905.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 5279441.0,
+          "co2_tons_annual": 18.14,
+          "trees_equivalent": 907,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25325802498672,
+              13.00401376970731
+            ],
+            [
+              80.25331940097021,
+              13.004032442403537
+            ],
+            [
+              80.25327997964764,
+              13.004157087642579
+            ],
+            [
+              80.25321860366415,
+              13.004138414946352
+            ],
+            [
+              80.25325802498672,
+              13.00401376970731
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10019,
+        "neighborhood": "Adyar",
+        "address": "#104, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 115.1,
+        "roof_area_sqft": 1238.9,
+        "usable_area_m2": 82.9,
+        "usable_area_sqft": 892.3,
+        "orientation_deg": 133.9,
+        "aspect_ratio": 2.05,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 25332.0,
+        "monthly_generation_kwh": {
+          "JAN": 1967.5,
+          "FEB": 2051.6,
+          "MAR": 2523.4,
+          "APR": 2531.0,
+          "MAY": 2551.4,
+          "JUN": 2097.6,
+          "JUL": 2047.5,
+          "AUG": 2135.5,
+          "SEP": 2113.0,
+          "OCT": 1899.5,
+          "NOV": 1633.1,
+          "DEC": 1779.6
+        },
+        "recommended_system_size_kw": 18.9,
+        "recommended_panel_count": 42,
+        "solar_score": 60,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1039500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 961500.0,
+          "annual_savings_inr": 177324.0,
+          "monthly_savings_inr": 14777.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 6045238.0,
+          "co2_tons_annual": 20.77,
+          "trees_equivalent": 1039,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25447035864666,
+              13.004378314012138
+            ],
+            [
+              80.25452129938266,
+              13.004426749416144
+            ],
+            [
+              80.25444314323282,
+              13.004505820650316
+            ],
+            [
+              80.25443158061915,
+              13.0044948267011
+            ],
+            [
+              80.25440848865406,
+              13.004518189036414
+            ],
+            [
+              80.25436911053173,
+              13.004480747581624
+            ],
+            [
+              80.25447035864666,
+              13.004378314012138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10020,
+        "neighborhood": "Adyar",
+        "address": "#20, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 98.4,
+        "roof_area_sqft": 1059.2,
+        "usable_area_m2": 70.8,
+        "usable_area_sqft": 762.1,
+        "orientation_deg": 179.3,
+        "aspect_ratio": 1.56,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 22318.0,
+        "monthly_generation_kwh": {
+          "JAN": 1733.4,
+          "FEB": 1807.5,
+          "MAR": 2223.1,
+          "APR": 2229.8,
+          "MAY": 2247.8,
+          "JUN": 1848.0,
+          "JUL": 1803.9,
+          "AUG": 1881.4,
+          "SEP": 1861.6,
+          "OCT": 1673.5,
+          "NOV": 1438.8,
+          "DEC": 1567.8
+        },
+        "recommended_system_size_kw": 16.2,
+        "recommended_panel_count": 36,
+        "solar_score": 58,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 891000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 813000.0,
+          "annual_savings_inr": 156226.0,
+          "monthly_savings_inr": 13019.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 5325976.0,
+          "co2_tons_annual": 18.3,
+          "trees_equivalent": 915,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25600715991683,
+              13.004377740194771
+            ],
+            [
+              80.25600781582627,
+              13.004449467211666
+            ],
+            [
+              80.25589343259404,
+              13.004450473393673
+            ],
+            [
+              80.2558927766846,
+              13.004378746376778
+            ],
+            [
+              80.25600715991683,
+              13.004377740194771
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10021,
+        "neighborhood": "Adyar",
+        "address": "#43, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 84.9,
+        "roof_area_sqft": 913.9,
+        "usable_area_m2": 61.1,
+        "usable_area_sqft": 657.7,
+        "orientation_deg": 3.2,
+        "aspect_ratio": 2.17,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 19260.0,
+        "monthly_generation_kwh": {
+          "JAN": 1495.9,
+          "FEB": 1559.9,
+          "MAR": 1918.5,
+          "APR": 1924.3,
+          "MAY": 1939.8,
+          "JUN": 1594.8,
+          "JUL": 1556.7,
+          "AUG": 1623.6,
+          "SEP": 1606.6,
+          "OCT": 1444.2,
+          "NOV": 1241.7,
+          "DEC": 1353.0
+        },
+        "recommended_system_size_kw": 14.0,
+        "recommended_panel_count": 31,
+        "solar_score": 55,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 770000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 692000.0,
+          "annual_savings_inr": 134820.0,
+          "monthly_savings_inr": 11235.0,
+          "payback_years": 5.1,
+          "lifetime_savings_25yr_inr": 4596213.0,
+          "co2_tons_annual": 15.79,
+          "trees_equivalent": 790,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25724476169988,
+              13.004246903699855
+            ],
+            [
+              80.25724137873519,
+              13.004303413448365
+            ],
+            [
+              80.2571165874049,
+              13.004296227045199
+            ],
+            [
+              80.25711997036959,
+              13.004239717296688
+            ],
+            [
+              80.25724476169988,
+              13.004246903699855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10022,
+        "neighborhood": "Adyar",
+        "address": "#74, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 388.5,
+        "roof_area_sqft": 4181.8,
+        "usable_area_m2": 279.7,
+        "usable_area_sqft": 3010.7,
+        "orientation_deg": 103.6,
+        "aspect_ratio": 2.18,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 85468.0,
+        "monthly_generation_kwh": {
+          "JAN": 6638.3,
+          "FEB": 6922.1,
+          "MAR": 8513.8,
+          "APR": 8539.4,
+          "MAY": 8608.2,
+          "JUN": 7077.0,
+          "JUL": 6908.1,
+          "AUG": 7205.0,
+          "SEP": 7129.3,
+          "OCT": 6408.9,
+          "NOV": 5510.2,
+          "DEC": 6004.2
+        },
+        "recommended_system_size_kw": 64.4,
+        "recommended_panel_count": 143,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3542000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3464000.0,
+          "annual_savings_inr": 598276.0,
+          "monthly_savings_inr": 49856.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 20396114.0,
+          "co2_tons_annual": 70.08,
+          "trees_equivalent": 3504,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25816297198591,
+              13.004110936082917
+            ],
+            [
+              80.25828239645242,
+              13.004139683824922
+            ],
+            [
+              80.25821838643208,
+              13.004395477975038
+            ],
+            [
+              80.25809896196557,
+              13.004366730233032
+            ],
+            [
+              80.25816297198591,
+              13.004110936082917
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10023,
+        "neighborhood": "Adyar",
+        "address": "#81, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 310.8,
+        "roof_area_sqft": 3345.4,
+        "usable_area_m2": 223.8,
+        "usable_area_sqft": 2409.0,
+        "orientation_deg": 14.7,
+        "aspect_ratio": 1.31,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 70546.0,
+        "monthly_generation_kwh": {
+          "JAN": 5479.3,
+          "FEB": 5713.6,
+          "MAR": 7027.3,
+          "APR": 7048.5,
+          "MAY": 7105.3,
+          "JUN": 5841.4,
+          "JUL": 5702.1,
+          "AUG": 5947.1,
+          "SEP": 5884.6,
+          "OCT": 5290.0,
+          "NOV": 4548.1,
+          "DEC": 4955.9
+        },
+        "recommended_system_size_kw": 51.3,
+        "recommended_panel_count": 114,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2821500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2743500.0,
+          "annual_savings_inr": 670187.0,
+          "monthly_savings_inr": 55849.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 22847667.0,
+          "co2_tons_annual": 57.85,
+          "trees_equivalent": 2892,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2597406271025,
+              13.004215985785578
+            ],
+            [
+              80.25970286814604,
+              13.00435549458783
+            ],
+            [
+              80.25955665159269,
+              13.004317425893008
+            ],
+            [
+              80.25956859201332,
+              13.00427330937238
+            ],
+            [
+              80.259528630959,
+              13.004262905179784
+            ],
+            [
+              80.25955444949483,
+              13.00416751289816
+            ],
+            [
+              80.2597406271025,
+              13.004215985785578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10024,
+        "neighborhood": "Adyar",
+        "address": "#18, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 161.9,
+        "roof_area_sqft": 1742.7,
+        "usable_area_m2": 116.6,
+        "usable_area_sqft": 1255.1,
+        "orientation_deg": 100.4,
+        "aspect_ratio": 1.66,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 35630.0,
+        "monthly_generation_kwh": {
+          "JAN": 2767.3,
+          "FEB": 2885.6,
+          "MAR": 3549.2,
+          "APR": 3559.9,
+          "MAY": 3588.5,
+          "JUN": 2950.2,
+          "JUL": 2879.8,
+          "AUG": 3003.6,
+          "SEP": 2972.0,
+          "OCT": 2671.7,
+          "NOV": 2297.0,
+          "DEC": 2503.0
+        },
+        "recommended_system_size_kw": 26.6,
+        "recommended_panel_count": 59,
+        "solar_score": 69,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1463000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1385000.0,
+          "annual_savings_inr": 249410.0,
+          "monthly_savings_inr": 20784.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8502756.0,
+          "co2_tons_annual": 29.22,
+          "trees_equivalent": 1461,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26061117205575,
+              13.003997556191143
+            ],
+            [
+              80.26070071647737,
+              13.004013942575616
+            ],
+            [
+              80.26067300553873,
+              13.004159609081766
+            ],
+            [
+              80.26058346111711,
+              13.004143222697293
+            ],
+            [
+              80.26061117205575,
+              13.003997556191143
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10025,
+        "neighborhood": "Adyar",
+        "address": "#67, Lattice Bridge Road, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 156.5,
+        "roof_area_sqft": 1684.6,
+        "usable_area_m2": 112.7,
+        "usable_area_sqft": 1213.1,
+        "orientation_deg": 105.6,
+        "aspect_ratio": 1.14,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 34438.0,
+        "monthly_generation_kwh": {
+          "JAN": 2674.8,
+          "FEB": 2789.1,
+          "MAR": 3430.5,
+          "APR": 3440.8,
+          "MAY": 3468.5,
+          "JUN": 2851.6,
+          "JUL": 2783.5,
+          "AUG": 2903.1,
+          "SEP": 2872.6,
+          "OCT": 2582.4,
+          "NOV": 2220.2,
+          "DEC": 2419.3
+        },
+        "recommended_system_size_kw": 25.7,
+        "recommended_panel_count": 57,
+        "solar_score": 69,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1413500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1335500.0,
+          "annual_savings_inr": 241066.0,
+          "monthly_savings_inr": 20089.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 8218297.0,
+          "co2_tons_annual": 28.24,
+          "trees_equivalent": 1412,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25203149733505,
+              13.005412948028312
+            ],
+            [
+              80.25213822192356,
+              13.005442546607021
+            ],
+            [
+              80.25211199770119,
+              13.005533506370458
+            ],
+            [
+              80.25208783589201,
+              13.00552680542908
+            ],
+            [
+              80.25207954475076,
+              13.005555563583918
+            ],
+            [
+              80.25199698197144,
+              13.005532665946586
+            ],
+            [
+              80.25203149733505,
+              13.005412948028312
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10026,
+        "neighborhood": "Adyar",
+        "address": "#3, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 118.0,
+        "roof_area_sqft": 1270.1,
+        "usable_area_m2": 85.0,
+        "usable_area_sqft": 914.9,
+        "orientation_deg": 16.3,
+        "aspect_ratio": 1.6,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 26794.0,
+        "monthly_generation_kwh": {
+          "JAN": 2081.1,
+          "FEB": 2170.0,
+          "MAR": 2669.0,
+          "APR": 2677.1,
+          "MAY": 2698.6,
+          "JUN": 2218.6,
+          "JUL": 2165.7,
+          "AUG": 2258.7,
+          "SEP": 2235.0,
+          "OCT": 2009.2,
+          "NOV": 1727.4,
+          "DEC": 1882.3
+        },
+        "recommended_system_size_kw": 19.4,
+        "recommended_panel_count": 43,
+        "solar_score": 61,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1067000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 989000.0,
+          "annual_savings_inr": 187558.0,
+          "monthly_savings_inr": 15630.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 6394130.0,
+          "co2_tons_annual": 21.97,
+          "trees_equivalent": 1099,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2535801100213,
+              13.005232537949132
+            ],
+            [
+              80.25355770051434,
+              13.005306952496774
+            ],
+            [
+              80.2534360817795,
+              13.005271721250294
+            ],
+            [
+              80.25345849128647,
+              13.005197306702652
+            ],
+            [
+              80.2535801100213,
+              13.005232537949132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10027,
+        "neighborhood": "Adyar",
+        "address": "#63, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 148.2,
+        "roof_area_sqft": 1595.2,
+        "usable_area_m2": 106.7,
+        "usable_area_sqft": 1148.5,
+        "orientation_deg": 104.9,
+        "aspect_ratio": 1.25,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 32604.0,
+        "monthly_generation_kwh": {
+          "JAN": 2532.4,
+          "FEB": 2640.6,
+          "MAR": 3247.8,
+          "APR": 3257.6,
+          "MAY": 3283.9,
+          "JUN": 2699.7,
+          "JUL": 2635.3,
+          "AUG": 2748.6,
+          "SEP": 2719.7,
+          "OCT": 2444.9,
+          "NOV": 2102.0,
+          "DEC": 2290.5
+        },
+        "recommended_system_size_kw": 24.3,
+        "recommended_panel_count": 54,
+        "solar_score": 74,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1336500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1258500.0,
+          "annual_savings_inr": 309738.0,
+          "monthly_savings_inr": 25812.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 10559427.0,
+          "co2_tons_annual": 26.74,
+          "trees_equivalent": 1337,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25481694961287,
+              13.005307015377518
+            ],
+            [
+              80.25491404798547,
+              13.005332637905877
+            ],
+            [
+              80.25488150482799,
+              13.005451270145102
+            ],
+            [
+              80.2547844064554,
+              13.005425647616743
+            ],
+            [
+              80.25481694961287,
+              13.005307015377518
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10028,
+        "neighborhood": "Adyar",
+        "address": "#77, Padmanabha Nagar, Adyar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 324.0,
+        "roof_area_sqft": 3487.5,
+        "usable_area_m2": 233.3,
+        "usable_area_sqft": 2511.2,
+        "orientation_deg": 4.7,
+        "aspect_ratio": 1.99,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 73541.0,
+        "monthly_generation_kwh": {
+          "JAN": 5711.9,
+          "FEB": 5956.1,
+          "MAR": 7325.6,
+          "APR": 7347.7,
+          "MAY": 7406.9,
+          "JUN": 6089.4,
+          "JUL": 5944.1,
+          "AUG": 6199.5,
+          "SEP": 6134.4,
+          "OCT": 5514.5,
+          "NOV": 4741.2,
+          "DEC": 5166.3
+        },
+        "recommended_system_size_kw": 53.6,
+        "recommended_panel_count": 119,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2948000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2870000.0,
+          "annual_savings_inr": 514787.0,
+          "monthly_savings_inr": 42899.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 17549851.0,
+          "co2_tons_annual": 60.3,
+          "trees_equivalent": 3015,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25575041519696,
+              13.005286922597287
+            ],
+            [
+              80.2557404864437,
+              13.005401961850747
+            ],
+            [
+              80.25550733163541,
+              13.005382604491453
+            ],
+            [
+              80.25551726038867,
+              13.005267565237993
+            ],
+            [
+              80.25575041519696,
+              13.005286922597287
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10029,
+        "neighborhood": "Adyar",
+        "address": "#88, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 181.7,
+        "roof_area_sqft": 1955.8,
+        "usable_area_m2": 130.8,
+        "usable_area_sqft": 1407.9,
+        "orientation_deg": 92.3,
+        "aspect_ratio": 1.27,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 39969.0,
+        "monthly_generation_kwh": {
+          "JAN": 3104.4,
+          "FEB": 3237.1,
+          "MAR": 3981.4,
+          "APR": 3993.4,
+          "MAY": 4025.6,
+          "JUN": 3309.5,
+          "JUL": 3230.6,
+          "AUG": 3369.4,
+          "SEP": 3334.0,
+          "OCT": 2997.1,
+          "NOV": 2576.8,
+          "DEC": 2807.8
+        },
+        "recommended_system_size_kw": 30.2,
+        "recommended_panel_count": 67,
+        "solar_score": 73,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1661000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1583000.0,
+          "annual_savings_inr": 279783.0,
+          "monthly_savings_inr": 23315.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 9538217.0,
+          "co2_tons_annual": 32.77,
+          "trees_equivalent": 1639,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25674968319964,
+              13.005544937953413
+            ],
+            [
+              80.25685983001863,
+              13.00554951144224
+            ],
+            [
+              80.25685390330227,
+              13.005686818086026
+            ],
+            [
+              80.25674375648329,
+              13.0056822445972
+            ],
+            [
+              80.25674968319964,
+              13.005544937953413
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10030,
+        "neighborhood": "Adyar",
+        "address": "#1, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 126.9,
+        "roof_area_sqft": 1365.9,
+        "usable_area_m2": 91.4,
+        "usable_area_sqft": 983.8,
+        "orientation_deg": 25.3,
+        "aspect_ratio": 1.8,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 27929.0,
+        "monthly_generation_kwh": {
+          "JAN": 2169.3,
+          "FEB": 2262.0,
+          "MAR": 2782.1,
+          "APR": 2790.5,
+          "MAY": 2813.0,
+          "JUN": 2312.6,
+          "JUL": 2257.4,
+          "AUG": 2354.4,
+          "SEP": 2329.7,
+          "OCT": 2094.3,
+          "NOV": 1800.6,
+          "DEC": 1962.0
+        },
+        "recommended_system_size_kw": 20.7,
+        "recommended_panel_count": 46,
+        "solar_score": 63,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1138500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1060500.0,
+          "annual_savings_inr": 195503.0,
+          "monthly_savings_inr": 16292.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 6664987.0,
+          "co2_tons_annual": 22.9,
+          "trees_equivalent": 1145,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25834664759765,
+              13.005246921932802
+            ],
+            [
+              80.2583132856989,
+              13.005315498441663
+            ],
+            [
+              80.25818759036125,
+              13.005256675379528
+            ],
+            [
+              80.25822095225999,
+              13.005188098870667
+            ],
+            [
+              80.25834664759765,
+              13.005246921932802
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10031,
+        "neighborhood": "Adyar",
+        "address": "#140, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 171.1,
+        "roof_area_sqft": 1841.7,
+        "usable_area_m2": 123.2,
+        "usable_area_sqft": 1326.1,
+        "orientation_deg": 135.3,
+        "aspect_ratio": 1.57,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 37646.0,
+        "monthly_generation_kwh": {
+          "JAN": 2924.0,
+          "FEB": 3049.0,
+          "MAR": 3750.1,
+          "APR": 3761.4,
+          "MAY": 3791.7,
+          "JUN": 3117.2,
+          "JUL": 3042.8,
+          "AUG": 3173.6,
+          "SEP": 3140.2,
+          "OCT": 2823.0,
+          "NOV": 2427.1,
+          "DEC": 2644.7
+        },
+        "recommended_system_size_kw": 28.4,
+        "recommended_panel_count": 63,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1562000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1484000.0,
+          "annual_savings_inr": 357637.0,
+          "monthly_savings_inr": 29803.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 12192375.0,
+          "co2_tons_annual": 30.87,
+          "trees_equivalent": 1543,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25923624569843,
+              13.005228469532097
+            ],
+            [
+              80.25930580930516,
+              13.005297938951331
+            ],
+            [
+              80.25921599055236,
+              13.005384457358462
+            ],
+            [
+              80.25919416751532,
+              13.005362663869299
+            ],
+            [
+              80.25917275092526,
+              13.00538329351735
+            ],
+            [
+              80.25912501035556,
+              13.005335617587276
+            ],
+            [
+              80.25923624569843,
+              13.005228469532097
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10032,
+        "neighborhood": "Adyar",
+        "address": "#92, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 121.3,
+        "roof_area_sqft": 1305.7,
+        "usable_area_m2": 87.3,
+        "usable_area_sqft": 939.7,
+        "orientation_deg": 87.9,
+        "aspect_ratio": 2.09,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 26676.0,
+        "monthly_generation_kwh": {
+          "JAN": 2071.9,
+          "FEB": 2160.5,
+          "MAR": 2657.3,
+          "APR": 2665.3,
+          "MAY": 2686.8,
+          "JUN": 2208.9,
+          "JUL": 2156.2,
+          "AUG": 2248.8,
+          "SEP": 2225.2,
+          "OCT": 2000.4,
+          "NOV": 1719.8,
+          "DEC": 1874.0
+        },
+        "recommended_system_size_kw": 19.8,
+        "recommended_panel_count": 44,
+        "solar_score": 61,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1089000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1011000.0,
+          "annual_savings_inr": 186732.0,
+          "monthly_savings_inr": 15561.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 6365970.0,
+          "co2_tons_annual": 21.87,
+          "trees_equivalent": 1094,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26049704551846,
+              13.005097240397179
+            ],
+            [
+              80.26056726028116,
+              13.005094934919276
+            ],
+            [
+              80.26057217046605,
+              13.005238787740884
+            ],
+            [
+              80.26050195570335,
+              13.005241093218787
+            ],
+            [
+              80.26049704551846,
+              13.005097240397179
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10033,
+        "neighborhood": "Adyar",
+        "address": "#106, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 149.3,
+        "roof_area_sqft": 1607.1,
+        "usable_area_m2": 107.5,
+        "usable_area_sqft": 1157.1,
+        "orientation_deg": 28.9,
+        "aspect_ratio": 1.78,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 32849.0,
+        "monthly_generation_kwh": {
+          "JAN": 2551.4,
+          "FEB": 2660.4,
+          "MAR": 3272.2,
+          "APR": 3282.0,
+          "MAY": 3308.5,
+          "JUN": 2720.0,
+          "JUL": 2655.1,
+          "AUG": 2769.2,
+          "SEP": 2740.1,
+          "OCT": 2463.2,
+          "NOV": 2117.8,
+          "DEC": 2307.6
+        },
+        "recommended_system_size_kw": 24.8,
+        "recommended_panel_count": 55,
+        "solar_score": 66,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1364000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1286000.0,
+          "annual_savings_inr": 229943.0,
+          "monthly_savings_inr": 19162.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 7839097.0,
+          "co2_tons_annual": 26.94,
+          "trees_equivalent": 1347,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25216260606362,
+              13.00635469850329
+            ],
+            [
+              80.25212085347411,
+              13.006428381749025
+            ],
+            [
+              80.25201308139012,
+              13.00636963632805
+            ],
+            [
+              80.25202082724067,
+              13.006355966770894
+            ],
+            [
+              80.25199466952616,
+              13.006341708477894
+            ],
+            [
+              80.25202867626513,
+              13.006281694789315
+            ],
+            [
+              80.25216260606362,
+              13.00635469850329
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10034,
+        "neighborhood": "Adyar",
+        "address": "#10, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 158.2,
+        "roof_area_sqft": 1702.8,
+        "usable_area_m2": 113.9,
+        "usable_area_sqft": 1226.0,
+        "orientation_deg": 31.5,
+        "aspect_ratio": 1.91,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 34805.0,
+        "monthly_generation_kwh": {
+          "JAN": 2703.3,
+          "FEB": 2818.8,
+          "MAR": 3467.0,
+          "APR": 3477.4,
+          "MAY": 3505.4,
+          "JUN": 2881.9,
+          "JUL": 2813.1,
+          "AUG": 2934.0,
+          "SEP": 2903.2,
+          "OCT": 2609.9,
+          "NOV": 2243.9,
+          "DEC": 2445.0
+        },
+        "recommended_system_size_kw": 26.1,
+        "recommended_panel_count": 58,
+        "solar_score": 68,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1435500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1357500.0,
+          "annual_savings_inr": 243635.0,
+          "monthly_savings_inr": 20303.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8305878.0,
+          "co2_tons_annual": 28.54,
+          "trees_equivalent": 1427,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25361162650809,
+              13.006268869873443
+            ],
+            [
+              80.25356598517423,
+              13.006341352591502
+            ],
+            [
+              80.25345594130728,
+              13.006274696050616
+            ],
+            [
+              80.2534696848405,
+              13.006252870031101
+            ],
+            [
+              80.2534386814969,
+              13.006234090468944
+            ],
+            [
+              80.25347057929754,
+              13.0061834337704
+            ],
+            [
+              80.25361162650809,
+              13.006268869873443
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10035,
+        "neighborhood": "Adyar",
+        "address": "#18, Lattice Bridge Road, Adyar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 230.5,
+        "roof_area_sqft": 2481.1,
+        "usable_area_m2": 166.0,
+        "usable_area_sqft": 1786.8,
+        "orientation_deg": 123.0,
+        "aspect_ratio": 2.06,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 50725.0,
+        "monthly_generation_kwh": {
+          "JAN": 3939.8,
+          "FEB": 4108.2,
+          "MAR": 5052.9,
+          "APR": 5068.1,
+          "MAY": 5108.9,
+          "JUN": 4200.2,
+          "JUL": 4099.9,
+          "AUG": 4276.1,
+          "SEP": 4231.2,
+          "OCT": 3803.7,
+          "NOV": 3270.2,
+          "DEC": 3563.4
+        },
+        "recommended_system_size_kw": 38.2,
+        "recommended_panel_count": 85,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2101000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2023000.0,
+          "annual_savings_inr": 355075.0,
+          "monthly_savings_inr": 29590.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 12105032.0,
+          "co2_tons_annual": 41.59,
+          "trees_equivalent": 2080,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25447583677624,
+              13.006567282331556
+            ],
+            [
+              80.25456003090365,
+              13.006621330152564
+            ],
+            [
+              80.25447668304285,
+              13.00674622690335
+            ],
+            [
+              80.25445765558912,
+              13.00673401236482
+            ],
+            [
+              80.25442756948758,
+              13.006779096381253
+            ],
+            [
+              80.2543624028139,
+              13.006737263098776
+            ],
+            [
+              80.25447583677624,
+              13.006567282331556
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10036,
+        "neighborhood": "Adyar",
+        "address": "#10, Lattice Bridge Road, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 112.1,
+        "roof_area_sqft": 1206.6,
+        "usable_area_m2": 80.7,
+        "usable_area_sqft": 868.6,
+        "orientation_deg": 30.2,
+        "aspect_ratio": 2.13,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 24660.0,
+        "monthly_generation_kwh": {
+          "JAN": 1915.3,
+          "FEB": 1997.2,
+          "MAR": 2456.4,
+          "APR": 2463.8,
+          "MAY": 2483.7,
+          "JUN": 2041.9,
+          "JUL": 1993.2,
+          "AUG": 2078.8,
+          "SEP": 2057.0,
+          "OCT": 1849.1,
+          "NOV": 1589.8,
+          "DEC": 1732.3
+        },
+        "recommended_system_size_kw": 18.4,
+        "recommended_panel_count": 41,
+        "solar_score": 59,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1012000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 934000.0,
+          "annual_savings_inr": 172620.0,
+          "monthly_savings_inr": 14385.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 5884871.0,
+          "co2_tons_annual": 20.22,
+          "trees_equivalent": 1011,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25577013491686,
+              13.006740699702974
+            ],
+            [
+              80.25573541584767,
+              13.006798828126403
+            ],
+            [
+              80.25564669211562,
+              13.006747851346024
+            ],
+            [
+              80.25565292210221,
+              13.00673742078705
+            ],
+            [
+              80.25561522006248,
+              13.006715758842102
+            ],
+            [
+              80.25564370914508,
+              13.006668060977645
+            ],
+            [
+              80.25577013491686,
+              13.006740699702974
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10037,
+        "neighborhood": "Adyar",
+        "address": "#66, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 110.1,
+        "roof_area_sqft": 1185.1,
+        "usable_area_m2": 79.3,
+        "usable_area_sqft": 853.6,
+        "orientation_deg": 4.7,
+        "aspect_ratio": 1.23,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 24997.0,
+        "monthly_generation_kwh": {
+          "JAN": 1941.5,
+          "FEB": 2024.5,
+          "MAR": 2490.0,
+          "APR": 2497.5,
+          "MAY": 2517.7,
+          "JUN": 2069.8,
+          "JUL": 2020.4,
+          "AUG": 2107.3,
+          "SEP": 2085.1,
+          "OCT": 1874.4,
+          "NOV": 1611.6,
+          "DEC": 1756.0
+        },
+        "recommended_system_size_kw": 18.0,
+        "recommended_panel_count": 40,
+        "solar_score": 60,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 990000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 912000.0,
+          "annual_savings_inr": 174979.0,
+          "monthly_savings_inr": 14582.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 5965293.0,
+          "co2_tons_annual": 20.5,
+          "trees_equivalent": 1025,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25702437149896,
+              13.006265958561837
+            ],
+            [
+              80.25701699844441,
+              13.006351318467058
+            ],
+            [
+              80.25691019225961,
+              13.006342443985378
+            ],
+            [
+              80.25691756531415,
+              13.006257084080158
+            ],
+            [
+              80.25702437149896,
+              13.006265958561837
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10038,
+        "neighborhood": "Adyar",
+        "address": "#111, Lattice Bridge Road, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 157.5,
+        "roof_area_sqft": 1695.3,
+        "usable_area_m2": 113.4,
+        "usable_area_sqft": 1220.6,
+        "orientation_deg": 17.0,
+        "aspect_ratio": 1.92,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 35746.0,
+        "monthly_generation_kwh": {
+          "JAN": 2776.4,
+          "FEB": 2895.1,
+          "MAR": 3560.8,
+          "APR": 3571.5,
+          "MAY": 3600.3,
+          "JUN": 2959.9,
+          "JUL": 2889.2,
+          "AUG": 3013.4,
+          "SEP": 2981.7,
+          "OCT": 2680.5,
+          "NOV": 2304.6,
+          "DEC": 2511.2
+        },
+        "recommended_system_size_kw": 26.1,
+        "recommended_panel_count": 58,
+        "solar_score": 69,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1435500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1357500.0,
+          "annual_savings_inr": 250222.0,
+          "monthly_savings_inr": 20852.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 8530438.0,
+          "co2_tons_annual": 29.31,
+          "trees_equivalent": 1466,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25825687748382,
+              13.00625625487378
+            ],
+            [
+              80.2582321706719,
+              13.006334564113645
+            ],
+            [
+              80.25807918003166,
+              13.006288131659936
+            ],
+            [
+              80.25810388684357,
+              13.00620982242007
+            ],
+            [
+              80.25825687748382,
+              13.00625625487378
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10039,
+        "neighborhood": "Adyar",
+        "address": "#84, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 110.2,
+        "roof_area_sqft": 1186.2,
+        "usable_area_m2": 79.3,
+        "usable_area_sqft": 853.6,
+        "orientation_deg": 26.1,
+        "aspect_ratio": 2.09,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 24232.0,
+        "monthly_generation_kwh": {
+          "JAN": 1882.1,
+          "FEB": 1962.5,
+          "MAR": 2413.8,
+          "APR": 2421.1,
+          "MAY": 2440.6,
+          "JUN": 2006.5,
+          "JUL": 1958.6,
+          "AUG": 2042.7,
+          "SEP": 2021.3,
+          "OCT": 1817.0,
+          "NOV": 1562.2,
+          "DEC": 1702.3
+        },
+        "recommended_system_size_kw": 18.0,
+        "recommended_panel_count": 40,
+        "solar_score": 59,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 990000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 912000.0,
+          "annual_savings_inr": 169624.0,
+          "monthly_savings_inr": 14135.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 5782733.0,
+          "co2_tons_annual": 19.87,
+          "trees_equivalent": 994,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25955965693059,
+              13.006285885712746
+            ],
+            [
+              80.25953005604919,
+              13.006344767064206
+            ],
+            [
+              80.25940458075432,
+              13.006284088098383
+            ],
+            [
+              80.25943418163573,
+              13.006225206746922
+            ],
+            [
+              80.25955965693059,
+              13.006285885712746
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10040,
+        "neighborhood": "Adyar",
+        "address": "#104, Lattice Bridge Road, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 120.4,
+        "roof_area_sqft": 1296.0,
+        "usable_area_m2": 86.7,
+        "usable_area_sqft": 933.2,
+        "orientation_deg": 136.6,
+        "aspect_ratio": 2.09,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 26493.0,
+        "monthly_generation_kwh": {
+          "JAN": 2057.7,
+          "FEB": 2145.7,
+          "MAR": 2639.1,
+          "APR": 2647.0,
+          "MAY": 2668.3,
+          "JUN": 2193.7,
+          "JUL": 2141.4,
+          "AUG": 2233.4,
+          "SEP": 2209.9,
+          "OCT": 1986.6,
+          "NOV": 1708.0,
+          "DEC": 1861.1
+        },
+        "recommended_system_size_kw": 19.8,
+        "recommended_panel_count": 44,
+        "solar_score": 61,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1089000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1011000.0,
+          "annual_savings_inr": 185451.0,
+          "monthly_savings_inr": 15454.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6322299.0,
+          "co2_tons_annual": 21.72,
+          "trees_equivalent": 1086,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26052720368348,
+              13.00637705873037
+            ],
+            [
+              80.26057509346441,
+              13.006427029668309
+            ],
+            [
+              80.26046845151906,
+              13.006525341656689
+            ],
+            [
+              80.26042056173813,
+              13.00647537071875
+            ],
+            [
+              80.26052720368348,
+              13.00637705873037
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10041,
+        "neighborhood": "Adyar",
+        "address": "#131, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 121.3,
+        "roof_area_sqft": 1305.7,
+        "usable_area_m2": 87.3,
+        "usable_area_sqft": 939.7,
+        "orientation_deg": 0.9,
+        "aspect_ratio": 1.45,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 27519.0,
+        "monthly_generation_kwh": {
+          "JAN": 2137.4,
+          "FEB": 2228.7,
+          "MAR": 2741.2,
+          "APR": 2749.5,
+          "MAY": 2771.6,
+          "JUN": 2278.6,
+          "JUL": 2224.3,
+          "AUG": 2319.8,
+          "SEP": 2295.5,
+          "OCT": 2063.5,
+          "NOV": 1774.1,
+          "DEC": 1933.2
+        },
+        "recommended_system_size_kw": 19.8,
+        "recommended_panel_count": 44,
+        "solar_score": 63,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1089000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1011000.0,
+          "annual_savings_inr": 192633.0,
+          "monthly_savings_inr": 16053.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 6567144.0,
+          "co2_tons_annual": 22.57,
+          "trees_equivalent": 1128,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25201220665495,
+              13.007583804193928
+            ],
+            [
+              80.2520106393516,
+              13.007666368832883
+            ],
+            [
+              80.25188819928475,
+              13.007664133019208
+            ],
+            [
+              80.2518897665881,
+              13.007581568380253
+            ],
+            [
+              80.25201220665495,
+              13.007583804193928
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10042,
+        "neighborhood": "Adyar",
+        "address": "#61, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 151.0,
+        "roof_area_sqft": 1625.3,
+        "usable_area_m2": 108.7,
+        "usable_area_sqft": 1170.0,
+        "orientation_deg": 87.7,
+        "aspect_ratio": 1.83,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 33216.0,
+        "monthly_generation_kwh": {
+          "JAN": 2579.8,
+          "FEB": 2690.1,
+          "MAR": 3308.7,
+          "APR": 3318.7,
+          "MAY": 3345.4,
+          "JUN": 2750.3,
+          "JUL": 2684.7,
+          "AUG": 2800.1,
+          "SEP": 2770.6,
+          "OCT": 2490.7,
+          "NOV": 2141.4,
+          "DEC": 2333.4
+        },
+        "recommended_system_size_kw": 24.8,
+        "recommended_panel_count": 55,
+        "solar_score": 67,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1364000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1286000.0,
+          "annual_savings_inr": 232512.0,
+          "monthly_savings_inr": 19376.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7926678.0,
+          "co2_tons_annual": 27.24,
+          "trees_equivalent": 1362,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2535558546297,
+              13.007513028473632
+            ],
+            [
+              80.25363954335334,
+              13.007509929555775
+            ],
+            [
+              80.25364532619614,
+              13.00766015771228
+            ],
+            [
+              80.25356163747249,
+              13.007663256630137
+            ],
+            [
+              80.2535558546297,
+              13.007513028473632
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10043,
+        "neighborhood": "Adyar",
+        "address": "#107, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 82.4,
+        "roof_area_sqft": 886.9,
+        "usable_area_m2": 59.3,
+        "usable_area_sqft": 638.3,
+        "orientation_deg": 109.7,
+        "aspect_ratio": 1.77,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 18120.0,
+        "monthly_generation_kwh": {
+          "JAN": 1407.4,
+          "FEB": 1467.6,
+          "MAR": 1805.0,
+          "APR": 1810.5,
+          "MAY": 1825.0,
+          "JUN": 1500.4,
+          "JUL": 1464.6,
+          "AUG": 1527.5,
+          "SEP": 1511.5,
+          "OCT": 1358.8,
+          "NOV": 1168.2,
+          "DEC": 1273.0
+        },
+        "recommended_system_size_kw": 13.5,
+        "recommended_panel_count": 30,
+        "solar_score": 54,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 742500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 664500.0,
+          "annual_savings_inr": 126840.0,
+          "monthly_savings_inr": 10570.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 4324163.0,
+          "co2_tons_annual": 14.86,
+          "trees_equivalent": 743,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25445166334114,
+              13.007624551678534
+            ],
+            [
+              80.25451078337281,
+              13.007645472355788
+            ],
+            [
+              80.25447297732487,
+              13.007748243992024
+            ],
+            [
+              80.2544138572932,
+              13.00772732331477
+            ],
+            [
+              80.25445166334114,
+              13.007624551678534
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10044,
+        "neighborhood": "Adyar",
+        "address": "#109, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 111.7,
+        "roof_area_sqft": 1202.3,
+        "usable_area_m2": 80.4,
+        "usable_area_sqft": 865.4,
+        "orientation_deg": 132.3,
+        "aspect_ratio": 1.82,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 24568.0,
+        "monthly_generation_kwh": {
+          "JAN": 1908.2,
+          "FEB": 1989.8,
+          "MAR": 2447.3,
+          "APR": 2454.7,
+          "MAY": 2474.4,
+          "JUN": 2034.3,
+          "JUL": 1985.8,
+          "AUG": 2071.1,
+          "SEP": 2049.3,
+          "OCT": 1842.3,
+          "NOV": 1583.9,
+          "DEC": 1725.9
+        },
+        "recommended_system_size_kw": 18.4,
+        "recommended_panel_count": 41,
+        "solar_score": 59,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1012000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 934000.0,
+          "annual_savings_inr": 171976.0,
+          "monthly_savings_inr": 14331.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 5862916.0,
+          "co2_tons_annual": 20.15,
+          "trees_equivalent": 1007,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2558559776808,
+              13.007719938697043
+            ],
+            [
+              80.25591048077092,
+              13.007768819081397
+            ],
+            [
+              80.25583871258183,
+              13.007845797958817
+            ],
+            [
+              80.25582713856022,
+              13.00783541794874
+            ],
+            [
+              80.25580811919703,
+              13.007855818201932
+            ],
+            [
+              80.2557651901285,
+              13.007817317827657
+            ],
+            [
+              80.2558559776808,
+              13.007719938697043
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10045,
+        "neighborhood": "Adyar",
+        "address": "#136, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 124.6,
+        "roof_area_sqft": 1341.2,
+        "usable_area_m2": 89.7,
+        "usable_area_sqft": 965.5,
+        "orientation_deg": 177.3,
+        "aspect_ratio": 2.03,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 28275.0,
+        "monthly_generation_kwh": {
+          "JAN": 2196.1,
+          "FEB": 2290.0,
+          "MAR": 2816.6,
+          "APR": 2825.1,
+          "MAY": 2847.8,
+          "JUN": 2341.3,
+          "JUL": 2285.4,
+          "AUG": 2383.6,
+          "SEP": 2358.6,
+          "OCT": 2120.3,
+          "NOV": 1822.9,
+          "DEC": 1986.3
+        },
+        "recommended_system_size_kw": 20.7,
+        "recommended_panel_count": 46,
+        "solar_score": 62,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1138500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1060500.0,
+          "annual_savings_inr": 197925.0,
+          "monthly_savings_inr": 16494.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 6747556.0,
+          "co2_tons_annual": 23.19,
+          "trees_equivalent": 1159,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25722378580402,
+              13.007420906691877
+            ],
+            [
+              80.25722694448818,
+              13.007491635665113
+            ],
+            [
+              80.25708032405215,
+              13.007497934444938
+            ],
+            [
+              80.25707716536799,
+              13.007427205471702
+            ],
+            [
+              80.25722378580402,
+              13.007420906691877
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10046,
+        "neighborhood": "Adyar",
+        "address": "#115, Padmanabha Nagar, Adyar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 462.4,
+        "roof_area_sqft": 4977.2,
+        "usable_area_m2": 332.9,
+        "usable_area_sqft": 3583.3,
+        "orientation_deg": 3.0,
+        "aspect_ratio": 2.08,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 104937.0,
+        "monthly_generation_kwh": {
+          "JAN": 8150.4,
+          "FEB": 8498.8,
+          "MAR": 10453.1,
+          "APR": 10484.6,
+          "MAY": 10569.1,
+          "JUN": 8689.1,
+          "JUL": 8481.7,
+          "AUG": 8846.2,
+          "SEP": 8753.2,
+          "OCT": 7868.8,
+          "NOV": 6765.3,
+          "DEC": 7371.8
+        },
+        "recommended_system_size_kw": 76.5,
+        "recommended_panel_count": 170,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4207500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4129500.0,
+          "annual_savings_inr": 996902.0,
+          "monthly_savings_inr": 83075.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 33985847.0,
+          "co2_tons_annual": 86.05,
+          "trees_equivalent": 4302,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25839429561077,
+              13.007784361356586
+            ],
+            [
+              80.25838674373595,
+              13.007918946318872
+            ],
+            [
+              80.25810115670771,
+              13.007903531096483
+            ],
+            [
+              80.25810870858253,
+              13.007768946134197
+            ],
+            [
+              80.25839429561077,
+              13.007784361356586
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10047,
+        "neighborhood": "Adyar",
+        "address": "#62, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 104.9,
+        "roof_area_sqft": 1129.1,
+        "usable_area_m2": 75.5,
+        "usable_area_sqft": 812.7,
+        "orientation_deg": 108.2,
+        "aspect_ratio": 1.41,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 23071.0,
+        "monthly_generation_kwh": {
+          "JAN": 1791.9,
+          "FEB": 1868.5,
+          "MAR": 2298.1,
+          "APR": 2305.1,
+          "MAY": 2323.6,
+          "JUN": 1910.3,
+          "JUL": 1864.7,
+          "AUG": 1944.9,
+          "SEP": 1924.4,
+          "OCT": 1730.0,
+          "NOV": 1487.4,
+          "DEC": 1620.7
+        },
+        "recommended_system_size_kw": 17.1,
+        "recommended_panel_count": 38,
+        "solar_score": 58,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 940500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 862500.0,
+          "annual_savings_inr": 161497.0,
+          "monthly_savings_inr": 13458.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 5505672.0,
+          "co2_tons_annual": 18.92,
+          "trees_equivalent": 946,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25950169533411,
+              13.007734186505605
+            ],
+            [
+              80.25957728978632,
+              13.007758848418572
+            ],
+            [
+              80.25954196010807,
+              13.007863021597629
+            ],
+            [
+              80.25946636565585,
+              13.007838359684662
+            ],
+            [
+              80.25950169533411,
+              13.007734186505605
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10048,
+        "neighborhood": "Adyar",
+        "address": "#17, Canal Bank Road, Gandhi Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 97.5,
+        "roof_area_sqft": 1049.5,
+        "usable_area_m2": 70.2,
+        "usable_area_sqft": 755.6,
+        "orientation_deg": 123.8,
+        "aspect_ratio": 1.19,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 21451.0,
+        "monthly_generation_kwh": {
+          "JAN": 1666.1,
+          "FEB": 1737.3,
+          "MAR": 2136.8,
+          "APR": 2143.3,
+          "MAY": 2160.5,
+          "JUN": 1776.2,
+          "JUL": 1733.8,
+          "AUG": 1808.3,
+          "SEP": 1789.3,
+          "OCT": 1608.5,
+          "NOV": 1383.0,
+          "DEC": 1506.9
+        },
+        "recommended_system_size_kw": 16.2,
+        "recommended_panel_count": 36,
+        "solar_score": 56,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 891000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 813000.0,
+          "annual_savings_inr": 150157.0,
+          "monthly_savings_inr": 12513.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 5119074.0,
+          "co2_tons_annual": 17.59,
+          "trees_equivalent": 879,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26038150098482,
+              13.007421323179846
+            ],
+            [
+              80.26045377840549,
+              13.007469013026203
+            ],
+            [
+              80.26041344135008,
+              13.007527820697996
+            ],
+            [
+              80.26039410390881,
+              13.007515061532066
+            ],
+            [
+              80.26037664492777,
+              13.007540515101143
+            ],
+            [
+              80.26032370494838,
+              13.007505584420716
+            ],
+            [
+              80.26038150098482,
+              13.007421323179846
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10049,
+        "neighborhood": "Adyar",
+        "address": "#98, 1st Main Road, Kasturba Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 86.0,
+        "roof_area_sqft": 925.7,
+        "usable_area_m2": 61.9,
+        "usable_area_sqft": 666.3,
+        "orientation_deg": 29.0,
+        "aspect_ratio": 2.1,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 18915.0,
+        "monthly_generation_kwh": {
+          "JAN": 1469.1,
+          "FEB": 1531.9,
+          "MAR": 1884.2,
+          "APR": 1889.8,
+          "MAY": 1905.1,
+          "JUN": 1566.2,
+          "JUL": 1528.8,
+          "AUG": 1594.5,
+          "SEP": 1577.8,
+          "OCT": 1418.4,
+          "NOV": 1219.4,
+          "DEC": 1328.8
+        },
+        "recommended_system_size_kw": 14.0,
+        "recommended_panel_count": 31,
+        "solar_score": 55,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 770000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 692000.0,
+          "annual_savings_inr": 132405.0,
+          "monthly_savings_inr": 11034.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 4513882.0,
+          "co2_tons_annual": 15.51,
+          "trees_equivalent": 776,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25218386595267,
+              13.008661760241178
+            ],
+            [
+              80.25215504874988,
+              13.008712329126887
+            ],
+            [
+              80.25204701543836,
+              13.008653107654723
+            ],
+            [
+              80.25207583264115,
+              13.008602538769015
+            ],
+            [
+              80.25218386595267,
+              13.008661760241178
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10050,
+        "neighborhood": "Adyar",
+        "address": "#57, Padmanabha Nagar, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 117.5,
+        "roof_area_sqft": 1264.8,
+        "usable_area_m2": 84.6,
+        "usable_area_sqft": 910.6,
+        "orientation_deg": 29.0,
+        "aspect_ratio": 1.92,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 25851.0,
+        "monthly_generation_kwh": {
+          "JAN": 2007.9,
+          "FEB": 2093.7,
+          "MAR": 2575.1,
+          "APR": 2582.9,
+          "MAY": 2603.7,
+          "JUN": 2140.6,
+          "JUL": 2089.5,
+          "AUG": 2179.3,
+          "SEP": 2156.4,
+          "OCT": 1938.5,
+          "NOV": 1666.6,
+          "DEC": 1816.1
+        },
+        "recommended_system_size_kw": 19.4,
+        "recommended_panel_count": 43,
+        "solar_score": 60,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1067000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 989000.0,
+          "annual_savings_inr": 180957.0,
+          "monthly_savings_inr": 15080.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6169092.0,
+          "co2_tons_annual": 21.2,
+          "trees_equivalent": 1060,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25369942024183,
+              13.008690769716916
+            ],
+            [
+              80.25366426975413,
+              13.008752480730413
+            ],
+            [
+              80.25354332141562,
+              13.008686210015645
+            ],
+            [
+              80.25357847190332,
+              13.008624499002147
+            ],
+            [
+              80.25369942024183,
+              13.008690769716916
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10051,
+        "neighborhood": "Adyar",
+        "address": "#137, Padmanabha Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 108.2,
+        "roof_area_sqft": 1164.7,
+        "usable_area_m2": 77.9,
+        "usable_area_sqft": 838.5,
+        "orientation_deg": 16.6,
+        "aspect_ratio": 1.54,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 24556.0,
+        "monthly_generation_kwh": {
+          "JAN": 1907.2,
+          "FEB": 1988.8,
+          "MAR": 2446.1,
+          "APR": 2453.4,
+          "MAY": 2473.2,
+          "JUN": 2033.3,
+          "JUL": 1984.8,
+          "AUG": 2070.0,
+          "SEP": 2048.3,
+          "OCT": 1841.3,
+          "NOV": 1583.1,
+          "DEC": 1725.0
+        },
+        "recommended_system_size_kw": 17.6,
+        "recommended_panel_count": 39,
+        "solar_score": 60,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 968000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 890000.0,
+          "annual_savings_inr": 171892.0,
+          "monthly_savings_inr": 14324.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 5860053.0,
+          "co2_tons_annual": 20.14,
+          "trees_equivalent": 1007,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25455749787328,
+              13.008673972788763
+            ],
+            [
+              80.25453428244077,
+              13.008749429821526
+            ],
+            [
+              80.25445178687535,
+              13.008725014596509
+            ],
+            [
+              80.25445770429124,
+              13.00870578124193
+            ],
+            [
+              80.25442135485437,
+              13.008695023334209
+            ],
+            [
+              80.25443865287099,
+              13.008638799656024
+            ],
+            [
+              80.25455749787328,
+              13.008673972788763
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10052,
+        "neighborhood": "Adyar",
+        "address": "#84, Sardar Patel Road, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 76.1,
+        "roof_area_sqft": 819.1,
+        "usable_area_m2": 54.8,
+        "usable_area_sqft": 589.9,
+        "orientation_deg": 14.1,
+        "aspect_ratio": 2.05,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 17274.0,
+        "monthly_generation_kwh": {
+          "JAN": 1341.7,
+          "FEB": 1399.0,
+          "MAR": 1720.7,
+          "APR": 1725.9,
+          "MAY": 1739.8,
+          "JUN": 1430.3,
+          "JUL": 1396.2,
+          "AUG": 1456.2,
+          "SEP": 1440.9,
+          "OCT": 1295.3,
+          "NOV": 1113.7,
+          "DEC": 1213.5
+        },
+        "recommended_system_size_kw": 12.6,
+        "recommended_panel_count": 28,
+        "solar_score": 53,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 693000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 615000.0,
+          "annual_savings_inr": 120918.0,
+          "monthly_savings_inr": 10076.0,
+          "payback_years": 5.1,
+          "lifetime_savings_25yr_inr": 4122274.0,
+          "co2_tons_annual": 14.16,
+          "trees_equivalent": 708,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25581241504811,
+              13.008450224003225
+            ],
+            [
+              80.25579798404682,
+              13.008505807789911
+            ],
+            [
+              80.2557137137923,
+              13.008484761492038
+            ],
+            [
+              80.25571784072031,
+              13.008468865832324
+            ],
+            [
+              80.25568573213624,
+              13.008460846788969
+            ],
+            [
+              80.25569603620953,
+              13.008421158661998
+            ],
+            [
+              80.25581241504811,
+              13.008450224003225
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10053,
+        "neighborhood": "Adyar",
+        "address": "#58, Lattice Bridge Road, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 164.0,
+        "roof_area_sqft": 1765.3,
+        "usable_area_m2": 118.1,
+        "usable_area_sqft": 1271.2,
+        "orientation_deg": 132.3,
+        "aspect_ratio": 1.19,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 36088.0,
+        "monthly_generation_kwh": {
+          "JAN": 2802.9,
+          "FEB": 2922.8,
+          "MAR": 3594.8,
+          "APR": 3605.7,
+          "MAY": 3634.7,
+          "JUN": 2988.2,
+          "JUL": 2916.9,
+          "AUG": 3042.2,
+          "SEP": 3010.2,
+          "OCT": 2706.1,
+          "NOV": 2326.6,
+          "DEC": 2535.2
+        },
+        "recommended_system_size_kw": 27.0,
+        "recommended_panel_count": 60,
+        "solar_score": 70,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1485000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1407000.0,
+          "annual_savings_inr": 252616.0,
+          "monthly_savings_inr": 21051.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8612053.0,
+          "co2_tons_annual": 29.59,
+          "trees_equivalent": 1480,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25719354583966,
+              13.008534495531439
+            ],
+            [
+              80.25727508209992,
+              13.00860783292106
+            ],
+            [
+              80.25720166826855,
+              13.008686348584085
+            ],
+            [
+              80.25718176631574,
+              13.008668447870193
+            ],
+            [
+              80.25716619219355,
+              13.00868510430274
+            ],
+            [
+              80.25710455788608,
+              13.008629667627014
+            ],
+            [
+              80.25719354583966,
+              13.008534495531439
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10054,
+        "neighborhood": "Adyar",
+        "address": "#56, Padmanabha Nagar, Adyar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 142.0,
+        "roof_area_sqft": 1528.5,
+        "usable_area_m2": 102.2,
+        "usable_area_sqft": 1100.1,
+        "orientation_deg": 101.8,
+        "aspect_ratio": 1.12,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 31229.0,
+        "monthly_generation_kwh": {
+          "JAN": 2425.6,
+          "FEB": 2529.3,
+          "MAR": 3110.9,
+          "APR": 3120.2,
+          "MAY": 3145.4,
+          "JUN": 2585.9,
+          "JUL": 2524.2,
+          "AUG": 2632.6,
+          "SEP": 2605.0,
+          "OCT": 2341.8,
+          "NOV": 2013.4,
+          "DEC": 2193.9
+        },
+        "recommended_system_size_kw": 23.4,
+        "recommended_panel_count": 52,
+        "solar_score": 65,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1287000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1209000.0,
+          "annual_savings_inr": 218603.0,
+          "monthly_savings_inr": 18217.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7452500.0,
+          "co2_tons_annual": 25.61,
+          "trees_equivalent": 1280,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2583005962677,
+              13.00870627164068
+            ],
+            [
+              80.2584056978864,
+              13.008728170531239
+            ],
+            [
+              80.25838626503416,
+              13.008817887979326
+            ],
+            [
+              80.2583540969124,
+              13.00881118545479
+            ],
+            [
+              80.25834846866015,
+              13.00883716992804
+            ],
+            [
+              80.25827553516321,
+              13.008821973562014
+            ],
+            [
+              80.2583005962677,
+              13.00870627164068
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10055,
+        "neighborhood": "Adyar",
+        "address": "#97, Lattice Bridge Road, Adyar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 129.0,
+        "roof_area_sqft": 1388.5,
+        "usable_area_m2": 92.9,
+        "usable_area_sqft": 1000.0,
+        "orientation_deg": 17.0,
+        "aspect_ratio": 1.96,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 29284.0,
+        "monthly_generation_kwh": {
+          "JAN": 2274.5,
+          "FEB": 2371.7,
+          "MAR": 2917.1,
+          "APR": 2925.9,
+          "MAY": 2949.4,
+          "JUN": 2424.8,
+          "JUL": 2366.9,
+          "AUG": 2468.6,
+          "SEP": 2442.7,
+          "OCT": 2195.9,
+          "NOV": 1887.9,
+          "DEC": 2057.2
+        },
+        "recommended_system_size_kw": 21.2,
+        "recommended_panel_count": 47,
+        "solar_score": 64,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1166000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1088000.0,
+          "annual_savings_inr": 204988.0,
+          "monthly_savings_inr": 17082.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 6988344.0,
+          "co2_tons_annual": 24.01,
+          "trees_equivalent": 1201,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.25936197197821,
+              13.008668164211718
+            ],
+            [
+              80.25933907414203,
+              13.00874078797705
+            ],
+            [
+              80.25922876326328,
+              13.008707330969218
+            ],
+            [
+              80.2592351367423,
+              13.00868711656811
+            ],
+            [
+              80.25920064519738,
+              13.008676655370614
+            ],
+            [
+              80.25921716955453,
+              13.008624246006388
+            ],
+            [
+              80.25936197197821,
+              13.008668164211718
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

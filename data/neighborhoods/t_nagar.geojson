@@ -1,0 +1,4593 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10101,
+        "neighborhood": "T. Nagar",
+        "address": "#95, Usman Road, T. Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 214.3,
+        "roof_area_sqft": 2306.7,
+        "usable_area_m2": 154.3,
+        "usable_area_sqft": 1660.9,
+        "orientation_deg": 29.7,
+        "aspect_ratio": 1.55,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 47150.0,
+        "monthly_generation_kwh": {
+          "JAN": 3662.1,
+          "FEB": 3818.6,
+          "MAR": 4696.7,
+          "APR": 4710.9,
+          "MAY": 4748.8,
+          "JUN": 3904.1,
+          "JUL": 3811.0,
+          "AUG": 3974.7,
+          "SEP": 3932.9,
+          "OCT": 3535.6,
+          "NOV": 3039.7,
+          "DEC": 3312.3
+        },
+        "recommended_system_size_kw": 35.6,
+        "recommended_panel_count": 79,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1958000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1880000.0,
+          "annual_savings_inr": 330050.0,
+          "monthly_savings_inr": 27504.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 11251893.0,
+          "co2_tons_annual": 38.66,
+          "trees_equivalent": 1933,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22891315107285,
+              13.037138618008486
+            ],
+            [
+              80.2288590951539,
+              13.037230842702607
+            ],
+            [
+              80.22871344807771,
+              13.03714872233706
+            ],
+            [
+              80.22876750399666,
+              13.037056497642938
+            ],
+            [
+              80.22891315107285,
+              13.037138618008486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10102,
+        "neighborhood": "T. Nagar",
+        "address": "#102, Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 484.7,
+        "roof_area_sqft": 5217.3,
+        "usable_area_m2": 349.0,
+        "usable_area_sqft": 3756.6,
+        "orientation_deg": 13.5,
+        "aspect_ratio": 2.09,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 110012.0,
+        "monthly_generation_kwh": {
+          "JAN": 8544.6,
+          "FEB": 8909.9,
+          "MAR": 10958.6,
+          "APR": 10991.7,
+          "MAY": 11080.2,
+          "JUN": 9109.3,
+          "JUL": 8892.0,
+          "AUG": 9274.0,
+          "SEP": 9176.5,
+          "OCT": 8249.4,
+          "NOV": 7092.5,
+          "DEC": 7728.4
+        },
+        "recommended_system_size_kw": 80.1,
+        "recommended_panel_count": 178,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4405500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4327500.0,
+          "annual_savings_inr": 1045114.0,
+          "monthly_savings_inr": 87093.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 35629483.0,
+          "co2_tons_annual": 90.21,
+          "trees_equivalent": 4510,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23003157562357,
+              13.036925791982659
+            ],
+            [
+              80.22999839820447,
+              13.037059547264882
+            ],
+            [
+              80.22971312023623,
+              13.036991477702037
+            ],
+            [
+              80.22974629765532,
+              13.036857722419814
+            ],
+            [
+              80.23003157562357,
+              13.036925791982659
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10103,
+        "neighborhood": "T. Nagar",
+        "address": "#13, Usman Road, T. Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 238.7,
+        "roof_area_sqft": 2569.3,
+        "usable_area_m2": 171.9,
+        "usable_area_sqft": 1850.3,
+        "orientation_deg": 91.5,
+        "aspect_ratio": 1.81,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 52528.0,
+        "monthly_generation_kwh": {
+          "JAN": 4079.8,
+          "FEB": 4254.2,
+          "MAR": 5232.4,
+          "APR": 5248.2,
+          "MAY": 5290.5,
+          "JUN": 4349.4,
+          "JUL": 4245.7,
+          "AUG": 4428.1,
+          "SEP": 4381.5,
+          "OCT": 3938.8,
+          "NOV": 3386.5,
+          "DEC": 3690.1
+        },
+        "recommended_system_size_kw": 39.6,
+        "recommended_panel_count": 88,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2178000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2100000.0,
+          "annual_savings_inr": 367696.0,
+          "monthly_savings_inr": 30641.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 12535301.0,
+          "co2_tons_annual": 43.07,
+          "trees_equivalent": 2154,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23128383977563,
+              13.036892622188724
+            ],
+            [
+              80.23138980480273,
+              13.036895575466566
+            ],
+            [
+              80.23138436710032,
+              13.037083259252135
+            ],
+            [
+              80.23127840207322,
+              13.037080305974293
+            ],
+            [
+              80.23128383977563,
+              13.036892622188724
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10104,
+        "neighborhood": "T. Nagar",
+        "address": "#85, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 654.3,
+        "roof_area_sqft": 7042.8,
+        "usable_area_m2": 471.1,
+        "usable_area_sqft": 5070.9,
+        "orientation_deg": 93.1,
+        "aspect_ratio": 1.71,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 143955.0,
+        "monthly_generation_kwh": {
+          "JAN": 11180.9,
+          "FEB": 11658.9,
+          "MAR": 14339.8,
+          "APR": 14383.0,
+          "MAY": 14498.8,
+          "JUN": 11919.9,
+          "JUL": 11635.4,
+          "AUG": 12135.4,
+          "SEP": 12007.8,
+          "OCT": 10794.6,
+          "NOV": 9280.8,
+          "DEC": 10112.8
+        },
+        "recommended_system_size_kw": 108.5,
+        "recommended_panel_count": 241,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5967500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5889500.0,
+          "annual_savings_inr": 1367572.0,
+          "monthly_savings_inr": 113964.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 46622570.0,
+          "co2_tons_annual": 118.04,
+          "trees_equivalent": 5902,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23209061452921,
+              13.037087328502446
+            ],
+            [
+              80.23227069639884,
+              13.037097506869328
+            ],
+            [
+              80.23225295436795,
+              13.037399466088006
+            ],
+            [
+              80.23207287249832,
+              13.037389287721124
+            ],
+            [
+              80.23209061452921,
+              13.037087328502446
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10105,
+        "neighborhood": "T. Nagar",
+        "address": "#7, Usman Road, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 339.8,
+        "roof_area_sqft": 3657.6,
+        "usable_area_m2": 244.7,
+        "usable_area_sqft": 2633.9,
+        "orientation_deg": 109.7,
+        "aspect_ratio": 1.69,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 74773.0,
+        "monthly_generation_kwh": {
+          "JAN": 5807.6,
+          "FEB": 6055.9,
+          "MAR": 7448.4,
+          "APR": 7470.9,
+          "MAY": 7531.0,
+          "JUN": 6191.4,
+          "JUL": 6043.7,
+          "AUG": 6303.4,
+          "SEP": 6237.1,
+          "OCT": 5607.0,
+          "NOV": 4820.6,
+          "DEC": 5252.8
+        },
+        "recommended_system_size_kw": 56.2,
+        "recommended_panel_count": 125,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3091000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3013000.0,
+          "annual_savings_inr": 523411.0,
+          "monthly_savings_inr": 43618.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 17843856.0,
+          "co2_tons_annual": 61.31,
+          "trees_equivalent": 3066,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23362052819473,
+              13.037113386963448
+            ],
+            [
+              80.23374332744363,
+              13.037156927005208
+            ],
+            [
+              80.23366811555957,
+              13.037360981614356
+            ],
+            [
+              80.23354531631067,
+              13.037317441572595
+            ],
+            [
+              80.23362052819473,
+              13.037113386963448
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10106,
+        "neighborhood": "T. Nagar",
+        "address": "#30, Venkatnarayana Road, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 559.8,
+        "roof_area_sqft": 6025.6,
+        "usable_area_m2": 403.1,
+        "usable_area_sqft": 4338.9,
+        "orientation_deg": 86.6,
+        "aspect_ratio": 1.16,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 123176.0,
+        "monthly_generation_kwh": {
+          "JAN": 9567.0,
+          "FEB": 9976.0,
+          "MAR": 12269.9,
+          "APR": 12306.9,
+          "MAY": 12406.0,
+          "JUN": 10199.3,
+          "JUL": 9955.9,
+          "AUG": 10383.7,
+          "SEP": 10274.6,
+          "OCT": 9236.5,
+          "NOV": 7941.2,
+          "DEC": 8653.1
+        },
+        "recommended_system_size_kw": 92.7,
+        "recommended_panel_count": 206,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5098500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5020500.0,
+          "annual_savings_inr": 862232.0,
+          "monthly_savings_inr": 71853.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 29394765.0,
+          "co2_tons_annual": 101.0,
+          "trees_equivalent": 5050,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23452123823317,
+              13.036806632996953
+            ],
+            [
+              80.23472366639915,
+              13.036795332887946
+            ],
+            [
+              80.23473700404607,
+              13.037025170232607
+            ],
+            [
+              80.23453457588009,
+              13.037036470341613
+            ],
+            [
+              80.23452123823317,
+              13.036806632996953
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10107,
+        "neighborhood": "T. Nagar",
+        "address": "#134, Burkit Road, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 506.4,
+        "roof_area_sqft": 5450.8,
+        "usable_area_m2": 364.6,
+        "usable_area_sqft": 3924.5,
+        "orientation_deg": 89.3,
+        "aspect_ratio": 1.34,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 111411.0,
+        "monthly_generation_kwh": {
+          "JAN": 8653.3,
+          "FEB": 9023.2,
+          "MAR": 11098.0,
+          "APR": 11131.5,
+          "MAY": 11221.1,
+          "JUN": 9225.2,
+          "JUL": 9005.0,
+          "AUG": 9392.0,
+          "SEP": 9293.3,
+          "OCT": 8354.3,
+          "NOV": 7182.7,
+          "DEC": 7826.6
+        },
+        "recommended_system_size_kw": 83.7,
+        "recommended_panel_count": 186,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4603500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4525500.0,
+          "annual_savings_inr": 779877.0,
+          "monthly_savings_inr": 64990.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 26587161.0,
+          "co2_tons_annual": 91.36,
+          "trees_equivalent": 4568,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23579762100198,
+              13.037105623508621
+            ],
+            [
+              80.23597661026272,
+              13.037104152946984
+            ],
+            [
+              80.23597862496345,
+              13.037340041766411
+            ],
+            [
+              80.2357996357027,
+              13.037341512328048
+            ],
+            [
+              80.23579762100198,
+              13.037105623508621
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10108,
+        "neighborhood": "T. Nagar",
+        "address": "#19, North Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 1018.9,
+        "roof_area_sqft": 10967.3,
+        "usable_area_m2": 733.6,
+        "usable_area_sqft": 7896.4,
+        "orientation_deg": 28.9,
+        "aspect_ratio": 1.85,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 224167.0,
+        "monthly_generation_kwh": {
+          "JAN": 17411.0,
+          "FEB": 18155.3,
+          "MAR": 22330.0,
+          "APR": 22397.3,
+          "MAY": 22577.7,
+          "JUN": 18561.7,
+          "JUL": 18118.8,
+          "AUG": 18897.3,
+          "SEP": 18698.7,
+          "OCT": 16809.4,
+          "NOV": 14452.1,
+          "DEC": 15747.8
+        },
+        "recommended_system_size_kw": 169.2,
+        "recommended_panel_count": 376,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 9306000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 9228000.0,
+          "annual_savings_inr": 2129586.0,
+          "monthly_savings_inr": 177466.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 72600755.0,
+          "co2_tons_annual": 183.82,
+          "trees_equivalent": 9191,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23739934124318,
+              13.037003481099967
+            ],
+            [
+              80.23729451445546,
+              13.03718883758839
+            ],
+            [
+              80.23694399944104,
+              13.036998149229058
+            ],
+            [
+              80.23704882622876,
+              13.036812792740635
+            ],
+            [
+              80.23739934124318,
+              13.037003481099967
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10109,
+        "neighborhood": "T. Nagar",
+        "address": "#136, Venkatnarayana Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 286.0,
+        "roof_area_sqft": 3078.5,
+        "usable_area_m2": 205.9,
+        "usable_area_sqft": 2216.3,
+        "orientation_deg": 1.2,
+        "aspect_ratio": 1.7,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 64904.0,
+        "monthly_generation_kwh": {
+          "JAN": 5041.1,
+          "FEB": 5256.6,
+          "MAR": 6465.3,
+          "APR": 6484.8,
+          "MAY": 6537.0,
+          "JUN": 5374.2,
+          "JUL": 5246.0,
+          "AUG": 5471.4,
+          "SEP": 5413.9,
+          "OCT": 4866.9,
+          "NOV": 4184.4,
+          "DEC": 4559.5
+        },
+        "recommended_system_size_kw": 47.2,
+        "recommended_panel_count": 105,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2596000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2518000.0,
+          "annual_savings_inr": 616588.0,
+          "monthly_savings_inr": 51382.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 21020397.0,
+          "co2_tons_annual": 53.22,
+          "trees_equivalent": 2661,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2287141710178,
+              13.03834337084605
+            ],
+            [
+              80.22871139601915,
+              13.038460531486912
+            ],
+            [
+              80.22850794080196,
+              13.038455895919071
+            ],
+            [
+              80.22851071580061,
+              13.03833873527821
+            ],
+            [
+              80.2287141710178,
+              13.03834337084605
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10110,
+        "neighborhood": "T. Nagar",
+        "address": "#56, Burkit Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 846.2,
+        "roof_area_sqft": 9108.4,
+        "usable_area_m2": 609.3,
+        "usable_area_sqft": 6558.4,
+        "orientation_deg": 93.4,
+        "aspect_ratio": 1.82,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 186185.0,
+        "monthly_generation_kwh": {
+          "JAN": 14460.9,
+          "FEB": 15079.1,
+          "MAR": 18546.4,
+          "APR": 18602.3,
+          "MAY": 18752.1,
+          "JUN": 15416.6,
+          "JUL": 15048.7,
+          "AUG": 15695.4,
+          "SEP": 15530.4,
+          "OCT": 13961.2,
+          "NOV": 12003.3,
+          "DEC": 13079.5
+        },
+        "recommended_system_size_kw": 140.4,
+        "recommended_panel_count": 312,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7722000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7644000.0,
+          "annual_savings_inr": 1768758.0,
+          "monthly_savings_inr": 147396.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 60299561.0,
+          "co2_tons_annual": 152.67,
+          "trees_equivalent": 7634,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22981456371622,
+              13.037914517597576
+            ],
+            [
+              80.23001323011434,
+              13.037926530481975
+            ],
+            [
+              80.22999098735829,
+              13.038280380148374
+            ],
+            [
+              80.22979232096017,
+              13.038268367263974
+            ],
+            [
+              80.22981456371622,
+              13.037914517597576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10111,
+        "neighborhood": "T. Nagar",
+        "address": "#66, Burkit Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 875.1,
+        "roof_area_sqft": 9419.5,
+        "usable_area_m2": 630.1,
+        "usable_area_sqft": 6782.3,
+        "orientation_deg": 134.0,
+        "aspect_ratio": 1.2,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 192541.0,
+        "monthly_generation_kwh": {
+          "JAN": 14954.6,
+          "FEB": 15593.8,
+          "MAR": 19179.5,
+          "APR": 19237.4,
+          "MAY": 19392.3,
+          "JUN": 15942.9,
+          "JUL": 15562.5,
+          "AUG": 16231.2,
+          "SEP": 16060.6,
+          "OCT": 14437.8,
+          "NOV": 12413.1,
+          "DEC": 13526.0
+        },
+        "recommended_system_size_kw": 145.3,
+        "recommended_panel_count": 323,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7991500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7913500.0,
+          "annual_savings_inr": 1829140.0,
+          "monthly_savings_inr": 152428.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 62358072.0,
+          "co2_tons_annual": 157.88,
+          "trees_equivalent": 7894,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23130918017004,
+              13.037974810586425
+            ],
+            [
+              80.23148746830036,
+              13.038144619855448
+            ],
+            [
+              80.23127891085197,
+              13.03835525935524
+            ],
+            [
+              80.23110062272166,
+              13.038185450086218
+            ],
+            [
+              80.23130918017004,
+              13.037974810586425
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10112,
+        "neighborhood": "T. Nagar",
+        "address": "#34, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 129.7,
+        "roof_area_sqft": 1396.1,
+        "usable_area_m2": 93.4,
+        "usable_area_sqft": 1005.3,
+        "orientation_deg": 25.7,
+        "aspect_ratio": 1.58,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 28540.0,
+        "monthly_generation_kwh": {
+          "JAN": 2216.7,
+          "FEB": 2311.5,
+          "MAR": 2843.0,
+          "APR": 2851.6,
+          "MAY": 2874.5,
+          "JUN": 2363.2,
+          "JUL": 2306.8,
+          "AUG": 2406.0,
+          "SEP": 2380.7,
+          "OCT": 2140.1,
+          "NOV": 1840.0,
+          "DEC": 2005.0
+        },
+        "recommended_system_size_kw": 21.2,
+        "recommended_panel_count": 47,
+        "solar_score": 63,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1166000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1088000.0,
+          "annual_savings_inr": 199780.0,
+          "monthly_savings_inr": 16648.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 6810796.0,
+          "co2_tons_annual": 23.4,
+          "trees_equivalent": 1170,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23220385430668,
+              13.038128408763066
+            ],
+            [
+              80.2321673708138,
+              13.038202252288151
+            ],
+            [
+              80.23204878461812,
+              13.038145892260369
+            ],
+            [
+              80.23208526811099,
+              13.038072048735284
+            ],
+            [
+              80.23220385430668,
+              13.038128408763066
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10113,
+        "neighborhood": "T. Nagar",
+        "address": "#14, North Usman Road, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 376.7,
+        "roof_area_sqft": 4054.8,
+        "usable_area_m2": 271.2,
+        "usable_area_sqft": 2919.2,
+        "orientation_deg": 88.9,
+        "aspect_ratio": 2.06,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 82871.0,
+        "monthly_generation_kwh": {
+          "JAN": 6436.6,
+          "FEB": 6711.7,
+          "MAR": 8255.0,
+          "APR": 8279.9,
+          "MAY": 8346.6,
+          "JUN": 6862.0,
+          "JUL": 6698.2,
+          "AUG": 6986.0,
+          "SEP": 6912.6,
+          "OCT": 6214.2,
+          "NOV": 5342.7,
+          "DEC": 5821.7
+        },
+        "recommended_system_size_kw": 62.6,
+        "recommended_panel_count": 139,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3443000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3365000.0,
+          "annual_savings_inr": 580097.0,
+          "monthly_savings_inr": 48341.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 19776365.0,
+          "co2_tons_annual": 67.95,
+          "trees_equivalent": 3398,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23347890707635,
+              13.03810315309645
+            ],
+            [
+              80.23360355852331,
+              13.038101249788198
+            ],
+            [
+              80.23360755800641,
+              13.038353217639163
+            ],
+            [
+              80.23348290655944,
+              13.038355120947415
+            ],
+            [
+              80.23347890707635,
+              13.03810315309645
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10114,
+        "neighborhood": "T. Nagar",
+        "address": "#95, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 665.5,
+        "roof_area_sqft": 7163.4,
+        "usable_area_m2": 479.2,
+        "usable_area_sqft": 5158.1,
+        "orientation_deg": 101.4,
+        "aspect_ratio": 1.63,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 146430.0,
+        "monthly_generation_kwh": {
+          "JAN": 11373.2,
+          "FEB": 11859.3,
+          "MAR": 14586.3,
+          "APR": 14630.3,
+          "MAY": 14748.1,
+          "JUN": 12124.8,
+          "JUL": 11835.5,
+          "AUG": 12344.0,
+          "SEP": 12214.3,
+          "OCT": 10980.2,
+          "NOV": 9440.3,
+          "DEC": 10286.7
+        },
+        "recommended_system_size_kw": 110.2,
+        "recommended_panel_count": 245,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6061000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5983000.0,
+          "annual_savings_inr": 1391085.0,
+          "monthly_savings_inr": 115924.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 47424146.0,
+          "co2_tons_annual": 120.07,
+          "trees_equivalent": 6004,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2346893463284,
+              13.03826998290842
+            ],
+            [
+              80.23487186196556,
+              13.038306556776158
+            ],
+            [
+              80.23481106376283,
+              13.038598415716892
+            ],
+            [
+              80.23462854812567,
+              13.038561841849154
+            ],
+            [
+              80.2346893463284,
+              13.03826998290842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10115,
+        "neighborhood": "T. Nagar",
+        "address": "#7, Burkit Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 540.5,
+        "roof_area_sqft": 5817.9,
+        "usable_area_m2": 389.2,
+        "usable_area_sqft": 4189.3,
+        "orientation_deg": 4.6,
+        "aspect_ratio": 2.0,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 122684.0,
+        "monthly_generation_kwh": {
+          "JAN": 9528.8,
+          "FEB": 9936.2,
+          "MAR": 12220.9,
+          "APR": 12257.8,
+          "MAY": 12356.5,
+          "JUN": 10158.6,
+          "JUL": 9916.2,
+          "AUG": 10342.3,
+          "SEP": 10233.6,
+          "OCT": 9199.6,
+          "NOV": 7909.5,
+          "DEC": 8618.6
+        },
+        "recommended_system_size_kw": 89.5,
+        "recommended_panel_count": 199,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4922500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4844500.0,
+          "annual_savings_inr": 1165498.0,
+          "monthly_savings_inr": 97125.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 39733552.0,
+          "co2_tons_annual": 100.6,
+          "trees_equivalent": 5030,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23594662180525,
+              13.03794566934687
+            ],
+            [
+              80.23593408273565,
+              13.038093815698423
+            ],
+            [
+              80.23563194640727,
+              13.03806921596666
+            ],
+            [
+              80.23564448547687,
+              13.037921069615107
+            ],
+            [
+              80.23594662180525,
+              13.03794566934687
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10116,
+        "neighborhood": "T. Nagar",
+        "address": "#47, Usman Road, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 164.4,
+        "roof_area_sqft": 1769.6,
+        "usable_area_m2": 118.4,
+        "usable_area_sqft": 1274.4,
+        "orientation_deg": 121.8,
+        "aspect_ratio": 1.44,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 36180.0,
+        "monthly_generation_kwh": {
+          "JAN": 2810.1,
+          "FEB": 2930.2,
+          "MAR": 3604.0,
+          "APR": 3614.8,
+          "MAY": 3643.9,
+          "JUN": 2995.8,
+          "JUL": 2924.3,
+          "AUG": 3049.9,
+          "SEP": 3017.9,
+          "OCT": 2713.0,
+          "NOV": 2332.5,
+          "DEC": 2541.6
+        },
+        "recommended_system_size_kw": 27.0,
+        "recommended_panel_count": 60,
+        "solar_score": 70,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1485000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1407000.0,
+          "annual_savings_inr": 253260.0,
+          "monthly_savings_inr": 21105.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8634008.0,
+          "co2_tons_annual": 29.67,
+          "trees_equivalent": 1483,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23717476701361,
+              13.0381698806354
+            ],
+            [
+              80.23725830892201,
+              13.038221134337807
+            ],
+            [
+              80.2371830642144,
+              13.038339114280154
+            ],
+            [
+              80.23709952230601,
+              13.038287860577746
+            ],
+            [
+              80.23717476701361,
+              13.0381698806354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10117,
+        "neighborhood": "T. Nagar",
+        "address": "#108, North Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 299.2,
+        "roof_area_sqft": 3220.6,
+        "usable_area_m2": 215.4,
+        "usable_area_sqft": 2318.5,
+        "orientation_deg": 19.6,
+        "aspect_ratio": 1.2,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 67899.0,
+        "monthly_generation_kwh": {
+          "JAN": 5273.7,
+          "FEB": 5499.1,
+          "MAR": 6763.6,
+          "APR": 6784.0,
+          "MAY": 6838.6,
+          "JUN": 5622.2,
+          "JUL": 5488.0,
+          "AUG": 5723.9,
+          "SEP": 5663.7,
+          "OCT": 5091.4,
+          "NOV": 4377.4,
+          "DEC": 4769.9
+        },
+        "recommended_system_size_kw": 49.5,
+        "recommended_panel_count": 110,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2722500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2644500.0,
+          "annual_savings_inr": 645040.0,
+          "monthly_savings_inr": 53753.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 21990385.0,
+          "co2_tons_annual": 55.68,
+          "trees_equivalent": 2784,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22883997802454,
+              13.039446663968832
+            ],
+            [
+              80.22879087490264,
+              13.039581035581179
+            ],
+            [
+              80.22862634307025,
+              13.039523198737704
+            ],
+            [
+              80.22867544619214,
+              13.039388827125357
+            ],
+            [
+              80.22883997802454,
+              13.039446663968832
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10118,
+        "neighborhood": "T. Nagar",
+        "address": "#70, Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 422.1,
+        "roof_area_sqft": 4543.4,
+        "usable_area_m2": 303.9,
+        "usable_area_sqft": 3271.1,
+        "orientation_deg": 0.8,
+        "aspect_ratio": 2.07,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 95796.0,
+        "monthly_generation_kwh": {
+          "JAN": 7440.4,
+          "FEB": 7758.5,
+          "MAR": 9542.5,
+          "APR": 9571.3,
+          "MAY": 9648.3,
+          "JUN": 7932.2,
+          "JUL": 7742.9,
+          "AUG": 8075.6,
+          "SEP": 7990.7,
+          "OCT": 7183.3,
+          "NOV": 6176.0,
+          "DEC": 6729.6
+        },
+        "recommended_system_size_kw": 69.8,
+        "recommended_panel_count": 155,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3839000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3761000.0,
+          "annual_savings_inr": 910062.0,
+          "monthly_savings_inr": 75838.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 31025360.0,
+          "co2_tons_annual": 78.55,
+          "trees_equivalent": 3928,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22987098580347,
+              13.039212329593663
+            ],
+            [
+              80.22986869731204,
+              13.039345966141253
+            ],
+            [
+              80.22967605547281,
+              13.039342792719966
+            ],
+            [
+              80.22967654025452,
+              13.039314483872937
+            ],
+            [
+              80.2295869082541,
+              13.03931300734998
+            ],
+            [
+              80.22958871196383,
+              13.039207679649417
+            ],
+            [
+              80.22987098580347,
+              13.039212329593663
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10119,
+        "neighborhood": "T. Nagar",
+        "address": "#125, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 436.4,
+        "roof_area_sqft": 4697.4,
+        "usable_area_m2": 314.2,
+        "usable_area_sqft": 3382.0,
+        "orientation_deg": 107.4,
+        "aspect_ratio": 1.23,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 96011.0,
+        "monthly_generation_kwh": {
+          "JAN": 7457.1,
+          "FEB": 7775.9,
+          "MAR": 9563.9,
+          "APR": 9592.7,
+          "MAY": 9670.0,
+          "JUN": 7949.9,
+          "JUL": 7760.2,
+          "AUG": 8093.7,
+          "SEP": 8008.6,
+          "OCT": 7199.4,
+          "NOV": 6189.8,
+          "DEC": 6744.7
+        },
+        "recommended_system_size_kw": 72.5,
+        "recommended_panel_count": 161,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3987500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3909500.0,
+          "annual_savings_inr": 672077.0,
+          "monthly_savings_inr": 56006.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 22912099.0,
+          "co2_tons_annual": 78.73,
+          "trees_equivalent": 3936,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23101118939739,
+              13.039146129049636
+            ],
+            [
+              80.23117711655158,
+              13.039197595140118
+            ],
+            [
+              80.23111282537575,
+              13.039396983924695
+            ],
+            [
+              80.23094689822156,
+              13.039345517834212
+            ],
+            [
+              80.23101118939739,
+              13.039146129049636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10120,
+        "neighborhood": "T. Nagar",
+        "address": "#31, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 919.1,
+        "roof_area_sqft": 9893.1,
+        "usable_area_m2": 661.8,
+        "usable_area_sqft": 7123.5,
+        "orientation_deg": 84.9,
+        "aspect_ratio": 1.43,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 202227.0,
+        "monthly_generation_kwh": {
+          "JAN": 15706.9,
+          "FEB": 16378.4,
+          "MAR": 20144.4,
+          "APR": 20205.2,
+          "MAY": 20367.9,
+          "JUN": 16745.0,
+          "JUL": 16345.4,
+          "AUG": 17047.8,
+          "SEP": 16868.6,
+          "OCT": 15164.2,
+          "NOV": 13037.6,
+          "DEC": 14206.5
+        },
+        "recommended_system_size_kw": 152.6,
+        "recommended_panel_count": 339,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 8393000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 8315000.0,
+          "annual_savings_inr": 1921156.0,
+          "monthly_savings_inr": 160096.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 65495068.0,
+          "co2_tons_annual": 165.83,
+          "trees_equivalent": 8291,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23206736417545,
+              13.039152711236992
+            ],
+            [
+              80.23231101105709,
+              13.039132127385331
+            ],
+            [
+              80.23233244239493,
+              13.039376153647877
+            ],
+            [
+              80.23225827268327,
+              13.039382419676537
+            ],
+            [
+              80.23226688550474,
+              13.039480488898812
+            ],
+            [
+              80.23209740833478,
+              13.039494806721814
+            ],
+            [
+              80.23206736417545,
+              13.039152711236992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10121,
+        "neighborhood": "T. Nagar",
+        "address": "#19, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 499.4,
+        "roof_area_sqft": 5375.5,
+        "usable_area_m2": 359.6,
+        "usable_area_sqft": 3870.7,
+        "orientation_deg": 12.1,
+        "aspect_ratio": 1.71,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 113353.0,
+        "monthly_generation_kwh": {
+          "JAN": 8804.1,
+          "FEB": 9180.5,
+          "MAR": 11291.5,
+          "APR": 11325.5,
+          "MAY": 11416.7,
+          "JUN": 9386.0,
+          "JUL": 9162.0,
+          "AUG": 9555.7,
+          "SEP": 9455.3,
+          "OCT": 8499.9,
+          "NOV": 7307.9,
+          "DEC": 7963.1
+        },
+        "recommended_system_size_kw": 82.8,
+        "recommended_panel_count": 184,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4554000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4476000.0,
+          "annual_savings_inr": 1076854.0,
+          "monthly_savings_inr": 89738.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 36711529.0,
+          "co2_tons_annual": 92.95,
+          "trees_equivalent": 4647,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23377207980845,
+              13.039006656283746
+            ],
+            [
+              80.23373855373693,
+              13.03915745309297
+            ],
+            [
+              80.233474934315,
+              13.03910107362282
+            ],
+            [
+              80.23350846038652,
+              13.038950276813596
+            ],
+            [
+              80.23377207980845,
+              13.039006656283746
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10122,
+        "neighborhood": "T. Nagar",
+        "address": "#107, Burkit Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 566.2,
+        "roof_area_sqft": 6094.5,
+        "usable_area_m2": 407.7,
+        "usable_area_sqft": 4388.4,
+        "orientation_deg": 93.4,
+        "aspect_ratio": 1.73,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 124581.0,
+        "monthly_generation_kwh": {
+          "JAN": 9676.2,
+          "FEB": 10089.8,
+          "MAR": 12409.9,
+          "APR": 12447.4,
+          "MAY": 12547.6,
+          "JUN": 10315.7,
+          "JUL": 10069.5,
+          "AUG": 10502.2,
+          "SEP": 10391.8,
+          "OCT": 9341.9,
+          "NOV": 8031.8,
+          "DEC": 8751.9
+        },
+        "recommended_system_size_kw": 94.0,
+        "recommended_panel_count": 209,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5170000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5092000.0,
+          "annual_savings_inr": 1183520.0,
+          "monthly_savings_inr": 98627.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 40347931.0,
+          "co2_tons_annual": 102.16,
+          "trees_equivalent": 5108,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23474698286707,
+              13.039101998899039
+            ],
+            [
+              80.23491330258044,
+              13.03911232216065
+            ],
+            [
+              80.23489505846031,
+              13.039395072275209
+            ],
+            [
+              80.23472873874694,
+              13.039384749013598
+            ],
+            [
+              80.23474698286707,
+              13.039101998899039
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10123,
+        "neighborhood": "T. Nagar",
+        "address": "#28, North Usman Road, T. Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 144.8,
+        "roof_area_sqft": 1558.6,
+        "usable_area_m2": 104.3,
+        "usable_area_sqft": 1122.7,
+        "orientation_deg": 179.4,
+        "aspect_ratio": 1.86,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 32878.0,
+        "monthly_generation_kwh": {
+          "JAN": 2553.6,
+          "FEB": 2662.8,
+          "MAR": 3275.0,
+          "APR": 3284.9,
+          "MAY": 3311.4,
+          "JUN": 2722.4,
+          "JUL": 2657.4,
+          "AUG": 2771.6,
+          "SEP": 2742.4,
+          "OCT": 2465.4,
+          "NOV": 2119.6,
+          "DEC": 2309.6
+        },
+        "recommended_system_size_kw": 23.9,
+        "recommended_panel_count": 53,
+        "solar_score": 67,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1314500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1236500.0,
+          "annual_savings_inr": 230146.0,
+          "monthly_savings_inr": 19179.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 7846018.0,
+          "co2_tons_annual": 26.96,
+          "trees_equivalent": 1348,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2359278513506,
+              13.039154336215116
+            ],
+            [
+              80.2359284180728,
+              13.039234145929555
+            ],
+            [
+              80.23577718095649,
+              13.039235178990467
+            ],
+            [
+              80.23577661423428,
+              13.039155369276028
+            ],
+            [
+              80.2359278513506,
+              13.039154336215116
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10124,
+        "neighborhood": "T. Nagar",
+        "address": "#131, Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 512.5,
+        "roof_area_sqft": 5516.5,
+        "usable_area_m2": 369.0,
+        "usable_area_sqft": 3971.9,
+        "orientation_deg": 122.3,
+        "aspect_ratio": 1.34,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 112756.0,
+        "monthly_generation_kwh": {
+          "JAN": 8757.7,
+          "FEB": 9132.1,
+          "MAR": 11231.9,
+          "APR": 11265.8,
+          "MAY": 11356.5,
+          "JUN": 9336.5,
+          "JUL": 9113.7,
+          "AUG": 9505.3,
+          "SEP": 9405.4,
+          "OCT": 8455.1,
+          "NOV": 7269.4,
+          "DEC": 7921.1
+        },
+        "recommended_system_size_kw": 85.0,
+        "recommended_panel_count": 189,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4675000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4597000.0,
+          "annual_savings_inr": 1071182.0,
+          "monthly_savings_inr": 89265.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 36518180.0,
+          "co2_tons_annual": 92.46,
+          "trees_equivalent": 4623,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23713339479706,
+              13.039024145065312
+            ],
+            [
+              80.23728533383849,
+              13.039118928247866
+            ],
+            [
+              80.23715547649125,
+              13.03931917140951
+            ],
+            [
+              80.23700353744982,
+              13.039224388226955
+            ],
+            [
+              80.23713339479706,
+              13.039024145065312
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10125,
+        "neighborhood": "T. Nagar",
+        "address": "#27, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 832.1,
+        "roof_area_sqft": 8956.6,
+        "usable_area_m2": 599.1,
+        "usable_area_sqft": 6448.7,
+        "orientation_deg": 122.1,
+        "aspect_ratio": 2.0,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 183068.0,
+        "monthly_generation_kwh": {
+          "JAN": 14218.8,
+          "FEB": 14826.7,
+          "MAR": 18235.9,
+          "APR": 18290.9,
+          "MAY": 18438.2,
+          "JUN": 15158.5,
+          "JUL": 14796.8,
+          "AUG": 15432.6,
+          "SEP": 15270.4,
+          "OCT": 13727.5,
+          "NOV": 11802.4,
+          "DEC": 12860.5
+        },
+        "recommended_system_size_kw": 138.2,
+        "recommended_panel_count": 307,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7601000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7523000.0,
+          "annual_savings_inr": 1739146.0,
+          "monthly_savings_inr": 144929.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 59290061.0,
+          "co2_tons_annual": 150.12,
+          "trees_equivalent": 7506,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22873625637207,
+              13.040261380244607
+            ],
+            [
+              80.22889523934391,
+              13.040359854720386
+            ],
+            [
+              80.22869434844871,
+              13.040671844422361
+            ],
+            [
+              80.22853536547687,
+              13.040573369946582
+            ],
+            [
+              80.22873625637207,
+              13.040261380244607
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10126,
+        "neighborhood": "T. Nagar",
+        "address": "#115, North Usman Road, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 680.7,
+        "roof_area_sqft": 7327.0,
+        "usable_area_m2": 490.1,
+        "usable_area_sqft": 5275.4,
+        "orientation_deg": 10.6,
+        "aspect_ratio": 2.15,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 154490.0,
+        "monthly_generation_kwh": {
+          "JAN": 11999.2,
+          "FEB": 12512.1,
+          "MAR": 15389.2,
+          "APR": 15435.6,
+          "MAY": 15559.9,
+          "JUN": 12792.2,
+          "JUL": 12486.9,
+          "AUG": 13023.5,
+          "SEP": 12886.6,
+          "OCT": 11584.6,
+          "NOV": 9960.0,
+          "DEC": 10852.9
+        },
+        "recommended_system_size_kw": 113.0,
+        "recommended_panel_count": 251,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6215000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6137000.0,
+          "annual_savings_inr": 1081430.0,
+          "monthly_savings_inr": 90119.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 36867549.0,
+          "co2_tons_annual": 126.68,
+          "trees_equivalent": 6334,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22993709038325,
+              13.040176359480478
+            ],
+            [
+              80.22990645167305,
+              13.0403345850765
+            ],
+            [
+              80.22956018141959,
+              13.040270084737797
+            ],
+            [
+              80.22959082012979,
+              13.040111859141774
+            ],
+            [
+              80.22993709038325,
+              13.040176359480478
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10127,
+        "neighborhood": "T. Nagar",
+        "address": "#71, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 772.1,
+        "roof_area_sqft": 8310.8,
+        "usable_area_m2": 555.9,
+        "usable_area_sqft": 5983.7,
+        "orientation_deg": 123.5,
+        "aspect_ratio": 1.79,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 169867.0,
+        "monthly_generation_kwh": {
+          "JAN": 13193.5,
+          "FEB": 13757.5,
+          "MAR": 16921.0,
+          "APR": 16972.0,
+          "MAY": 17108.7,
+          "JUN": 14065.5,
+          "JUL": 13729.9,
+          "AUG": 14319.8,
+          "SEP": 14169.3,
+          "OCT": 12737.7,
+          "NOV": 10951.4,
+          "DEC": 11933.2
+        },
+        "recommended_system_size_kw": 128.2,
+        "recommended_panel_count": 285,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7051000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6973000.0,
+          "annual_savings_inr": 1189069.0,
+          "monthly_savings_inr": 99089.0,
+          "payback_years": 5.9,
+          "lifetime_savings_25yr_inr": 40537122.0,
+          "co2_tons_annual": 139.29,
+          "trees_equivalent": 6965,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23130692210559,
+              13.040290268182828
+            ],
+            [
+              80.23147326638804,
+              13.040398838515038
+            ],
+            [
+              80.23132637877232,
+              13.040615327081417
+            ],
+            [
+              80.23127402073483,
+              13.040581153802714
+            ],
+            [
+              80.23122276801352,
+              13.040656692016784
+            ],
+            [
+              80.23110878176857,
+              13.040582294963276
+            ],
+            [
+              80.23130692210559,
+              13.040290268182828
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10128,
+        "neighborhood": "T. Nagar",
+        "address": "#130, Venkatnarayana Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 546.1,
+        "roof_area_sqft": 5878.2,
+        "usable_area_m2": 393.2,
+        "usable_area_sqft": 4232.4,
+        "orientation_deg": 85.4,
+        "aspect_ratio": 2.02,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 120151.0,
+        "monthly_generation_kwh": {
+          "JAN": 9332.1,
+          "FEB": 9731.0,
+          "MAR": 11968.6,
+          "APR": 12004.7,
+          "MAY": 12101.3,
+          "JUN": 9948.8,
+          "JUL": 9711.4,
+          "AUG": 10128.7,
+          "SEP": 10022.2,
+          "OCT": 9009.6,
+          "NOV": 7746.1,
+          "DEC": 8440.6
+        },
+        "recommended_system_size_kw": 90.5,
+        "recommended_panel_count": 201,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4977500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4899500.0,
+          "annual_savings_inr": 1141434.0,
+          "monthly_savings_inr": 95120.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 38913191.0,
+          "co2_tons_annual": 98.52,
+          "trees_equivalent": 4926,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2321367540078,
+              13.040299077654192
+            ],
+            [
+              80.23229109074371,
+              13.040287347552622
+            ],
+            [
+              80.23231044809782,
+              13.040532347846424
+            ],
+            [
+              80.23228029648804,
+              13.040534639468333
+            ],
+            [
+              80.23228503660506,
+              13.040594633724544
+            ],
+            [
+              80.23216085147892,
+              13.040604072204205
+            ],
+            [
+              80.2321367540078,
+              13.040299077654192
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10129,
+        "neighborhood": "T. Nagar",
+        "address": "#122, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 226.4,
+        "roof_area_sqft": 2436.9,
+        "usable_area_m2": 163.0,
+        "usable_area_sqft": 1754.5,
+        "orientation_deg": 89.3,
+        "aspect_ratio": 1.99,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 49808.0,
+        "monthly_generation_kwh": {
+          "JAN": 3868.6,
+          "FEB": 4034.0,
+          "MAR": 4961.5,
+          "APR": 4976.5,
+          "MAY": 5016.6,
+          "JUN": 4124.3,
+          "JUL": 4025.8,
+          "AUG": 4198.8,
+          "SEP": 4154.7,
+          "OCT": 3734.9,
+          "NOV": 3211.1,
+          "DEC": 3499.0
+        },
+        "recommended_system_size_kw": 37.4,
+        "recommended_panel_count": 83,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2057000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1979000.0,
+          "annual_savings_inr": 348656.0,
+          "monthly_savings_inr": 29055.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 11886199.0,
+          "co2_tons_annual": 40.84,
+          "trees_equivalent": 2042,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23349014135843,
+              13.040246667555177
+            ],
+            [
+              80.2335884706337,
+              13.040245821449185
+            ],
+            [
+              80.23359018804899,
+              13.040437814921404
+            ],
+            [
+              80.23349185877372,
+              13.040438661027396
+            ],
+            [
+              80.23349014135843,
+              13.040246667555177
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10130,
+        "neighborhood": "T. Nagar",
+        "address": "#11, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 861.2,
+        "roof_area_sqft": 9269.9,
+        "usable_area_m2": 620.1,
+        "usable_area_sqft": 6674.7,
+        "orientation_deg": 28.3,
+        "aspect_ratio": 1.89,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 189485.0,
+        "monthly_generation_kwh": {
+          "JAN": 14717.2,
+          "FEB": 15346.4,
+          "MAR": 18875.1,
+          "APR": 18932.1,
+          "MAY": 19084.5,
+          "JUN": 15689.9,
+          "JUL": 15315.5,
+          "AUG": 15973.6,
+          "SEP": 15805.7,
+          "OCT": 14208.7,
+          "NOV": 12216.1,
+          "DEC": 13311.3
+        },
+        "recommended_system_size_kw": 143.1,
+        "recommended_panel_count": 318,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7870500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7792500.0,
+          "annual_savings_inr": 1800108.0,
+          "monthly_savings_inr": 150009.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 61368329.0,
+          "co2_tons_annual": 155.38,
+          "trees_equivalent": 7769,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23513915730659,
+              13.040402475156084
+            ],
+            [
+              80.23504532998413,
+              13.040572428036164
+            ],
+            [
+              80.23471856505229,
+              13.040398892145786
+            ],
+            [
+              80.23481239237475,
+              13.040228939265706
+            ],
+            [
+              80.23513915730659,
+              13.040402475156084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10131,
+        "neighborhood": "T. Nagar",
+        "address": "#14, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 619.1,
+        "roof_area_sqft": 6663.9,
+        "usable_area_m2": 445.8,
+        "usable_area_sqft": 4798.5,
+        "orientation_deg": 103.5,
+        "aspect_ratio": 2.11,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 136224.0,
+        "monthly_generation_kwh": {
+          "JAN": 10580.5,
+          "FEB": 11032.8,
+          "MAR": 13569.6,
+          "APR": 13610.6,
+          "MAY": 13720.2,
+          "JUN": 11279.7,
+          "JUL": 11010.6,
+          "AUG": 11483.7,
+          "SEP": 11363.0,
+          "OCT": 10214.9,
+          "NOV": 8782.4,
+          "DEC": 9569.7
+        },
+        "recommended_system_size_kw": 102.6,
+        "recommended_panel_count": 228,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5643000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5565000.0,
+          "annual_savings_inr": 1294128.0,
+          "monthly_savings_inr": 107844.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 44118739.0,
+          "co2_tons_annual": 111.7,
+          "trees_equivalent": 5585,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23583141798196,
+              13.040096791314602
+            ],
+            [
+              80.23598492121981,
+              13.040133322747845
+            ],
+            [
+              80.23590634029236,
+              13.040450952408994
+            ],
+            [
+              80.2357528370545,
+              13.04041442097575
+            ],
+            [
+              80.23583141798196,
+              13.040096791314602
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10132,
+        "neighborhood": "T. Nagar",
+        "address": "#39, Venkatnarayana Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 259.4,
+        "roof_area_sqft": 2792.2,
+        "usable_area_m2": 186.8,
+        "usable_area_sqft": 2010.7,
+        "orientation_deg": 13.7,
+        "aspect_ratio": 1.38,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 58883.0,
+        "monthly_generation_kwh": {
+          "JAN": 4573.4,
+          "FEB": 4769.0,
+          "MAR": 5865.5,
+          "APR": 5883.2,
+          "MAY": 5930.6,
+          "JUN": 4875.7,
+          "JUL": 4759.4,
+          "AUG": 4963.9,
+          "SEP": 4911.7,
+          "OCT": 4415.4,
+          "NOV": 3796.2,
+          "DEC": 4136.6
+        },
+        "recommended_system_size_kw": 42.8,
+        "recommended_panel_count": 95,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2354000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2276000.0,
+          "annual_savings_inr": 559388.0,
+          "monthly_savings_inr": 46616.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 19070382.0,
+          "co2_tons_annual": 48.28,
+          "trees_equivalent": 2414,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23727341510391,
+              13.04050484594989
+            ],
+            [
+              80.2372430891063,
+              13.040625343550515
+            ],
+            [
+              80.23707389025307,
+              13.040584380981674
+            ],
+            [
+              80.23710421625069,
+              13.04046388338105
+            ],
+            [
+              80.23727341510391,
+              13.04050484594989
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10133,
+        "neighborhood": "T. Nagar",
+        "address": "#80, Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 473.9,
+        "roof_area_sqft": 5101.0,
+        "usable_area_m2": 341.2,
+        "usable_area_sqft": 3672.6,
+        "orientation_deg": 16.8,
+        "aspect_ratio": 1.53,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 107553.0,
+        "monthly_generation_kwh": {
+          "JAN": 8353.6,
+          "FEB": 8710.7,
+          "MAR": 10713.7,
+          "APR": 10746.0,
+          "MAY": 10832.6,
+          "JUN": 8905.7,
+          "JUL": 8693.2,
+          "AUG": 9066.8,
+          "SEP": 8971.5,
+          "OCT": 8065.0,
+          "NOV": 6934.0,
+          "DEC": 7555.6
+        },
+        "recommended_system_size_kw": 78.3,
+        "recommended_panel_count": 174,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4306500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4228500.0,
+          "annual_savings_inr": 1021754.0,
+          "monthly_savings_inr": 85146.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 34833089.0,
+          "co2_tons_annual": 88.19,
+          "trees_equivalent": 4410,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22888383076643,
+              13.041376182894666
+            ],
+            [
+              80.22883644591347,
+              13.041528338968616
+            ],
+            [
+              80.22859890874817,
+              13.041457179141393
+            ],
+            [
+              80.22864629360113,
+              13.041305023067443
+            ],
+            [
+              80.22888383076643,
+              13.041376182894666
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10134,
+        "neighborhood": "T. Nagar",
+        "address": "#24, Venkatnarayana Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 287.4,
+        "roof_area_sqft": 3093.5,
+        "usable_area_m2": 206.9,
+        "usable_area_sqft": 2227.1,
+        "orientation_deg": 18.1,
+        "aspect_ratio": 1.91,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 65219.0,
+        "monthly_generation_kwh": {
+          "JAN": 5065.6,
+          "FEB": 5282.1,
+          "MAR": 6496.7,
+          "APR": 6516.3,
+          "MAY": 6568.8,
+          "JUN": 5400.3,
+          "JUL": 5271.5,
+          "AUG": 5498.0,
+          "SEP": 5440.2,
+          "OCT": 4890.5,
+          "NOV": 4204.7,
+          "DEC": 4581.7
+        },
+        "recommended_system_size_kw": 47.7,
+        "recommended_panel_count": 106,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2623500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2545500.0,
+          "annual_savings_inr": 619580.0,
+          "monthly_savings_inr": 51632.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 21122416.0,
+          "co2_tons_annual": 53.48,
+          "trees_equivalent": 2674,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2300921045214,
+              13.041510103784063
+            ],
+            [
+              80.23005663656664,
+              13.041615353057932
+            ],
+            [
+              80.22985138874198,
+              13.041548818286028
+            ],
+            [
+              80.22988685669674,
+              13.04144356901216
+            ],
+            [
+              80.2300921045214,
+              13.041510103784063
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10135,
+        "neighborhood": "T. Nagar",
+        "address": "#58, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 484.6,
+        "roof_area_sqft": 5216.2,
+        "usable_area_m2": 348.9,
+        "usable_area_sqft": 3755.5,
+        "orientation_deg": 109.3,
+        "aspect_ratio": 1.48,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 106614.0,
+        "monthly_generation_kwh": {
+          "JAN": 8280.7,
+          "FEB": 8634.7,
+          "MAR": 10620.1,
+          "APR": 10652.2,
+          "MAY": 10737.9,
+          "JUN": 8827.9,
+          "JUL": 8617.3,
+          "AUG": 8987.6,
+          "SEP": 8893.1,
+          "OCT": 7994.5,
+          "NOV": 6873.4,
+          "DEC": 7489.6
+        },
+        "recommended_system_size_kw": 80.1,
+        "recommended_panel_count": 178,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4405500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4327500.0,
+          "annual_savings_inr": 1012833.0,
+          "monthly_savings_inr": 84403.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 34528976.0,
+          "co2_tons_annual": 87.42,
+          "trees_equivalent": 4371,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23102414172959,
+              13.041431661751453
+            ],
+            [
+              80.23118162701043,
+              13.041486394444279
+            ],
+            [
+              80.23109926463675,
+              13.041714363069278
+            ],
+            [
+              80.23094177935592,
+              13.041659630376452
+            ],
+            [
+              80.23102414172959,
+              13.041431661751453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10136,
+        "neighborhood": "T. Nagar",
+        "address": "#87, Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 842.1,
+        "roof_area_sqft": 9064.3,
+        "usable_area_m2": 606.3,
+        "usable_area_sqft": 6526.2,
+        "orientation_deg": 2.5,
+        "aspect_ratio": 2.02,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 191118.0,
+        "monthly_generation_kwh": {
+          "JAN": 14844.1,
+          "FEB": 15478.7,
+          "MAR": 19037.9,
+          "APR": 19095.3,
+          "MAY": 19249.1,
+          "JUN": 15825.2,
+          "JUL": 15447.5,
+          "AUG": 16111.3,
+          "SEP": 15941.9,
+          "OCT": 14331.2,
+          "NOV": 12321.4,
+          "DEC": 13426.1
+        },
+        "recommended_system_size_kw": 139.5,
+        "recommended_panel_count": 310,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7672500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7594500.0,
+          "annual_savings_inr": 1815621.0,
+          "monthly_savings_inr": 151302.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 61897207.0,
+          "co2_tons_annual": 156.72,
+          "trees_equivalent": 7836,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23232178756722,
+              13.041666549046672
+            ],
+            [
+              80.2323128876209,
+              13.041851048188322
+            ],
+            [
+              80.23193315760575,
+              13.04183342757443
+            ],
+            [
+              80.23194205755206,
+              13.04164892843278
+            ],
+            [
+              80.23232178756722,
+              13.041666549046672
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10137,
+        "neighborhood": "T. Nagar",
+        "address": "#113, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 252.9,
+        "roof_area_sqft": 2722.2,
+        "usable_area_m2": 182.1,
+        "usable_area_sqft": 1960.1,
+        "orientation_deg": 108.1,
+        "aspect_ratio": 1.95,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 55645.0,
+        "monthly_generation_kwh": {
+          "JAN": 4321.9,
+          "FEB": 4506.6,
+          "MAR": 5542.9,
+          "APR": 5559.6,
+          "MAY": 5604.4,
+          "JUN": 4607.5,
+          "JUL": 4497.6,
+          "AUG": 4690.8,
+          "SEP": 4641.5,
+          "OCT": 4172.6,
+          "NOV": 3587.4,
+          "DEC": 3909.0
+        },
+        "recommended_system_size_kw": 41.9,
+        "recommended_panel_count": 93,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2304500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2226500.0,
+          "annual_savings_inr": 389515.0,
+          "monthly_savings_inr": 32460.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 13279143.0,
+          "co2_tons_annual": 45.63,
+          "trees_equivalent": 2281,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23354130320541,
+              13.04157671999878
+            ],
+            [
+              80.23364104025022,
+              13.041609096748855
+            ],
+            [
+              80.23357672826009,
+              13.041799672773763
+            ],
+            [
+              80.23347699121528,
+              13.041767296023687
+            ],
+            [
+              80.23354130320541,
+              13.04157671999878
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10138,
+        "neighborhood": "T. Nagar",
+        "address": "#62, Venkatnarayana Road, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 828.6,
+        "roof_area_sqft": 8919.0,
+        "usable_area_m2": 596.6,
+        "usable_area_sqft": 6421.7,
+        "orientation_deg": 177.7,
+        "aspect_ratio": 1.92,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 188061.0,
+        "monthly_generation_kwh": {
+          "JAN": 14606.6,
+          "FEB": 15231.0,
+          "MAR": 18733.3,
+          "APR": 18789.8,
+          "MAY": 18941.1,
+          "JUN": 15572.0,
+          "JUL": 15200.4,
+          "AUG": 15853.5,
+          "SEP": 15686.9,
+          "OCT": 14101.9,
+          "NOV": 12124.3,
+          "DEC": 13211.3
+        },
+        "recommended_system_size_kw": 137.2,
+        "recommended_panel_count": 305,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7546000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7468000.0,
+          "annual_savings_inr": 1316427.0,
+          "monthly_savings_inr": 109702.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 44878945.0,
+          "co2_tons_annual": 154.21,
+          "trees_equivalent": 7711,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23481247576595,
+              13.04117128738027
+            ],
+            [
+              80.2348196578442,
+              13.04135885645892
+            ],
+            [
+              80.23445182364819,
+              13.041372405047685
+            ],
+            [
+              80.23444464156994,
+              13.041184835969034
+            ],
+            [
+              80.23481247576595,
+              13.04117128738027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10139,
+        "neighborhood": "T. Nagar",
+        "address": "#98, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 881.5,
+        "roof_area_sqft": 9488.4,
+        "usable_area_m2": 634.7,
+        "usable_area_sqft": 6831.8,
+        "orientation_deg": 121.6,
+        "aspect_ratio": 1.73,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 193946.0,
+        "monthly_generation_kwh": {
+          "JAN": 15063.7,
+          "FEB": 15707.7,
+          "MAR": 19319.6,
+          "APR": 19377.8,
+          "MAY": 19533.9,
+          "JUN": 16059.3,
+          "JUL": 15676.1,
+          "AUG": 16349.7,
+          "SEP": 16177.8,
+          "OCT": 14543.2,
+          "NOV": 12503.7,
+          "DEC": 13624.7
+        },
+        "recommended_system_size_kw": 146.2,
+        "recommended_panel_count": 325,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 8041000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7963000.0,
+          "annual_savings_inr": 1842487.0,
+          "monthly_savings_inr": 153541.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 62813108.0,
+          "co2_tons_annual": 159.04,
+          "trees_equivalent": 7952,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23606054132293,
+              13.041200938690576
+            ],
+            [
+              80.2362376010979,
+              13.041308540586927
+            ],
+            [
+              80.23604808254817,
+              13.041608529205984
+            ],
+            [
+              80.2358710227732,
+              13.041500927309633
+            ],
+            [
+              80.23606054132293,
+              13.041200938690576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10140,
+        "neighborhood": "T. Nagar",
+        "address": "#27, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 347.8,
+        "roof_area_sqft": 3743.7,
+        "usable_area_m2": 250.4,
+        "usable_area_sqft": 2695.3,
+        "orientation_deg": 176.2,
+        "aspect_ratio": 1.37,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 78931.0,
+        "monthly_generation_kwh": {
+          "JAN": 6130.6,
+          "FEB": 6392.6,
+          "MAR": 7862.6,
+          "APR": 7886.3,
+          "MAY": 7949.8,
+          "JUN": 6535.7,
+          "JUL": 6379.8,
+          "AUG": 6653.9,
+          "SEP": 6584.0,
+          "OCT": 5918.7,
+          "NOV": 5088.7,
+          "DEC": 5544.9
+        },
+        "recommended_system_size_kw": 57.6,
+        "recommended_panel_count": 128,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3168000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3090000.0,
+          "annual_savings_inr": 749844.0,
+          "monthly_savings_inr": 62487.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 25563309.0,
+          "co2_tons_annual": 64.72,
+          "trees_equivalent": 3236,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23715532009389,
+              13.041423449176797
+            ],
+            [
+              80.23716456854225,
+              13.0415669851378
+            ],
+            [
+              80.23696334073286,
+              13.04157945751469
+            ],
+            [
+              80.23695409228449,
+              13.041435921553687
+            ],
+            [
+              80.23715532009389,
+              13.041423449176797
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10141,
+        "neighborhood": "T. Nagar",
+        "address": "#116, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 238.6,
+        "roof_area_sqft": 2568.3,
+        "usable_area_m2": 171.8,
+        "usable_area_sqft": 1849.2,
+        "orientation_deg": 102.5,
+        "aspect_ratio": 2.1,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 52497.0,
+        "monthly_generation_kwh": {
+          "JAN": 4077.4,
+          "FEB": 4251.7,
+          "MAR": 5229.4,
+          "APR": 5245.2,
+          "MAY": 5287.4,
+          "JUN": 4346.9,
+          "JUL": 4243.2,
+          "AUG": 4425.5,
+          "SEP": 4379.0,
+          "OCT": 3936.6,
+          "NOV": 3384.5,
+          "DEC": 3687.9
+        },
+        "recommended_system_size_kw": 39.6,
+        "recommended_panel_count": 88,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2178000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2100000.0,
+          "annual_savings_inr": 498722.0,
+          "monthly_savings_inr": 41560.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 17002154.0,
+          "co2_tons_annual": 43.05,
+          "trees_equivalent": 2152,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22868206597958,
+              13.042593755202688
+            ],
+            [
+              80.22878038817596,
+              13.04261553681068
+            ],
+            [
+              80.22874236286972,
+              13.04278065215179
+            ],
+            [
+              80.22871686014535,
+              13.042775002457565
+            ],
+            [
+              80.22870834068362,
+              13.042811996080205
+            ],
+            [
+              80.22863552121161,
+              13.042795864166438
+            ],
+            [
+              80.22868206597958,
+              13.042593755202688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10142,
+        "neighborhood": "T. Nagar",
+        "address": "#82, Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 513.0,
+        "roof_area_sqft": 5521.9,
+        "usable_area_m2": 369.4,
+        "usable_area_sqft": 3976.2,
+        "orientation_deg": 117.2,
+        "aspect_ratio": 2.19,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 112878.0,
+        "monthly_generation_kwh": {
+          "JAN": 8767.2,
+          "FEB": 9142.0,
+          "MAR": 11244.1,
+          "APR": 11278.0,
+          "MAY": 11368.9,
+          "JUN": 9346.6,
+          "JUL": 9123.6,
+          "AUG": 9515.6,
+          "SEP": 9415.6,
+          "OCT": 8464.3,
+          "NOV": 7277.3,
+          "DEC": 7929.7
+        },
+        "recommended_system_size_kw": 85.0,
+        "recommended_panel_count": 189,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4675000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4597000.0,
+          "annual_savings_inr": 1072341.0,
+          "monthly_savings_inr": 89362.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 36557692.0,
+          "co2_tons_annual": 92.56,
+          "trees_equivalent": 4628,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23012370154254,
+              13.042625801319046
+            ],
+            [
+              80.23024893213356,
+              13.04268935300082
+            ],
+            [
+              80.2301067703846,
+              13.04295882845467
+            ],
+            [
+              80.22998153979357,
+              13.042895276772896
+            ],
+            [
+              80.23012370154254,
+              13.042625801319046
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10143,
+        "neighborhood": "T. Nagar",
+        "address": "#121, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 702.7,
+        "roof_area_sqft": 7563.8,
+        "usable_area_m2": 505.9,
+        "usable_area_sqft": 5445.5,
+        "orientation_deg": 100.2,
+        "aspect_ratio": 2.11,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 154589.0,
+        "monthly_generation_kwh": {
+          "JAN": 12006.8,
+          "FEB": 12520.1,
+          "MAR": 15399.0,
+          "APR": 15445.5,
+          "MAY": 15569.9,
+          "JUN": 12800.4,
+          "JUL": 12494.9,
+          "AUG": 13031.8,
+          "SEP": 12894.8,
+          "OCT": 11592.0,
+          "NOV": 9966.3,
+          "DEC": 10859.9
+        },
+        "recommended_system_size_kw": 116.5,
+        "recommended_panel_count": 259,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6407500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6329500.0,
+          "annual_savings_inr": 1082123.0,
+          "monthly_savings_inr": 90177.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 36891174.0,
+          "co2_tons_annual": 126.76,
+          "trees_equivalent": 6338,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2312188008715,
+              13.04262930396965
+            ],
+            [
+              80.23138435393082,
+              13.04265905528342
+            ],
+            [
+              80.23132037541613,
+              13.043001521935098
+            ],
+            [
+              80.23115482235681,
+              13.042971770621328
+            ],
+            [
+              80.2312188008715,
+              13.04262930396965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10144,
+        "neighborhood": "T. Nagar",
+        "address": "#29, North Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 395.0,
+        "roof_area_sqft": 4251.7,
+        "usable_area_m2": 284.4,
+        "usable_area_sqft": 3061.3,
+        "orientation_deg": 26.3,
+        "aspect_ratio": 2.13,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 86904.0,
+        "monthly_generation_kwh": {
+          "JAN": 6749.8,
+          "FEB": 7038.4,
+          "MAR": 8656.8,
+          "APR": 8682.9,
+          "MAY": 8752.8,
+          "JUN": 7195.9,
+          "JUL": 7024.2,
+          "AUG": 7326.1,
+          "SEP": 7249.0,
+          "OCT": 6516.6,
+          "NOV": 5602.7,
+          "DEC": 6105.0
+        },
+        "recommended_system_size_kw": 65.2,
+        "recommended_panel_count": 145,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3586000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3508000.0,
+          "annual_savings_inr": 825588.0,
+          "monthly_savings_inr": 68799.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 28145517.0,
+          "co2_tons_annual": 71.26,
+          "trees_equivalent": 3563,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23220040648687,
+              13.042577817240248
+            ],
+            [
+              80.2321444451922,
+              13.042687925329751
+            ],
+            [
+              80.23190484471144,
+              13.042570784233734
+            ],
+            [
+              80.2319608060061,
+              13.04246067614423
+            ],
+            [
+              80.23220040648687,
+              13.042577817240248
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10145,
+        "neighborhood": "T. Nagar",
+        "address": "#132, Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 363.4,
+        "roof_area_sqft": 3911.6,
+        "usable_area_m2": 261.6,
+        "usable_area_sqft": 2815.8,
+        "orientation_deg": 17.8,
+        "aspect_ratio": 1.6,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 82462.0,
+        "monthly_generation_kwh": {
+          "JAN": 6404.8,
+          "FEB": 6678.6,
+          "MAR": 8214.3,
+          "APR": 8239.0,
+          "MAY": 8305.4,
+          "JUN": 6828.1,
+          "JUL": 6665.1,
+          "AUG": 6951.5,
+          "SEP": 6878.5,
+          "OCT": 6183.5,
+          "NOV": 5316.3,
+          "DEC": 5792.9
+        },
+        "recommended_system_size_kw": 60.3,
+        "recommended_panel_count": 134,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3316500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3238500.0,
+          "annual_savings_inr": 783389.0,
+          "monthly_savings_inr": 65282.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 26706890.0,
+          "co2_tons_annual": 67.62,
+          "trees_equivalent": 3381,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23349898534728,
+              13.042706206213259
+            ],
+            [
+              80.23345523908863,
+              13.04283873713668
+            ],
+            [
+              80.23328965810931,
+              13.042786161176696
+            ],
+            [
+              80.23329793612491,
+              13.042761082619473
+            ],
+            [
+              80.23324693289497,
+              13.042744887862153
+            ],
+            [
+              80.23328240113803,
+              13.042637435495955
+            ],
+            [
+              80.23349898534728,
+              13.042706206213259
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10146,
+        "neighborhood": "T. Nagar",
+        "address": "#135, Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 181.3,
+        "roof_area_sqft": 1951.5,
+        "usable_area_m2": 130.5,
+        "usable_area_sqft": 1404.7,
+        "orientation_deg": 117.2,
+        "aspect_ratio": 1.56,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 39877.0,
+        "monthly_generation_kwh": {
+          "JAN": 3097.2,
+          "FEB": 3229.6,
+          "MAR": 3972.3,
+          "APR": 3984.3,
+          "MAY": 4016.3,
+          "JUN": 3301.9,
+          "JUL": 3223.1,
+          "AUG": 3361.6,
+          "SEP": 3326.3,
+          "OCT": 2990.2,
+          "NOV": 2570.9,
+          "DEC": 2801.4
+        },
+        "recommended_system_size_kw": 29.7,
+        "recommended_panel_count": 66,
+        "solar_score": 82,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1633500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1555500.0,
+          "annual_savings_inr": 378832.0,
+          "monthly_savings_inr": 31569.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 12914926.0,
+          "co2_tons_annual": 32.7,
+          "trees_equivalent": 1635,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23480079080015,
+              13.042547596340313
+            ],
+            [
+              80.23488909302876,
+              13.042592499470416
+            ],
+            [
+              80.23481775352765,
+              13.042727451117216
+            ],
+            [
+              80.23472945129905,
+              13.042682547987113
+            ],
+            [
+              80.23480079080015,
+              13.042547596340313
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10147,
+        "neighborhood": "T. Nagar",
+        "address": "#100, Burkit Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 606.2,
+        "roof_area_sqft": 6525.1,
+        "usable_area_m2": 436.5,
+        "usable_area_sqft": 4698.4,
+        "orientation_deg": 0.4,
+        "aspect_ratio": 1.53,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 137594.0,
+        "monthly_generation_kwh": {
+          "JAN": 10686.9,
+          "FEB": 11143.7,
+          "MAR": 13706.1,
+          "APR": 13747.5,
+          "MAY": 13858.2,
+          "JUN": 11393.2,
+          "JUL": 11121.3,
+          "AUG": 11599.2,
+          "SEP": 11477.3,
+          "OCT": 10317.6,
+          "NOV": 8870.7,
+          "DEC": 9666.0
+        },
+        "recommended_system_size_kw": 100.4,
+        "recommended_panel_count": 223,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5522000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5444000.0,
+          "annual_savings_inr": 1307143.0,
+          "monthly_savings_inr": 108929.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 44562439.0,
+          "co2_tons_annual": 112.83,
+          "trees_equivalent": 5641,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23582508140868,
+              13.042748613513117
+            ],
+            [
+              80.23582334651529,
+              13.042928643524679
+            ],
+            [
+              80.23554259791425,
+              13.042926040977834
+            ],
+            [
+              80.23554433280763,
+              13.042746010966273
+            ],
+            [
+              80.23582508140868,
+              13.042748613513117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10148,
+        "neighborhood": "T. Nagar",
+        "address": "#12, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 800.0,
+        "roof_area_sqft": 8611.1,
+        "usable_area_m2": 576.0,
+        "usable_area_sqft": 6200.0,
+        "orientation_deg": 117.2,
+        "aspect_ratio": 1.82,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 176009.0,
+        "monthly_generation_kwh": {
+          "JAN": 13670.6,
+          "FEB": 14255.0,
+          "MAR": 17532.8,
+          "APR": 17585.7,
+          "MAY": 17727.3,
+          "JUN": 14574.1,
+          "JUL": 14226.3,
+          "AUG": 14837.6,
+          "SEP": 14681.6,
+          "OCT": 13198.2,
+          "NOV": 11347.3,
+          "DEC": 12364.6
+        },
+        "recommended_system_size_kw": 132.8,
+        "recommended_panel_count": 295,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7304000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7226000.0,
+          "annual_savings_inr": 1672086.0,
+          "monthly_savings_inr": 139340.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 57003869.0,
+          "co2_tons_annual": 144.33,
+          "trees_equivalent": 7216,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2369720135476,
+              13.042638473571955
+            ],
+            [
+              80.23714797827887,
+              13.042727975989145
+            ],
+            [
+              80.23701681764867,
+              13.042976030673419
+            ],
+            [
+              80.23697498828024,
+              13.042954754650909
+            ],
+            [
+              80.23693980734507,
+              13.043021289828086
+            ],
+            [
+              80.23680567198221,
+              13.042953063433405
+            ],
+            [
+              80.2369720135476,
+              13.042638473571955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10149,
+        "neighborhood": "T. Nagar",
+        "address": "#17, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 730.3,
+        "roof_area_sqft": 7860.9,
+        "usable_area_m2": 525.8,
+        "usable_area_sqft": 5659.7,
+        "orientation_deg": 14.5,
+        "aspect_ratio": 1.86,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 165743.0,
+        "monthly_generation_kwh": {
+          "JAN": 12873.2,
+          "FEB": 13423.5,
+          "MAR": 16510.2,
+          "APR": 16560.0,
+          "MAY": 16693.3,
+          "JUN": 13724.0,
+          "JUL": 13396.5,
+          "AUG": 13972.2,
+          "SEP": 13825.3,
+          "OCT": 12428.4,
+          "NOV": 10685.5,
+          "DEC": 11643.5
+        },
+        "recommended_system_size_kw": 121.0,
+        "recommended_panel_count": 269,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6655000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6577000.0,
+          "annual_savings_inr": 1160201.0,
+          "monthly_savings_inr": 96683.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 39552969.0,
+          "co2_tons_annual": 135.91,
+          "trees_equivalent": 6795,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22880695335657,
+              13.043581771588146
+            ],
+            [
+              80.22876081750869,
+              13.043754914769897
+            ],
+            [
+              80.22843159390162,
+              13.043670527457968
+            ],
+            [
+              80.2284777297495,
+              13.043497384276217
+            ],
+            [
+              80.22880695335657,
+              13.043581771588146
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10150,
+        "neighborhood": "T. Nagar",
+        "address": "#102, Venkatnarayana Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 349.3,
+        "roof_area_sqft": 3759.8,
+        "usable_area_m2": 251.5,
+        "usable_area_sqft": 2707.1,
+        "orientation_deg": 26.8,
+        "aspect_ratio": 1.15,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 76851.0,
+        "monthly_generation_kwh": {
+          "JAN": 5969.0,
+          "FEB": 6224.2,
+          "MAR": 7655.4,
+          "APR": 7678.5,
+          "MAY": 7740.3,
+          "JUN": 6363.5,
+          "JUL": 6211.7,
+          "AUG": 6478.6,
+          "SEP": 6410.5,
+          "OCT": 5762.8,
+          "NOV": 4954.6,
+          "DEC": 5398.8
+        },
+        "recommended_system_size_kw": 57.6,
+        "recommended_panel_count": 128,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3168000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3090000.0,
+          "annual_savings_inr": 730084.0,
+          "monthly_savings_inr": 60840.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 24889661.0,
+          "co2_tons_annual": 63.02,
+          "trees_equivalent": 3151,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23024053894281,
+              13.043778747414516
+            ],
+            [
+              80.23016746716536,
+              13.043919436264096
+            ],
+            [
+              80.23000306620793,
+              13.043837297643078
+            ],
+            [
+              80.23007613798538,
+              13.043696608793498
+            ],
+            [
+              80.23024053894281,
+              13.043778747414516
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10151,
+        "neighborhood": "T. Nagar",
+        "address": "#112, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 760.5,
+        "roof_area_sqft": 8185.9,
+        "usable_area_m2": 547.6,
+        "usable_area_sqft": 5894.3,
+        "orientation_deg": 102.7,
+        "aspect_ratio": 2.05,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 167331.0,
+        "monthly_generation_kwh": {
+          "JAN": 12996.5,
+          "FEB": 13552.1,
+          "MAR": 16668.3,
+          "APR": 16718.6,
+          "MAY": 16853.2,
+          "JUN": 13855.5,
+          "JUL": 13524.9,
+          "AUG": 14106.0,
+          "SEP": 13957.7,
+          "OCT": 12547.5,
+          "NOV": 10787.8,
+          "DEC": 11755.0
+        },
+        "recommended_system_size_kw": 126.0,
+        "recommended_panel_count": 280,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6930000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6852000.0,
+          "annual_savings_inr": 1589644.0,
+          "monthly_savings_inr": 132470.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 54193333.0,
+          "co2_tons_annual": 137.21,
+          "trees_equivalent": 6861,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23107385412452,
+              13.043744638492504
+            ],
+            [
+              80.23125292133923,
+              13.043784737122808
+            ],
+            [
+              80.231192961553,
+              13.044042309738245
+            ],
+            [
+              80.23115237770666,
+              13.04403322177285
+            ],
+            [
+              80.2311285927268,
+              13.044135396244393
+            ],
+            [
+              80.23099010935843,
+              13.044104385579486
+            ],
+            [
+              80.23107385412452,
+              13.043744638492504
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10152,
+        "neighborhood": "T. Nagar",
+        "address": "#69, Venkatnarayana Road, T. Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 175.7,
+        "roof_area_sqft": 1891.2,
+        "usable_area_m2": 126.5,
+        "usable_area_sqft": 1361.6,
+        "orientation_deg": 104.8,
+        "aspect_ratio": 1.65,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 38655.0,
+        "monthly_generation_kwh": {
+          "JAN": 3002.3,
+          "FEB": 3130.6,
+          "MAR": 3850.5,
+          "APR": 3862.1,
+          "MAY": 3893.2,
+          "JUN": 3200.7,
+          "JUL": 3124.4,
+          "AUG": 3258.6,
+          "SEP": 3224.3,
+          "OCT": 2898.6,
+          "NOV": 2492.1,
+          "DEC": 2715.5
+        },
+        "recommended_system_size_kw": 28.8,
+        "recommended_panel_count": 64,
+        "solar_score": 72,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1584000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1506000.0,
+          "annual_savings_inr": 270585.0,
+          "monthly_savings_inr": 22549.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 9224643.0,
+          "co2_tons_annual": 31.7,
+          "trees_equivalent": 1585,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23239590514238,
+              13.043808371727662
+            ],
+            [
+              80.23248790038016,
+              13.043832484205934
+            ],
+            [
+              80.23244740256315,
+              13.043981114789348
+            ],
+            [
+              80.23235540732537,
+              13.043957002311076
+            ],
+            [
+              80.23239590514238,
+              13.043808371727662
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10153,
+        "neighborhood": "T. Nagar",
+        "address": "#110, North Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 633.0,
+        "roof_area_sqft": 6813.5,
+        "usable_area_m2": 455.8,
+        "usable_area_sqft": 4906.2,
+        "orientation_deg": 26.6,
+        "aspect_ratio": 1.42,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 139279.0,
+        "monthly_generation_kwh": {
+          "JAN": 10817.8,
+          "FEB": 11280.2,
+          "MAR": 13874.0,
+          "APR": 13915.9,
+          "MAY": 14027.9,
+          "JUN": 11532.7,
+          "JUL": 11257.5,
+          "AUG": 11741.3,
+          "SEP": 11617.8,
+          "OCT": 10444.0,
+          "NOV": 8979.4,
+          "DEC": 9784.4
+        },
+        "recommended_system_size_kw": 104.9,
+        "recommended_panel_count": 233,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5769500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5691500.0,
+          "annual_savings_inr": 1323150.0,
+          "monthly_savings_inr": 110262.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 45108159.0,
+          "co2_tons_annual": 114.21,
+          "trees_equivalent": 5710,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23378777046729,
+              13.043825675363442
+            ],
+            [
+              80.23369647387834,
+              13.044002905060761
+            ],
+            [
+              80.23351148468959,
+              13.04391123711998
+            ],
+            [
+              80.23353666538569,
+              13.043862355040186
+            ],
+            [
+              80.23346449155315,
+              13.043826590644166
+            ],
+            [
+              80.23353060744601,
+              13.04369824302664
+            ],
+            [
+              80.23378777046729,
+              13.043825675363442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10154,
+        "neighborhood": "T. Nagar",
+        "address": "#20, Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 790.5,
+        "roof_area_sqft": 8508.9,
+        "usable_area_m2": 569.2,
+        "usable_area_sqft": 6126.8,
+        "orientation_deg": 121.0,
+        "aspect_ratio": 1.58,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 173931.0,
+        "monthly_generation_kwh": {
+          "JAN": 13509.2,
+          "FEB": 14086.7,
+          "MAR": 17325.8,
+          "APR": 17378.1,
+          "MAY": 17518.0,
+          "JUN": 14402.0,
+          "JUL": 14058.3,
+          "AUG": 14662.4,
+          "SEP": 14508.3,
+          "OCT": 13042.4,
+          "NOV": 11213.4,
+          "DEC": 12218.7
+        },
+        "recommended_system_size_kw": 131.0,
+        "recommended_panel_count": 291,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7205000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7127000.0,
+          "annual_savings_inr": 1652344.0,
+          "monthly_savings_inr": 137695.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 56330869.0,
+          "co2_tons_annual": 142.62,
+          "trees_equivalent": 7131,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23466789196937,
+              13.043344276127783
+            ],
+            [
+              80.23484449652966,
+              13.043448964540229
+            ],
+            [
+              80.23467601641175,
+              13.043722368644282
+            ],
+            [
+              80.23449941185146,
+              13.043617680231836
+            ],
+            [
+              80.23466789196937,
+              13.043344276127783
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10155,
+        "neighborhood": "T. Nagar",
+        "address": "#9, North Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 809.9,
+        "roof_area_sqft": 8717.7,
+        "usable_area_m2": 583.1,
+        "usable_area_sqft": 6276.4,
+        "orientation_deg": 109.3,
+        "aspect_ratio": 1.26,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 178179.0,
+        "monthly_generation_kwh": {
+          "JAN": 13839.1,
+          "FEB": 14430.7,
+          "MAR": 17748.9,
+          "APR": 17802.4,
+          "MAY": 17945.8,
+          "JUN": 14753.7,
+          "JUL": 14401.6,
+          "AUG": 15020.5,
+          "SEP": 14862.6,
+          "OCT": 13360.9,
+          "NOV": 11487.2,
+          "DEC": 12517.1
+        },
+        "recommended_system_size_kw": 134.6,
+        "recommended_panel_count": 299,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7403000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7325000.0,
+          "annual_savings_inr": 1692700.0,
+          "monthly_savings_inr": 141058.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 57706665.0,
+          "co2_tons_annual": 146.11,
+          "trees_equivalent": 7305,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23579198387257,
+              13.043611242226337
+            ],
+            [
+              80.23601257296984,
+              13.04368797498641
+            ],
+            [
+              80.23591422635896,
+              13.043959941662553
+            ],
+            [
+              80.23569363726169,
+              13.04388320890248
+            ],
+            [
+              80.23579198387257,
+              13.043611242226337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10156,
+        "neighborhood": "T. Nagar",
+        "address": "#96, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 399.7,
+        "roof_area_sqft": 4302.3,
+        "usable_area_m2": 287.8,
+        "usable_area_sqft": 3097.9,
+        "orientation_deg": 175.1,
+        "aspect_ratio": 1.27,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 90721.0,
+        "monthly_generation_kwh": {
+          "JAN": 7046.2,
+          "FEB": 7347.5,
+          "MAR": 9036.9,
+          "APR": 9064.2,
+          "MAY": 9137.2,
+          "JUN": 7511.9,
+          "JUL": 7332.7,
+          "AUG": 7647.8,
+          "SEP": 7567.4,
+          "OCT": 6802.8,
+          "NOV": 5848.8,
+          "DEC": 6373.1
+        },
+        "recommended_system_size_kw": 66.2,
+        "recommended_panel_count": 147,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3641000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3563000.0,
+          "annual_savings_inr": 635047.0,
+          "monthly_savings_inr": 52921.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 21649692.0,
+          "co2_tons_annual": 74.39,
+          "trees_equivalent": 3720,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23706480315721,
+              13.043424824562537
+            ],
+            [
+              80.23707814499012,
+              13.043584802749745
+            ],
+            [
+              80.23687119222322,
+              13.043601405461763
+            ],
+            [
+              80.23685785039031,
+              13.043441427274555
+            ],
+            [
+              80.23706480315721,
+              13.043424824562537
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10157,
+        "neighborhood": "T. Nagar",
+        "address": "#31, North Usman Road, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 462.0,
+        "roof_area_sqft": 4972.9,
+        "usable_area_m2": 332.6,
+        "usable_area_sqft": 3580.1,
+        "orientation_deg": 121.3,
+        "aspect_ratio": 1.38,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 101633.0,
+        "monthly_generation_kwh": {
+          "JAN": 7893.8,
+          "FEB": 8231.3,
+          "MAR": 10124.0,
+          "APR": 10154.5,
+          "MAY": 10236.3,
+          "JUN": 8415.5,
+          "JUL": 8214.7,
+          "AUG": 8567.7,
+          "SEP": 8477.6,
+          "OCT": 7621.1,
+          "NOV": 6552.3,
+          "DEC": 7139.7
+        },
+        "recommended_system_size_kw": 76.5,
+        "recommended_panel_count": 170,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4207500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4129500.0,
+          "annual_savings_inr": 965514.0,
+          "monthly_savings_inr": 80460.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 32915784.0,
+          "co2_tons_annual": 83.34,
+          "trees_equivalent": 4167,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22847675092295,
+              13.04462756154934
+            ],
+            [
+              80.22862493055977,
+              13.044716606569628
+            ],
+            [
+              80.22853135141585,
+              13.044866406298906
+            ],
+            [
+              80.22849954483891,
+              13.044847292894731
+            ],
+            [
+              80.22846832792895,
+              13.04489726433566
+            ],
+            [
+              80.22835195486907,
+              13.044827332719548
+            ],
+            [
+              80.22847675092295,
+              13.04462756154934
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10158,
+        "neighborhood": "T. Nagar",
+        "address": "#114, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 919.7,
+        "roof_area_sqft": 9899.6,
+        "usable_area_m2": 662.2,
+        "usable_area_sqft": 7127.9,
+        "orientation_deg": 121.8,
+        "aspect_ratio": 2.2,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 202349.0,
+        "monthly_generation_kwh": {
+          "JAN": 15716.4,
+          "FEB": 16388.3,
+          "MAR": 20156.6,
+          "APR": 20217.4,
+          "MAY": 20380.2,
+          "JUN": 16755.1,
+          "JUL": 16355.3,
+          "AUG": 17058.1,
+          "SEP": 16878.8,
+          "OCT": 15173.4,
+          "NOV": 13045.5,
+          "DEC": 14215.0
+        },
+        "recommended_system_size_kw": 152.6,
+        "recommended_panel_count": 339,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 8393000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 8315000.0,
+          "annual_savings_inr": 1922316.0,
+          "monthly_savings_inr": 160193.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 65534580.0,
+          "co2_tons_annual": 165.93,
+          "trees_equivalent": 8296,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22981132600574,
+              13.044447998400138
+            ],
+            [
+              80.22997961758006,
+              13.044550897681473
+            ],
+            [
+              80.22982136419738,
+              13.044799872890287
+            ],
+            [
+              80.22977009572809,
+              13.04476852557735
+            ],
+            [
+              80.22969769529612,
+              13.044882430963511
+            ],
+            [
+              80.2295806721911,
+              13.044810878995113
+            ],
+            [
+              80.22981132600574,
+              13.044447998400138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10159,
+        "neighborhood": "T. Nagar",
+        "address": "#41, G.N. Chetty Road, T. Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 262.1,
+        "roof_area_sqft": 2821.2,
+        "usable_area_m2": 188.7,
+        "usable_area_sqft": 2031.1,
+        "orientation_deg": 13.3,
+        "aspect_ratio": 1.17,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 59482.0,
+        "monthly_generation_kwh": {
+          "JAN": 4620.0,
+          "FEB": 4817.5,
+          "MAR": 5925.2,
+          "APR": 5943.1,
+          "MAY": 5990.9,
+          "JUN": 4925.3,
+          "JUL": 4807.8,
+          "AUG": 5014.4,
+          "SEP": 4961.6,
+          "OCT": 4460.3,
+          "NOV": 3834.8,
+          "DEC": 4178.6
+        },
+        "recommended_system_size_kw": 43.2,
+        "recommended_panel_count": 96,
+        "solar_score": 80,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2376000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2298000.0,
+          "annual_savings_inr": 416374.0,
+          "monthly_savings_inr": 34698.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 14194806.0,
+          "co2_tons_annual": 48.78,
+          "trees_equivalent": 2439,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23134988125445,
+              13.045001319890327
+            ],
+            [
+              80.23131774544584,
+              13.045132864343605
+            ],
+            [
+              80.23116063196393,
+              13.045095942513695
+            ],
+            [
+              80.23119276777254,
+              13.044964398060417
+            ],
+            [
+              80.23134988125445,
+              13.045001319890327
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10160,
+        "neighborhood": "T. Nagar",
+        "address": "#127, Pondy Bazaar, T. Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 704.4,
+        "roof_area_sqft": 7582.1,
+        "usable_area_m2": 507.2,
+        "usable_area_sqft": 5459.5,
+        "orientation_deg": 177.1,
+        "aspect_ratio": 2.18,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 159880.0,
+        "monthly_generation_kwh": {
+          "JAN": 12417.8,
+          "FEB": 12948.7,
+          "MAR": 15926.1,
+          "APR": 15974.2,
+          "MAY": 16102.8,
+          "JUN": 13238.5,
+          "JUL": 12922.6,
+          "AUG": 13477.9,
+          "SEP": 13336.2,
+          "OCT": 11988.8,
+          "NOV": 10307.5,
+          "DEC": 11231.6
+        },
+        "recommended_system_size_kw": 117.0,
+        "recommended_panel_count": 260,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6435000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6357000.0,
+          "annual_savings_inr": 1119160.0,
+          "monthly_savings_inr": 93263.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 38153821.0,
+          "co2_tons_annual": 131.1,
+          "trees_equivalent": 6555,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23269028054997,
+              13.044816254825209
+            ],
+            [
+              80.23269824786358,
+              13.04497849067955
+            ],
+            [
+              80.23233704390677,
+              13.044995554278797
+            ],
+            [
+              80.23232907659316,
+              13.044833318424455
+            ],
+            [
+              80.23269028054997,
+              13.044816254825209
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

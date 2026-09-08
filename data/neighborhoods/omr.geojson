@@ -1,0 +1,3875 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10266,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#113, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 1164.9,
+        "roof_area_sqft": 12538.9,
+        "usable_area_m2": 838.7,
+        "usable_area_sqft": 9027.7,
+        "orientation_deg": 26.2,
+        "aspect_ratio": 2.19,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 256283.0,
+        "monthly_generation_kwh": {
+          "JAN": 19905.4,
+          "FEB": 20756.3,
+          "MAR": 25529.1,
+          "APR": 25606.1,
+          "MAY": 25812.3,
+          "JUN": 21220.9,
+          "JUL": 20714.6,
+          "AUG": 21604.6,
+          "SEP": 21377.6,
+          "OCT": 19217.6,
+          "NOV": 16522.6,
+          "DEC": 18003.9
+        },
+        "recommended_system_size_kw": 193.5,
+        "recommended_panel_count": 430,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 10642500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 10564500.0,
+          "annual_savings_inr": 1793981.0,
+          "monthly_savings_inr": 149498.0,
+          "payback_years": 5.9,
+          "lifetime_savings_25yr_inr": 61159467.0,
+          "co2_tons_annual": 210.15,
+          "trees_equivalent": 10508,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23136633367972,
+              12.937542052118795
+            ],
+            [
+              80.23126809079858,
+              12.937736743933746
+            ],
+            [
+              80.2309737984298,
+              12.937593892215268
+            ],
+            [
+              80.23099790956694,
+              12.93754611021829
+            ],
+            [
+              80.23085703278484,
+              12.93747772757385
+            ],
+            [
+              80.23093116452884,
+              12.937330817755877
+            ],
+            [
+              80.23136633367972,
+              12.937542052118795
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10267,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#90, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 1570.1,
+        "roof_area_sqft": 16900.4,
+        "usable_area_m2": 1130.5,
+        "usable_area_sqft": 12168.6,
+        "orientation_deg": 1.7,
+        "aspect_ratio": 2.05,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 356357.0,
+        "monthly_generation_kwh": {
+          "JAN": 27678.2,
+          "FEB": 28861.4,
+          "MAR": 35497.8,
+          "APR": 35604.9,
+          "MAY": 35891.6,
+          "JUN": 29507.4,
+          "JUL": 28803.3,
+          "AUG": 30040.9,
+          "SEP": 29725.2,
+          "OCT": 26721.8,
+          "NOV": 22974.4,
+          "DEC": 25034.1
+        },
+        "recommended_system_size_kw": 260.6,
+        "recommended_panel_count": 579,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 14333000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 14255000.0,
+          "annual_savings_inr": 3385392.0,
+          "monthly_savings_inr": 282116.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 115413006.0,
+          "co2_tons_annual": 292.21,
+          "trees_equivalent": 14611,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23253097100913,
+              12.9374047235231
+            ],
+            [
+              80.23252236920335,
+              12.937663725080238
+            ],
+            [
+              80.23209669675218,
+              12.937650125801584
+            ],
+            [
+              80.23209936271185,
+              12.937569853388599
+            ],
+            [
+              80.23198475040196,
+              12.937566191782745
+            ],
+            [
+              80.23199068624807,
+              12.93738746263859
+            ],
+            [
+              80.23253097100913,
+              12.9374047235231
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10268,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#7, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 589.2,
+        "roof_area_sqft": 6342.1,
+        "usable_area_m2": 424.2,
+        "usable_area_sqft": 4566.0,
+        "orientation_deg": 87.3,
+        "aspect_ratio": 1.76,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 129623.0,
+        "monthly_generation_kwh": {
+          "JAN": 10067.8,
+          "FEB": 10498.2,
+          "MAR": 12912.2,
+          "APR": 12951.1,
+          "MAY": 13055.4,
+          "JUN": 10733.2,
+          "JUL": 10477.1,
+          "AUG": 10927.3,
+          "SEP": 10812.4,
+          "OCT": 9719.9,
+          "NOV": 8356.8,
+          "DEC": 9106.0
+        },
+        "recommended_system_size_kw": 97.7,
+        "recommended_panel_count": 217,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5373500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5295500.0,
+          "annual_savings_inr": 907361.0,
+          "monthly_savings_inr": 75613.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 30933279.0,
+          "co2_tons_annual": 106.29,
+          "trees_equivalent": 5315,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23341649520466,
+              12.937689765818709
+            ],
+            [
+              80.233584959908,
+              12.93768249881785
+            ],
+            [
+              80.23359800846353,
+              12.937973482891843
+            ],
+            [
+              80.2334295437602,
+              12.937980749892702
+            ],
+            [
+              80.23341649520466,
+              12.937689765818709
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10269,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#127, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 892.8,
+        "roof_area_sqft": 9610.0,
+        "usable_area_m2": 642.8,
+        "usable_area_sqft": 6919.0,
+        "orientation_deg": 176.7,
+        "aspect_ratio": 1.53,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 202624.0,
+        "monthly_generation_kwh": {
+          "JAN": 15737.7,
+          "FEB": 16410.5,
+          "MAR": 20184.0,
+          "APR": 20244.9,
+          "MAY": 20407.9,
+          "JUN": 16777.9,
+          "JUL": 16377.5,
+          "AUG": 17081.2,
+          "SEP": 16901.7,
+          "OCT": 15194.0,
+          "NOV": 13063.2,
+          "DEC": 14234.3
+        },
+        "recommended_system_size_kw": 148.1,
+        "recommended_panel_count": 329,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 8145500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 8067500.0,
+          "annual_savings_inr": 1418368.0,
+          "monthly_savings_inr": 118197.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 48354264.0,
+          "co2_tons_annual": 166.15,
+          "trees_equivalent": 8308,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23504331281407,
+              12.937655857467659
+            ],
+            [
+              80.23505540435487,
+              12.937873878961199
+            ],
+            [
+              80.23471509255603,
+              12.93789203463678
+            ],
+            [
+              80.23470300101523,
+              12.93767401314324
+            ],
+            [
+              80.23504331281407,
+              12.937655857467659
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10270,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#140, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 387.6,
+        "roof_area_sqft": 4172.1,
+        "usable_area_m2": 279.1,
+        "usable_area_sqft": 3004.2,
+        "orientation_deg": 94.7,
+        "aspect_ratio": 2.13,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 85285.0,
+        "monthly_generation_kwh": {
+          "JAN": 6624.1,
+          "FEB": 6907.2,
+          "MAR": 8495.5,
+          "APR": 8521.1,
+          "MAY": 8589.7,
+          "JUN": 7061.8,
+          "JUL": 6893.3,
+          "AUG": 7189.5,
+          "SEP": 7114.0,
+          "OCT": 6395.2,
+          "NOV": 5498.3,
+          "DEC": 5991.3
+        },
+        "recommended_system_size_kw": 64.4,
+        "recommended_panel_count": 143,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3542000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3464000.0,
+          "annual_savings_inr": 810208.0,
+          "monthly_savings_inr": 67517.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 27621173.0,
+          "co2_tons_annual": 69.93,
+          "trees_equivalent": 3497,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23581854521308,
+              12.9374051412892
+            ],
+            [
+              80.23594555123522,
+              12.937415752123622
+            ],
+            [
+              80.23592805415267,
+              12.937617214285135
+            ],
+            [
+              80.23590317647984,
+              12.937615135857177
+            ],
+            [
+              80.23589765886972,
+              12.937678665857604
+            ],
+            [
+              80.2357955305204,
+              12.93767013345114
+            ],
+            [
+              80.23581854521308,
+              12.9374051412892
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10271,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#130, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 371.9,
+        "roof_area_sqft": 4003.1,
+        "usable_area_m2": 267.8,
+        "usable_area_sqft": 2882.6,
+        "orientation_deg": 90.7,
+        "aspect_ratio": 1.12,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 81832.0,
+        "monthly_generation_kwh": {
+          "JAN": 6355.9,
+          "FEB": 6627.6,
+          "MAR": 8151.5,
+          "APR": 8176.1,
+          "MAY": 8242.0,
+          "JUN": 6775.9,
+          "JUL": 6614.2,
+          "AUG": 6898.4,
+          "SEP": 6825.9,
+          "OCT": 6136.3,
+          "NOV": 5275.7,
+          "DEC": 5748.7
+        },
+        "recommended_system_size_kw": 61.6,
+        "recommended_panel_count": 137,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3388000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3310000.0,
+          "annual_savings_inr": 572824.0,
+          "monthly_savings_inr": 47735.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 19528418.0,
+          "co2_tons_annual": 67.1,
+          "trees_equivalent": 3355,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23724717746519,
+              12.937596519233004
+            ],
+            [
+              80.23741846119654,
+              12.937599080964969
+            ],
+            [
+              80.23741608062154,
+              12.937752195834415
+            ],
+            [
+              80.23738411683232,
+              12.937751717781655
+            ],
+            [
+              80.2373835846835,
+              12.93778594476324
+            ],
+            [
+              80.23724426474138,
+              12.937783861084036
+            ],
+            [
+              80.23724717746519,
+              12.937596519233004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10272,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#22, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 935.8,
+        "roof_area_sqft": 10072.9,
+        "usable_area_m2": 673.8,
+        "usable_area_sqft": 7252.7,
+        "orientation_deg": 130.7,
+        "aspect_ratio": 1.69,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 205894.0,
+        "monthly_generation_kwh": {
+          "JAN": 15991.7,
+          "FEB": 16675.3,
+          "MAR": 20509.7,
+          "APR": 20571.6,
+          "MAY": 20737.2,
+          "JUN": 17048.6,
+          "JUL": 16641.8,
+          "AUG": 17356.9,
+          "SEP": 17174.4,
+          "OCT": 15439.2,
+          "NOV": 13274.0,
+          "DEC": 14464.1
+        },
+        "recommended_system_size_kw": 155.2,
+        "recommended_panel_count": 345,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 8536000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 8458000.0,
+          "annual_savings_inr": 1955993.0,
+          "monthly_savings_inr": 162999.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 66682696.0,
+          "co2_tons_annual": 168.83,
+          "trees_equivalent": 8442,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23854408471892,
+              12.937287648344793
+            ],
+            [
+              80.23870822790033,
+              12.937426730426466
+            ],
+            [
+              80.23846854435719,
+              12.937698839455305
+            ],
+            [
+              80.23830440117578,
+              12.93755975737363
+            ],
+            [
+              80.23854408471892,
+              12.937287648344793
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10273,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#80, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 1258.7,
+        "roof_area_sqft": 13548.5,
+        "usable_area_m2": 906.3,
+        "usable_area_sqft": 9755.3,
+        "orientation_deg": 178.1,
+        "aspect_ratio": 1.75,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 285685.0,
+        "monthly_generation_kwh": {
+          "JAN": 22189.1,
+          "FEB": 23137.6,
+          "MAR": 28457.9,
+          "APR": 28543.7,
+          "MAY": 28773.6,
+          "JUN": 23655.5,
+          "JUL": 23091.0,
+          "AUG": 24083.2,
+          "SEP": 23830.1,
+          "OCT": 21422.4,
+          "NOV": 18418.1,
+          "DEC": 20069.4
+        },
+        "recommended_system_size_kw": 208.8,
+        "recommended_panel_count": 464,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 11484000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 11406000.0,
+          "annual_savings_inr": 1999795.0,
+          "monthly_savings_inr": 166650.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 68175971.0,
+          "co2_tons_annual": 234.26,
+          "trees_equivalent": 11713,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23981784158364,
+              12.937377186978303
+            ],
+            [
+              80.23982532695833,
+              12.937619908240375
+            ],
+            [
+              80.23939346311467,
+              12.937632719907313
+            ],
+            [
+              80.23938597773999,
+              12.93738999864524
+            ],
+            [
+              80.23981784158364,
+              12.937377186978303
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10274,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#80, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 387.0,
+        "roof_area_sqft": 4165.6,
+        "usable_area_m2": 278.6,
+        "usable_area_sqft": 2998.8,
+        "orientation_deg": 94.1,
+        "aspect_ratio": 1.23,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 85132.0,
+        "monthly_generation_kwh": {
+          "JAN": 6612.2,
+          "FEB": 6894.9,
+          "MAR": 8480.3,
+          "APR": 8505.8,
+          "MAY": 8574.3,
+          "JUN": 7049.2,
+          "JUL": 6881.0,
+          "AUG": 7176.6,
+          "SEP": 7101.2,
+          "OCT": 6383.7,
+          "NOV": 5488.5,
+          "DEC": 5980.5
+        },
+        "recommended_system_size_kw": 63.9,
+        "recommended_panel_count": 142,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3514500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3436500.0,
+          "annual_savings_inr": 808754.0,
+          "monthly_savings_inr": 67396.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 27571621.0,
+          "co2_tons_annual": 69.81,
+          "trees_equivalent": 3490,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2312407983607,
+              12.938695123266843
+            ],
+            [
+              80.23140403856945,
+              12.938707010630969
+            ],
+            [
+              80.23138916001675,
+              12.938903552614764
+            ],
+            [
+              80.231225919808,
+              12.938891665250638
+            ],
+            [
+              80.2312407983607,
+              12.938695123266843
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10275,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#43, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 256.1,
+        "roof_area_sqft": 2756.6,
+        "usable_area_m2": 184.4,
+        "usable_area_sqft": 1984.9,
+        "orientation_deg": 106.8,
+        "aspect_ratio": 1.28,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 56347.0,
+        "monthly_generation_kwh": {
+          "JAN": 4376.5,
+          "FEB": 4563.6,
+          "MAR": 5612.9,
+          "APR": 5629.9,
+          "MAY": 5675.2,
+          "JUN": 4665.7,
+          "JUL": 4554.4,
+          "AUG": 4750.1,
+          "SEP": 4700.2,
+          "OCT": 4225.3,
+          "NOV": 3632.7,
+          "DEC": 3958.4
+        },
+        "recommended_system_size_kw": 42.3,
+        "recommended_panel_count": 94,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2326500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2248500.0,
+          "annual_savings_inr": 394429.0,
+          "monthly_savings_inr": 32869.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 13446668.0,
+          "co2_tons_annual": 46.2,
+          "trees_equivalent": 2310,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23244111091434,
+              12.938686058470282
+            ],
+            [
+              80.23256578454948,
+              12.938723477848795
+            ],
+            [
+              80.23251694144624,
+              12.938880021108577
+            ],
+            [
+              80.2323922678111,
+              12.938842601730064
+            ],
+            [
+              80.23244111091434,
+              12.938686058470282
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10276,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#135, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 376.1,
+        "roof_area_sqft": 4048.3,
+        "usable_area_m2": 270.8,
+        "usable_area_sqft": 2914.9,
+        "orientation_deg": 92.5,
+        "aspect_ratio": 1.13,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 82749.0,
+        "monthly_generation_kwh": {
+          "JAN": 6427.1,
+          "FEB": 6701.8,
+          "MAR": 8242.8,
+          "APR": 8267.7,
+          "MAY": 8334.3,
+          "JUN": 6851.8,
+          "JUL": 6688.3,
+          "AUG": 6975.7,
+          "SEP": 6902.4,
+          "OCT": 6205.0,
+          "NOV": 5334.8,
+          "DEC": 5813.1
+        },
+        "recommended_system_size_kw": 62.1,
+        "recommended_panel_count": 138,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3415500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3337500.0,
+          "annual_savings_inr": 579243.0,
+          "monthly_savings_inr": 48270.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 19747251.0,
+          "co2_tons_annual": 67.85,
+          "trees_equivalent": 3393,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23364548276224,
+              12.938538847735149
+            ],
+            [
+              80.23381330231271,
+              12.938546651062522
+            ],
+            [
+              80.23380429362187,
+              12.938733021695743
+            ],
+            [
+              80.2336364740714,
+              12.93872521836837
+            ],
+            [
+              80.23364548276224,
+              12.938538847735149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10277,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#95, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 415.8,
+        "roof_area_sqft": 4475.6,
+        "usable_area_m2": 299.4,
+        "usable_area_sqft": 3222.7,
+        "orientation_deg": 134.9,
+        "aspect_ratio": 1.16,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 91488.0,
+        "monthly_generation_kwh": {
+          "JAN": 7105.9,
+          "FEB": 7409.6,
+          "MAR": 9113.4,
+          "APR": 9140.9,
+          "MAY": 9214.5,
+          "JUN": 7575.5,
+          "JUL": 7394.7,
+          "AUG": 7712.4,
+          "SEP": 7631.4,
+          "OCT": 6860.3,
+          "NOV": 5898.2,
+          "DEC": 6427.0
+        },
+        "recommended_system_size_kw": 68.9,
+        "recommended_panel_count": 153,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3789500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3711500.0,
+          "annual_savings_inr": 869136.0,
+          "monthly_savings_inr": 72428.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 29630132.0,
+          "co2_tons_annual": 75.02,
+          "trees_equivalent": 3751,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23491634206287,
+              12.938351222881417
+            ],
+            [
+              80.2350394721327,
+              12.938472443129957
+            ],
+            [
+              80.23489598118535,
+              12.938612649107705
+            ],
+            [
+              80.23477285111552,
+              12.938491428859166
+            ],
+            [
+              80.23491634206287,
+              12.938351222881417
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10278,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#94, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 341.5,
+        "roof_area_sqft": 3675.9,
+        "usable_area_m2": 245.9,
+        "usable_area_sqft": 2646.8,
+        "orientation_deg": 87.1,
+        "aspect_ratio": 1.66,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 75140.0,
+        "monthly_generation_kwh": {
+          "JAN": 5836.1,
+          "FEB": 6085.6,
+          "MAR": 7484.9,
+          "APR": 7507.5,
+          "MAY": 7568.0,
+          "JUN": 6221.8,
+          "JUL": 6073.3,
+          "AUG": 6334.3,
+          "SEP": 6267.7,
+          "OCT": 5634.4,
+          "NOV": 4844.3,
+          "DEC": 5278.6
+        },
+        "recommended_system_size_kw": 56.7,
+        "recommended_panel_count": 126,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3118500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3040500.0,
+          "annual_savings_inr": 525980.0,
+          "monthly_savings_inr": 43832.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 17931437.0,
+          "co2_tons_annual": 61.61,
+          "trees_equivalent": 3081,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23606331818173,
+              12.938421137687149
+            ],
+            [
+              80.23619930418003,
+              12.938414810710302
+            ],
+            [
+              80.23620692387617,
+              12.938572349923716
+            ],
+            [
+              80.23618033035564,
+              12.9385735872319
+            ],
+            [
+              80.236183417251,
+              12.938637409602135
+            ],
+            [
+              80.23607402477323,
+              12.938642499270799
+            ],
+            [
+              80.23606331818173,
+              12.938421137687149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10279,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#83, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 406.0,
+        "roof_area_sqft": 4370.1,
+        "usable_area_m2": 292.3,
+        "usable_area_sqft": 3146.3,
+        "orientation_deg": 2.9,
+        "aspect_ratio": 1.89,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 92139.0,
+        "monthly_generation_kwh": {
+          "JAN": 7156.4,
+          "FEB": 7462.3,
+          "MAR": 9178.2,
+          "APR": 9205.9,
+          "MAY": 9280.1,
+          "JUN": 7629.4,
+          "JUL": 7447.3,
+          "AUG": 7767.3,
+          "SEP": 7685.7,
+          "OCT": 6909.1,
+          "NOV": 5940.2,
+          "DEC": 6472.8
+        },
+        "recommended_system_size_kw": 67.0,
+        "recommended_panel_count": 149,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3685000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3607000.0,
+          "annual_savings_inr": 644973.0,
+          "monthly_savings_inr": 53748.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 21988084.0,
+          "co2_tons_annual": 75.55,
+          "trees_equivalent": 3778,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23715596660217,
+              12.938581857797733
+            ],
+            [
+              80.2371488133577,
+              12.938714349499705
+            ],
+            [
+              80.23689411806608,
+              12.938701121676637
+            ],
+            [
+              80.23690127131054,
+              12.938568629974665
+            ],
+            [
+              80.23715596660217,
+              12.938581857797733
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10280,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#58, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 1281.3,
+        "roof_area_sqft": 13791.8,
+        "usable_area_m2": 922.5,
+        "usable_area_sqft": 9929.7,
+        "orientation_deg": 178.6,
+        "aspect_ratio": 1.65,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 290791.0,
+        "monthly_generation_kwh": {
+          "JAN": 22585.7,
+          "FEB": 23551.2,
+          "MAR": 28966.6,
+          "APR": 29054.0,
+          "MAY": 29287.9,
+          "JUN": 24078.4,
+          "JUL": 23503.8,
+          "AUG": 24513.7,
+          "SEP": 24256.1,
+          "OCT": 21805.3,
+          "NOV": 18747.4,
+          "DEC": 20428.1
+        },
+        "recommended_system_size_kw": 212.8,
+        "recommended_panel_count": 473,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 11704000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 11626000.0,
+          "annual_savings_inr": 2035537.0,
+          "monthly_savings_inr": 169628.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 69394469.0,
+          "co2_tons_annual": 238.45,
+          "trees_equivalent": 11922,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23881711129967,
+              12.938443649001185
+            ],
+            [
+              80.2388228098892,
+              12.938695379576249
+            ],
+            [
+              80.23839874346523,
+              12.938704614182173
+            ],
+            [
+              80.23839304487569,
+              12.938452883607109
+            ],
+            [
+              80.23881711129967,
+              12.938443649001185
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10281,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#117, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 216.6,
+        "roof_area_sqft": 2331.5,
+        "usable_area_m2": 156.0,
+        "usable_area_sqft": 1679.2,
+        "orientation_deg": 138.5,
+        "aspect_ratio": 1.95,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 47669.0,
+        "monthly_generation_kwh": {
+          "JAN": 3702.4,
+          "FEB": 3860.7,
+          "MAR": 4748.5,
+          "APR": 4762.8,
+          "MAY": 4801.1,
+          "JUN": 3947.1,
+          "JUL": 3853.0,
+          "AUG": 4018.5,
+          "SEP": 3976.3,
+          "OCT": 3574.5,
+          "NOV": 3073.2,
+          "DEC": 3348.8
+        },
+        "recommended_system_size_kw": 36.0,
+        "recommended_panel_count": 80,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1980000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1902000.0,
+          "annual_savings_inr": 333683.0,
+          "monthly_savings_inr": 27807.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 11375747.0,
+          "co2_tons_annual": 39.09,
+          "trees_equivalent": 1954,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23987977009602,
+              12.938755011418861
+            ],
+            [
+              80.23994393738495,
+              12.938826548521712
+            ],
+            [
+              80.23980164376792,
+              12.938949326600598
+            ],
+            [
+              80.239737476479,
+              12.938877789497747
+            ],
+            [
+              80.23987977009602,
+              12.938755011418861
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10282,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#140, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 756.2,
+        "roof_area_sqft": 8139.7,
+        "usable_area_m2": 544.5,
+        "usable_area_sqft": 5860.9,
+        "orientation_deg": 177.3,
+        "aspect_ratio": 1.51,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 171638.0,
+        "monthly_generation_kwh": {
+          "JAN": 13331.1,
+          "FEB": 13900.9,
+          "MAR": 17097.4,
+          "APR": 17148.9,
+          "MAY": 17287.0,
+          "JUN": 14212.1,
+          "JUL": 13873.0,
+          "AUG": 14469.1,
+          "SEP": 14317.0,
+          "OCT": 12870.4,
+          "NOV": 11065.5,
+          "DEC": 12057.6
+        },
+        "recommended_system_size_kw": 125.5,
+        "recommended_panel_count": 279,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6902500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6824500.0,
+          "annual_savings_inr": 1630561.0,
+          "monthly_savings_inr": 135880.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 55588237.0,
+          "co2_tons_annual": 140.74,
+          "trees_equivalent": 7037,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23120104362008,
+              12.939445902688377
+            ],
+            [
+              80.23121032422415,
+              12.939648366552817
+            ],
+            [
+              80.23089962753338,
+              12.93966206648518
+            ],
+            [
+              80.2308903469293,
+              12.93945960262074
+            ],
+            [
+              80.23120104362008,
+              12.939445902688377
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10283,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#86, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 757.0,
+        "roof_area_sqft": 8148.3,
+        "usable_area_m2": 545.0,
+        "usable_area_sqft": 5866.3,
+        "orientation_deg": 105.2,
+        "aspect_ratio": 1.8,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 166536.0,
+        "monthly_generation_kwh": {
+          "JAN": 12934.8,
+          "FEB": 13487.8,
+          "MAR": 16589.2,
+          "APR": 16639.2,
+          "MAY": 16773.2,
+          "JUN": 13789.7,
+          "JUL": 13460.6,
+          "AUG": 14039.0,
+          "SEP": 13891.5,
+          "OCT": 12487.9,
+          "NOV": 10736.6,
+          "DEC": 11699.2
+        },
+        "recommended_system_size_kw": 125.5,
+        "recommended_panel_count": 279,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6902500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6824500.0,
+          "annual_savings_inr": 1165752.0,
+          "monthly_savings_inr": 97146.0,
+          "payback_years": 5.9,
+          "lifetime_savings_25yr_inr": 39742211.0,
+          "co2_tons_annual": 136.56,
+          "trees_equivalent": 6828,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2322266484037,
+              12.939744740340291
+            ],
+            [
+              80.232408922155,
+              12.93979403436024
+            ],
+            [
+              80.23231847847069,
+              12.940115741880032
+            ],
+            [
+              80.23213620471938,
+              12.940066447860083
+            ],
+            [
+              80.2322266484037,
+              12.939744740340291
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10284,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#37, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 1391.4,
+        "roof_area_sqft": 14976.9,
+        "usable_area_m2": 1001.8,
+        "usable_area_sqft": 10783.3,
+        "orientation_deg": 86.9,
+        "aspect_ratio": 2.18,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 306121.0,
+        "monthly_generation_kwh": {
+          "JAN": 23776.4,
+          "FEB": 24792.8,
+          "MAR": 30493.7,
+          "APR": 30585.6,
+          "MAY": 30831.9,
+          "JUN": 25347.7,
+          "JUL": 24742.9,
+          "AUG": 25806.0,
+          "SEP": 25534.8,
+          "OCT": 22954.8,
+          "NOV": 19735.7,
+          "DEC": 21505.0
+        },
+        "recommended_system_size_kw": 230.8,
+        "recommended_panel_count": 513,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 12694000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 12616000.0,
+          "annual_savings_inr": 2908150.0,
+          "monthly_savings_inr": 242346.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 99143120.0,
+          "co2_tons_annual": 251.02,
+          "trees_equivalent": 12551,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23354933104466,
+              12.939307861858032
+            ],
+            [
+              80.23378185130194,
+              12.939296117373495
+            ],
+            [
+              80.23380797280552,
+              12.939793600182503
+            ],
+            [
+              80.23357545254824,
+              12.93980534466704
+            ],
+            [
+              80.23354933104466,
+              12.939307861858032
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10285,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#25, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 415.5,
+        "roof_area_sqft": 4472.4,
+        "usable_area_m2": 299.2,
+        "usable_area_sqft": 3220.6,
+        "orientation_deg": 179.0,
+        "aspect_ratio": 2.09,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 94314.0,
+        "monthly_generation_kwh": {
+          "JAN": 7325.3,
+          "FEB": 7638.5,
+          "MAR": 9394.9,
+          "APR": 9423.2,
+          "MAY": 9499.1,
+          "JUN": 7809.5,
+          "JUL": 7623.1,
+          "AUG": 7950.7,
+          "SEP": 7867.1,
+          "OCT": 7072.2,
+          "NOV": 6080.4,
+          "DEC": 6625.6
+        },
+        "recommended_system_size_kw": 68.9,
+        "recommended_panel_count": 153,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3789500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3711500.0,
+          "annual_savings_inr": 660198.0,
+          "monthly_savings_inr": 55016.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 22507127.0,
+          "co2_tons_annual": 77.34,
+          "trees_equivalent": 3867,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23473118982454,
+              12.939839994407983
+            ],
+            [
+              80.23473316454744,
+              12.93996761959515
+            ],
+            [
+              80.23446183681384,
+              12.939971658066717
+            ],
+            [
+              80.23445986209094,
+              12.93984403287955
+            ],
+            [
+              80.23473118982454,
+              12.939839994407983
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10286,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#84, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 907.9,
+        "roof_area_sqft": 9772.5,
+        "usable_area_m2": 653.7,
+        "usable_area_sqft": 7036.4,
+        "orientation_deg": 89.2,
+        "aspect_ratio": 2.16,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 199752.0,
+        "monthly_generation_kwh": {
+          "JAN": 15514.7,
+          "FEB": 16177.9,
+          "MAR": 19897.9,
+          "APR": 19957.9,
+          "MAY": 20118.6,
+          "JUN": 16540.0,
+          "JUL": 16145.4,
+          "AUG": 16839.1,
+          "SEP": 16662.1,
+          "OCT": 14978.6,
+          "NOV": 12878.0,
+          "DEC": 14032.6
+        },
+        "recommended_system_size_kw": 150.8,
+        "recommended_panel_count": 335,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 8294000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 8216000.0,
+          "annual_savings_inr": 1398264.0,
+          "monthly_savings_inr": 116522.0,
+          "payback_years": 5.9,
+          "lifetime_savings_25yr_inr": 47668889.0,
+          "co2_tons_annual": 163.8,
+          "trees_equivalent": 8190,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23596772128842,
+              12.939595134060424
+            ],
+            [
+              80.23616466547892,
+              12.939592942045744
+            ],
+            [
+              80.23616815316758,
+              12.93989437483864
+            ],
+            [
+              80.23611185640304,
+              12.939895001429017
+            ],
+            [
+              80.23611319762709,
+              12.940010920293812
+            ],
+            [
+              80.23597255020113,
+              12.940012485718116
+            ],
+            [
+              80.23596772128842,
+              12.939595134060424
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10287,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#138, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 460.2,
+        "roof_area_sqft": 4953.5,
+        "usable_area_m2": 331.3,
+        "usable_area_sqft": 3566.1,
+        "orientation_deg": 32.5,
+        "aspect_ratio": 1.22,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 101236.0,
+        "monthly_generation_kwh": {
+          "JAN": 7863.0,
+          "FEB": 8199.1,
+          "MAR": 10084.4,
+          "APR": 10114.8,
+          "MAY": 10196.3,
+          "JUN": 8382.6,
+          "JUL": 8182.6,
+          "AUG": 8534.2,
+          "SEP": 8444.5,
+          "OCT": 7591.3,
+          "NOV": 6526.7,
+          "DEC": 7111.8
+        },
+        "recommended_system_size_kw": 76.0,
+        "recommended_panel_count": 169,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4180000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4102000.0,
+          "annual_savings_inr": 708652.0,
+          "monthly_savings_inr": 59054.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 24158995.0,
+          "co2_tons_annual": 83.01,
+          "trees_equivalent": 4151,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23723154971911,
+              12.93969240299086
+            ],
+            [
+              80.2371311566333,
+              12.939845768811947
+            ],
+            [
+              80.23699341475883,
+              12.939759033832473
+            ],
+            [
+              80.23701927250276,
+              12.93971953216663
+            ],
+            [
+              80.23696626389666,
+              12.939686153062564
+            ],
+            [
+              80.23704079923854,
+              12.93957228890732
+            ],
+            [
+              80.23723154971911,
+              12.93969240299086
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10288,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#56, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 995.5,
+        "roof_area_sqft": 10715.5,
+        "usable_area_m2": 716.8,
+        "usable_area_sqft": 7715.6,
+        "orientation_deg": 26.0,
+        "aspect_ratio": 1.27,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 219034.0,
+        "monthly_generation_kwh": {
+          "JAN": 17012.3,
+          "FEB": 17739.5,
+          "MAR": 21818.6,
+          "APR": 21884.4,
+          "MAY": 22060.6,
+          "JUN": 18136.6,
+          "JUL": 17703.8,
+          "AUG": 18464.5,
+          "SEP": 18270.5,
+          "OCT": 16424.4,
+          "NOV": 14121.1,
+          "DEC": 15387.1
+        },
+        "recommended_system_size_kw": 165.2,
+        "recommended_panel_count": 367,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 9086000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 9008000.0,
+          "annual_savings_inr": 2080823.0,
+          "monthly_savings_inr": 173402.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 70938335.0,
+          "co2_tons_annual": 179.61,
+          "trees_equivalent": 8980,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2387393169836,
+              12.939686789036532
+            ],
+            [
+              80.23862551993774,
+              12.939913621451936
+            ],
+            [
+              80.23833101976514,
+              12.939771498409407
+            ],
+            [
+              80.238444816811,
+              12.939544665994003
+            ],
+            [
+              80.2387393169836,
+              12.939686789036532
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10289,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#8, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 553.0,
+        "roof_area_sqft": 5952.4,
+        "usable_area_m2": 398.2,
+        "usable_area_sqft": 4286.2,
+        "orientation_deg": 118.8,
+        "aspect_ratio": 1.15,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 121679.0,
+        "monthly_generation_kwh": {
+          "JAN": 9450.7,
+          "FEB": 9854.7,
+          "MAR": 12120.8,
+          "APR": 12157.3,
+          "MAY": 12255.2,
+          "JUN": 10075.3,
+          "JUL": 9834.9,
+          "AUG": 10257.5,
+          "SEP": 10149.7,
+          "OCT": 9124.2,
+          "NOV": 7844.6,
+          "DEC": 8547.9
+        },
+        "recommended_system_size_kw": 91.8,
+        "recommended_panel_count": 204,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5049000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4971000.0,
+          "annual_savings_inr": 851753.0,
+          "monthly_savings_inr": 70979.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 29037520.0,
+          "co2_tons_annual": 99.78,
+          "trees_equivalent": 4989,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2394819888182,
+              12.939820120987523
+            ],
+            [
+              80.23965856824941,
+              12.939915972065922
+            ],
+            [
+              80.2395458048407,
+              12.940115803763465
+            ],
+            [
+              80.23936922540949,
+              12.940019952685066
+            ],
+            [
+              80.2394819888182,
+              12.939820120987523
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10290,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#34, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 1052.7,
+        "roof_area_sqft": 11331.2,
+        "usable_area_m2": 757.9,
+        "usable_area_sqft": 8158.0,
+        "orientation_deg": 89.4,
+        "aspect_ratio": 1.98,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 231593.0,
+        "monthly_generation_kwh": {
+          "JAN": 17987.7,
+          "FEB": 18756.7,
+          "MAR": 23069.6,
+          "APR": 23139.2,
+          "MAY": 23325.5,
+          "JUN": 19176.5,
+          "JUL": 18718.9,
+          "AUG": 19523.3,
+          "SEP": 19318.1,
+          "OCT": 17366.2,
+          "NOV": 14930.8,
+          "DEC": 16269.4
+        },
+        "recommended_system_size_kw": 174.6,
+        "recommended_panel_count": 388,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 9603000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 9525000.0,
+          "annual_savings_inr": 2200134.0,
+          "monthly_savings_inr": 183344.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 75005807.0,
+          "co2_tons_annual": 189.91,
+          "trees_equivalent": 9495,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23126607324421,
+              12.94091310277714
+            ],
+            [
+              80.23148564172294,
+              12.940911676121091
+            ],
+            [
+              80.23148794951095,
+              12.941253340494713
+            ],
+            [
+              80.23141698355988,
+              12.941253801599165
+            ],
+            [
+              80.23141756210934,
+              12.941339454934138
+            ],
+            [
+              80.23126895958168,
+              12.941340420485732
+            ],
+            [
+              80.23126607324421,
+              12.94091310277714
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10291,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#17, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 1707.1,
+        "roof_area_sqft": 18375.1,
+        "usable_area_m2": 1229.1,
+        "usable_area_sqft": 13229.9,
+        "orientation_deg": 90.7,
+        "aspect_ratio": 1.38,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 375578.0,
+        "monthly_generation_kwh": {
+          "JAN": 29171.0,
+          "FEB": 30418.0,
+          "MAR": 37412.4,
+          "APR": 37525.3,
+          "MAY": 37827.5,
+          "JUN": 31098.9,
+          "JUL": 30356.8,
+          "AUG": 31661.2,
+          "SEP": 31328.4,
+          "OCT": 28163.1,
+          "NOV": 24213.5,
+          "DEC": 26384.4
+        },
+        "recommended_system_size_kw": 283.5,
+        "recommended_panel_count": 630,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 15592500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 15514500.0,
+          "annual_savings_inr": 3567991.0,
+          "monthly_savings_inr": 297333.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 121638093.0,
+          "co2_tons_annual": 307.97,
+          "trees_equivalent": 15399,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23219168306127,
+              12.940527006918726
+            ],
+            [
+              80.23251533854553,
+              12.940531568255913
+            ],
+            [
+              80.23250889874839,
+              12.940971126116454
+            ],
+            [
+              80.23218524326414,
+              12.940966564779266
+            ],
+            [
+              80.23219168306127,
+              12.940527006918726
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10292,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#102, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 404.5,
+        "roof_area_sqft": 4354.0,
+        "usable_area_m2": 291.2,
+        "usable_area_sqft": 3134.4,
+        "orientation_deg": 33.1,
+        "aspect_ratio": 1.46,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 88982.0,
+        "monthly_generation_kwh": {
+          "JAN": 6911.2,
+          "FEB": 7206.7,
+          "MAR": 8863.8,
+          "APR": 8890.5,
+          "MAY": 8962.1,
+          "JUN": 7368.0,
+          "JUL": 7192.2,
+          "AUG": 7501.2,
+          "SEP": 7422.4,
+          "OCT": 6672.4,
+          "NOV": 5736.7,
+          "DEC": 6251.0
+        },
+        "recommended_system_size_kw": 67.0,
+        "recommended_panel_count": 149,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3685000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3607000.0,
+          "annual_savings_inr": 845329.0,
+          "monthly_savings_inr": 70444.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 28818517.0,
+          "co2_tons_annual": 72.97,
+          "trees_equivalent": 3648,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23381436164317,
+              12.940746384731902
+            ],
+            [
+              80.23372683653791,
+              12.940877101508129
+            ],
+            [
+              80.2335901499118,
+              12.94078906143214
+            ],
+            [
+              80.23361254327665,
+              12.940755617445376
+            ],
+            [
+              80.23355401861727,
+              12.94071792161803
+            ],
+            [
+              80.23361915035768,
+              12.940620648828567
+            ],
+            [
+              80.23381436164317,
+              12.940746384731902
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10293,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#128, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 649.1,
+        "roof_area_sqft": 6986.8,
+        "usable_area_m2": 467.4,
+        "usable_area_sqft": 5031.0,
+        "orientation_deg": 102.6,
+        "aspect_ratio": 1.59,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 142824.0,
+        "monthly_generation_kwh": {
+          "JAN": 11093.1,
+          "FEB": 11567.3,
+          "MAR": 14227.1,
+          "APR": 14270.0,
+          "MAY": 14385.0,
+          "JUN": 11826.2,
+          "JUL": 11544.0,
+          "AUG": 12040.1,
+          "SEP": 11913.5,
+          "OCT": 10709.8,
+          "NOV": 9207.9,
+          "DEC": 10033.4
+        },
+        "recommended_system_size_kw": 107.5,
+        "recommended_panel_count": 239,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5912500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5834500.0,
+          "annual_savings_inr": 999768.0,
+          "monthly_savings_inr": 83314.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 34083571.0,
+          "co2_tons_annual": 117.12,
+          "trees_equivalent": 5856,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23468159154258,
+              12.940731656056288
+            ],
+            [
+              80.23486835749446,
+              12.940773104481886
+            ],
+            [
+              80.2348167633219,
+              12.940996741344364
+            ],
+            [
+              80.23477326851747,
+              12.940987088668665
+            ],
+            [
+              80.23475764309156,
+              12.941054817659227
+            ],
+            [
+              80.2346143719441,
+              12.941023021909329
+            ],
+            [
+              80.23468159154258,
+              12.940731656056288
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10294,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#140, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 592.8,
+        "roof_area_sqft": 6380.8,
+        "usable_area_m2": 426.8,
+        "usable_area_sqft": 4594.0,
+        "orientation_deg": 104.0,
+        "aspect_ratio": 1.81,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 130418.0,
+        "monthly_generation_kwh": {
+          "JAN": 10129.5,
+          "FEB": 10562.5,
+          "MAR": 12991.3,
+          "APR": 13030.5,
+          "MAY": 13135.4,
+          "JUN": 10799.0,
+          "JUL": 10541.3,
+          "AUG": 10994.2,
+          "SEP": 10878.7,
+          "OCT": 9779.5,
+          "NOV": 8408.1,
+          "DEC": 9161.9
+        },
+        "recommended_system_size_kw": 98.1,
+        "recommended_panel_count": 218,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5395500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5317500.0,
+          "annual_savings_inr": 912926.0,
+          "monthly_savings_inr": 76077.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 31122998.0,
+          "co2_tons_annual": 106.94,
+          "trees_equivalent": 5347,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23598139130755,
+              12.940692478466554
+            ],
+            [
+              80.23614327009118,
+              12.940732630709697
+            ],
+            [
+              80.23606929735766,
+              12.941019513739741
+            ],
+            [
+              80.23590741857403,
+              12.940979361496598
+            ],
+            [
+              80.23598139130755,
+              12.940692478466554
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10295,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#100, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 839.0,
+        "roof_area_sqft": 9030.9,
+        "usable_area_m2": 604.1,
+        "usable_area_sqft": 6502.5,
+        "orientation_deg": 2.6,
+        "aspect_ratio": 1.48,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 190425.0,
+        "monthly_generation_kwh": {
+          "JAN": 14790.3,
+          "FEB": 15422.5,
+          "MAR": 18968.8,
+          "APR": 19026.0,
+          "MAY": 19179.2,
+          "JUN": 15767.7,
+          "JUL": 15391.5,
+          "AUG": 16052.8,
+          "SEP": 15884.1,
+          "OCT": 14279.2,
+          "NOV": 12276.7,
+          "DEC": 13377.4
+        },
+        "recommended_system_size_kw": 139.1,
+        "recommended_panel_count": 309,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7650500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7572500.0,
+          "annual_savings_inr": 1809038.0,
+          "monthly_savings_inr": 150753.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 61672765.0,
+          "co2_tons_annual": 156.15,
+          "trees_equivalent": 7807,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23761224185617,
+              12.940947672272591
+            ],
+            [
+              80.23760145872183,
+              12.941162809931006
+            ],
+            [
+              80.23727716175961,
+              12.941147173971713
+            ],
+            [
+              80.23728794489395,
+              12.940932036313297
+            ],
+            [
+              80.23761224185617,
+              12.940947672272591
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10296,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#60, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 344.1,
+        "roof_area_sqft": 3703.9,
+        "usable_area_m2": 247.8,
+        "usable_area_sqft": 2667.3,
+        "orientation_deg": 32.6,
+        "aspect_ratio": 1.16,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 75721.0,
+        "monthly_generation_kwh": {
+          "JAN": 5881.2,
+          "FEB": 6132.6,
+          "MAR": 7542.8,
+          "APR": 7565.5,
+          "MAY": 7626.4,
+          "JUN": 6269.9,
+          "JUL": 6120.3,
+          "AUG": 6383.2,
+          "SEP": 6316.2,
+          "OCT": 5678.0,
+          "NOV": 4881.7,
+          "DEC": 5319.4
+        },
+        "recommended_system_size_kw": 57.1,
+        "recommended_panel_count": 127,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3140500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3062500.0,
+          "annual_savings_inr": 719350.0,
+          "monthly_savings_inr": 59946.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 24523689.0,
+          "co2_tons_annual": 62.09,
+          "trees_equivalent": 3105,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23828350839216,
+              12.940768884990957
+            ],
+            [
+              80.23819769514486,
+              12.940899556509935
+            ],
+            [
+              80.23804255457563,
+              12.940801550693811
+            ],
+            [
+              80.23812836782292,
+              12.940670879174833
+            ],
+            [
+              80.23828350839216,
+              12.940768884990957
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10297,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#100, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 700.1,
+        "roof_area_sqft": 7535.8,
+        "usable_area_m2": 504.1,
+        "usable_area_sqft": 5426.1,
+        "orientation_deg": 32.7,
+        "aspect_ratio": 1.91,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 154039.0,
+        "monthly_generation_kwh": {
+          "JAN": 11964.1,
+          "FEB": 12475.6,
+          "MAR": 15344.2,
+          "APR": 15390.5,
+          "MAY": 15514.5,
+          "JUN": 12754.8,
+          "JUL": 12450.5,
+          "AUG": 12985.5,
+          "SEP": 12849.0,
+          "OCT": 11550.7,
+          "NOV": 9930.9,
+          "DEC": 10821.2
+        },
+        "recommended_system_size_kw": 116.1,
+        "recommended_panel_count": 258,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6385500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6307500.0,
+          "annual_savings_inr": 1463370.0,
+          "monthly_savings_inr": 121948.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 49888466.0,
+          "co2_tons_annual": 126.31,
+          "trees_equivalent": 6316,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2395895385055,
+              12.941154186658393
+            ],
+            [
+              80.23949365697561,
+              12.941299481184867
+            ],
+            [
+              80.23921059583182,
+              12.94111979320334
+            ],
+            [
+              80.23930647736171,
+              12.940974498676866
+            ],
+            [
+              80.2395895385055,
+              12.941154186658393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10298,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#91, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 564.4,
+        "roof_area_sqft": 6075.1,
+        "usable_area_m2": 406.4,
+        "usable_area_sqft": 4374.4,
+        "orientation_deg": 178.0,
+        "aspect_ratio": 1.91,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 128106.0,
+        "monthly_generation_kwh": {
+          "JAN": 9949.9,
+          "FEB": 10375.3,
+          "MAR": 12761.0,
+          "APR": 12799.5,
+          "MAY": 12902.6,
+          "JUN": 10607.5,
+          "JUL": 10354.4,
+          "AUG": 10799.3,
+          "SEP": 10685.8,
+          "OCT": 9606.1,
+          "NOV": 8259.0,
+          "DEC": 8999.4
+        },
+        "recommended_system_size_kw": 93.6,
+        "recommended_panel_count": 208,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5148000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5070000.0,
+          "annual_savings_inr": 1217007.0,
+          "monthly_savings_inr": 101417.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 41489570.0,
+          "co2_tons_annual": 105.05,
+          "trees_equivalent": 5252,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2315184357574,
+              12.94184505026336
+            ],
+            [
+              80.23152346611535,
+              12.94200032149477
+            ],
+            [
+              80.23122078649492,
+              12.942009754371206
+            ],
+            [
+              80.23121575613696,
+              12.941854483139796
+            ],
+            [
+              80.2315184357574,
+              12.94184505026336
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10299,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#10, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 582.6,
+        "roof_area_sqft": 6271.0,
+        "usable_area_m2": 419.5,
+        "usable_area_sqft": 4515.5,
+        "orientation_deg": 33.6,
+        "aspect_ratio": 1.64,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 128187.0,
+        "monthly_generation_kwh": {
+          "JAN": 9956.3,
+          "FEB": 10381.9,
+          "MAR": 12769.1,
+          "APR": 12807.6,
+          "MAY": 12910.8,
+          "JUN": 10614.3,
+          "JUL": 10361.0,
+          "AUG": 10806.2,
+          "SEP": 10692.6,
+          "OCT": 9612.2,
+          "NOV": 8264.2,
+          "DEC": 9005.2
+        },
+        "recommended_system_size_kw": 96.8,
+        "recommended_panel_count": 215,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5324000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5246000.0,
+          "annual_savings_inr": 1217776.0,
+          "monthly_savings_inr": 101481.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 41515803.0,
+          "co2_tons_annual": 105.11,
+          "trees_equivalent": 5256,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23259856098711,
+              12.942230822364017
+            ],
+            [
+              80.2325019027995,
+              12.942372348226868
+            ],
+            [
+              80.23226504549969,
+              12.942216736371051
+            ],
+            [
+              80.2323617036873,
+              12.9420752105082
+            ],
+            [
+              80.23259856098711,
+              12.942230822364017
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10300,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#46, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 903.7,
+        "roof_area_sqft": 9727.3,
+        "usable_area_m2": 650.7,
+        "usable_area_sqft": 7004.1,
+        "orientation_deg": 88.1,
+        "aspect_ratio": 1.78,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 198835.0,
+        "monthly_generation_kwh": {
+          "JAN": 15443.5,
+          "FEB": 16103.7,
+          "MAR": 19806.6,
+          "APR": 19866.3,
+          "MAY": 20026.3,
+          "JUN": 16464.1,
+          "JUL": 16071.3,
+          "AUG": 16761.8,
+          "SEP": 16585.6,
+          "OCT": 14909.9,
+          "NOV": 12818.9,
+          "DEC": 13968.2
+        },
+        "recommended_system_size_kw": 149.8,
+        "recommended_panel_count": 333,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 8239000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 8161000.0,
+          "annual_savings_inr": 1391845.0,
+          "monthly_savings_inr": 115987.0,
+          "payback_years": 5.9,
+          "lifetime_savings_25yr_inr": 47450056.0,
+          "co2_tons_annual": 163.04,
+          "trees_equivalent": 8152,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23335694364387,
+              12.941617107186937
+            ],
+            [
+              80.23356483620003,
+              12.94161111736225
+            ],
+            [
+              80.23357567971424,
+              12.941973150189915
+            ],
+            [
+              80.23336778715807,
+              12.941979140014602
+            ],
+            [
+              80.23335694364387,
+              12.941617107186937
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10301,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#96, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 249.9,
+        "roof_area_sqft": 2689.9,
+        "usable_area_m2": 179.9,
+        "usable_area_sqft": 1936.4,
+        "orientation_deg": 1.9,
+        "aspect_ratio": 1.26,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 56708.0,
+        "monthly_generation_kwh": {
+          "JAN": 4404.5,
+          "FEB": 4592.8,
+          "MAR": 5648.9,
+          "APR": 5665.9,
+          "MAY": 5711.5,
+          "JUN": 4695.6,
+          "JUL": 4583.6,
+          "AUG": 4780.5,
+          "SEP": 4730.3,
+          "OCT": 4252.3,
+          "NOV": 3656.0,
+          "DEC": 3983.8
+        },
+        "recommended_system_size_kw": 41.4,
+        "recommended_panel_count": 92,
+        "solar_score": 80,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2277000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2199000.0,
+          "annual_savings_inr": 396956.0,
+          "monthly_savings_inr": 33080.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 13532817.0,
+          "co2_tons_annual": 46.5,
+          "trees_equivalent": 2325,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2350590112073,
+              12.9421463841527
+            ],
+            [
+              80.23505420332825,
+              12.942278318475697
+            ],
+            [
+              80.2349309291241,
+              12.942273997110002
+            ],
+            [
+              80.23493211213048,
+              12.942241533908804
+            ],
+            [
+              80.23488645588552,
+              12.942239933433408
+            ],
+            [
+              80.23489008075819,
+              12.94214046231161
+            ],
+            [
+              80.2350590112073,
+              12.9421463841527
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10302,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#82, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 805.2,
+        "roof_area_sqft": 8667.1,
+        "usable_area_m2": 579.7,
+        "usable_area_sqft": 6239.8,
+        "orientation_deg": 116.2,
+        "aspect_ratio": 1.27,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 177140.0,
+        "monthly_generation_kwh": {
+          "JAN": 13758.4,
+          "FEB": 14346.5,
+          "MAR": 17645.4,
+          "APR": 17698.6,
+          "MAY": 17841.2,
+          "JUN": 14667.7,
+          "JUL": 14317.7,
+          "AUG": 14932.9,
+          "SEP": 14775.9,
+          "OCT": 13283.0,
+          "NOV": 11420.2,
+          "DEC": 12444.1
+        },
+        "recommended_system_size_kw": 133.7,
+        "recommended_panel_count": 297,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7353500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7275500.0,
+          "annual_savings_inr": 1682830.0,
+          "monthly_savings_inr": 140236.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 57370165.0,
+          "co2_tons_annual": 145.25,
+          "trees_equivalent": 7263,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23604275308463,
+              12.941922084941451
+            ],
+            [
+              80.23625046899662,
+              12.942023058160737
+            ],
+            [
+              80.23611938646818,
+              12.942282453068179
+            ],
+            [
+              80.23591167055619,
+              12.942181479848893
+            ],
+            [
+              80.23604275308463,
+              12.941922084941451
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10303,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#79, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 1694.0,
+        "roof_area_sqft": 18234.0,
+        "usable_area_m2": 1219.7,
+        "usable_area_sqft": 13128.7,
+        "orientation_deg": 28.4,
+        "aspect_ratio": 1.83,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 372705.0,
+        "monthly_generation_kwh": {
+          "JAN": 28947.9,
+          "FEB": 30185.4,
+          "MAR": 37126.3,
+          "APR": 37238.3,
+          "MAY": 37538.2,
+          "JUN": 30861.1,
+          "JUL": 30124.7,
+          "AUG": 31419.1,
+          "SEP": 31088.8,
+          "OCT": 27947.7,
+          "NOV": 24028.4,
+          "DEC": 26182.6
+        },
+        "recommended_system_size_kw": 281.2,
+        "recommended_panel_count": 625,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 15466000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 15388000.0,
+          "annual_savings_inr": 3540698.0,
+          "monthly_savings_inr": 295058.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 120707617.0,
+          "co2_tons_annual": 305.62,
+          "trees_equivalent": 15281,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23772692195399,
+              12.941836807795827
+            ],
+            [
+              80.23759286945868,
+              12.942078272809734
+            ],
+            [
+              80.23714182094236,
+              12.94183739487513
+            ],
+            [
+              80.23727587343767,
+              12.941595929861222
+            ],
+            [
+              80.23772692195399,
+              12.941836807795827
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10304,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#47, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 242.4,
+        "roof_area_sqft": 2609.2,
+        "usable_area_m2": 174.5,
+        "usable_area_sqft": 1878.3,
+        "orientation_deg": 19.3,
+        "aspect_ratio": 1.53,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 55006.0,
+        "monthly_generation_kwh": {
+          "JAN": 4272.3,
+          "FEB": 4454.9,
+          "MAR": 5479.3,
+          "APR": 5495.8,
+          "MAY": 5540.1,
+          "JUN": 4554.7,
+          "JUL": 4446.0,
+          "AUG": 4637.0,
+          "SEP": 4588.3,
+          "OCT": 4124.7,
+          "NOV": 3546.2,
+          "DEC": 3864.2
+        },
+        "recommended_system_size_kw": 40.1,
+        "recommended_panel_count": 89,
+        "solar_score": 80,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2205500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2127500.0,
+          "annual_savings_inr": 385042.0,
+          "monthly_savings_inr": 32087.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 13126652.0,
+          "co2_tons_annual": 45.1,
+          "trees_equivalent": 2255,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23840030641254,
+              12.942092418756594
+            ],
+            [
+              80.23836160927603,
+              12.942199674448744
+            ],
+            [
+              80.23819421085217,
+              12.94214157621677
+            ],
+            [
+              80.23823290798869,
+              12.94203432052462
+            ],
+            [
+              80.23840030641254,
+              12.942092418756594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10305,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#61, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 253.1,
+        "roof_area_sqft": 2724.3,
+        "usable_area_m2": 182.2,
+        "usable_area_sqft": 1961.2,
+        "orientation_deg": 175.9,
+        "aspect_ratio": 1.65,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 57433.0,
+        "monthly_generation_kwh": {
+          "JAN": 4460.8,
+          "FEB": 4651.5,
+          "MAR": 5721.1,
+          "APR": 5738.4,
+          "MAY": 5784.6,
+          "JUN": 4755.6,
+          "JUL": 4642.2,
+          "AUG": 4841.6,
+          "SEP": 4790.7,
+          "OCT": 4306.7,
+          "NOV": 3702.7,
+          "DEC": 4034.7
+        },
+        "recommended_system_size_kw": 41.9,
+        "recommended_panel_count": 93,
+        "solar_score": 80,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2304500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2226500.0,
+          "annual_savings_inr": 402031.0,
+          "monthly_savings_inr": 33503.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 13705832.0,
+          "co2_tons_annual": 47.1,
+          "trees_equivalent": 2355,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23990042906443,
+              12.941988891264108
+            ],
+            [
+              80.23990832239838,
+              12.942100756066075
+            ],
+            [
+              80.239720609152,
+              12.942113497403342
+            ],
+            [
+              80.23971271581806,
+              12.942001632601375
+            ],
+            [
+              80.23990042906443,
+              12.941988891264108
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10306,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#3, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 1745.4,
+        "roof_area_sqft": 18787.3,
+        "usable_area_m2": 1256.7,
+        "usable_area_sqft": 13527.0,
+        "orientation_deg": 31.9,
+        "aspect_ratio": 1.8,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 384012.0,
+        "monthly_generation_kwh": {
+          "JAN": 29826.1,
+          "FEB": 31101.1,
+          "MAR": 38252.5,
+          "APR": 38367.9,
+          "MAY": 38676.9,
+          "JUN": 31797.3,
+          "JUL": 31038.5,
+          "AUG": 32372.2,
+          "SEP": 32031.9,
+          "OCT": 28795.5,
+          "NOV": 24757.3,
+          "DEC": 26976.8
+        },
+        "recommended_system_size_kw": 289.8,
+        "recommended_panel_count": 644,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 15939000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 15861000.0,
+          "annual_savings_inr": 3648114.0,
+          "monthly_savings_inr": 304010.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 124369605.0,
+          "co2_tons_annual": 314.89,
+          "trees_equivalent": 15744,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23140501858667,
+              12.9430389654772
+            ],
+            [
+              80.23125264251506,
+              12.943277303314126
+            ],
+            [
+              80.23081450009248,
+              12.943007844647482
+            ],
+            [
+              80.23096687616409,
+              12.942769506810556
+            ],
+            [
+              80.23140501858667,
+              12.9430389654772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10307,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#43, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 563.6,
+        "roof_area_sqft": 6066.5,
+        "usable_area_m2": 405.8,
+        "usable_area_sqft": 4368.0,
+        "orientation_deg": 92.0,
+        "aspect_ratio": 1.15,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 124001.0,
+        "monthly_generation_kwh": {
+          "JAN": 9631.1,
+          "FEB": 10042.8,
+          "MAR": 12352.1,
+          "APR": 12389.4,
+          "MAY": 12489.1,
+          "JUN": 10267.6,
+          "JUL": 10022.6,
+          "AUG": 10453.3,
+          "SEP": 10343.4,
+          "OCT": 9298.3,
+          "NOV": 7994.4,
+          "DEC": 8711.1
+        },
+        "recommended_system_size_kw": 93.6,
+        "recommended_panel_count": 208,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5148000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5070000.0,
+          "annual_savings_inr": 868007.0,
+          "monthly_savings_inr": 72334.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 29591643.0,
+          "co2_tons_annual": 101.68,
+          "trees_equivalent": 5084,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23217745026324,
+              12.942863600388126
+            ],
+            [
+              80.23238112898353,
+              12.9428712890761
+            ],
+            [
+              80.23237209059991,
+              12.943101612052438
+            ],
+            [
+              80.23216841187961,
+              12.943093923364463
+            ],
+            [
+              80.23217745026324,
+              12.942863600388126
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10308,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#42, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 928.4,
+        "roof_area_sqft": 9993.2,
+        "usable_area_m2": 668.4,
+        "usable_area_sqft": 7194.6,
+        "orientation_deg": 93.1,
+        "aspect_ratio": 1.97,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 204244.0,
+        "monthly_generation_kwh": {
+          "JAN": 15863.6,
+          "FEB": 16541.7,
+          "MAR": 20345.3,
+          "APR": 20406.7,
+          "MAY": 20571.0,
+          "JUN": 16912.0,
+          "JUL": 16508.4,
+          "AUG": 17217.8,
+          "SEP": 17036.8,
+          "OCT": 15315.4,
+          "NOV": 13167.6,
+          "DEC": 14348.1
+        },
+        "recommended_system_size_kw": 153.9,
+        "recommended_panel_count": 342,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 8464500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 8386500.0,
+          "annual_savings_inr": 1429708.0,
+          "monthly_savings_inr": 119142.0,
+          "payback_years": 5.9,
+          "lifetime_savings_25yr_inr": 48740861.0,
+          "co2_tons_annual": 167.48,
+          "trees_equivalent": 8374,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23350788016539,
+              12.94309373922659
+            ],
+            [
+              80.23370780091344,
+              12.943105004193582
+            ],
+            [
+              80.2336852018281,
+              12.943490812770996
+            ],
+            [
+              80.23348528108005,
+              12.943479547804005
+            ],
+            [
+              80.23350788016539,
+              12.94309373922659
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10309,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#87, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 250.1,
+        "roof_area_sqft": 2692.1,
+        "usable_area_m2": 180.1,
+        "usable_area_sqft": 1938.6,
+        "orientation_deg": 124.3,
+        "aspect_ratio": 1.18,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 55033.0,
+        "monthly_generation_kwh": {
+          "JAN": 4274.4,
+          "FEB": 4457.2,
+          "MAR": 5482.0,
+          "APR": 5498.6,
+          "MAY": 5542.9,
+          "JUN": 4556.9,
+          "JUL": 4448.2,
+          "AUG": 4639.3,
+          "SEP": 4590.6,
+          "OCT": 4126.7,
+          "NOV": 3548.0,
+          "DEC": 3866.1
+        },
+        "recommended_system_size_kw": 41.4,
+        "recommended_panel_count": 92,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2277000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2199000.0,
+          "annual_savings_inr": 385231.0,
+          "monthly_savings_inr": 32103.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 13133095.0,
+          "co2_tons_annual": 45.13,
+          "trees_equivalent": 2256,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23493893077877,
+              12.94297128277632
+            ],
+            [
+              80.23505277362908,
+              12.943048069560527
+            ],
+            [
+              80.23498017211197,
+              12.943151611917955
+            ],
+            [
+              80.23494958466497,
+              12.943130980743616
+            ],
+            [
+              80.23492967633999,
+              12.943159373468495
+            ],
+            [
+              80.23484642093668,
+              12.943103217858626
+            ],
+            [
+              80.23493893077877,
+              12.94297128277632
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10310,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#105, Okkiyam Thoraipakkam, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 315.0,
+        "roof_area_sqft": 3390.6,
+        "usable_area_m2": 226.8,
+        "usable_area_sqft": 2441.3,
+        "orientation_deg": 11.5,
+        "aspect_ratio": 2.08,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 71492.0,
+        "monthly_generation_kwh": {
+          "JAN": 5552.8,
+          "FEB": 5790.1,
+          "MAR": 7121.5,
+          "APR": 7143.0,
+          "MAY": 7200.5,
+          "JUN": 5919.8,
+          "JUL": 5778.5,
+          "AUG": 6026.8,
+          "SEP": 5963.4,
+          "OCT": 5360.9,
+          "NOV": 4609.1,
+          "DEC": 5022.3
+        },
+        "recommended_system_size_kw": 52.2,
+        "recommended_panel_count": 116,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2871000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2793000.0,
+          "annual_savings_inr": 679174.0,
+          "monthly_savings_inr": 56598.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 23154047.0,
+          "co2_tons_annual": 58.62,
+          "trees_equivalent": 2931,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23619002579646,
+              12.943114343707306
+            ],
+            [
+              80.23616598646598,
+              12.943228698190099
+            ],
+            [
+              80.23599491556433,
+              12.94319410438053
+            ],
+            [
+              80.23600236322125,
+              12.943158676066313
+            ],
+            [
+              80.23593106658625,
+              12.94314425852253
+            ],
+            [
+              80.23594765825982,
+              12.943065332353955
+            ],
+            [
+              80.23619002579646,
+              12.943114343707306
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10311,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#40, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 698.2,
+        "roof_area_sqft": 7515.4,
+        "usable_area_m2": 502.7,
+        "usable_area_sqft": 5411.0,
+        "orientation_deg": 117.8,
+        "aspect_ratio": 1.21,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 153611.0,
+        "monthly_generation_kwh": {
+          "JAN": 11930.9,
+          "FEB": 12440.9,
+          "MAR": 15301.6,
+          "APR": 15347.8,
+          "MAY": 15471.4,
+          "JUN": 12719.4,
+          "JUL": 12415.9,
+          "AUG": 12949.4,
+          "SEP": 12813.3,
+          "OCT": 11518.7,
+          "NOV": 9903.3,
+          "DEC": 10791.2
+        },
+        "recommended_system_size_kw": 115.7,
+        "recommended_panel_count": 257,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6363500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6285500.0,
+          "annual_savings_inr": 1459304.0,
+          "monthly_savings_inr": 121609.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 49749850.0,
+          "co2_tons_annual": 125.96,
+          "trees_equivalent": 6298,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23727577730791,
+              12.943031729239646
+            ],
+            [
+              80.23747171628096,
+              12.943133798805071
+            ],
+            [
+              80.23734626079666,
+              12.943365467464162
+            ],
+            [
+              80.2371503218236,
+              12.943263397898736
+            ],
+            [
+              80.23727577730791,
+              12.943031729239646
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10312,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#122, Rajiv Gandhi Salai, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 1171.0,
+        "roof_area_sqft": 12604.5,
+        "usable_area_m2": 843.1,
+        "usable_area_sqft": 9075.0,
+        "orientation_deg": 15.8,
+        "aspect_ratio": 1.32,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 265763.0,
+        "monthly_generation_kwh": {
+          "JAN": 20641.7,
+          "FEB": 21524.1,
+          "MAR": 26473.4,
+          "APR": 26553.3,
+          "MAY": 26767.1,
+          "JUN": 22005.9,
+          "JUL": 21480.8,
+          "AUG": 22403.8,
+          "SEP": 22168.3,
+          "OCT": 19928.5,
+          "NOV": 17133.8,
+          "DEC": 18669.8
+        },
+        "recommended_system_size_kw": 194.4,
+        "recommended_panel_count": 432,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 10692000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 10614000.0,
+          "annual_savings_inr": 1860341.0,
+          "monthly_savings_inr": 155028.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 63421778.0,
+          "co2_tons_annual": 217.93,
+          "trees_equivalent": 10896,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2383734695816,
+              12.94279317438535
+            ],
+            [
+              80.23829436136458,
+              12.943063719714509
+            ],
+            [
+              80.23803271740813,
+              12.942990125218511
+            ],
+            [
+              80.23805640044415,
+              12.942909130664265
+            ],
+            [
+              80.2379540290266,
+              12.942880335912108
+            ],
+            [
+              80.2380094542076,
+              12.942690785137195
+            ],
+            [
+              80.2383734695816,
+              12.94279317438535
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10313,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#98, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 856.6,
+        "roof_area_sqft": 9220.4,
+        "usable_area_m2": 616.8,
+        "usable_area_sqft": 6639.2,
+        "orientation_deg": 12.5,
+        "aspect_ratio": 1.81,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 194428.0,
+        "monthly_generation_kwh": {
+          "JAN": 15101.2,
+          "FEB": 15746.7,
+          "MAR": 19367.6,
+          "APR": 19426.0,
+          "MAY": 19582.4,
+          "JUN": 16099.2,
+          "JUL": 15715.1,
+          "AUG": 16390.3,
+          "SEP": 16218.0,
+          "OCT": 14579.4,
+          "NOV": 12534.8,
+          "DEC": 13658.6
+        },
+        "recommended_system_size_kw": 142.2,
+        "recommended_panel_count": 316,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7821000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 7743000.0,
+          "annual_savings_inr": 1360996.0,
+          "monthly_savings_inr": 113416.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 46398368.0,
+          "co2_tons_annual": 159.43,
+          "trees_equivalent": 7972,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23970306472954,
+              12.943214757857337
+            ],
+            [
+              80.2396590960091,
+              12.943406895685206
+            ],
+            [
+              80.2393052886706,
+              12.94332901121701
+            ],
+            [
+              80.23934925739103,
+              12.943136873389141
+            ],
+            [
+              80.23970306472954,
+              12.943214757857337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10314,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#139, Pallavaram-Thoraipakkam Radial Rd, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 769.7,
+        "roof_area_sqft": 8285.0,
+        "usable_area_m2": 554.2,
+        "usable_area_sqft": 5965.4,
+        "orientation_deg": 108.2,
+        "aspect_ratio": 1.72,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 169348.0,
+        "monthly_generation_kwh": {
+          "JAN": 13153.2,
+          "FEB": 13715.5,
+          "MAR": 16869.2,
+          "APR": 16920.1,
+          "MAY": 17056.4,
+          "JUN": 14022.5,
+          "JUL": 13687.9,
+          "AUG": 14276.0,
+          "SEP": 14126.0,
+          "OCT": 12698.7,
+          "NOV": 10917.9,
+          "DEC": 11896.7
+        },
+        "recommended_system_size_kw": 127.8,
+        "recommended_panel_count": 284,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 7029000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6951000.0,
+          "annual_savings_inr": 1185436.0,
+          "monthly_savings_inr": 98786.0,
+          "payback_years": 5.9,
+          "lifetime_savings_25yr_inr": 40413267.0,
+          "co2_tons_annual": 138.87,
+          "trees_equivalent": 6943,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23113180176412,
+              12.94394169413792
+            ],
+            [
+              80.23132353062348,
+              12.944004142237862
+            ],
+            [
+              80.23124799040059,
+              12.944227242249768
+            ],
+            [
+              80.23120570855845,
+              12.944213470610421
+            ],
+            [
+              80.23117169166453,
+              12.944313935887665
+            ],
+            [
+              80.2310222446473,
+              12.94426525942707
+            ],
+            [
+              80.23113180176412,
+              12.94394169413792
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10315,
+        "neighborhood": "OMR / Thoraipakkam",
+        "address": "#61, Chandrasekhar Avenue, OMR / Thoraipakkam, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 317.0,
+        "roof_area_sqft": 3412.2,
+        "usable_area_m2": 228.2,
+        "usable_area_sqft": 2456.3,
+        "orientation_deg": 138.0,
+        "aspect_ratio": 1.56,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 69731.0,
+        "monthly_generation_kwh": {
+          "JAN": 5416.0,
+          "FEB": 5647.5,
+          "MAR": 6946.2,
+          "APR": 6967.1,
+          "MAY": 7023.2,
+          "JUN": 5774.0,
+          "JUL": 5636.2,
+          "AUG": 5878.4,
+          "SEP": 5816.6,
+          "OCT": 5228.9,
+          "NOV": 4495.6,
+          "DEC": 4898.6
+        },
+        "recommended_system_size_kw": 52.6,
+        "recommended_panel_count": 117,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2893000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2815000.0,
+          "annual_savings_inr": 488117.0,
+          "monthly_savings_inr": 40676.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 16640631.0,
+          "co2_tons_annual": 57.18,
+          "trees_equivalent": 2859,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.23256083145054,
+              12.944041933839445
+            ],
+            [
+              80.23264843372054,
+              12.944137975791199
+            ],
+            [
+              80.23249562543563,
+              12.944272052813426
+            ],
+            [
+              80.23240802316563,
+              12.944176010861673
+            ],
+            [
+              80.23256083145054,
+              12.944041933839445
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

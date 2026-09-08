@@ -1,0 +1,4242 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10161,
+        "neighborhood": "Anna Nagar",
+        "address": "#135, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 203.6,
+        "roof_area_sqft": 2191.5,
+        "usable_area_m2": 146.6,
+        "usable_area_sqft": 1578.0,
+        "orientation_deg": 176.1,
+        "aspect_ratio": 2.07,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 46211.0,
+        "monthly_generation_kwh": {
+          "JAN": 3589.2,
+          "FEB": 3742.7,
+          "MAR": 4603.3,
+          "APR": 4617.1,
+          "MAY": 4654.3,
+          "JUN": 3826.4,
+          "JUL": 3735.1,
+          "AUG": 3895.6,
+          "SEP": 3854.7,
+          "OCT": 3465.2,
+          "NOV": 2979.3,
+          "DEC": 3246.4
+        },
+        "recommended_system_size_kw": 33.8,
+        "recommended_panel_count": 75,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1859000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1781000.0,
+          "annual_savings_inr": 323477.0,
+          "monthly_savings_inr": 26956.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 11027810.0,
+          "co2_tons_annual": 37.89,
+          "trees_equivalent": 1895,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20532133738823,
+              13.080310888813129
+            ],
+            [
+              80.20532741679446,
+              13.080403036647398
+            ],
+            [
+              80.20517503062412,
+              13.080412707720349
+            ],
+            [
+              80.20517341790352,
+              13.0803882631112
+            ],
+            [
+              80.20513107132845,
+              13.080390950604533
+            ],
+            [
+              80.2051266046428,
+              13.080323247379413
+            ],
+            [
+              80.20532133738823,
+              13.080310888813129
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10162,
+        "neighborhood": "Anna Nagar",
+        "address": "#33, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 234.5,
+        "roof_area_sqft": 2524.1,
+        "usable_area_m2": 168.8,
+        "usable_area_sqft": 1816.9,
+        "orientation_deg": 121.2,
+        "aspect_ratio": 1.6,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 51580.0,
+        "monthly_generation_kwh": {
+          "JAN": 4006.2,
+          "FEB": 4177.5,
+          "MAR": 5138.1,
+          "APR": 5153.6,
+          "MAY": 5195.1,
+          "JUN": 4271.0,
+          "JUL": 4169.1,
+          "AUG": 4348.2,
+          "SEP": 4302.5,
+          "OCT": 3867.8,
+          "NOV": 3325.4,
+          "DEC": 3623.5
+        },
+        "recommended_system_size_kw": 38.7,
+        "recommended_panel_count": 86,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2128500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2050500.0,
+          "annual_savings_inr": 490010.0,
+          "monthly_savings_inr": 40834.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 16705166.0,
+          "co2_tons_annual": 42.3,
+          "trees_equivalent": 2115,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20635349867327,
+              13.080452174224648
+            ],
+            [
+              80.20644891850611,
+              13.080509352372927
+            ],
+            [
+              80.20635593485419,
+              13.080658620896019
+            ],
+            [
+              80.20626051502134,
+              13.08060144274774
+            ],
+            [
+              80.20635349867327,
+              13.080452174224648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10163,
+        "neighborhood": "Anna Nagar",
+        "address": "#42, Shanthi Colony, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 241.3,
+        "roof_area_sqft": 2597.3,
+        "usable_area_m2": 173.7,
+        "usable_area_sqft": 1869.7,
+        "orientation_deg": 104.1,
+        "aspect_ratio": 2.1,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 53078.0,
+        "monthly_generation_kwh": {
+          "JAN": 4122.5,
+          "FEB": 4298.8,
+          "MAR": 5287.2,
+          "APR": 5303.2,
+          "MAY": 5345.9,
+          "JUN": 4395.0,
+          "JUL": 4290.1,
+          "AUG": 4474.5,
+          "SEP": 4427.4,
+          "OCT": 3980.1,
+          "NOV": 3421.9,
+          "DEC": 3728.7
+        },
+        "recommended_system_size_kw": 40.1,
+        "recommended_panel_count": 89,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2205500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2127500.0,
+          "annual_savings_inr": 504241.0,
+          "monthly_savings_inr": 42020.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 17190322.0,
+          "co2_tons_annual": 43.52,
+          "trees_equivalent": 2176,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20771685247338,
+              13.080672801560038
+            ],
+            [
+              80.20781735776463,
+              13.080697975914653
+            ],
+            [
+              80.20777970511503,
+              13.080842579544706
+            ],
+            [
+              80.20774891272282,
+              13.08083486673087
+            ],
+            [
+              80.20773261806323,
+              13.080897445777778
+            ],
+            [
+              80.20766290516421,
+              13.080879984237
+            ],
+            [
+              80.20771685247338,
+              13.080672801560038
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10164,
+        "neighborhood": "Anna Nagar",
+        "address": "#71, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 234.2,
+        "roof_area_sqft": 2520.9,
+        "usable_area_m2": 168.6,
+        "usable_area_sqft": 1814.8,
+        "orientation_deg": 123.3,
+        "aspect_ratio": 1.38,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 51519.0,
+        "monthly_generation_kwh": {
+          "JAN": 4001.5,
+          "FEB": 4172.5,
+          "MAR": 5132.0,
+          "APR": 5147.5,
+          "MAY": 5188.9,
+          "JUN": 4265.9,
+          "JUL": 4164.2,
+          "AUG": 4343.1,
+          "SEP": 4297.4,
+          "OCT": 3863.2,
+          "NOV": 3321.5,
+          "DEC": 3619.2
+        },
+        "recommended_system_size_kw": 38.7,
+        "recommended_panel_count": 86,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2128500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2050500.0,
+          "annual_savings_inr": 360633.0,
+          "monthly_savings_inr": 30053.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 12294513.0,
+          "co2_tons_annual": 42.25,
+          "trees_equivalent": 2112,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20890010561489,
+              13.080411087190665
+            ],
+            [
+              80.20900047869121,
+              13.080476146103337
+            ],
+            [
+              80.20890922651763,
+              13.080611573560493
+            ],
+            [
+              80.20880885344131,
+              13.080546514647821
+            ],
+            [
+              80.20890010561489,
+              13.080411087190665
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10165,
+        "neighborhood": "Anna Nagar",
+        "address": "#11, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 424.4,
+        "roof_area_sqft": 4568.2,
+        "usable_area_m2": 305.6,
+        "usable_area_sqft": 3289.4,
+        "orientation_deg": 105.7,
+        "aspect_ratio": 1.74,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 93383.0,
+        "monthly_generation_kwh": {
+          "JAN": 7253.0,
+          "FEB": 7563.1,
+          "MAR": 9302.1,
+          "APR": 9330.2,
+          "MAY": 9405.3,
+          "JUN": 7732.3,
+          "JUL": 7547.8,
+          "AUG": 7872.2,
+          "SEP": 7789.4,
+          "OCT": 7002.4,
+          "NOV": 6020.4,
+          "DEC": 6560.1
+        },
+        "recommended_system_size_kw": 70.2,
+        "recommended_panel_count": 156,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3861000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3783000.0,
+          "annual_savings_inr": 887138.0,
+          "monthly_savings_inr": 73928.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 30243864.0,
+          "co2_tons_annual": 76.57,
+          "trees_equivalent": 3829,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20986569837224,
+              13.080271957743902
+            ],
+            [
+              80.2100073861012,
+              13.08031159069595
+            ],
+            [
+              80.20995045452129,
+              13.080507376917673
+            ],
+            [
+              80.20991767816506,
+              13.08049820870131
+            ],
+            [
+              80.20990434987763,
+              13.080544044334866
+            ],
+            [
+              80.20979543850491,
+              13.08051357959918
+            ],
+            [
+              80.20986569837224,
+              13.080271957743902
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10166,
+        "neighborhood": "Anna Nagar",
+        "address": "#8, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 194.7,
+        "roof_area_sqft": 2095.7,
+        "usable_area_m2": 140.2,
+        "usable_area_sqft": 1509.1,
+        "orientation_deg": 177.5,
+        "aspect_ratio": 1.33,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 44194.0,
+        "monthly_generation_kwh": {
+          "JAN": 3432.5,
+          "FEB": 3579.3,
+          "MAR": 4402.3,
+          "APR": 4415.6,
+          "MAY": 4451.1,
+          "JUN": 3659.4,
+          "JUL": 3572.1,
+          "AUG": 3725.6,
+          "SEP": 3686.4,
+          "OCT": 3313.9,
+          "NOV": 2849.2,
+          "DEC": 3104.6
+        },
+        "recommended_system_size_kw": 31.9,
+        "recommended_panel_count": 71,
+        "solar_score": 77,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1754500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1676500.0,
+          "annual_savings_inr": 309358.0,
+          "monthly_savings_inr": 25780.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 10546472.0,
+          "co2_tons_annual": 36.24,
+          "trees_equivalent": 1812,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21103607325682,
+              13.080705006140693
+            ],
+            [
+              80.2110406509487,
+              13.080814250264158
+            ],
+            [
+              80.21089230023105,
+              13.080820230126633
+            ],
+            [
+              80.21088772253917,
+              13.080710986003169
+            ],
+            [
+              80.21103607325682,
+              13.080705006140693
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10167,
+        "neighborhood": "Anna Nagar",
+        "address": "#19, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 236.3,
+        "roof_area_sqft": 2543.5,
+        "usable_area_m2": 170.1,
+        "usable_area_sqft": 1830.9,
+        "orientation_deg": 132.3,
+        "aspect_ratio": 1.99,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 51978.0,
+        "monthly_generation_kwh": {
+          "JAN": 4037.1,
+          "FEB": 4209.7,
+          "MAR": 5177.7,
+          "APR": 5193.3,
+          "MAY": 5235.1,
+          "JUN": 4303.9,
+          "JUL": 4201.2,
+          "AUG": 4381.7,
+          "SEP": 4335.7,
+          "OCT": 3897.6,
+          "NOV": 3351.0,
+          "DEC": 3651.4
+        },
+        "recommended_system_size_kw": 39.1,
+        "recommended_panel_count": 87,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2150500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2072500.0,
+          "annual_savings_inr": 363846.0,
+          "monthly_savings_inr": 30320.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 12404049.0,
+          "co2_tons_annual": 42.62,
+          "trees_equivalent": 2131,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21249393678902,
+              13.08049343205475
+            ],
+            [
+              80.2125681106456,
+              13.080559974741961
+            ],
+            [
+              80.21243322722127,
+              13.080704606005389
+            ],
+            [
+              80.21235905336468,
+              13.080638063318178
+            ],
+            [
+              80.21249393678902,
+              13.08049343205475
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10168,
+        "neighborhood": "Anna Nagar",
+        "address": "#103, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 171.3,
+        "roof_area_sqft": 1843.9,
+        "usable_area_m2": 123.3,
+        "usable_area_sqft": 1327.2,
+        "orientation_deg": 120.9,
+        "aspect_ratio": 1.44,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 37677.0,
+        "monthly_generation_kwh": {
+          "JAN": 2926.4,
+          "FEB": 3051.5,
+          "MAR": 3753.1,
+          "APR": 3764.4,
+          "MAY": 3794.7,
+          "JUN": 3119.8,
+          "JUL": 3045.3,
+          "AUG": 3176.2,
+          "SEP": 3142.8,
+          "OCT": 2825.2,
+          "NOV": 2429.0,
+          "DEC": 2646.8
+        },
+        "recommended_system_size_kw": 28.4,
+        "recommended_panel_count": 63,
+        "solar_score": 71,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1562000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1484000.0,
+          "annual_savings_inr": 263739.0,
+          "monthly_savings_inr": 21978.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8991253.0,
+          "co2_tons_annual": 30.9,
+          "trees_equivalent": 1545,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2134234409662,
+              13.080607974751025
+            ],
+            [
+              80.21350947284427,
+              13.080658808542928
+            ],
+            [
+              80.21343463948081,
+              13.080780638820649
+            ],
+            [
+              80.21334860760274,
+              13.080729805028746
+            ],
+            [
+              80.2134234409662,
+              13.080607974751025
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10169,
+        "neighborhood": "Anna Nagar",
+        "address": "#108, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 322.2,
+        "roof_area_sqft": 3468.1,
+        "usable_area_m2": 232.0,
+        "usable_area_sqft": 2497.2,
+        "orientation_deg": 131.0,
+        "aspect_ratio": 1.6,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 70893.0,
+        "monthly_generation_kwh": {
+          "JAN": 5506.2,
+          "FEB": 5741.6,
+          "MAR": 7061.8,
+          "APR": 7083.1,
+          "MAY": 7140.2,
+          "JUN": 5870.1,
+          "JUL": 5730.0,
+          "AUG": 5976.2,
+          "SEP": 5913.4,
+          "OCT": 5315.9,
+          "NOV": 4570.5,
+          "DEC": 4980.2
+        },
+        "recommended_system_size_kw": 53.1,
+        "recommended_panel_count": 118,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2920500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2842500.0,
+          "annual_savings_inr": 673484.0,
+          "monthly_savings_inr": 56124.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 22960049.0,
+          "co2_tons_annual": 58.13,
+          "trees_equivalent": 2907,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20515544295723,
+              13.081392299132077
+            ],
+            [
+              80.20525702642438,
+              13.081479597991537
+            ],
+            [
+              80.20514109756957,
+              13.081609363442237
+            ],
+            [
+              80.2051088540419,
+              13.08158165398055
+            ],
+            [
+              80.20508285371314,
+              13.08161075755779
+            ],
+            [
+              80.20501351377366,
+              13.081551168160017
+            ],
+            [
+              80.20515544295723,
+              13.081392299132077
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10170,
+        "neighborhood": "Anna Nagar",
+        "address": "#128, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 146.3,
+        "roof_area_sqft": 1574.8,
+        "usable_area_m2": 105.3,
+        "usable_area_sqft": 1133.4,
+        "orientation_deg": 2.0,
+        "aspect_ratio": 1.31,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 33193.0,
+        "monthly_generation_kwh": {
+          "JAN": 2578.1,
+          "FEB": 2688.3,
+          "MAR": 3306.4,
+          "APR": 3316.4,
+          "MAY": 3343.1,
+          "JUN": 2748.5,
+          "JUL": 2682.9,
+          "AUG": 2798.2,
+          "SEP": 2768.7,
+          "OCT": 2489.0,
+          "NOV": 2139.9,
+          "DEC": 2331.8
+        },
+        "recommended_system_size_kw": 23.9,
+        "recommended_panel_count": 53,
+        "solar_score": 68,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1314500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1236500.0,
+          "annual_savings_inr": 232351.0,
+          "monthly_savings_inr": 19363.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 7921189.0,
+          "co2_tons_annual": 27.22,
+          "trees_equivalent": 1361,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20664981886634,
+              13.081527716601542
+            ],
+            [
+              80.20664596936108,
+              13.08162549519877
+            ],
+            [
+              80.20654875831492,
+              13.081621813656389
+            ],
+            [
+              80.20654943430571,
+              13.081604643286074
+            ],
+            [
+              80.20651616462615,
+              13.081603383308527
+            ],
+            [
+              80.20651933814064,
+              13.081522775081615
+            ],
+            [
+              80.20664981886634,
+              13.081527716601542
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10171,
+        "neighborhood": "Anna Nagar",
+        "address": "#121, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 701.4,
+        "roof_area_sqft": 7549.8,
+        "usable_area_m2": 505.0,
+        "usable_area_sqft": 5435.8,
+        "orientation_deg": 105.6,
+        "aspect_ratio": 1.15,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 154314.0,
+        "monthly_generation_kwh": {
+          "JAN": 11985.5,
+          "FEB": 12497.8,
+          "MAR": 15371.6,
+          "APR": 15418.0,
+          "MAY": 15542.2,
+          "JUN": 12777.6,
+          "JUL": 12472.7,
+          "AUG": 13008.6,
+          "SEP": 12871.9,
+          "OCT": 11571.4,
+          "NOV": 9948.6,
+          "DEC": 10840.5
+        },
+        "recommended_system_size_kw": 116.1,
+        "recommended_panel_count": 258,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6385500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6307500.0,
+          "annual_savings_inr": 1465983.0,
+          "monthly_savings_inr": 122165.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 49977530.0,
+          "co2_tons_annual": 126.54,
+          "trees_equivalent": 6327,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2077490177756,
+              13.08130741191507
+            ],
+            [
+              80.20796778188381,
+              13.08136826209351
+            ],
+            [
+              80.20789621502846,
+              13.081615764383148
+            ],
+            [
+              80.20767745092024,
+              13.081554914204707
+            ],
+            [
+              80.2077490177756,
+              13.08130741191507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10172,
+        "neighborhood": "Anna Nagar",
+        "address": "#14, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 127.7,
+        "roof_area_sqft": 1374.6,
+        "usable_area_m2": 91.9,
+        "usable_area_sqft": 989.2,
+        "orientation_deg": 122.1,
+        "aspect_ratio": 1.94,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 28082.0,
+        "monthly_generation_kwh": {
+          "JAN": 2181.1,
+          "FEB": 2274.4,
+          "MAR": 2797.3,
+          "APR": 2805.8,
+          "MAY": 2828.4,
+          "JUN": 2325.3,
+          "JUL": 2269.8,
+          "AUG": 2367.3,
+          "SEP": 2342.4,
+          "OCT": 2105.8,
+          "NOV": 1810.5,
+          "DEC": 1972.8
+        },
+        "recommended_system_size_kw": 21.2,
+        "recommended_panel_count": 47,
+        "solar_score": 62,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1166000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1088000.0,
+          "annual_savings_inr": 196574.0,
+          "monthly_savings_inr": 16381.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6701499.0,
+          "co2_tons_annual": 23.03,
+          "trees_equivalent": 1151,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20856121587633,
+              13.08151311173584
+            ],
+            [
+              80.20862445902618,
+              13.081552286664069
+            ],
+            [
+              80.2085469615296,
+              13.081672636645605
+            ],
+            [
+              80.20848371837975,
+              13.081633461717376
+            ],
+            [
+              80.20856121587633,
+              13.08151311173584
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10173,
+        "neighborhood": "Anna Nagar",
+        "address": "#31, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 205.8,
+        "roof_area_sqft": 2215.2,
+        "usable_area_m2": 148.2,
+        "usable_area_sqft": 1595.2,
+        "orientation_deg": 179.3,
+        "aspect_ratio": 1.7,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 46716.0,
+        "monthly_generation_kwh": {
+          "JAN": 3628.4,
+          "FEB": 3783.5,
+          "MAR": 4653.5,
+          "APR": 4667.5,
+          "MAY": 4705.1,
+          "JUN": 3868.2,
+          "JUL": 3775.9,
+          "AUG": 3938.1,
+          "SEP": 3896.7,
+          "OCT": 3503.0,
+          "NOV": 3011.8,
+          "DEC": 3281.8
+        },
+        "recommended_system_size_kw": 33.8,
+        "recommended_panel_count": 75,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1859000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1781000.0,
+          "annual_savings_inr": 443802.0,
+          "monthly_savings_inr": 36984.0,
+          "payback_years": 4.0,
+          "lifetime_savings_25yr_inr": 15129867.0,
+          "co2_tons_annual": 38.31,
+          "trees_equivalent": 1915,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20993324615569,
+              13.08168472573072
+            ],
+            [
+              80.20993412399395,
+              13.081784088084445
+            ],
+            [
+              80.20976140914618,
+              13.081785555913163
+            ],
+            [
+              80.20976053130792,
+              13.081686193559436
+            ],
+            [
+              80.20993324615569,
+              13.08168472573072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10174,
+        "neighborhood": "Anna Nagar",
+        "address": "#10, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 225.3,
+        "roof_area_sqft": 2425.1,
+        "usable_area_m2": 162.2,
+        "usable_area_sqft": 1745.9,
+        "orientation_deg": 4.2,
+        "aspect_ratio": 1.93,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 51129.0,
+        "monthly_generation_kwh": {
+          "JAN": 3971.2,
+          "FEB": 4140.9,
+          "MAR": 5093.1,
+          "APR": 5108.5,
+          "MAY": 5149.6,
+          "JUN": 4233.6,
+          "JUL": 4132.6,
+          "AUG": 4310.2,
+          "SEP": 4264.9,
+          "OCT": 3833.9,
+          "NOV": 3296.3,
+          "DEC": 3591.8
+        },
+        "recommended_system_size_kw": 37.4,
+        "recommended_panel_count": 83,
+        "solar_score": 80,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2057000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1979000.0,
+          "annual_savings_inr": 357903.0,
+          "monthly_savings_inr": 29825.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 12201443.0,
+          "co2_tons_annual": 41.93,
+          "trees_equivalent": 2096,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21110127663094,
+              13.081471487376298
+            ],
+            [
+              80.21109340358048,
+              13.081572082688567
+            ],
+            [
+              80.21094490222269,
+              13.081560902508743
+            ],
+            [
+              80.21094685971201,
+              13.081535891333031
+            ],
+            [
+              80.21089736234438,
+              13.08153216483868
+            ],
+            [
+              80.21090327790553,
+              13.081456580702124
+            ],
+            [
+              80.21110127663094,
+              13.081471487376298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10175,
+        "neighborhood": "Anna Nagar",
+        "address": "#42, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 418.6,
+        "roof_area_sqft": 4505.8,
+        "usable_area_m2": 301.4,
+        "usable_area_sqft": 3244.2,
+        "orientation_deg": 3.8,
+        "aspect_ratio": 1.25,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 95008.0,
+        "monthly_generation_kwh": {
+          "JAN": 7379.2,
+          "FEB": 7694.7,
+          "MAR": 9464.0,
+          "APR": 9492.5,
+          "MAY": 9569.0,
+          "JUN": 7866.9,
+          "JUL": 7679.2,
+          "AUG": 8009.1,
+          "SEP": 7925.0,
+          "OCT": 7124.2,
+          "NOV": 6125.2,
+          "DEC": 6674.3
+        },
+        "recommended_system_size_kw": 69.3,
+        "recommended_panel_count": 154,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3811500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3733500.0,
+          "annual_savings_inr": 902576.0,
+          "monthly_savings_inr": 75215.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 30770151.0,
+          "co2_tons_annual": 77.91,
+          "trees_equivalent": 3895,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21242767159606,
+              13.081443187681772
+            ],
+            [
+              80.21241611972138,
+              13.081608053752616
+            ],
+            [
+              80.21220536910928,
+              13.081593848691798
+            ],
+            [
+              80.21221692098396,
+              13.081428982620954
+            ],
+            [
+              80.21242767159606,
+              13.081443187681772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10176,
+        "neighborhood": "Anna Nagar",
+        "address": "#122, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 409.8,
+        "roof_area_sqft": 4411.0,
+        "usable_area_m2": 295.1,
+        "usable_area_sqft": 3176.4,
+        "orientation_deg": 3.1,
+        "aspect_ratio": 1.68,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 93022.0,
+        "monthly_generation_kwh": {
+          "JAN": 7225.0,
+          "FEB": 7533.8,
+          "MAR": 9266.2,
+          "APR": 9294.1,
+          "MAY": 9369.0,
+          "JUN": 7702.5,
+          "JUL": 7518.7,
+          "AUG": 7841.7,
+          "SEP": 7759.3,
+          "OCT": 6975.3,
+          "NOV": 5997.1,
+          "DEC": 6534.8
+        },
+        "recommended_system_size_kw": 68.0,
+        "recommended_panel_count": 151,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3740000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3662000.0,
+          "annual_savings_inr": 651154.0,
+          "monthly_savings_inr": 54263.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 22198803.0,
+          "co2_tons_annual": 76.28,
+          "trees_equivalent": 3814,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21378334918332,
+              13.081582887322782
+            ],
+            [
+              80.21377511515152,
+              13.08172367973244
+            ],
+            [
+              80.21353315130413,
+              13.081710067265085
+            ],
+            [
+              80.21354138533593,
+              13.081569274855427
+            ],
+            [
+              80.21378334918332,
+              13.081582887322782
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10177,
+        "neighborhood": "Anna Nagar",
+        "address": "#122, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 708.8,
+        "roof_area_sqft": 7629.5,
+        "usable_area_m2": 510.3,
+        "usable_area_sqft": 5492.8,
+        "orientation_deg": 177.9,
+        "aspect_ratio": 2.09,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 160857.0,
+        "monthly_generation_kwh": {
+          "JAN": 12493.7,
+          "FEB": 13027.8,
+          "MAR": 16023.5,
+          "APR": 16071.8,
+          "MAY": 16201.2,
+          "JUN": 13319.4,
+          "JUL": 13001.6,
+          "AUG": 13560.3,
+          "SEP": 13417.7,
+          "OCT": 12062.0,
+          "NOV": 10370.5,
+          "DEC": 11300.2
+        },
+        "recommended_system_size_kw": 117.5,
+        "recommended_panel_count": 261,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 6462500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 6384500.0,
+          "annual_savings_inr": 1528142.0,
+          "monthly_savings_inr": 127345.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 52096605.0,
+          "co2_tons_annual": 131.9,
+          "trees_equivalent": 6595,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2053086261795,
+              13.082868779327342
+            ],
+            [
+              80.20531432701561,
+              13.083035291209969
+            ],
+            [
+              80.20495973163035,
+              13.083046969505904
+            ],
+            [
+              80.20495403079424,
+              13.082880457623277
+            ],
+            [
+              80.2053086261795,
+              13.082868779327342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10178,
+        "neighborhood": "Anna Nagar",
+        "address": "#38, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 381.1,
+        "roof_area_sqft": 4102.1,
+        "usable_area_m2": 274.4,
+        "usable_area_sqft": 2953.6,
+        "orientation_deg": 107.0,
+        "aspect_ratio": 1.74,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 83849.0,
+        "monthly_generation_kwh": {
+          "JAN": 6512.5,
+          "FEB": 6790.9,
+          "MAR": 8352.4,
+          "APR": 8377.6,
+          "MAY": 8445.1,
+          "JUN": 6942.9,
+          "JUL": 6777.2,
+          "AUG": 7068.5,
+          "SEP": 6994.2,
+          "OCT": 6287.5,
+          "NOV": 5405.7,
+          "DEC": 5890.4
+        },
+        "recommended_system_size_kw": 63.0,
+        "recommended_panel_count": 140,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3465000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3387000.0,
+          "annual_savings_inr": 586943.0,
+          "monthly_savings_inr": 48912.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 20009755.0,
+          "co2_tons_annual": 68.76,
+          "trees_equivalent": 3438,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20644697029014,
+              13.08254801696576
+            ],
+            [
+              80.20658089594468,
+              13.08258871271774
+            ],
+            [
+              80.20652539140715,
+              13.082764422629234
+            ],
+            [
+              80.20649450196201,
+              13.08275503630812
+            ],
+            [
+              80.20647773123686,
+              13.082808127150114
+            ],
+            [
+              80.20637469502748,
+              13.082776817719246
+            ],
+            [
+              80.20644697029014,
+              13.08254801696576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10179,
+        "neighborhood": "Anna Nagar",
+        "address": "#121, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 521.4,
+        "roof_area_sqft": 5612.3,
+        "usable_area_m2": 375.4,
+        "usable_area_sqft": 4040.8,
+        "orientation_deg": 100.0,
+        "aspect_ratio": 1.45,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 114711.0,
+        "monthly_generation_kwh": {
+          "JAN": 8909.6,
+          "FEB": 9290.5,
+          "MAR": 11426.8,
+          "APR": 11461.2,
+          "MAY": 11553.5,
+          "JUN": 9498.4,
+          "JUL": 9271.8,
+          "AUG": 9670.2,
+          "SEP": 9568.5,
+          "OCT": 8601.8,
+          "NOV": 7395.5,
+          "DEC": 8058.5
+        },
+        "recommended_system_size_kw": 86.4,
+        "recommended_panel_count": 192,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4752000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4674000.0,
+          "annual_savings_inr": 1089754.0,
+          "monthly_savings_inr": 90813.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 37151344.0,
+          "co2_tons_annual": 94.06,
+          "trees_equivalent": 4703,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20740533931945,
+              13.082819270353552
+            ],
+            [
+              80.20758300165006,
+              13.082850589450226
+            ],
+            [
+              80.20754901368026,
+              13.083036055500495
+            ],
+            [
+              80.20750967480565,
+              13.083029120670739
+            ],
+            [
+              80.20749751836608,
+              13.083095456107822
+            ],
+            [
+              80.20735919491007,
+              13.083071071840903
+            ],
+            [
+              80.20740533931945,
+              13.082819270353552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10180,
+        "neighborhood": "Anna Nagar",
+        "address": "#81, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 128.2,
+        "roof_area_sqft": 1379.9,
+        "usable_area_m2": 92.3,
+        "usable_area_sqft": 993.5,
+        "orientation_deg": 105.4,
+        "aspect_ratio": 2.2,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 28204.0,
+        "monthly_generation_kwh": {
+          "JAN": 2190.6,
+          "FEB": 2284.3,
+          "MAR": 2809.5,
+          "APR": 2818.0,
+          "MAY": 2840.7,
+          "JUN": 2335.4,
+          "JUL": 2279.7,
+          "AUG": 2377.6,
+          "SEP": 2352.6,
+          "OCT": 2114.9,
+          "NOV": 1818.3,
+          "DEC": 1981.3
+        },
+        "recommended_system_size_kw": 21.2,
+        "recommended_panel_count": 47,
+        "solar_score": 62,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1166000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1088000.0,
+          "annual_savings_inr": 197428.0,
+          "monthly_savings_inr": 16452.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6730613.0,
+          "co2_tons_annual": 23.13,
+          "trees_equivalent": 1156,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20890482849553,
+              13.082904002680104
+            ],
+            [
+              80.20897266030151,
+              13.082922588964392
+            ],
+            [
+              80.20893100877574,
+              13.083068815028811
+            ],
+            [
+              80.20886317696976,
+              13.083050228744524
+            ],
+            [
+              80.20890482849553,
+              13.082904002680104
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10181,
+        "neighborhood": "Anna Nagar",
+        "address": "#124, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 468.1,
+        "roof_area_sqft": 5038.6,
+        "usable_area_m2": 337.0,
+        "usable_area_sqft": 3627.4,
+        "orientation_deg": 17.5,
+        "aspect_ratio": 1.89,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 106229.0,
+        "monthly_generation_kwh": {
+          "JAN": 8250.8,
+          "FEB": 8603.5,
+          "MAR": 10581.8,
+          "APR": 10613.8,
+          "MAY": 10699.2,
+          "JUN": 8796.1,
+          "JUL": 8586.2,
+          "AUG": 8955.1,
+          "SEP": 8861.0,
+          "OCT": 7965.7,
+          "NOV": 6848.6,
+          "DEC": 7462.6
+        },
+        "recommended_system_size_kw": 77.4,
+        "recommended_panel_count": 172,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4257000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4179000.0,
+          "annual_savings_inr": 1009176.0,
+          "monthly_savings_inr": 84098.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 34404286.0,
+          "co2_tons_annual": 87.11,
+          "trees_equivalent": 4355,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21013264185686,
+              13.083001576665254
+            ],
+            [
+              80.21008850580388,
+              13.083137054220654
+            ],
+            [
+              80.20982702167515,
+              13.083055108826944
+            ],
+            [
+              80.20987115772813,
+              13.082919631271544
+            ],
+            [
+              80.21013264185686,
+              13.083001576665254
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10182,
+        "neighborhood": "Anna Nagar",
+        "address": "#82, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 289.8,
+        "roof_area_sqft": 3119.4,
+        "usable_area_m2": 208.7,
+        "usable_area_sqft": 2246.4,
+        "orientation_deg": 122.5,
+        "aspect_ratio": 1.88,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 63773.0,
+        "monthly_generation_kwh": {
+          "JAN": 4953.2,
+          "FEB": 5165.0,
+          "MAR": 6352.6,
+          "APR": 6371.8,
+          "MAY": 6423.1,
+          "JUN": 5280.6,
+          "JUL": 5154.6,
+          "AUG": 5376.0,
+          "SEP": 5319.5,
+          "OCT": 4782.1,
+          "NOV": 4111.4,
+          "DEC": 4480.0
+        },
+        "recommended_system_size_kw": 48.1,
+        "recommended_panel_count": 107,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2645500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2567500.0,
+          "annual_savings_inr": 605844.0,
+          "monthly_savings_inr": 50487.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 20654101.0,
+          "co2_tons_annual": 52.29,
+          "trees_equivalent": 2615,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21108312209509,
+              13.082527056605793
+            ],
+            [
+              80.21117956652503,
+              13.082587810869784
+            ],
+            [
+              80.21106339704042,
+              13.082765207563346
+            ],
+            [
+              80.21096695261048,
+              13.082704453299355
+            ],
+            [
+              80.21108312209509,
+              13.082527056605793
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10183,
+        "neighborhood": "Anna Nagar",
+        "address": "#89, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 469.7,
+        "roof_area_sqft": 5055.8,
+        "usable_area_m2": 338.2,
+        "usable_area_sqft": 3640.4,
+        "orientation_deg": 116.0,
+        "aspect_ratio": 1.85,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 103344.0,
+        "monthly_generation_kwh": {
+          "JAN": 8026.7,
+          "FEB": 8369.8,
+          "MAR": 10294.4,
+          "APR": 10325.5,
+          "MAY": 10408.6,
+          "JUN": 8557.2,
+          "JUL": 8353.0,
+          "AUG": 8711.9,
+          "SEP": 8620.4,
+          "OCT": 7749.4,
+          "NOV": 6662.6,
+          "DEC": 7259.9
+        },
+        "recommended_system_size_kw": 77.9,
+        "recommended_panel_count": 173,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4284500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4206500.0,
+          "annual_savings_inr": 723408.0,
+          "monthly_savings_inr": 60284.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 24662049.0,
+          "co2_tons_annual": 84.74,
+          "trees_equivalent": 4237,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21242418747387,
+              13.082638618238315
+            ],
+            [
+              80.21255620523259,
+              13.082702383822237
+            ],
+            [
+              80.21243630011635,
+              13.082941185184888
+            ],
+            [
+              80.21230428235764,
+              13.082877419600965
+            ],
+            [
+              80.21242418747387,
+              13.082638618238315
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10184,
+        "neighborhood": "Anna Nagar",
+        "address": "#55, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 147.9,
+        "roof_area_sqft": 1592.0,
+        "usable_area_m2": 106.5,
+        "usable_area_sqft": 1146.4,
+        "orientation_deg": 10.6,
+        "aspect_ratio": 2.12,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 33571.0,
+        "monthly_generation_kwh": {
+          "JAN": 2607.5,
+          "FEB": 2718.9,
+          "MAR": 3344.1,
+          "APR": 3354.2,
+          "MAY": 3381.2,
+          "JUN": 2779.8,
+          "JUL": 2713.4,
+          "AUG": 2830.0,
+          "SEP": 2800.3,
+          "OCT": 2517.4,
+          "NOV": 2164.3,
+          "DEC": 2358.4
+        },
+        "recommended_system_size_kw": 24.3,
+        "recommended_panel_count": 54,
+        "solar_score": 67,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1336500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1258500.0,
+          "annual_savings_inr": 234997.0,
+          "monthly_savings_inr": 19583.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 8011395.0,
+          "co2_tons_annual": 27.53,
+          "trees_equivalent": 1376,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21383966989396,
+              13.083005144519909
+            ],
+            [
+              80.2138252356625,
+              13.08307942629715
+            ],
+            [
+              80.21366494594,
+              13.083049464343485
+            ],
+            [
+              80.21367938017146,
+              13.082975182566244
+            ],
+            [
+              80.21383966989396,
+              13.083005144519909
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10185,
+        "neighborhood": "Anna Nagar",
+        "address": "#60, Shanthi Colony, Anna Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 430.3,
+        "roof_area_sqft": 4631.7,
+        "usable_area_m2": 309.8,
+        "usable_area_sqft": 3334.7,
+        "orientation_deg": 100.9,
+        "aspect_ratio": 1.92,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 94666.0,
+        "monthly_generation_kwh": {
+          "JAN": 7352.7,
+          "FEB": 7667.0,
+          "MAR": 9430.0,
+          "APR": 9458.4,
+          "MAY": 9534.6,
+          "JUN": 7838.6,
+          "JUL": 7651.6,
+          "AUG": 7980.3,
+          "SEP": 7896.5,
+          "OCT": 7098.6,
+          "NOV": 6103.1,
+          "DEC": 6650.3
+        },
+        "recommended_system_size_kw": 71.1,
+        "recommended_panel_count": 158,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3910500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3832500.0,
+          "annual_savings_inr": 662662.0,
+          "monthly_savings_inr": 55222.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 22591128.0,
+          "co2_tons_annual": 77.63,
+          "trees_equivalent": 3881,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20517559843479,
+              13.083606196340588
+            ],
+            [
+              80.20531550565647,
+              13.08363309855263
+            ],
+            [
+              80.20527291861488,
+              13.083846149114857
+            ],
+            [
+              80.20522851413537,
+              13.083837610751297
+            ],
+            [
+              80.20521857500938,
+              13.083887333303053
+            ],
+            [
+              80.20512307226721,
+              13.083868969454572
+            ],
+            [
+              80.20517559843479,
+              13.083606196340588
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10186,
+        "neighborhood": "Anna Nagar",
+        "address": "#105, Shanthi Colony, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 220.8,
+        "roof_area_sqft": 2376.7,
+        "usable_area_m2": 159.0,
+        "usable_area_sqft": 1711.5,
+        "orientation_deg": 26.2,
+        "aspect_ratio": 2.16,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 48586.0,
+        "monthly_generation_kwh": {
+          "JAN": 3773.6,
+          "FEB": 3935.0,
+          "MAR": 4839.8,
+          "APR": 4854.4,
+          "MAY": 4893.5,
+          "JUN": 4023.0,
+          "JUL": 3927.0,
+          "AUG": 4095.8,
+          "SEP": 4052.7,
+          "OCT": 3643.3,
+          "NOV": 3132.3,
+          "DEC": 3413.2
+        },
+        "recommended_system_size_kw": 36.5,
+        "recommended_panel_count": 81,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2007500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1929500.0,
+          "annual_savings_inr": 461567.0,
+          "monthly_savings_inr": 38464.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 15735502.0,
+          "co2_tons_annual": 39.84,
+          "trees_equivalent": 1992,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.206467579468,
+              13.083679174515805
+            ],
+            [
+              80.20642617332665,
+              13.083761075287416
+            ],
+            [
+              80.20624572189804,
+              13.083673316591035
+            ],
+            [
+              80.20628712803939,
+              13.083591415819424
+            ],
+            [
+              80.206467579468,
+              13.083679174515805
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10187,
+        "neighborhood": "Anna Nagar",
+        "address": "#60, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 526.0,
+        "roof_area_sqft": 5661.8,
+        "usable_area_m2": 378.7,
+        "usable_area_sqft": 4076.3,
+        "orientation_deg": 34.5,
+        "aspect_ratio": 1.45,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 115720.0,
+        "monthly_generation_kwh": {
+          "JAN": 8987.9,
+          "FEB": 9372.1,
+          "MAR": 11527.2,
+          "APR": 11562.0,
+          "MAY": 11655.1,
+          "JUN": 9581.9,
+          "JUL": 9353.3,
+          "AUG": 9755.2,
+          "SEP": 9652.7,
+          "OCT": 8677.4,
+          "NOV": 7460.5,
+          "DEC": 8129.3
+        },
+        "recommended_system_size_kw": 87.3,
+        "recommended_panel_count": 194,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4801500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4723500.0,
+          "annual_savings_inr": 1099340.0,
+          "monthly_savings_inr": 91612.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 37478127.0,
+          "co2_tons_annual": 94.89,
+          "trees_equivalent": 4745,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20794506271447,
+              13.083976730923201
+            ],
+            [
+              80.20784534626448,
+              13.084118294565338
+            ],
+            [
+              80.20763558474273,
+              13.083976161874503
+            ],
+            [
+              80.20773530119273,
+              13.083834598232366
+            ],
+            [
+              80.20794506271447,
+              13.083976730923201
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10188,
+        "neighborhood": "Anna Nagar",
+        "address": "#102, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 559.3,
+        "roof_area_sqft": 6020.2,
+        "usable_area_m2": 402.7,
+        "usable_area_sqft": 4334.6,
+        "orientation_deg": 104.0,
+        "aspect_ratio": 2.02,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 123054.0,
+        "monthly_generation_kwh": {
+          "JAN": 9557.5,
+          "FEB": 9966.1,
+          "MAR": 12257.7,
+          "APR": 12294.7,
+          "MAY": 12393.7,
+          "JUN": 10189.2,
+          "JUL": 9946.1,
+          "AUG": 10373.4,
+          "SEP": 10264.4,
+          "OCT": 9227.3,
+          "NOV": 7933.3,
+          "DEC": 8644.5
+        },
+        "recommended_system_size_kw": 92.7,
+        "recommended_panel_count": 206,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5098500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5020500.0,
+          "annual_savings_inr": 861378.0,
+          "monthly_savings_inr": 71782.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 29365651.0,
+          "co2_tons_annual": 100.9,
+          "trees_equivalent": 5045,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20887517372437,
+              13.083751728596505
+            ],
+            [
+              80.20902389388115,
+              13.083788580427893
+            ],
+            [
+              80.20894794395387,
+              13.084083423680392
+            ],
+            [
+              80.20879922379709,
+              13.084046571849004
+            ],
+            [
+              80.20887517372437,
+              13.083751728596505
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10189,
+        "neighborhood": "Anna Nagar",
+        "address": "#86, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 649.0,
+        "roof_area_sqft": 6985.8,
+        "usable_area_m2": 467.3,
+        "usable_area_sqft": 5030.0,
+        "orientation_deg": 123.6,
+        "aspect_ratio": 1.11,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 142793.0,
+        "monthly_generation_kwh": {
+          "JAN": 11090.7,
+          "FEB": 11564.8,
+          "MAR": 14224.1,
+          "APR": 14267.0,
+          "MAY": 14381.9,
+          "JUN": 11823.7,
+          "JUL": 11541.6,
+          "AUG": 12037.5,
+          "SEP": 11911.0,
+          "OCT": 10707.5,
+          "NOV": 9205.9,
+          "DEC": 10031.2
+        },
+        "recommended_system_size_kw": 107.5,
+        "recommended_panel_count": 239,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5912500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5834500.0,
+          "annual_savings_inr": 1356534.0,
+          "monthly_savings_inr": 113044.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 46246234.0,
+          "co2_tons_annual": 117.09,
+          "trees_equivalent": 5855,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20981927317492,
+              13.083882295664269
+            ],
+            [
+              80.21000462293775,
+              13.084003843478662
+            ],
+            [
+              80.209867038457,
+              13.084205664965607
+            ],
+            [
+              80.20968168869418,
+              13.084084117151214
+            ],
+            [
+              80.20981927317492,
+              13.083882295664269
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10190,
+        "neighborhood": "Anna Nagar",
+        "address": "#66, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 398.4,
+        "roof_area_sqft": 4288.3,
+        "usable_area_m2": 286.8,
+        "usable_area_sqft": 3087.1,
+        "orientation_deg": 108.3,
+        "aspect_ratio": 1.62,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 87638.0,
+        "monthly_generation_kwh": {
+          "JAN": 6806.8,
+          "FEB": 7097.8,
+          "MAR": 8729.9,
+          "APR": 8756.2,
+          "MAY": 8826.7,
+          "JUN": 7256.7,
+          "JUL": 7083.5,
+          "AUG": 7387.9,
+          "SEP": 7310.2,
+          "OCT": 6571.6,
+          "NOV": 5650.0,
+          "DEC": 6156.6
+        },
+        "recommended_system_size_kw": 66.2,
+        "recommended_panel_count": 147,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3641000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3563000.0,
+          "annual_savings_inr": 832561.0,
+          "monthly_savings_inr": 69380.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 28383237.0,
+          "co2_tons_annual": 71.86,
+          "trees_equivalent": 3593,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2114114328782,
+              13.083654424288877
+            ],
+            [
+              80.21155562117028,
+              13.083701771377356
+            ],
+            [
+              80.2115011017541,
+              13.08386148464236
+            ],
+            [
+              80.21145667691079,
+              13.08384689686303
+            ],
+            [
+              80.21143324174857,
+              13.083915549584143
+            ],
+            [
+              80.21133347829979,
+              13.083882790274995
+            ],
+            [
+              80.2114114328782,
+              13.083654424288877
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10191,
+        "neighborhood": "Anna Nagar",
+        "address": "#110, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 148.9,
+        "roof_area_sqft": 1602.7,
+        "usable_area_m2": 107.2,
+        "usable_area_sqft": 1153.9,
+        "orientation_deg": 17.4,
+        "aspect_ratio": 1.29,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 33792.0,
+        "monthly_generation_kwh": {
+          "JAN": 2624.6,
+          "FEB": 2736.8,
+          "MAR": 3366.1,
+          "APR": 3376.2,
+          "MAY": 3403.4,
+          "JUN": 2798.0,
+          "JUL": 2731.3,
+          "AUG": 2848.6,
+          "SEP": 2818.7,
+          "OCT": 2533.9,
+          "NOV": 2178.6,
+          "DEC": 2373.9
+        },
+        "recommended_system_size_kw": 24.3,
+        "recommended_panel_count": 54,
+        "solar_score": 68,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1336500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1258500.0,
+          "annual_savings_inr": 236544.0,
+          "monthly_savings_inr": 19712.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 8064135.0,
+          "co2_tons_annual": 27.71,
+          "trees_equivalent": 1385,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2122329776567,
+              13.08398197891937
+            ],
+            [
+              80.21220309888123,
+              13.0840745117114
+            ],
+            [
+              80.2120811065389,
+              13.084036619254087
+            ],
+            [
+              80.21211098531437,
+              13.083944086462058
+            ],
+            [
+              80.2122329776567,
+              13.08398197891937
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10192,
+        "neighborhood": "Anna Nagar",
+        "address": "#85, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 249.1,
+        "roof_area_sqft": 2681.3,
+        "usable_area_m2": 179.4,
+        "usable_area_sqft": 1931.0,
+        "orientation_deg": 104.6,
+        "aspect_ratio": 2.13,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 54820.0,
+        "monthly_generation_kwh": {
+          "JAN": 4257.8,
+          "FEB": 4439.8,
+          "MAR": 5460.7,
+          "APR": 5477.2,
+          "MAY": 5521.3,
+          "JUN": 4539.2,
+          "JUL": 4430.9,
+          "AUG": 4621.3,
+          "SEP": 4572.7,
+          "OCT": 4110.7,
+          "NOV": 3534.2,
+          "DEC": 3851.1
+        },
+        "recommended_system_size_kw": 41.4,
+        "recommended_panel_count": 92,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2277000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2199000.0,
+          "annual_savings_inr": 520790.0,
+          "monthly_savings_inr": 43399.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 17754502.0,
+          "co2_tons_annual": 44.95,
+          "trees_equivalent": 2248,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21337146186434,
+              13.083790350637349
+            ],
+            [
+              80.21347140304401,
+              13.08381620242448
+            ],
+            [
+              80.21342975612755,
+              13.083971080457346
+            ],
+            [
+              80.21340302547571,
+              13.083964166039053
+            ],
+            [
+              80.21338854525368,
+              13.084018015603318
+            ],
+            [
+              80.21331533472583,
+              13.08399907823448
+            ],
+            [
+              80.21337146186434,
+              13.083790350637349
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10193,
+        "neighborhood": "Anna Nagar",
+        "address": "#104, Shanthi Colony, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 196.3,
+        "roof_area_sqft": 2113.0,
+        "usable_area_m2": 141.3,
+        "usable_area_sqft": 1520.9,
+        "orientation_deg": 12.2,
+        "aspect_ratio": 1.83,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 44541.0,
+        "monthly_generation_kwh": {
+          "JAN": 3459.5,
+          "FEB": 3607.4,
+          "MAR": 4436.8,
+          "APR": 4450.2,
+          "MAY": 4486.1,
+          "JUN": 3688.1,
+          "JUL": 3600.1,
+          "AUG": 3754.8,
+          "SEP": 3715.3,
+          "OCT": 3339.9,
+          "NOV": 2871.5,
+          "DEC": 3129.0
+        },
+        "recommended_system_size_kw": 32.4,
+        "recommended_panel_count": 72,
+        "solar_score": 77,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1782000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1704000.0,
+          "annual_savings_inr": 311787.0,
+          "monthly_savings_inr": 25982.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 10629280.0,
+          "co2_tons_annual": 36.52,
+          "trees_equivalent": 1826,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20540711160503,
+              13.084873656491034
+            ],
+            [
+              80.20538669066869,
+              13.084965033246625
+            ],
+            [
+              80.20521577092337,
+              13.08492828934866
+            ],
+            [
+              80.20523619185971,
+              13.084836912593069
+            ],
+            [
+              80.20540711160503,
+              13.084873656491034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10194,
+        "neighborhood": "Anna Nagar",
+        "address": "#57, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 492.2,
+        "roof_area_sqft": 5298.0,
+        "usable_area_m2": 354.4,
+        "usable_area_sqft": 3814.7,
+        "orientation_deg": 11.0,
+        "aspect_ratio": 2.11,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 111714.0,
+        "monthly_generation_kwh": {
+          "JAN": 8676.8,
+          "FEB": 9047.7,
+          "MAR": 11128.2,
+          "APR": 11161.8,
+          "MAY": 11251.6,
+          "JUN": 9250.3,
+          "JUL": 9029.5,
+          "AUG": 9417.5,
+          "SEP": 9318.5,
+          "OCT": 8377.0,
+          "NOV": 7202.2,
+          "DEC": 7847.9
+        },
+        "recommended_system_size_kw": 81.5,
+        "recommended_panel_count": 181,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4482500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4404500.0,
+          "annual_savings_inr": 781998.0,
+          "monthly_savings_inr": 65166.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 26659469.0,
+          "co2_tons_annual": 91.61,
+          "trees_equivalent": 4580,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20677090288596,
+              13.085053468074644
+            ],
+            [
+              80.20674359389037,
+              13.085189060232596
+            ],
+            [
+              80.20645220312797,
+              13.085132605545247
+            ],
+            [
+              80.20647951212356,
+              13.084997013387296
+            ],
+            [
+              80.20677090288596,
+              13.085053468074644
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10195,
+        "neighborhood": "Anna Nagar",
+        "address": "#56, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 208.7,
+        "roof_area_sqft": 2246.4,
+        "usable_area_m2": 150.3,
+        "usable_area_sqft": 1617.8,
+        "orientation_deg": 178.6,
+        "aspect_ratio": 1.87,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 47378.0,
+        "monthly_generation_kwh": {
+          "JAN": 3679.8,
+          "FEB": 3837.1,
+          "MAR": 4719.4,
+          "APR": 4733.7,
+          "MAY": 4771.8,
+          "JUN": 3923.0,
+          "JUL": 3829.4,
+          "AUG": 3993.9,
+          "SEP": 3952.0,
+          "OCT": 3552.7,
+          "NOV": 3054.4,
+          "DEC": 3328.3
+        },
+        "recommended_system_size_kw": 34.6,
+        "recommended_panel_count": 77,
+        "solar_score": 80,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1903000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1825000.0,
+          "annual_savings_inr": 331646.0,
+          "monthly_savings_inr": 27637.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 11306303.0,
+          "co2_tons_annual": 38.85,
+          "trees_equivalent": 1942,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20750682071265,
+              13.084809861509953
+            ],
+            [
+              80.20750896789048,
+              13.08490532450053
+            ],
+            [
+              80.20732674806952,
+              13.084909267090985
+            ],
+            [
+              80.2073246008917,
+              13.084813804100408
+            ],
+            [
+              80.20750682071265,
+              13.084809861509953
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10196,
+        "neighborhood": "Anna Nagar",
+        "address": "#130, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 556.2,
+        "roof_area_sqft": 5986.9,
+        "usable_area_m2": 400.5,
+        "usable_area_sqft": 4310.9,
+        "orientation_deg": 179.3,
+        "aspect_ratio": 1.87,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 126246.0,
+        "monthly_generation_kwh": {
+          "JAN": 9805.5,
+          "FEB": 10224.7,
+          "MAR": 12575.7,
+          "APR": 12613.7,
+          "MAY": 12715.2,
+          "JUN": 10453.5,
+          "JUL": 10204.1,
+          "AUG": 10642.5,
+          "SEP": 10530.7,
+          "OCT": 9466.7,
+          "NOV": 8139.1,
+          "DEC": 8868.8
+        },
+        "recommended_system_size_kw": 92.2,
+        "recommended_panel_count": 205,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5071000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4993000.0,
+          "annual_savings_inr": 1199337.0,
+          "monthly_savings_inr": 99945.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 40887173.0,
+          "co2_tons_annual": 103.52,
+          "trees_equivalent": 5176,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20904425538967,
+              13.085048479606254
+            ],
+            [
+              80.209045791319,
+              13.085210556756572
+            ],
+            [
+              80.20883387157212,
+              13.085212488608974
+            ],
+            [
+              80.20883350237358,
+              13.08517352936394
+            ],
+            [
+              80.20873571733169,
+              13.085174420768688
+            ],
+            [
+              80.2087345506009,
+              13.085051302863402
+            ],
+            [
+              80.20904425538967,
+              13.085048479606254
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10197,
+        "neighborhood": "Anna Nagar",
+        "address": "#131, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 222.8,
+        "roof_area_sqft": 2398.2,
+        "usable_area_m2": 160.4,
+        "usable_area_sqft": 1726.5,
+        "orientation_deg": 131.0,
+        "aspect_ratio": 1.33,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 49014.0,
+        "monthly_generation_kwh": {
+          "JAN": 3806.9,
+          "FEB": 3969.6,
+          "MAR": 4882.4,
+          "APR": 4897.1,
+          "MAY": 4936.6,
+          "JUN": 4058.5,
+          "JUL": 3961.6,
+          "AUG": 4131.9,
+          "SEP": 4088.4,
+          "OCT": 3675.3,
+          "NOV": 3159.9,
+          "DEC": 3443.2
+        },
+        "recommended_system_size_kw": 36.9,
+        "recommended_panel_count": 82,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2029500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1951500.0,
+          "annual_savings_inr": 343098.0,
+          "monthly_savings_inr": 28592.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 11696719.0,
+          "co2_tons_annual": 40.19,
+          "trees_equivalent": 2010,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21002549451079,
+              13.084753987840083
+            ],
+            [
+              80.21011547843153,
+              13.08483114738635
+            ],
+            [
+              80.21001116564746,
+              13.084948168938885
+            ],
+            [
+              80.20992118172671,
+              13.084871009392618
+            ],
+            [
+              80.21002549451079,
+              13.084753987840083
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10198,
+        "neighborhood": "Anna Nagar",
+        "address": "#102, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 164.8,
+        "roof_area_sqft": 1773.9,
+        "usable_area_m2": 118.7,
+        "usable_area_sqft": 1277.7,
+        "orientation_deg": 175.4,
+        "aspect_ratio": 1.61,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 37417.0,
+        "monthly_generation_kwh": {
+          "JAN": 2906.1,
+          "FEB": 3030.4,
+          "MAR": 3727.2,
+          "APR": 3738.4,
+          "MAY": 3768.5,
+          "JUN": 3098.2,
+          "JUL": 3024.3,
+          "AUG": 3154.2,
+          "SEP": 3121.1,
+          "OCT": 2805.7,
+          "NOV": 2412.3,
+          "DEC": 2628.5
+        },
+        "recommended_system_size_kw": 27.0,
+        "recommended_panel_count": 60,
+        "solar_score": 71,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1485000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1407000.0,
+          "annual_savings_inr": 261919.0,
+          "monthly_savings_inr": 21827.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 8929206.0,
+          "co2_tons_annual": 30.68,
+          "trees_equivalent": 1534,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2110490700324,
+              13.084921425844797
+            ],
+            [
+              80.21105626778905,
+              13.085012700828258
+            ],
+            [
+              80.2109065657734,
+              13.085024056847391
+            ],
+            [
+              80.21089936801675,
+              13.08493278186393
+            ],
+            [
+              80.2110490700324,
+              13.084921425844797
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10199,
+        "neighborhood": "Anna Nagar",
+        "address": "#121, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 119.6,
+        "roof_area_sqft": 1287.4,
+        "usable_area_m2": 86.1,
+        "usable_area_sqft": 926.8,
+        "orientation_deg": 133.3,
+        "aspect_ratio": 1.17,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 26310.0,
+        "monthly_generation_kwh": {
+          "JAN": 2043.5,
+          "FEB": 2130.8,
+          "MAR": 2620.8,
+          "APR": 2628.7,
+          "MAY": 2649.9,
+          "JUN": 2178.5,
+          "JUL": 2126.5,
+          "AUG": 2217.9,
+          "SEP": 2194.6,
+          "OCT": 1972.9,
+          "NOV": 1696.2,
+          "DEC": 1848.3
+        },
+        "recommended_system_size_kw": 19.8,
+        "recommended_panel_count": 44,
+        "solar_score": 61,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1089000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1011000.0,
+          "annual_savings_inr": 184170.0,
+          "monthly_savings_inr": 15348.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6278628.0,
+          "co2_tons_annual": 21.57,
+          "trees_equivalent": 1079,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21215517318787,
+              13.08480694209423
+            ],
+            [
+              80.21222286648661,
+              13.084869826305912
+            ],
+            [
+              80.2121478422837,
+              13.08494751512484
+            ],
+            [
+              80.21208014898495,
+              13.084884630913159
+            ],
+            [
+              80.21215517318787,
+              13.08480694209423
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10200,
+        "neighborhood": "Anna Nagar",
+        "address": "#115, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 490.3,
+        "roof_area_sqft": 5277.5,
+        "usable_area_m2": 353.0,
+        "usable_area_sqft": 3799.7,
+        "orientation_deg": 16.3,
+        "aspect_ratio": 1.56,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 111273.0,
+        "monthly_generation_kwh": {
+          "JAN": 8642.5,
+          "FEB": 9012.0,
+          "MAR": 11084.2,
+          "APR": 11117.7,
+          "MAY": 11207.2,
+          "JUN": 9213.7,
+          "JUL": 8993.9,
+          "AUG": 9380.3,
+          "SEP": 9281.7,
+          "OCT": 8343.9,
+          "NOV": 7173.8,
+          "DEC": 7816.9
+        },
+        "recommended_system_size_kw": 81.5,
+        "recommended_panel_count": 181,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4482500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4404500.0,
+          "annual_savings_inr": 778911.0,
+          "monthly_savings_inr": 64909.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 26554229.0,
+          "co2_tons_annual": 91.24,
+          "trees_equivalent": 4562,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21369996541131,
+              13.08472450094928
+            ],
+            [
+              80.21365368050161,
+              13.084878160281072
+            ],
+            [
+              80.2134089015245,
+              13.084807233921746
+            ],
+            [
+              80.2134551864342,
+              13.084653574589954
+            ],
+            [
+              80.21369996541131,
+              13.08472450094928
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10201,
+        "neighborhood": "Anna Nagar",
+        "address": "#46, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 200.1,
+        "roof_area_sqft": 2153.9,
+        "usable_area_m2": 144.1,
+        "usable_area_sqft": 1551.1,
+        "orientation_deg": 18.6,
+        "aspect_ratio": 1.25,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 45423.0,
+        "monthly_generation_kwh": {
+          "JAN": 3528.0,
+          "FEB": 3678.8,
+          "MAR": 4524.8,
+          "APR": 4538.4,
+          "MAY": 4574.9,
+          "JUN": 3761.2,
+          "JUL": 3671.4,
+          "AUG": 3829.2,
+          "SEP": 3788.9,
+          "OCT": 3406.1,
+          "NOV": 2928.4,
+          "DEC": 3191.0
+        },
+        "recommended_system_size_kw": 32.9,
+        "recommended_panel_count": 73,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1809500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1731500.0,
+          "annual_savings_inr": 317961.0,
+          "monthly_savings_inr": 26497.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 10839761.0,
+          "co2_tons_annual": 37.25,
+          "trees_equivalent": 1862,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20549110701103,
+              13.086253499184622
+            ],
+            [
+              80.20545355732409,
+              13.086362019923175
+            ],
+            [
+              80.20531566030047,
+              13.08631612110069
+            ],
+            [
+              80.20535320998741,
+              13.086207600362137
+            ],
+            [
+              80.20549110701103,
+              13.086253499184622
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10202,
+        "neighborhood": "Anna Nagar",
+        "address": "#109, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 239.2,
+        "roof_area_sqft": 2574.7,
+        "usable_area_m2": 172.2,
+        "usable_area_sqft": 1853.5,
+        "orientation_deg": 24.9,
+        "aspect_ratio": 1.13,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 54281.0,
+        "monthly_generation_kwh": {
+          "JAN": 4216.0,
+          "FEB": 4396.2,
+          "MAR": 5407.1,
+          "APR": 5423.4,
+          "MAY": 5467.1,
+          "JUN": 4494.6,
+          "JUL": 4387.4,
+          "AUG": 4575.9,
+          "SEP": 4527.8,
+          "OCT": 4070.3,
+          "NOV": 3499.5,
+          "DEC": 3813.2
+        },
+        "recommended_system_size_kw": 39.6,
+        "recommended_panel_count": 88,
+        "solar_score": 80,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2178000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2100000.0,
+          "annual_savings_inr": 379967.0,
+          "monthly_savings_inr": 31664.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 12953637.0,
+          "co2_tons_annual": 44.51,
+          "trees_equivalent": 2226,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2064435013044,
+              13.086318072646355
+            ],
+            [
+              80.20638660581332,
+              13.086437552542167
+            ],
+            [
+              80.20624955732735,
+              13.086374774129725
+            ],
+            [
+              80.20630645281844,
+              13.086255294233913
+            ],
+            [
+              80.2064435013044,
+              13.086318072646355
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10203,
+        "neighborhood": "Anna Nagar",
+        "address": "#108, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 155.7,
+        "roof_area_sqft": 1675.9,
+        "usable_area_m2": 112.1,
+        "usable_area_sqft": 1206.6,
+        "orientation_deg": 116.7,
+        "aspect_ratio": 2.06,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 34255.0,
+        "monthly_generation_kwh": {
+          "JAN": 2660.5,
+          "FEB": 2774.3,
+          "MAR": 3412.2,
+          "APR": 3422.5,
+          "MAY": 3450.1,
+          "JUN": 2836.4,
+          "JUL": 2768.7,
+          "AUG": 2887.7,
+          "SEP": 2857.3,
+          "OCT": 2568.6,
+          "NOV": 2208.4,
+          "DEC": 2406.4
+        },
+        "recommended_system_size_kw": 25.7,
+        "recommended_panel_count": 57,
+        "solar_score": 68,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1413500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1335500.0,
+          "annual_savings_inr": 239785.0,
+          "monthly_savings_inr": 19982.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8174625.0,
+          "co2_tons_annual": 28.09,
+          "trees_equivalent": 1404,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2077633162471,
+              13.086025925493592
+            ],
+            [
+              80.2078347673109,
+              13.086061455015537
+            ],
+            [
+              80.20776004419027,
+              13.086206008114905
+            ],
+            [
+              80.20768859312646,
+              13.08617047859296
+            ],
+            [
+              80.2077633162471,
+              13.086025925493592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10204,
+        "neighborhood": "Anna Nagar",
+        "address": "#63, 2nd Avenue, Anna Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 244.6,
+        "roof_area_sqft": 2632.8,
+        "usable_area_m2": 176.1,
+        "usable_area_sqft": 1895.5,
+        "orientation_deg": 85.8,
+        "aspect_ratio": 1.14,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 53811.0,
+        "monthly_generation_kwh": {
+          "JAN": 4179.5,
+          "FEB": 4358.2,
+          "MAR": 5360.3,
+          "APR": 5376.5,
+          "MAY": 5419.7,
+          "JUN": 4455.7,
+          "JUL": 4349.4,
+          "AUG": 4536.3,
+          "SEP": 4488.6,
+          "OCT": 4035.1,
+          "NOV": 3469.2,
+          "DEC": 3780.2
+        },
+        "recommended_system_size_kw": 40.5,
+        "recommended_panel_count": 90,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2227500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2149500.0,
+          "annual_savings_inr": 376677.0,
+          "monthly_savings_inr": 31390.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 12841476.0,
+          "co2_tons_annual": 44.13,
+          "trees_equivalent": 2206,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20894530303012,
+              13.086086848922118
+            ],
+            [
+              80.20908023188997,
+              13.086077615828028
+            ],
+            [
+              80.20909093490026,
+              13.086228074285092
+            ],
+            [
+              80.20895600604041,
+              13.086237307379182
+            ],
+            [
+              80.20894530303012,
+              13.086086848922118
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10205,
+        "neighborhood": "Anna Nagar",
+        "address": "#82, Shanthi Colony, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 138.7,
+        "roof_area_sqft": 1493.0,
+        "usable_area_m2": 99.9,
+        "usable_area_sqft": 1075.3,
+        "orientation_deg": 32.6,
+        "aspect_ratio": 1.25,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 30527.0,
+        "monthly_generation_kwh": {
+          "JAN": 2371.0,
+          "FEB": 2472.3,
+          "MAR": 3040.8,
+          "APR": 3050.0,
+          "MAY": 3074.6,
+          "JUN": 2527.7,
+          "JUL": 2467.4,
+          "AUG": 2573.4,
+          "SEP": 2546.3,
+          "OCT": 2289.1,
+          "NOV": 1968.1,
+          "DEC": 2144.5
+        },
+        "recommended_system_size_kw": 22.9,
+        "recommended_panel_count": 51,
+        "solar_score": 65,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1259500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1181500.0,
+          "annual_savings_inr": 213689.0,
+          "monthly_savings_inr": 17807.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7284974.0,
+          "co2_tons_annual": 25.03,
+          "trees_equivalent": 1252,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21002849839951,
+              13.086212554154292
+            ],
+            [
+              80.2099760292376,
+              13.086292527055608
+            ],
+            [
+              80.20987376695129,
+              13.086227986924191
+            ],
+            [
+              80.2099262361132,
+              13.086148014022875
+            ],
+            [
+              80.21002849839951,
+              13.086212554154292
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10206,
+        "neighborhood": "Anna Nagar",
+        "address": "#16, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 242.8,
+        "roof_area_sqft": 2613.5,
+        "usable_area_m2": 174.8,
+        "usable_area_sqft": 1881.5,
+        "orientation_deg": 109.7,
+        "aspect_ratio": 1.67,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 53414.0,
+        "monthly_generation_kwh": {
+          "JAN": 4148.6,
+          "FEB": 4326.0,
+          "MAR": 5320.7,
+          "APR": 5336.8,
+          "MAY": 5379.7,
+          "JUN": 4422.8,
+          "JUL": 4317.3,
+          "AUG": 4502.8,
+          "SEP": 4455.5,
+          "OCT": 4005.3,
+          "NOV": 3443.6,
+          "DEC": 3752.3
+        },
+        "recommended_system_size_kw": 40.1,
+        "recommended_panel_count": 89,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2205500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2127500.0,
+          "annual_savings_inr": 373898.0,
+          "monthly_savings_inr": 31158.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 12746736.0,
+          "co2_tons_annual": 43.8,
+          "trees_equivalent": 2190,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21131559907242,
+              13.086034493822707
+            ],
+            [
+              80.21142008083406,
+              13.086071502127126
+            ],
+            [
+              80.21135693914006,
+              13.086242980991932
+            ],
+            [
+              80.21125245737842,
+              13.086205972687512
+            ],
+            [
+              80.21131559907242,
+              13.086034493822707
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10207,
+        "neighborhood": "Anna Nagar",
+        "address": "#135, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 262.2,
+        "roof_area_sqft": 2822.3,
+        "usable_area_m2": 188.8,
+        "usable_area_sqft": 2032.2,
+        "orientation_deg": 14.1,
+        "aspect_ratio": 1.64,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 59514.0,
+        "monthly_generation_kwh": {
+          "JAN": 4622.4,
+          "FEB": 4820.0,
+          "MAR": 5928.3,
+          "APR": 5946.2,
+          "MAY": 5994.1,
+          "JUN": 4927.9,
+          "JUL": 4810.3,
+          "AUG": 5017.0,
+          "SEP": 4964.3,
+          "OCT": 4462.7,
+          "NOV": 3836.9,
+          "DEC": 4180.8
+        },
+        "recommended_system_size_kw": 43.2,
+        "recommended_panel_count": 96,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2376000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2298000.0,
+          "annual_savings_inr": 565383.0,
+          "monthly_savings_inr": 47115.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 19274743.0,
+          "co2_tons_annual": 48.8,
+          "trees_equivalent": 2440,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21255298217221,
+              13.086096188176574
+            ],
+            [
+              80.21252428489407,
+              13.086206835318151
+            ],
+            [
+              80.21233868495003,
+              13.086160529941532
+            ],
+            [
+              80.21236738222817,
+              13.086049882799955
+            ],
+            [
+              80.21255298217221,
+              13.086096188176574
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10208,
+        "neighborhood": "Anna Nagar",
+        "address": "#15, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 150.2,
+        "roof_area_sqft": 1616.7,
+        "usable_area_m2": 108.1,
+        "usable_area_sqft": 1163.6,
+        "orientation_deg": 30.2,
+        "aspect_ratio": 1.37,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 33032.0,
+        "monthly_generation_kwh": {
+          "JAN": 2565.6,
+          "FEB": 2675.3,
+          "MAR": 3290.4,
+          "APR": 3300.4,
+          "MAY": 3326.9,
+          "JUN": 2735.2,
+          "JUL": 2669.9,
+          "AUG": 2784.6,
+          "SEP": 2755.4,
+          "OCT": 2477.0,
+          "NOV": 2129.6,
+          "DEC": 2320.5
+        },
+        "recommended_system_size_kw": 24.8,
+        "recommended_panel_count": 55,
+        "solar_score": 67,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1364000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1286000.0,
+          "annual_savings_inr": 231224.0,
+          "monthly_savings_inr": 19269.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 7882768.0,
+          "co2_tons_annual": 27.09,
+          "trees_equivalent": 1354,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2136421050416,
+              13.086000937711427
+            ],
+            [
+              80.21359166817543,
+              13.086085323824971
+            ],
+            [
+              80.2135098472952,
+              13.086038280898794
+            ],
+            [
+              80.21351975152281,
+              13.086021710097741
+            ],
+            [
+              80.2134841238194,
+              13.086001225944838
+            ],
+            [
+              80.21352465645798,
+              13.085933410632347
+            ],
+            [
+              80.2136421050416,
+              13.086000937711427
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10209,
+        "neighborhood": "Anna Nagar",
+        "address": "#49, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 222.8,
+        "roof_area_sqft": 2398.2,
+        "usable_area_m2": 160.4,
+        "usable_area_sqft": 1726.5,
+        "orientation_deg": 102.4,
+        "aspect_ratio": 1.46,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 49014.0,
+        "monthly_generation_kwh": {
+          "JAN": 3806.9,
+          "FEB": 3969.6,
+          "MAR": 4882.4,
+          "APR": 4897.1,
+          "MAY": 4936.6,
+          "JUN": 4058.5,
+          "JUL": 3961.6,
+          "AUG": 4131.9,
+          "SEP": 4088.4,
+          "OCT": 3675.3,
+          "NOV": 3159.9,
+          "DEC": 3443.2
+        },
+        "recommended_system_size_kw": 36.9,
+        "recommended_panel_count": 82,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2029500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1951500.0,
+          "annual_savings_inr": 465633.0,
+          "monthly_savings_inr": 38803.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 15874118.0,
+          "co2_tons_annual": 40.19,
+          "trees_equivalent": 2010,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20539507982288,
+              13.087136009324452
+            ],
+            [
+              80.2055102087059,
+              13.08716114581892
+            ],
+            [
+              80.20548280718506,
+              13.087281873628129
+            ],
+            [
+              80.20545315781632,
+              13.087275400177036
+            ],
+            [
+              80.2054430569969,
+              13.087319903174043
+            ],
+            [
+              80.20535757748263,
+              13.08730124013067
+            ],
+            [
+              80.20539507982288,
+              13.087136009324452
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10210,
+        "neighborhood": "Anna Nagar",
+        "address": "#56, 12th Main Road, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 186.9,
+        "roof_area_sqft": 2011.8,
+        "usable_area_m2": 134.6,
+        "usable_area_sqft": 1448.8,
+        "orientation_deg": 86.7,
+        "aspect_ratio": 1.94,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 41130.0,
+        "monthly_generation_kwh": {
+          "JAN": 3194.5,
+          "FEB": 3331.1,
+          "MAR": 4097.1,
+          "APR": 4109.4,
+          "MAY": 4142.5,
+          "JUN": 3405.7,
+          "JUL": 3324.4,
+          "AUG": 3467.3,
+          "SEP": 3430.8,
+          "OCT": 3084.2,
+          "NOV": 2651.7,
+          "DEC": 2889.4
+        },
+        "recommended_system_size_kw": 31.1,
+        "recommended_panel_count": 69,
+        "solar_score": 82,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1710500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1632500.0,
+          "annual_savings_inr": 390735.0,
+          "monthly_savings_inr": 32561.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 13320734.0,
+          "co2_tons_annual": 33.73,
+          "trees_equivalent": 1686,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20628859384912,
+              13.086892244088558
+            ],
+            [
+              80.20637902675168,
+              13.08688741197956
+            ],
+            [
+              80.20638857412582,
+              13.087059292540557
+            ],
+            [
+              80.20629814122327,
+              13.087064124649554
+            ],
+            [
+              80.20628859384912,
+              13.086892244088558
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10211,
+        "neighborhood": "Anna Nagar",
+        "address": "#63, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 236.3,
+        "roof_area_sqft": 2543.5,
+        "usable_area_m2": 170.1,
+        "usable_area_sqft": 1830.9,
+        "orientation_deg": 86.9,
+        "aspect_ratio": 1.31,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 51978.0,
+        "monthly_generation_kwh": {
+          "JAN": 4037.1,
+          "FEB": 4209.7,
+          "MAR": 5177.7,
+          "APR": 5193.3,
+          "MAY": 5235.1,
+          "JUN": 4303.9,
+          "JUL": 4201.2,
+          "AUG": 4381.7,
+          "SEP": 4335.7,
+          "OCT": 3897.6,
+          "NOV": 3351.0,
+          "DEC": 3651.4
+        },
+        "recommended_system_size_kw": 39.1,
+        "recommended_panel_count": 87,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2150500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2072500.0,
+          "annual_savings_inr": 363846.0,
+          "monthly_savings_inr": 30320.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 12404049.0,
+          "co2_tons_annual": 42.62,
+          "trees_equivalent": 2131,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20771879087691,
+              13.087113319426436
+            ],
+            [
+              80.2078425288491,
+              13.087107209926947
+            ],
+            [
+              80.20785068297461,
+              13.087266074780036
+            ],
+            [
+              80.20772694500242,
+              13.087272184279525
+            ],
+            [
+              80.20771879087691,
+              13.087113319426436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10212,
+        "neighborhood": "Anna Nagar",
+        "address": "#79, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 141.6,
+        "roof_area_sqft": 1524.2,
+        "usable_area_m2": 102.0,
+        "usable_area_sqft": 1097.9,
+        "orientation_deg": 122.6,
+        "aspect_ratio": 1.52,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 31168.0,
+        "monthly_generation_kwh": {
+          "JAN": 2420.8,
+          "FEB": 2524.3,
+          "MAR": 3104.8,
+          "APR": 3114.1,
+          "MAY": 3139.2,
+          "JUN": 2580.8,
+          "JUL": 2519.2,
+          "AUG": 2627.5,
+          "SEP": 2599.9,
+          "OCT": 2337.2,
+          "NOV": 2009.4,
+          "DEC": 2189.6
+        },
+        "recommended_system_size_kw": 23.4,
+        "recommended_panel_count": 52,
+        "solar_score": 65,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1287000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1209000.0,
+          "annual_savings_inr": 218176.0,
+          "monthly_savings_inr": 18181.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7437943.0,
+          "co2_tons_annual": 25.56,
+          "trees_equivalent": 1278,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.20890102588747,
+              13.087218424572447
+            ],
+            [
+              80.20897590150506,
+              13.087265670370684
+            ],
+            [
+              80.2089027426952,
+              13.087377201713261
+            ],
+            [
+              80.20882786707762,
+              13.087329955915024
+            ],
+            [
+              80.20890102588747,
+              13.087218424572447
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10213,
+        "neighborhood": "Anna Nagar",
+        "address": "#81, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 219.7,
+        "roof_area_sqft": 2364.8,
+        "usable_area_m2": 158.2,
+        "usable_area_sqft": 1702.8,
+        "orientation_deg": 14.5,
+        "aspect_ratio": 2.02,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 49868.0,
+        "monthly_generation_kwh": {
+          "JAN": 3873.2,
+          "FEB": 4038.8,
+          "MAR": 4967.5,
+          "APR": 4982.5,
+          "MAY": 5022.6,
+          "JUN": 4129.2,
+          "JUL": 4030.7,
+          "AUG": 4203.9,
+          "SEP": 4159.7,
+          "OCT": 3739.4,
+          "NOV": 3215.0,
+          "DEC": 3503.2
+        },
+        "recommended_system_size_kw": 36.5,
+        "recommended_panel_count": 81,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2007500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1929500.0,
+          "annual_savings_inr": 473746.0,
+          "monthly_savings_inr": 39479.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 16150702.0,
+          "co2_tons_annual": 40.89,
+          "trees_equivalent": 2045,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21011263494461,
+              13.087059392436165
+            ],
+            [
+              80.21008826179909,
+              13.08715054577227
+            ],
+            [
+              80.2099001815954,
+              13.08710216919122
+            ],
+            [
+              80.20992455474092,
+              13.087011015855117
+            ],
+            [
+              80.21011263494461,
+              13.087059392436165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10214,
+        "neighborhood": "Anna Nagar",
+        "address": "#40, 3rd Avenue, Anna Nagar, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 129.2,
+        "roof_area_sqft": 1390.7,
+        "usable_area_m2": 93.0,
+        "usable_area_sqft": 1001.0,
+        "orientation_deg": 120.3,
+        "aspect_ratio": 1.74,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 28418.0,
+        "monthly_generation_kwh": {
+          "JAN": 2207.2,
+          "FEB": 2301.6,
+          "MAR": 2830.8,
+          "APR": 2839.4,
+          "MAY": 2862.2,
+          "JUN": 2353.1,
+          "JUL": 2297.0,
+          "AUG": 2395.7,
+          "SEP": 2370.5,
+          "OCT": 2131.0,
+          "NOV": 1832.1,
+          "DEC": 1996.4
+        },
+        "recommended_system_size_kw": 21.2,
+        "recommended_panel_count": 47,
+        "solar_score": 63,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1166000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1088000.0,
+          "annual_savings_inr": 198926.0,
+          "monthly_savings_inr": 16577.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6781682.0,
+          "co2_tons_annual": 23.3,
+          "trees_equivalent": 1165,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2112322108142,
+              13.087078726143673
+            ],
+            [
+              80.2113006176763,
+              13.08711829910031
+            ],
+            [
+              80.21123031391325,
+              13.087235204026907
+            ],
+            [
+              80.21116190705115,
+              13.087195631070271
+            ],
+            [
+              80.2112322108142,
+              13.087078726143673
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10215,
+        "neighborhood": "Anna Nagar",
+        "address": "#126, Roundtana Circle, Anna Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 301.3,
+        "roof_area_sqft": 3243.2,
+        "usable_area_m2": 216.9,
+        "usable_area_sqft": 2334.7,
+        "orientation_deg": 1.4,
+        "aspect_ratio": 1.85,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 68371.0,
+        "monthly_generation_kwh": {
+          "JAN": 5310.4,
+          "FEB": 5537.4,
+          "MAR": 6810.7,
+          "APR": 6831.2,
+          "MAY": 6886.2,
+          "JUN": 5661.4,
+          "JUL": 5526.3,
+          "AUG": 5763.7,
+          "SEP": 5703.1,
+          "OCT": 5126.9,
+          "NOV": 4407.9,
+          "DEC": 4803.1
+        },
+        "recommended_system_size_kw": 50.0,
+        "recommended_panel_count": 111,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2750000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2672000.0,
+          "annual_savings_inr": 649524.0,
+          "monthly_savings_inr": 54127.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 22143251.0,
+          "co2_tons_annual": 56.06,
+          "trees_equivalent": 2803,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.21237551772657,
+              13.086993337226756
+            ],
+            [
+              80.2123723451817,
+              13.087108621388824
+            ],
+            [
+              80.21215450089943,
+              13.08710285455597
+            ],
+            [
+              80.2121576734443,
+              13.086987570393903
+            ],
+            [
+              80.21237551772657,
+              13.086993337226756
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

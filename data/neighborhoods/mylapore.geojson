@@ -1,0 +1,3851 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10216,
+        "neighborhood": "Mylapore",
+        "address": "#135, North Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 81.8,
+        "roof_area_sqft": 880.5,
+        "usable_area_m2": 58.9,
+        "usable_area_sqft": 634.0,
+        "orientation_deg": 179.7,
+        "aspect_ratio": 2.11,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 18567.0,
+        "monthly_generation_kwh": {
+          "JAN": 1442.1,
+          "FEB": 1503.7,
+          "MAR": 1849.5,
+          "APR": 1855.0,
+          "MAY": 1870.0,
+          "JUN": 1537.4,
+          "JUL": 1500.7,
+          "AUG": 1565.2,
+          "SEP": 1548.7,
+          "OCT": 1392.2,
+          "NOV": 1197.0,
+          "DEC": 1304.3
+        },
+        "recommended_system_size_kw": 13.5,
+        "recommended_panel_count": 30,
+        "solar_score": 55,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 742500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 664500.0,
+          "annual_savings_inr": 129969.0,
+          "monthly_savings_inr": 10831.0,
+          "payback_years": 5.1,
+          "lifetime_savings_25yr_inr": 4430836.0,
+          "co2_tons_annual": 15.22,
+          "trees_equivalent": 761,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26387686120978,
+              13.029052136762303
+            ],
+            [
+              80.26387697829237,
+              13.029108450099322
+            ],
+            [
+              80.26375591102726,
+              13.029108692236147
+            ],
+            [
+              80.26375579394467,
+              13.029052378899127
+            ],
+            [
+              80.26387686120978,
+              13.029052136762303
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10217,
+        "neighborhood": "Mylapore",
+        "address": "#39, North Mada Street, Mylapore, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 291.5,
+        "roof_area_sqft": 3137.7,
+        "usable_area_m2": 209.9,
+        "usable_area_sqft": 2259.3,
+        "orientation_deg": 24.9,
+        "aspect_ratio": 1.25,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 66165.0,
+        "monthly_generation_kwh": {
+          "JAN": 5139.0,
+          "FEB": 5358.7,
+          "MAR": 6590.9,
+          "APR": 6610.8,
+          "MAY": 6664.0,
+          "JUN": 5478.6,
+          "JUL": 5347.9,
+          "AUG": 5577.7,
+          "SEP": 5519.1,
+          "OCT": 4961.4,
+          "NOV": 4265.7,
+          "DEC": 4648.1
+        },
+        "recommended_system_size_kw": 48.1,
+        "recommended_panel_count": 107,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2645500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2567500.0,
+          "annual_savings_inr": 628568.0,
+          "monthly_savings_inr": 52381.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 21428796.0,
+          "co2_tons_annual": 54.26,
+          "trees_equivalent": 2713,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26518290578113,
+              13.028840979381798
+            ],
+            [
+              80.26512329110571,
+              13.028966003849726
+            ],
+            [
+              80.26496379160207,
+              13.028892844375367
+            ],
+            [
+              80.26502340627749,
+              13.028767819907438
+            ],
+            [
+              80.26518290578113,
+              13.028840979381798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10218,
+        "neighborhood": "Mylapore",
+        "address": "#2, North Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 121.9,
+        "roof_area_sqft": 1312.1,
+        "usable_area_m2": 87.8,
+        "usable_area_sqft": 945.1,
+        "orientation_deg": 19.2,
+        "aspect_ratio": 2.1,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 27676.0,
+        "monthly_generation_kwh": {
+          "JAN": 2149.6,
+          "FEB": 2241.5,
+          "MAR": 2756.9,
+          "APR": 2765.2,
+          "MAY": 2787.5,
+          "JUN": 2291.7,
+          "JUL": 2237.0,
+          "AUG": 2333.1,
+          "SEP": 2308.6,
+          "OCT": 2075.3,
+          "NOV": 1784.3,
+          "DEC": 1944.3
+        },
+        "recommended_system_size_kw": 20.2,
+        "recommended_panel_count": 45,
+        "solar_score": 62,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1111000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1033000.0,
+          "annual_savings_inr": 193732.0,
+          "monthly_savings_inr": 16144.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 6604611.0,
+          "co2_tons_annual": 22.69,
+          "trees_equivalent": 1135,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26618415685356,
+              13.028846075882635
+            ],
+            [
+              80.26616091462279,
+              13.028911028494171
+            ],
+            [
+              80.26602157606614,
+              13.028863065579054
+            ],
+            [
+              80.2660448182969,
+              13.028798112967518
+            ],
+            [
+              80.26618415685356,
+              13.028846075882635
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10219,
+        "neighborhood": "Mylapore",
+        "address": "#46, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 130.7,
+        "roof_area_sqft": 1406.8,
+        "usable_area_m2": 94.1,
+        "usable_area_sqft": 1012.9,
+        "orientation_deg": 4.6,
+        "aspect_ratio": 1.12,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 29662.0,
+        "monthly_generation_kwh": {
+          "JAN": 2303.9,
+          "FEB": 2402.3,
+          "MAR": 2954.7,
+          "APR": 2963.7,
+          "MAY": 2987.5,
+          "JUN": 2456.1,
+          "JUL": 2397.5,
+          "AUG": 2500.5,
+          "SEP": 2474.2,
+          "OCT": 2224.3,
+          "NOV": 1912.3,
+          "DEC": 2083.8
+        },
+        "recommended_system_size_kw": 21.6,
+        "recommended_panel_count": 48,
+        "solar_score": 64,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1188000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1110000.0,
+          "annual_savings_inr": 207634.0,
+          "monthly_savings_inr": 17303.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 7078550.0,
+          "co2_tons_annual": 24.32,
+          "trees_equivalent": 1216,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26731536805951,
+              13.029071960742673
+            ],
+            [
+              80.26730707355162,
+              13.02916935384415
+            ],
+            [
+              80.26719597044871,
+              13.02916025174234
+            ],
+            [
+              80.2672042649566,
+              13.029062858640863
+            ],
+            [
+              80.26731536805951,
+              13.029071960742673
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10220,
+        "neighborhood": "Mylapore",
+        "address": "#96, North Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 86.1,
+        "roof_area_sqft": 926.8,
+        "usable_area_m2": 62.0,
+        "usable_area_sqft": 667.4,
+        "orientation_deg": 177.4,
+        "aspect_ratio": 1.49,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 19544.0,
+        "monthly_generation_kwh": {
+          "JAN": 1518.0,
+          "FEB": 1582.8,
+          "MAR": 1946.8,
+          "APR": 1952.7,
+          "MAY": 1968.4,
+          "JUN": 1618.3,
+          "JUL": 1579.7,
+          "AUG": 1647.5,
+          "SEP": 1630.2,
+          "OCT": 1465.5,
+          "NOV": 1260.0,
+          "DEC": 1372.9
+        },
+        "recommended_system_size_kw": 14.0,
+        "recommended_panel_count": 31,
+        "solar_score": 56,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 770000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 692000.0,
+          "annual_savings_inr": 136808.0,
+          "monthly_savings_inr": 11401.0,
+          "payback_years": 5.1,
+          "lifetime_savings_25yr_inr": 4663987.0,
+          "co2_tons_annual": 16.03,
+          "trees_equivalent": 801,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26834881853992,
+              13.028866948253016
+            ],
+            [
+              80.26835184693658,
+              13.028935642881923
+            ],
+            [
+              80.26824749535035,
+              13.028940068175677
+            ],
+            [
+              80.26824446695369,
+              13.028871373546771
+            ],
+            [
+              80.26834881853992,
+              13.028866948253016
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10221,
+        "neighborhood": "Mylapore",
+        "address": "#24, North Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 128.6,
+        "roof_area_sqft": 1384.2,
+        "usable_area_m2": 92.6,
+        "usable_area_sqft": 996.7,
+        "orientation_deg": 121.7,
+        "aspect_ratio": 2.03,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 28296.0,
+        "monthly_generation_kwh": {
+          "JAN": 2197.7,
+          "FEB": 2291.7,
+          "MAR": 2818.6,
+          "APR": 2827.1,
+          "MAY": 2849.9,
+          "JUN": 2343.0,
+          "JUL": 2287.1,
+          "AUG": 2385.3,
+          "SEP": 2360.3,
+          "OCT": 2121.8,
+          "NOV": 1824.2,
+          "DEC": 1987.8
+        },
+        "recommended_system_size_kw": 21.2,
+        "recommended_panel_count": 47,
+        "solar_score": 62,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1166000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1088000.0,
+          "annual_savings_inr": 198072.0,
+          "monthly_savings_inr": 16506.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6752568.0,
+          "co2_tons_annual": 23.2,
+          "trees_equivalent": 1160,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26968766886854,
+              13.029248577012687
+            ],
+            [
+              80.26974996756027,
+              13.029286521557736
+            ],
+            [
+              80.26967132887701,
+              13.02941072078146
+            ],
+            [
+              80.26960903018528,
+              13.02937277623641
+            ],
+            [
+              80.26968766886854,
+              13.029248577012687
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10222,
+        "neighborhood": "Mylapore",
+        "address": "#25, Luz Church Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 123.5,
+        "roof_area_sqft": 1329.3,
+        "usable_area_m2": 88.9,
+        "usable_area_sqft": 956.9,
+        "orientation_deg": 11.6,
+        "aspect_ratio": 1.65,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 28023.0,
+        "monthly_generation_kwh": {
+          "JAN": 2176.5,
+          "FEB": 2269.6,
+          "MAR": 2791.5,
+          "APR": 2799.9,
+          "MAY": 2822.4,
+          "JUN": 2320.4,
+          "JUL": 2265.0,
+          "AUG": 2362.4,
+          "SEP": 2337.5,
+          "OCT": 2101.3,
+          "NOV": 1806.7,
+          "DEC": 1968.6
+        },
+        "recommended_system_size_kw": 20.2,
+        "recommended_panel_count": 45,
+        "solar_score": 63,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1111000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1033000.0,
+          "annual_savings_inr": 196161.0,
+          "monthly_savings_inr": 16347.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 6687419.0,
+          "co2_tons_annual": 22.98,
+          "trees_equivalent": 1149,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27091111926941,
+              13.029027437003123
+            ],
+            [
+              80.27089492332952,
+              13.029104048797453
+            ],
+            [
+              80.27076605029907,
+              13.029077841294981
+            ],
+            [
+              80.27078224623897,
+              13.02900122950065
+            ],
+            [
+              80.27091111926941,
+              13.029027437003123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10223,
+        "neighborhood": "Mylapore",
+        "address": "#9, South Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 137.2,
+        "roof_area_sqft": 1476.8,
+        "usable_area_m2": 98.8,
+        "usable_area_sqft": 1063.5,
+        "orientation_deg": 18.7,
+        "aspect_ratio": 1.62,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 31144.0,
+        "monthly_generation_kwh": {
+          "JAN": 2418.9,
+          "FEB": 2522.3,
+          "MAR": 3102.3,
+          "APR": 3111.7,
+          "MAY": 3136.7,
+          "JUN": 2578.8,
+          "JUL": 2517.3,
+          "AUG": 2625.4,
+          "SEP": 2597.8,
+          "OCT": 2335.4,
+          "NOV": 2007.8,
+          "DEC": 2187.9
+        },
+        "recommended_system_size_kw": 22.5,
+        "recommended_panel_count": 50,
+        "solar_score": 66,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1237500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1159500.0,
+          "annual_savings_inr": 218008.0,
+          "monthly_savings_inr": 18167.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 7432215.0,
+          "co2_tons_annual": 25.54,
+          "trees_equivalent": 1277,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27239079551461,
+              13.029279352034502
+            ],
+            [
+              80.27236253129318,
+              13.029360432239262
+            ],
+            [
+              80.27225333494864,
+              13.029323815188508
+            ],
+            [
+              80.27226220561211,
+              13.02929836834535
+            ],
+            [
+              80.27223722736429,
+              13.029289992334483
+            ],
+            [
+              80.27225662092225,
+              13.029234358972882
+            ],
+            [
+              80.27239079551461,
+              13.029279352034502
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10224,
+        "neighborhood": "Mylapore",
+        "address": "#77, North Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 87.4,
+        "roof_area_sqft": 940.8,
+        "usable_area_m2": 62.9,
+        "usable_area_sqft": 677.0,
+        "orientation_deg": 107.4,
+        "aspect_ratio": 1.88,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 19220.0,
+        "monthly_generation_kwh": {
+          "JAN": 1492.8,
+          "FEB": 1556.7,
+          "MAR": 1914.6,
+          "APR": 1920.4,
+          "MAY": 1935.8,
+          "JUN": 1591.5,
+          "JUL": 1553.5,
+          "AUG": 1620.3,
+          "SEP": 1603.3,
+          "OCT": 1441.3,
+          "NOV": 1239.1,
+          "DEC": 1350.2
+        },
+        "recommended_system_size_kw": 14.4,
+        "recommended_panel_count": 32,
+        "solar_score": 55,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 792000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 714000.0,
+          "annual_savings_inr": 134540.0,
+          "monthly_savings_inr": 11212.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 4586668.0,
+          "co2_tons_annual": 15.76,
+          "trees_equivalent": 788,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26386308099893,
+              13.02997507178805
+            ],
+            [
+              80.26392297129942,
+              13.029993617813728
+            ],
+            [
+              80.26388734660117,
+              13.03010428271517
+            ],
+            [
+              80.26382745630067,
+              13.030085736689491
+            ],
+            [
+              80.26386308099893,
+              13.02997507178805
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10225,
+        "neighborhood": "Mylapore",
+        "address": "#89, South Mada Street, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 98.8,
+        "roof_area_sqft": 1063.5,
+        "usable_area_m2": 71.1,
+        "usable_area_sqft": 765.3,
+        "orientation_deg": 178.2,
+        "aspect_ratio": 1.93,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 22412.0,
+        "monthly_generation_kwh": {
+          "JAN": 1740.7,
+          "FEB": 1815.2,
+          "MAR": 2232.5,
+          "APR": 2239.3,
+          "MAY": 2257.3,
+          "JUN": 1855.8,
+          "JUL": 1811.5,
+          "AUG": 1889.4,
+          "SEP": 1869.5,
+          "OCT": 1680.6,
+          "NOV": 1444.9,
+          "DEC": 1574.5
+        },
+        "recommended_system_size_kw": 16.2,
+        "recommended_panel_count": 36,
+        "solar_score": 58,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 891000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 813000.0,
+          "annual_savings_inr": 156884.0,
+          "monthly_savings_inr": 13074.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 5348408.0,
+          "co2_tons_annual": 18.38,
+          "trees_equivalent": 919,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26483414603591,
+              13.029996395673841
+            ],
+            [
+              80.26483612047845,
+              13.030062314835343
+            ],
+            [
+              80.26473441046468,
+              13.030065245388563
+            ],
+            [
+              80.26473406152479,
+              13.030053595606798
+            ],
+            [
+              80.26470597721851,
+              13.03005440479511
+            ],
+            [
+              80.26470435171585,
+              13.030000135415372
+            ],
+            [
+              80.26483414603591,
+              13.029996395673841
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10226,
+        "neighborhood": "Mylapore",
+        "address": "#8, Luz Church Road, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 98.6,
+        "roof_area_sqft": 1061.3,
+        "usable_area_m2": 71.0,
+        "usable_area_sqft": 764.2,
+        "orientation_deg": 31.0,
+        "aspect_ratio": 1.76,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 21696.0,
+        "monthly_generation_kwh": {
+          "JAN": 1685.1,
+          "FEB": 1757.1,
+          "MAR": 2161.2,
+          "APR": 2167.7,
+          "MAY": 2185.1,
+          "JUN": 1796.5,
+          "JUL": 1753.6,
+          "AUG": 1828.9,
+          "SEP": 1809.7,
+          "OCT": 1626.9,
+          "NOV": 1398.7,
+          "DEC": 1524.1
+        },
+        "recommended_system_size_kw": 16.2,
+        "recommended_panel_count": 36,
+        "solar_score": 57,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 891000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 813000.0,
+          "annual_savings_inr": 151872.0,
+          "monthly_savings_inr": 12656.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 5177541.0,
+          "co2_tons_annual": 17.79,
+          "trees_equivalent": 890,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26613832907073,
+              13.02997860047314
+            ],
+            [
+              80.26610258906778,
+              13.030036620755933
+            ],
+            [
+              80.26599875918212,
+              13.029975095958807
+            ],
+            [
+              80.26603449918507,
+              13.029917075676014
+            ],
+            [
+              80.26613832907073,
+              13.02997860047314
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10227,
+        "neighborhood": "Mylapore",
+        "address": "#22, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 89.2,
+        "roof_area_sqft": 960.1,
+        "usable_area_m2": 64.2,
+        "usable_area_sqft": 691.0,
+        "orientation_deg": 4.2,
+        "aspect_ratio": 1.57,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 20237.0,
+        "monthly_generation_kwh": {
+          "JAN": 1571.8,
+          "FEB": 1639.0,
+          "MAR": 2015.9,
+          "APR": 2022.0,
+          "MAY": 2038.2,
+          "JUN": 1675.7,
+          "JUL": 1635.7,
+          "AUG": 1706.0,
+          "SEP": 1688.1,
+          "OCT": 1517.5,
+          "NOV": 1304.7,
+          "DEC": 1421.7
+        },
+        "recommended_system_size_kw": 14.4,
+        "recommended_panel_count": 32,
+        "solar_score": 57,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 792000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 714000.0,
+          "annual_savings_inr": 141659.0,
+          "monthly_savings_inr": 11805.0,
+          "payback_years": 5.0,
+          "lifetime_savings_25yr_inr": 4829365.0,
+          "co2_tons_annual": 16.59,
+          "trees_equivalent": 830,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2674989164231,
+              13.030237261544855
+            ],
+            [
+              80.26749358004069,
+              13.030305104929553
+            ],
+            [
+              80.2673846317159,
+              13.030296861402551
+            ],
+            [
+              80.2673899680983,
+              13.030229018017852
+            ],
+            [
+              80.2674989164231,
+              13.030237261544855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10228,
+        "neighborhood": "Mylapore",
+        "address": "#82, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 76.2,
+        "roof_area_sqft": 820.2,
+        "usable_area_m2": 54.9,
+        "usable_area_sqft": 590.9,
+        "orientation_deg": 116.4,
+        "aspect_ratio": 1.88,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 16776.0,
+        "monthly_generation_kwh": {
+          "JAN": 1303.0,
+          "FEB": 1358.7,
+          "MAR": 1671.1,
+          "APR": 1676.1,
+          "MAY": 1689.6,
+          "JUN": 1389.1,
+          "JUL": 1355.9,
+          "AUG": 1414.2,
+          "SEP": 1399.3,
+          "OCT": 1258.0,
+          "NOV": 1081.5,
+          "DEC": 1178.5
+        },
+        "recommended_system_size_kw": 12.6,
+        "recommended_panel_count": 28,
+        "solar_score": 53,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 693000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 615000.0,
+          "annual_savings_inr": 117432.0,
+          "monthly_savings_inr": 9786.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 4003431.0,
+          "co2_tons_annual": 13.76,
+          "trees_equivalent": 688,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26839612838832,
+              13.030274785015699
+            ],
+            [
+              80.26844859701214,
+              13.030300489757424
+            ],
+            [
+              80.26839925109239,
+              13.030397382388436
+            ],
+            [
+              80.26834678246857,
+              13.030371677646711
+            ],
+            [
+              80.26839612838832,
+              13.030274785015699
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10229,
+        "neighborhood": "Mylapore",
+        "address": "#27, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 214.8,
+        "roof_area_sqft": 2312.1,
+        "usable_area_m2": 154.7,
+        "usable_area_sqft": 1665.2,
+        "orientation_deg": 27.5,
+        "aspect_ratio": 1.25,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 47272.0,
+        "monthly_generation_kwh": {
+          "JAN": 3671.6,
+          "FEB": 3828.5,
+          "MAR": 4708.9,
+          "APR": 4723.1,
+          "MAY": 4761.1,
+          "JUN": 3914.2,
+          "JUL": 3820.8,
+          "AUG": 3985.0,
+          "SEP": 3943.1,
+          "OCT": 3544.7,
+          "NOV": 3047.6,
+          "DEC": 3320.9
+        },
+        "recommended_system_size_kw": 35.6,
+        "recommended_panel_count": 79,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1958000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1880000.0,
+          "annual_savings_inr": 449084.0,
+          "monthly_savings_inr": 37424.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 15309938.0,
+          "co2_tons_annual": 38.76,
+          "trees_equivalent": 1938,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26959377992887,
+              13.030111563386262
+            ],
+            [
+              80.26953566065757,
+              13.03022014860214
+            ],
+            [
+              80.26943108807684,
+              13.030166306704354
+            ],
+            [
+              80.2694460638699,
+              13.030138327177328
+            ],
+            [
+              80.2694127162929,
+              13.030121157314825
+            ],
+            [
+              80.26945585977114,
+              13.030040551625973
+            ],
+            [
+              80.26959377992887,
+              13.030111563386262
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10230,
+        "neighborhood": "Mylapore",
+        "address": "#63, North Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 120.2,
+        "roof_area_sqft": 1293.8,
+        "usable_area_m2": 86.5,
+        "usable_area_sqft": 931.1,
+        "orientation_deg": 123.5,
+        "aspect_ratio": 1.11,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 26432.0,
+        "monthly_generation_kwh": {
+          "JAN": 2053.0,
+          "FEB": 2140.7,
+          "MAR": 2633.0,
+          "APR": 2640.9,
+          "MAY": 2662.2,
+          "JUN": 2188.6,
+          "JUL": 2136.4,
+          "AUG": 2228.2,
+          "SEP": 2204.8,
+          "OCT": 1982.0,
+          "NOV": 1704.1,
+          "DEC": 1856.8
+        },
+        "recommended_system_size_kw": 19.8,
+        "recommended_panel_count": 44,
+        "solar_score": 61,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1089000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1011000.0,
+          "annual_savings_inr": 185024.0,
+          "monthly_savings_inr": 15419.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6307742.0,
+          "co2_tons_annual": 21.67,
+          "trees_equivalent": 1084,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27081662280874,
+              13.029893541365789
+            ],
+            [
+              80.27089639361965,
+              13.029945596120427
+            ],
+            [
+              80.2708372914786,
+              13.030032720538225
+            ],
+            [
+              80.27075752066769,
+              13.029980665783587
+            ],
+            [
+              80.27081662280874,
+              13.029893541365789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10231,
+        "neighborhood": "Mylapore",
+        "address": "#93, North Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 75.2,
+        "roof_area_sqft": 809.4,
+        "usable_area_m2": 54.1,
+        "usable_area_sqft": 582.3,
+        "orientation_deg": 117.5,
+        "aspect_ratio": 1.26,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 16531.0,
+        "monthly_generation_kwh": {
+          "JAN": 1284.0,
+          "FEB": 1338.9,
+          "MAR": 1646.7,
+          "APR": 1651.7,
+          "MAY": 1665.0,
+          "JUN": 1368.8,
+          "JUL": 1336.2,
+          "AUG": 1393.6,
+          "SEP": 1379.0,
+          "OCT": 1239.6,
+          "NOV": 1065.8,
+          "DEC": 1161.3
+        },
+        "recommended_system_size_kw": 12.2,
+        "recommended_panel_count": 27,
+        "solar_score": 53,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 671000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 593000.0,
+          "annual_savings_inr": 115717.0,
+          "monthly_savings_inr": 9643.0,
+          "payback_years": 5.1,
+          "lifetime_savings_25yr_inr": 3944964.0,
+          "co2_tons_annual": 13.56,
+          "trees_equivalent": 678,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27192366305992,
+              13.030178444795807
+            ],
+            [
+              80.27198938425056,
+              13.030212263541369
+            ],
+            [
+              80.27195809150709,
+              13.030270762029259
+            ],
+            [
+              80.27193945260154,
+              13.0302611708396
+            ],
+            [
+              80.27192728095794,
+              13.030283924445284
+            ],
+            [
+              80.27188019867285,
+              13.030259696889381
+            ],
+            [
+              80.27192366305992,
+              13.030178444795807
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10232,
+        "neighborhood": "Mylapore",
+        "address": "#85, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 113.6,
+        "roof_area_sqft": 1222.8,
+        "usable_area_m2": 81.8,
+        "usable_area_sqft": 880.5,
+        "orientation_deg": 104.4,
+        "aspect_ratio": 1.25,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 24996.0,
+        "monthly_generation_kwh": {
+          "JAN": 1941.4,
+          "FEB": 2024.4,
+          "MAR": 2489.9,
+          "APR": 2497.4,
+          "MAY": 2517.5,
+          "JUN": 2069.7,
+          "JUL": 2020.3,
+          "AUG": 2107.1,
+          "SEP": 2085.0,
+          "OCT": 1874.3,
+          "NOV": 1611.5,
+          "DEC": 1756.0
+        },
+        "recommended_system_size_kw": 18.4,
+        "recommended_panel_count": 41,
+        "solar_score": 60,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1012000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 934000.0,
+          "annual_savings_inr": 174972.0,
+          "monthly_savings_inr": 14581.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 5965054.0,
+          "co2_tons_annual": 20.5,
+          "trees_equivalent": 1025,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26354378218115,
+              13.031111148581735
+            ],
+            [
+              80.26363120855603,
+              13.031133449835833
+            ],
+            [
+              80.2636084527471,
+              13.031219263912707
+            ],
+            [
+              80.26358522826256,
+              13.031213339669229
+            ],
+            [
+              80.26357958340266,
+              13.031234626912577
+            ],
+            [
+              80.26351538151232,
+              13.031218249901956
+            ],
+            [
+              80.26354378218115,
+              13.031111148581735
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10233,
+        "neighborhood": "Mylapore",
+        "address": "#123, Kutchery Road, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 124.7,
+        "roof_area_sqft": 1342.3,
+        "usable_area_m2": 89.8,
+        "usable_area_sqft": 966.6,
+        "orientation_deg": 176.2,
+        "aspect_ratio": 1.45,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 28307.0,
+        "monthly_generation_kwh": {
+          "JAN": 2198.6,
+          "FEB": 2292.6,
+          "MAR": 2819.7,
+          "APR": 2828.2,
+          "MAY": 2851.0,
+          "JUN": 2343.9,
+          "JUL": 2288.0,
+          "AUG": 2386.3,
+          "SEP": 2361.2,
+          "OCT": 2122.6,
+          "NOV": 1824.9,
+          "DEC": 1988.6
+        },
+        "recommended_system_size_kw": 20.7,
+        "recommended_panel_count": 46,
+        "solar_score": 62,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1138500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1060500.0,
+          "annual_savings_inr": 198149.0,
+          "monthly_savings_inr": 16512.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 6755193.0,
+          "co2_tons_annual": 23.21,
+          "trees_equivalent": 1161,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26492452252629,
+              13.03122444112163
+            ],
+            [
+              80.26492994411706,
+              13.031308056974405
+            ],
+            [
+              80.26480609369466,
+              13.03131578179985
+            ],
+            [
+              80.26480067210389,
+              13.031232165947076
+            ],
+            [
+              80.26492452252629,
+              13.03122444112163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10234,
+        "neighborhood": "Mylapore",
+        "address": "#97, Luz Church Road, Mylapore, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 186.3,
+        "roof_area_sqft": 2005.3,
+        "usable_area_m2": 134.1,
+        "usable_area_sqft": 1443.4,
+        "orientation_deg": 16.2,
+        "aspect_ratio": 2.16,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 42271.0,
+        "monthly_generation_kwh": {
+          "JAN": 3283.2,
+          "FEB": 3423.5,
+          "MAR": 4210.8,
+          "APR": 4223.5,
+          "MAY": 4257.5,
+          "JUN": 3500.2,
+          "JUL": 3416.6,
+          "AUG": 3563.5,
+          "SEP": 3526.0,
+          "OCT": 3169.7,
+          "NOV": 2725.2,
+          "DEC": 2969.5
+        },
+        "recommended_system_size_kw": 30.6,
+        "recommended_panel_count": 68,
+        "solar_score": 83,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1683000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1605000.0,
+          "annual_savings_inr": 401574.0,
+          "monthly_savings_inr": 33464.0,
+          "payback_years": 4.0,
+          "lifetime_savings_25yr_inr": 13690269.0,
+          "co2_tons_annual": 34.66,
+          "trees_equivalent": 1733,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2664331648546,
+              13.031192362292993
+            ],
+            [
+              80.2664091127531,
+              13.031272882663325
+            ],
+            [
+              80.26623140976851,
+              13.031221820988202
+            ],
+            [
+              80.26625546187002,
+              13.03114130061787
+            ],
+            [
+              80.2664331648546,
+              13.031192362292993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10235,
+        "neighborhood": "Mylapore",
+        "address": "#7, South Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 148.3,
+        "roof_area_sqft": 1596.3,
+        "usable_area_m2": 106.8,
+        "usable_area_sqft": 1149.6,
+        "orientation_deg": 105.8,
+        "aspect_ratio": 1.7,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 32635.0,
+        "monthly_generation_kwh": {
+          "JAN": 2534.8,
+          "FEB": 2643.1,
+          "MAR": 3250.9,
+          "APR": 3260.7,
+          "MAY": 3286.9,
+          "JUN": 2702.3,
+          "JUL": 2637.8,
+          "AUG": 2751.1,
+          "SEP": 2722.2,
+          "OCT": 2447.2,
+          "NOV": 2104.0,
+          "DEC": 2292.6
+        },
+        "recommended_system_size_kw": 24.3,
+        "recommended_panel_count": 54,
+        "solar_score": 67,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1336500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1258500.0,
+          "annual_savings_inr": 228445.0,
+          "monthly_savings_inr": 19037.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7788028.0,
+          "co2_tons_annual": 26.76,
+          "trees_equivalent": 1338,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26742161031267,
+              13.031109518953352
+            ],
+            [
+              80.26750442223643,
+              13.03113268955663
+            ],
+            [
+              80.26746425621901,
+              13.031270781193113
+            ],
+            [
+              80.26738144429525,
+              13.031247610589835
+            ],
+            [
+              80.26742161031267,
+              13.031109518953352
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10236,
+        "neighborhood": "Mylapore",
+        "address": "#128, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 106.8,
+        "roof_area_sqft": 1149.6,
+        "usable_area_m2": 76.9,
+        "usable_area_sqft": 827.7,
+        "orientation_deg": 123.1,
+        "aspect_ratio": 1.18,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 23498.0,
+        "monthly_generation_kwh": {
+          "JAN": 1825.1,
+          "FEB": 1903.1,
+          "MAR": 2340.7,
+          "APR": 2347.8,
+          "MAY": 2366.7,
+          "JUN": 1945.7,
+          "JUL": 1899.3,
+          "AUG": 1980.9,
+          "SEP": 1960.1,
+          "OCT": 1762.1,
+          "NOV": 1514.9,
+          "DEC": 1650.8
+        },
+        "recommended_system_size_kw": 17.6,
+        "recommended_panel_count": 39,
+        "solar_score": 58,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 968000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 890000.0,
+          "annual_savings_inr": 164486.0,
+          "monthly_savings_inr": 13707.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 5607571.0,
+          "co2_tons_annual": 19.27,
+          "trees_equivalent": 963,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26847247229927,
+              13.031460476168984
+            ],
+            [
+              80.26854591394964,
+              13.031507814711091
+            ],
+            [
+              80.26848914992357,
+              13.031592528442502
+            ],
+            [
+              80.2684157082732,
+              13.031545189900395
+            ],
+            [
+              80.26847247229927,
+              13.031460476168984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10237,
+        "neighborhood": "Mylapore",
+        "address": "#103, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 83.0,
+        "roof_area_sqft": 893.4,
+        "usable_area_m2": 59.8,
+        "usable_area_sqft": 643.7,
+        "orientation_deg": 137.7,
+        "aspect_ratio": 1.18,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 18273.0,
+        "monthly_generation_kwh": {
+          "JAN": 1419.3,
+          "FEB": 1479.9,
+          "MAR": 1820.2,
+          "APR": 1825.7,
+          "MAY": 1840.4,
+          "JUN": 1513.1,
+          "JUL": 1477.0,
+          "AUG": 1540.4,
+          "SEP": 1524.2,
+          "OCT": 1370.2,
+          "NOV": 1178.1,
+          "DEC": 1283.7
+        },
+        "recommended_system_size_kw": 13.5,
+        "recommended_panel_count": 30,
+        "solar_score": 54,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 742500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 664500.0,
+          "annual_savings_inr": 127911.0,
+          "monthly_savings_inr": 10659.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 4360675.0,
+          "co2_tons_annual": 14.98,
+          "trees_equivalent": 749,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26960936950296,
+              13.031061464807994
+            ],
+            [
+              80.2696611791624,
+              13.03111768406615
+            ],
+            [
+              80.26959346313957,
+              13.031177714314701
+            ],
+            [
+              80.26954165348013,
+              13.031121495056546
+            ],
+            [
+              80.26960936950296,
+              13.031061464807994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10238,
+        "neighborhood": "Mylapore",
+        "address": "#22, South Mada Street, Mylapore, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 221.7,
+        "roof_area_sqft": 2386.4,
+        "usable_area_m2": 159.6,
+        "usable_area_sqft": 1717.9,
+        "orientation_deg": 92.7,
+        "aspect_ratio": 1.5,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 48769.0,
+        "monthly_generation_kwh": {
+          "JAN": 3787.9,
+          "FEB": 3949.8,
+          "MAR": 4858.0,
+          "APR": 4872.7,
+          "MAY": 4911.9,
+          "JUN": 4038.2,
+          "JUL": 3941.9,
+          "AUG": 4111.2,
+          "SEP": 4068.0,
+          "OCT": 3657.0,
+          "NOV": 3144.2,
+          "DEC": 3426.0
+        },
+        "recommended_system_size_kw": 36.5,
+        "recommended_panel_count": 81,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2007500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1929500.0,
+          "annual_savings_inr": 463306.0,
+          "monthly_savings_inr": 38609.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 15794770.0,
+          "co2_tons_annual": 39.99,
+          "trees_equivalent": 2000,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27105994233659,
+              13.03123216000866
+            ],
+            [
+              80.27117206905162,
+              13.031237744867694
+            ],
+            [
+              80.27116355341741,
+              13.031402207392542
+            ],
+            [
+              80.27105142670239,
+              13.031396622533508
+            ],
+            [
+              80.27105994233659,
+              13.03123216000866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10239,
+        "neighborhood": "Mylapore",
+        "address": "#85, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 84.0,
+        "roof_area_sqft": 904.2,
+        "usable_area_m2": 60.5,
+        "usable_area_sqft": 651.2,
+        "orientation_deg": 175.3,
+        "aspect_ratio": 2.18,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 19071.0,
+        "monthly_generation_kwh": {
+          "JAN": 1481.2,
+          "FEB": 1544.5,
+          "MAR": 1899.7,
+          "APR": 1905.4,
+          "MAY": 1920.8,
+          "JUN": 1579.1,
+          "JUL": 1541.4,
+          "AUG": 1607.7,
+          "SEP": 1590.8,
+          "OCT": 1430.0,
+          "NOV": 1229.5,
+          "DEC": 1339.7
+        },
+        "recommended_system_size_kw": 14.0,
+        "recommended_panel_count": 31,
+        "solar_score": 55,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 770000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 692000.0,
+          "annual_savings_inr": 133497.0,
+          "monthly_savings_inr": 11125.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 4551110.0,
+          "co2_tons_annual": 15.64,
+          "trees_equivalent": 782,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27203405276448,
+              13.03107185849271
+            ],
+            [
+              80.27203859757826,
+              13.031127784777006
+            ],
+            [
+              80.27191417820437,
+              13.031137510932533
+            ],
+            [
+              80.27190963339059,
+              13.031081584648238
+            ],
+            [
+              80.27203405276448,
+              13.03107185849271
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10240,
+        "neighborhood": "Mylapore",
+        "address": "#115, Kutchery Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 91.7,
+        "roof_area_sqft": 987.0,
+        "usable_area_m2": 66.0,
+        "usable_area_sqft": 710.4,
+        "orientation_deg": 2.3,
+        "aspect_ratio": 1.71,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 20805.0,
+        "monthly_generation_kwh": {
+          "JAN": 1615.9,
+          "FEB": 1685.0,
+          "MAR": 2072.4,
+          "APR": 2078.7,
+          "MAY": 2095.4,
+          "JUN": 1722.7,
+          "JUL": 1681.6,
+          "AUG": 1753.8,
+          "SEP": 1735.4,
+          "OCT": 1560.1,
+          "NOV": 1341.3,
+          "DEC": 1461.5
+        },
+        "recommended_system_size_kw": 14.8,
+        "recommended_panel_count": 33,
+        "solar_score": 57,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 814000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 736000.0,
+          "annual_savings_inr": 145635.0,
+          "monthly_savings_inr": 12136.0,
+          "payback_years": 5.1,
+          "lifetime_savings_25yr_inr": 4964913.0,
+          "co2_tons_annual": 17.06,
+          "trees_equivalent": 853,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26372443451947,
+              13.032602248212388
+            ],
+            [
+              80.26372152890514,
+              13.032668352533333
+            ],
+            [
+              80.26360602102443,
+              13.032663468565325
+            ],
+            [
+              80.26360892663877,
+              13.03259736424438
+            ],
+            [
+              80.26372443451947,
+              13.032602248212388
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10241,
+        "neighborhood": "Mylapore",
+        "address": "#37, North Mada Street, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 121.9,
+        "roof_area_sqft": 1312.1,
+        "usable_area_m2": 87.8,
+        "usable_area_sqft": 945.1,
+        "orientation_deg": 103.3,
+        "aspect_ratio": 1.13,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 26829.0,
+        "monthly_generation_kwh": {
+          "JAN": 2083.8,
+          "FEB": 2172.9,
+          "MAR": 2672.5,
+          "APR": 2680.6,
+          "MAY": 2702.2,
+          "JUN": 2221.5,
+          "JUL": 2168.5,
+          "AUG": 2261.7,
+          "SEP": 2237.9,
+          "OCT": 2011.8,
+          "NOV": 1729.7,
+          "DEC": 1884.7
+        },
+        "recommended_system_size_kw": 20.2,
+        "recommended_panel_count": 45,
+        "solar_score": 61,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1111000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1033000.0,
+          "annual_savings_inr": 187803.0,
+          "monthly_savings_inr": 15650.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6402482.0,
+          "co2_tons_annual": 22.0,
+          "trees_equivalent": 1100,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26484662547853,
+              13.03227303057498
+            ],
+            [
+              80.26494219671491,
+              13.032295447398562
+            ],
+            [
+              80.26492109343008,
+              13.032381995244435
+            ],
+            [
+              80.26489599607116,
+              13.032376108503941
+            ],
+            [
+              80.26489134037111,
+              13.03239520225233
+            ],
+            [
+              80.26482086649364,
+              13.032378672169243
+            ],
+            [
+              80.26484662547853,
+              13.03227303057498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10242,
+        "neighborhood": "Mylapore",
+        "address": "#18, Luz Church Road, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 113.8,
+        "roof_area_sqft": 1224.9,
+        "usable_area_m2": 81.9,
+        "usable_area_sqft": 881.6,
+        "orientation_deg": 119.6,
+        "aspect_ratio": 1.58,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 25026.0,
+        "monthly_generation_kwh": {
+          "JAN": 1943.8,
+          "FEB": 2026.9,
+          "MAR": 2492.9,
+          "APR": 2500.5,
+          "MAY": 2520.6,
+          "JUN": 2072.2,
+          "JUL": 2022.8,
+          "AUG": 2109.7,
+          "SEP": 2087.5,
+          "OCT": 1876.6,
+          "NOV": 1613.4,
+          "DEC": 1758.1
+        },
+        "recommended_system_size_kw": 18.9,
+        "recommended_panel_count": 42,
+        "solar_score": 59,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1039500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 961500.0,
+          "annual_savings_inr": 175182.0,
+          "monthly_savings_inr": 14598.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 5972214.0,
+          "co2_tons_annual": 20.52,
+          "trees_equivalent": 1026,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26601829544985,
+              13.032252465684316
+            ],
+            [
+              80.26608617817236,
+              13.03229053651195
+            ],
+            [
+              80.26602477123099,
+              13.032395862968006
+            ],
+            [
+              80.26595688850848,
+              13.032357792140372
+            ],
+            [
+              80.26601829544985,
+              13.032252465684316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10243,
+        "neighborhood": "Mylapore",
+        "address": "#133, Kutchery Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 141.3,
+        "roof_area_sqft": 1520.9,
+        "usable_area_m2": 101.7,
+        "usable_area_sqft": 1094.7,
+        "orientation_deg": 10.9,
+        "aspect_ratio": 1.98,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 32058.0,
+        "monthly_generation_kwh": {
+          "JAN": 2489.9,
+          "FEB": 2596.4,
+          "MAR": 3193.4,
+          "APR": 3203.0,
+          "MAY": 3228.8,
+          "JUN": 2654.5,
+          "JUL": 2591.2,
+          "AUG": 2702.5,
+          "SEP": 2674.1,
+          "OCT": 2403.9,
+          "NOV": 2066.8,
+          "DEC": 2252.1
+        },
+        "recommended_system_size_kw": 23.4,
+        "recommended_panel_count": 52,
+        "solar_score": 66,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1287000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1209000.0,
+          "annual_savings_inr": 224406.0,
+          "monthly_savings_inr": 18700.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 7650333.0,
+          "co2_tons_annual": 26.29,
+          "trees_equivalent": 1314,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26753827201442,
+              13.032277197795748
+            ],
+            [
+              80.26752328259913,
+              13.032352176039891
+            ],
+            [
+              80.2673719139225,
+              13.032323066287434
+            ],
+            [
+              80.2673869033378,
+              13.032248088043291
+            ],
+            [
+              80.26753827201442,
+              13.032277197795748
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10244,
+        "neighborhood": "Mylapore",
+        "address": "#51, South Mada Street, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 141.5,
+        "roof_area_sqft": 1523.1,
+        "usable_area_m2": 101.9,
+        "usable_area_sqft": 1096.8,
+        "orientation_deg": 107.8,
+        "aspect_ratio": 1.79,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 31138.0,
+        "monthly_generation_kwh": {
+          "JAN": 2418.5,
+          "FEB": 2521.8,
+          "MAR": 3101.7,
+          "APR": 3111.1,
+          "MAY": 3136.1,
+          "JUN": 2578.3,
+          "JUL": 2516.8,
+          "AUG": 2624.9,
+          "SEP": 2597.3,
+          "OCT": 2334.9,
+          "NOV": 2007.5,
+          "DEC": 2187.4
+        },
+        "recommended_system_size_kw": 23.4,
+        "recommended_panel_count": 52,
+        "solar_score": 65,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1287000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1209000.0,
+          "annual_savings_inr": 217966.0,
+          "monthly_savings_inr": 18164.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7430783.0,
+          "co2_tons_annual": 25.53,
+          "trees_equivalent": 1277,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26831326064176,
+              13.032153787275172
+            ],
+            [
+              80.26839362393223,
+              13.032179363189096
+            ],
+            [
+              80.26835929449592,
+              13.032283127090656
+            ],
+            [
+              80.26834109994051,
+              13.032277336606214
+            ],
+            [
+              80.26832868051406,
+              13.032314875473212
+            ],
+            [
+              80.268266511779,
+              13.03229509004373
+            ],
+            [
+              80.26831326064176,
+              13.032153787275172
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10245,
+        "neighborhood": "Mylapore",
+        "address": "#94, Kutchery Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 82.8,
+        "roof_area_sqft": 891.3,
+        "usable_area_m2": 59.6,
+        "usable_area_sqft": 641.5,
+        "orientation_deg": 122.4,
+        "aspect_ratio": 1.99,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 18212.0,
+        "monthly_generation_kwh": {
+          "JAN": 1414.5,
+          "FEB": 1475.0,
+          "MAR": 1814.2,
+          "APR": 1819.6,
+          "MAY": 1834.3,
+          "JUN": 1508.0,
+          "JUL": 1472.0,
+          "AUG": 1535.3,
+          "SEP": 1519.1,
+          "OCT": 1365.6,
+          "NOV": 1174.1,
+          "DEC": 1279.4
+        },
+        "recommended_system_size_kw": 13.5,
+        "recommended_panel_count": 30,
+        "solar_score": 54,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 742500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 664500.0,
+          "annual_savings_inr": 127484.0,
+          "monthly_savings_inr": 10624.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 4346118.0,
+          "co2_tons_annual": 14.93,
+          "trees_equivalent": 747,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26967172365262,
+              13.032308153163278
+            ],
+            [
+              80.26972344278177,
+              13.03234049792691
+            ],
+            [
+              80.26967057155173,
+              13.032421822109686
+            ],
+            [
+              80.26965455221386,
+              13.032411803733401
+            ],
+            [
+              80.26964180985063,
+              13.03243140347181
+            ],
+            [
+              80.26960611005934,
+              13.032409077084463
+            ],
+            [
+              80.26967172365262,
+              13.032308153163278
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10246,
+        "neighborhood": "Mylapore",
+        "address": "#30, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 142.5,
+        "roof_area_sqft": 1533.9,
+        "usable_area_m2": 102.6,
+        "usable_area_sqft": 1104.4,
+        "orientation_deg": 4.5,
+        "aspect_ratio": 1.44,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 32342.0,
+        "monthly_generation_kwh": {
+          "JAN": 2512.0,
+          "FEB": 2619.4,
+          "MAR": 3221.7,
+          "APR": 3231.4,
+          "MAY": 3257.4,
+          "JUN": 2678.0,
+          "JUL": 2614.1,
+          "AUG": 2726.4,
+          "SEP": 2697.7,
+          "OCT": 2425.2,
+          "NOV": 2085.1,
+          "DEC": 2272.0
+        },
+        "recommended_system_size_kw": 23.4,
+        "recommended_panel_count": 52,
+        "solar_score": 67,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1287000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1209000.0,
+          "annual_savings_inr": 226394.0,
+          "monthly_savings_inr": 18866.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 7718106.0,
+          "co2_tons_annual": 26.52,
+          "trees_equivalent": 1326,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27094841854286,
+              13.032273507852276
+            ],
+            [
+              80.27094098098681,
+              13.03236301602145
+            ],
+            [
+              80.27080913187935,
+              13.032352477059325
+            ],
+            [
+              80.2708165694354,
+              13.032262968890151
+            ],
+            [
+              80.27094841854286,
+              13.032273507852276
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10247,
+        "neighborhood": "Mylapore",
+        "address": "#81, Kutchery Road, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 138.4,
+        "roof_area_sqft": 1489.7,
+        "usable_area_m2": 99.6,
+        "usable_area_sqft": 1072.1,
+        "orientation_deg": 17.8,
+        "aspect_ratio": 2.11,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 31396.0,
+        "monthly_generation_kwh": {
+          "JAN": 2438.5,
+          "FEB": 2542.8,
+          "MAR": 3127.4,
+          "APR": 3136.9,
+          "MAY": 3162.1,
+          "JUN": 2599.7,
+          "JUL": 2537.6,
+          "AUG": 2646.7,
+          "SEP": 2618.9,
+          "OCT": 2354.3,
+          "NOV": 2024.1,
+          "DEC": 2205.6
+        },
+        "recommended_system_size_kw": 22.9,
+        "recommended_panel_count": 51,
+        "solar_score": 65,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1259500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1181500.0,
+          "annual_savings_inr": 219772.0,
+          "monthly_savings_inr": 18314.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 7492353.0,
+          "co2_tons_annual": 25.74,
+          "trees_equivalent": 1287,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27235922256257,
+              13.032313029732936
+            ],
+            [
+              80.27233614479228,
+              13.03238266610991
+            ],
+            [
+              80.2721862952401,
+              13.032334894904501
+            ],
+            [
+              80.2722093730104,
+              13.032265258527527
+            ],
+            [
+              80.27235922256257,
+              13.032313029732936
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10248,
+        "neighborhood": "Mylapore",
+        "address": "#48, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 128.3,
+        "roof_area_sqft": 1381.0,
+        "usable_area_m2": 92.4,
+        "usable_area_sqft": 994.6,
+        "orientation_deg": 178.7,
+        "aspect_ratio": 1.76,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 29126.0,
+        "monthly_generation_kwh": {
+          "JAN": 2262.2,
+          "FEB": 2358.9,
+          "MAR": 2901.4,
+          "APR": 2910.1,
+          "MAY": 2933.6,
+          "JUN": 2411.8,
+          "JUL": 2354.2,
+          "AUG": 2455.4,
+          "SEP": 2429.6,
+          "OCT": 2184.1,
+          "NOV": 1877.8,
+          "DEC": 2046.1
+        },
+        "recommended_system_size_kw": 21.2,
+        "recommended_panel_count": 47,
+        "solar_score": 64,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1166000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1088000.0,
+          "annual_savings_inr": 203882.0,
+          "monthly_savings_inr": 16990.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 6950639.0,
+          "co2_tons_annual": 23.88,
+          "trees_equivalent": 1194,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26367109903357,
+              13.03326897404522
+            ],
+            [
+              80.26367263292285,
+              13.033346245734206
+            ],
+            [
+              80.26353428096895,
+              13.033348887607444
+            ],
+            [
+              80.26353274707968,
+              13.033271615918457
+            ],
+            [
+              80.26367109903357,
+              13.03326897404522
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10249,
+        "neighborhood": "Mylapore",
+        "address": "#92, North Mada Street, Mylapore, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 338.6,
+        "roof_area_sqft": 3644.7,
+        "usable_area_m2": 243.8,
+        "usable_area_sqft": 2624.2,
+        "orientation_deg": 105.4,
+        "aspect_ratio": 1.64,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 74498.0,
+        "monthly_generation_kwh": {
+          "JAN": 5786.3,
+          "FEB": 6033.6,
+          "MAR": 7421.0,
+          "APR": 7443.4,
+          "MAY": 7503.3,
+          "JUN": 6168.7,
+          "JUL": 6021.5,
+          "AUG": 6280.2,
+          "SEP": 6214.2,
+          "OCT": 5586.3,
+          "NOV": 4802.9,
+          "DEC": 5233.5
+        },
+        "recommended_system_size_kw": 56.2,
+        "recommended_panel_count": 125,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3091000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3013000.0,
+          "annual_savings_inr": 707731.0,
+          "monthly_savings_inr": 58978.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 24127597.0,
+          "co2_tons_annual": 61.09,
+          "trees_equivalent": 3054,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26488263972973,
+              13.033368762587049
+            ],
+            [
+              80.26501516130809,
+              13.033404928161044
+            ],
+            [
+              80.2649702890734,
+              13.033563097393667
+            ],
+            [
+              80.26493347285646,
+              13.03355305012714
+            ],
+            [
+              80.2649179233233,
+              13.033607860362112
+            ],
+            [
+              80.2648222179619,
+              13.033581742054647
+            ],
+            [
+              80.26488263972973,
+              13.033368762587049
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10250,
+        "neighborhood": "Mylapore",
+        "address": "#114, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 102.3,
+        "roof_area_sqft": 1101.1,
+        "usable_area_m2": 73.7,
+        "usable_area_sqft": 793.3,
+        "orientation_deg": 179.9,
+        "aspect_ratio": 1.64,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 23232.0,
+        "monthly_generation_kwh": {
+          "JAN": 1804.4,
+          "FEB": 1881.5,
+          "MAR": 2314.2,
+          "APR": 2321.2,
+          "MAY": 2339.9,
+          "JUN": 1923.7,
+          "JUL": 1877.8,
+          "AUG": 1958.4,
+          "SEP": 1937.9,
+          "OCT": 1742.1,
+          "NOV": 1497.8,
+          "DEC": 1632.0
+        },
+        "recommended_system_size_kw": 16.7,
+        "recommended_panel_count": 37,
+        "solar_score": 59,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 918500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 840500.0,
+          "annual_savings_inr": 162624.0,
+          "monthly_savings_inr": 13552.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 5544093.0,
+          "co2_tons_annual": 19.05,
+          "trees_equivalent": 953,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26615212327907,
+              13.0336903201307
+            ],
+            [
+              80.26615205426933,
+              13.033761633124117
+            ],
+            [
+              80.2660324856404,
+              13.033761521819786
+            ],
+            [
+              80.26603255465014,
+              13.03369020882637
+            ],
+            [
+              80.26615212327907,
+              13.0336903201307
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10251,
+        "neighborhood": "Mylapore",
+        "address": "#127, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 133.9,
+        "roof_area_sqft": 1441.3,
+        "usable_area_m2": 96.4,
+        "usable_area_sqft": 1037.6,
+        "orientation_deg": 115.2,
+        "aspect_ratio": 1.35,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 29457.0,
+        "monthly_generation_kwh": {
+          "JAN": 2287.9,
+          "FEB": 2385.7,
+          "MAR": 2934.3,
+          "APR": 2943.2,
+          "MAY": 2966.9,
+          "JUN": 2439.1,
+          "JUL": 2380.9,
+          "AUG": 2483.2,
+          "SEP": 2457.1,
+          "OCT": 2208.9,
+          "NOV": 1899.1,
+          "DEC": 2069.4
+        },
+        "recommended_system_size_kw": 22.1,
+        "recommended_panel_count": 49,
+        "solar_score": 64,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1215500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1137500.0,
+          "annual_savings_inr": 206199.0,
+          "monthly_savings_inr": 17183.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7029629.0,
+          "co2_tons_annual": 24.15,
+          "trees_equivalent": 1208,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2670762805081,
+              13.033420160065033
+            ],
+            [
+              80.26715937690551,
+              13.033458731950716
+            ],
+            [
+              80.26710639011769,
+              13.033568539446906
+            ],
+            [
+              80.26702329372029,
+              13.033529967561222
+            ],
+            [
+              80.2670762805081,
+              13.033420160065033
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10252,
+        "neighborhood": "Mylapore",
+        "address": "#140, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 135.1,
+        "roof_area_sqft": 1454.2,
+        "usable_area_m2": 97.3,
+        "usable_area_sqft": 1047.3,
+        "orientation_deg": 34.8,
+        "aspect_ratio": 1.7,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 29732.0,
+        "monthly_generation_kwh": {
+          "JAN": 2309.3,
+          "FEB": 2408.0,
+          "MAR": 2961.7,
+          "APR": 2970.6,
+          "MAY": 2994.6,
+          "JUN": 2461.9,
+          "JUL": 2403.2,
+          "AUG": 2506.4,
+          "SEP": 2480.1,
+          "OCT": 2229.5,
+          "NOV": 1916.8,
+          "DEC": 2088.7
+        },
+        "recommended_system_size_kw": 22.1,
+        "recommended_panel_count": 49,
+        "solar_score": 64,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1215500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1137500.0,
+          "annual_savings_inr": 208124.0,
+          "monthly_savings_inr": 17344.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7095255.0,
+          "co2_tons_annual": 24.38,
+          "trees_equivalent": 1219,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26838738963782,
+              13.033530943044601
+            ],
+            [
+              80.26834029487763,
+              13.033597133031902
+            ],
+            [
+              80.26822582135746,
+              13.033518783139938
+            ],
+            [
+              80.26827291611765,
+              13.033452593152637
+            ],
+            [
+              80.26838738963782,
+              13.033530943044601
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10253,
+        "neighborhood": "Mylapore",
+        "address": "#23, Luz Church Road, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 124.9,
+        "roof_area_sqft": 1344.4,
+        "usable_area_m2": 89.9,
+        "usable_area_sqft": 967.7,
+        "orientation_deg": 102.8,
+        "aspect_ratio": 2.2,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 27471.0,
+        "monthly_generation_kwh": {
+          "JAN": 2133.7,
+          "FEB": 2224.9,
+          "MAR": 2736.5,
+          "APR": 2744.7,
+          "MAY": 2766.8,
+          "JUN": 2274.7,
+          "JUL": 2220.4,
+          "AUG": 2315.8,
+          "SEP": 2291.5,
+          "OCT": 2059.9,
+          "NOV": 1771.1,
+          "DEC": 1929.8
+        },
+        "recommended_system_size_kw": 20.7,
+        "recommended_panel_count": 46,
+        "solar_score": 62,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1138500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1060500.0,
+          "annual_savings_inr": 192297.0,
+          "monthly_savings_inr": 16025.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6555689.0,
+          "co2_tons_annual": 22.53,
+          "trees_equivalent": 1126,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26964587880362,
+              13.033278586269764
+            ],
+            [
+              80.26971359516179,
+              13.033293891549933
+            ],
+            [
+              80.26967927588312,
+              13.033439955665246
+            ],
+            [
+              80.26961155952495,
+              13.033424650385077
+            ],
+            [
+              80.26964587880362,
+              13.033278586269764
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10254,
+        "neighborhood": "Mylapore",
+        "address": "#110, South Mada Street, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 89.9,
+        "roof_area_sqft": 967.7,
+        "usable_area_m2": 64.7,
+        "usable_area_sqft": 696.4,
+        "orientation_deg": 32.2,
+        "aspect_ratio": 1.86,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 19770.0,
+        "monthly_generation_kwh": {
+          "JAN": 1535.6,
+          "FEB": 1601.2,
+          "MAR": 1969.4,
+          "APR": 1975.3,
+          "MAY": 1991.2,
+          "JUN": 1637.1,
+          "JUL": 1598.0,
+          "AUG": 1666.7,
+          "SEP": 1649.1,
+          "OCT": 1482.5,
+          "NOV": 1274.6,
+          "DEC": 1388.9
+        },
+        "recommended_system_size_kw": 14.8,
+        "recommended_panel_count": 33,
+        "solar_score": 55,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 814000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 736000.0,
+          "annual_savings_inr": 138390.0,
+          "monthly_savings_inr": 11532.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 4717920.0,
+          "co2_tons_annual": 16.21,
+          "trees_equivalent": 811,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27121447648126,
+              13.033474265222072
+            ],
+            [
+              80.27118013100699,
+              13.033527394362096
+            ],
+            [
+              80.27107948120307,
+              13.033464804681312
+            ],
+            [
+              80.27111382667735,
+              13.033411675541288
+            ],
+            [
+              80.27121447648126,
+              13.033474265222072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10255,
+        "neighborhood": "Mylapore",
+        "address": "#83, Kutchery Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 87.4,
+        "roof_area_sqft": 940.8,
+        "usable_area_m2": 62.9,
+        "usable_area_sqft": 677.0,
+        "orientation_deg": 90.5,
+        "aspect_ratio": 1.69,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 19220.0,
+        "monthly_generation_kwh": {
+          "JAN": 1492.8,
+          "FEB": 1556.7,
+          "MAR": 1914.6,
+          "APR": 1920.4,
+          "MAY": 1935.8,
+          "JUN": 1591.5,
+          "JUL": 1553.5,
+          "AUG": 1620.3,
+          "SEP": 1603.3,
+          "OCT": 1441.3,
+          "NOV": 1239.1,
+          "DEC": 1350.2
+        },
+        "recommended_system_size_kw": 14.4,
+        "recommended_panel_count": 32,
+        "solar_score": 55,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 792000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 714000.0,
+          "annual_savings_inr": 134540.0,
+          "monthly_savings_inr": 11212.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 4586668.0,
+          "co2_tons_annual": 15.76,
+          "trees_equivalent": 788,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27188710802602,
+              13.033277718953176
+            ],
+            [
+              80.27195349553662,
+              13.033278515334356
+            ],
+            [
+              80.27195212693991,
+              13.033388262664513
+            ],
+            [
+              80.27188573942931,
+              13.033387466283333
+            ],
+            [
+              80.27188710802602,
+              13.033277718953176
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10256,
+        "neighborhood": "Mylapore",
+        "address": "#71, North Mada Street, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 144.4,
+        "roof_area_sqft": 1554.3,
+        "usable_area_m2": 104.0,
+        "usable_area_sqft": 1119.4,
+        "orientation_deg": 4.7,
+        "aspect_ratio": 1.85,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 32783.0,
+        "monthly_generation_kwh": {
+          "JAN": 2546.2,
+          "FEB": 2655.1,
+          "MAR": 3265.6,
+          "APR": 3275.5,
+          "MAY": 3301.8,
+          "JUN": 2714.5,
+          "JUL": 2649.8,
+          "AUG": 2763.6,
+          "SEP": 2734.6,
+          "OCT": 2458.3,
+          "NOV": 2113.5,
+          "DEC": 2303.0
+        },
+        "recommended_system_size_kw": 23.9,
+        "recommended_panel_count": 53,
+        "solar_score": 67,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1314500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1236500.0,
+          "annual_savings_inr": 229481.0,
+          "monthly_savings_inr": 19123.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 7823347.0,
+          "co2_tons_annual": 26.88,
+          "trees_equivalent": 1344,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26367630284393,
+              13.034805268788343
+            ],
+            [
+              80.26366927059897,
+              13.034886472010356
+            ],
+            [
+              80.26354801255569,
+              13.034876370545515
+            ],
+            [
+              80.26354928246803,
+              13.03486170652657
+            ],
+            [
+              80.26351760176634,
+              13.034859067349114
+            ],
+            [
+              80.26352336409897,
+              13.034792528146045
+            ],
+            [
+              80.26367630284393,
+              13.034805268788343
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10257,
+        "neighborhood": "Mylapore",
+        "address": "#126, Royapettah High Road, Mylapore, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 174.7,
+        "roof_area_sqft": 1880.5,
+        "usable_area_m2": 125.8,
+        "usable_area_sqft": 1354.1,
+        "orientation_deg": 13.1,
+        "aspect_ratio": 1.37,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 39655.0,
+        "monthly_generation_kwh": {
+          "JAN": 3080.0,
+          "FEB": 3211.6,
+          "MAR": 3950.1,
+          "APR": 3962.0,
+          "MAY": 3994.0,
+          "JUN": 3283.5,
+          "JUL": 3205.2,
+          "AUG": 3342.9,
+          "SEP": 3307.8,
+          "OCT": 2973.6,
+          "NOV": 2556.6,
+          "DEC": 2785.8
+        },
+        "recommended_system_size_kw": 28.8,
+        "recommended_panel_count": 64,
+        "solar_score": 81,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1584000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1506000.0,
+          "annual_savings_inr": 376722.0,
+          "monthly_savings_inr": 31394.0,
+          "payback_years": 4.0,
+          "lifetime_savings_25yr_inr": 12843028.0,
+          "co2_tons_annual": 32.52,
+          "trees_equivalent": 1626,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26479482577028,
+              13.034749873160386
+            ],
+            [
+              80.26477103433358,
+              13.034849196507265
+            ],
+            [
+              80.26463206239833,
+              13.034817174430046
+            ],
+            [
+              80.26465585383504,
+              13.034717851083167
+            ],
+            [
+              80.26479482577028,
+              13.034749873160386
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10258,
+        "neighborhood": "Mylapore",
+        "address": "#117, Luz Church Road, Mylapore, Chennai",
+        "building_type": "residential",
+        "roof_area_m2": 94.4,
+        "roof_area_sqft": 1016.1,
+        "usable_area_m2": 68.0,
+        "usable_area_sqft": 731.9,
+        "orientation_deg": 91.2,
+        "aspect_ratio": 2.07,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 20779.0,
+        "monthly_generation_kwh": {
+          "JAN": 1613.9,
+          "FEB": 1682.9,
+          "MAR": 2069.8,
+          "APR": 2076.1,
+          "MAY": 2092.8,
+          "JUN": 1720.5,
+          "JUL": 1679.5,
+          "AUG": 1751.7,
+          "SEP": 1733.2,
+          "OCT": 1558.1,
+          "NOV": 1339.6,
+          "DEC": 1459.7
+        },
+        "recommended_system_size_kw": 15.3,
+        "recommended_panel_count": 34,
+        "solar_score": 57,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 841500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 763500.0,
+          "annual_savings_inr": 145453.0,
+          "monthly_savings_inr": 12121.0,
+          "payback_years": 5.2,
+          "lifetime_savings_25yr_inr": 4958708.0,
+          "co2_tons_annual": 17.04,
+          "trees_equivalent": 852,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26613546672985,
+              13.034354845319783
+            ],
+            [
+              80.26620005097563,
+              13.034356322916603
+            ],
+            [
+              80.26619781783147,
+              13.034450217485892
+            ],
+            [
+              80.26618182302768,
+              13.034449851547249
+            ],
+            [
+              80.26618094044883,
+              13.03448696037465
+            ],
+            [
+              80.26613235100685,
+              13.034485848716473
+            ],
+            [
+              80.26613546672985,
+              13.034354845319783
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10259,
+        "neighborhood": "Mylapore",
+        "address": "#17, Luz Church Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 135.0,
+        "roof_area_sqft": 1453.1,
+        "usable_area_m2": 97.2,
+        "usable_area_sqft": 1046.3,
+        "orientation_deg": 10.8,
+        "aspect_ratio": 2.17,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 30639.0,
+        "monthly_generation_kwh": {
+          "JAN": 2379.8,
+          "FEB": 2481.5,
+          "MAR": 3052.1,
+          "APR": 3061.3,
+          "MAY": 3085.9,
+          "JUN": 2537.0,
+          "JUL": 2476.5,
+          "AUG": 2582.9,
+          "SEP": 2555.8,
+          "OCT": 2297.5,
+          "NOV": 1975.3,
+          "DEC": 2152.4
+        },
+        "recommended_system_size_kw": 22.1,
+        "recommended_panel_count": 49,
+        "solar_score": 65,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1215500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1137500.0,
+          "annual_savings_inr": 214473.0,
+          "monthly_savings_inr": 17873.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 7311702.0,
+          "co2_tons_annual": 25.12,
+          "trees_equivalent": 1256,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26729801789318,
+              13.03480477564434
+            ],
+            [
+              80.26728422260291,
+              13.034874830594935
+            ],
+            [
+              80.26712927138698,
+              13.034845478434526
+            ],
+            [
+              80.26714306667725,
+              13.03477542348393
+            ],
+            [
+              80.26729801789318,
+              13.03480477564434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10260,
+        "neighborhood": "Mylapore",
+        "address": "#34, South Mada Street, Mylapore, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 335.1,
+        "roof_area_sqft": 3607.0,
+        "usable_area_m2": 241.3,
+        "usable_area_sqft": 2597.3,
+        "orientation_deg": 132.5,
+        "aspect_ratio": 2.01,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 73734.0,
+        "monthly_generation_kwh": {
+          "JAN": 5726.9,
+          "FEB": 5971.7,
+          "MAR": 7344.9,
+          "APR": 7367.1,
+          "MAY": 7426.4,
+          "JUN": 6105.4,
+          "JUL": 5959.7,
+          "AUG": 6215.8,
+          "SEP": 6150.5,
+          "OCT": 5529.0,
+          "NOV": 4753.7,
+          "DEC": 5179.8
+        },
+        "recommended_system_size_kw": 55.4,
+        "recommended_panel_count": 123,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3047000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2969000.0,
+          "annual_savings_inr": 700473.0,
+          "monthly_savings_inr": 58373.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 23880161.0,
+          "co2_tons_annual": 60.46,
+          "trees_equivalent": 3023,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26848625896021,
+              13.034621968993449
+            ],
+            [
+              80.26857375585637,
+              13.034701117319944
+            ],
+            [
+              80.268411456908,
+              13.034873708933201
+            ],
+            [
+              80.26832396001184,
+              13.034794560606706
+            ],
+            [
+              80.26848625896021,
+              13.034621968993449
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10261,
+        "neighborhood": "Mylapore",
+        "address": "#32, North Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 127.3,
+        "roof_area_sqft": 1370.2,
+        "usable_area_m2": 91.7,
+        "usable_area_sqft": 987.0,
+        "orientation_deg": 85.3,
+        "aspect_ratio": 1.79,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 28021.0,
+        "monthly_generation_kwh": {
+          "JAN": 2176.4,
+          "FEB": 2269.4,
+          "MAR": 2791.2,
+          "APR": 2799.7,
+          "MAY": 2822.2,
+          "JUN": 2320.2,
+          "JUL": 2264.8,
+          "AUG": 2362.2,
+          "SEP": 2337.3,
+          "OCT": 2101.2,
+          "NOV": 1806.5,
+          "DEC": 1968.5
+        },
+        "recommended_system_size_kw": 21.2,
+        "recommended_panel_count": 47,
+        "solar_score": 62,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1166000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1088000.0,
+          "annual_savings_inr": 196147.0,
+          "monthly_savings_inr": 16346.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 6686941.0,
+          "co2_tons_annual": 22.98,
+          "trees_equivalent": 1149,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2696483841312,
+              13.034568060558724
+            ],
+            [
+              80.26972593693442,
+              13.034562020066332
+            ],
+            [
+              80.2697369537728,
+              13.034698081552191
+            ],
+            [
+              80.26965940096959,
+              13.034704122044584
+            ],
+            [
+              80.2696483841312,
+              13.034568060558724
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10262,
+        "neighborhood": "Mylapore",
+        "address": "#24, Luz Church Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 142.8,
+        "roof_area_sqft": 1537.1,
+        "usable_area_m2": 102.8,
+        "usable_area_sqft": 1106.5,
+        "orientation_deg": 131.8,
+        "aspect_ratio": 1.86,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 31413.0,
+        "monthly_generation_kwh": {
+          "JAN": 2439.8,
+          "FEB": 2544.1,
+          "MAR": 3129.1,
+          "APR": 3138.6,
+          "MAY": 3163.8,
+          "JUN": 2601.1,
+          "JUL": 2539.0,
+          "AUG": 2648.1,
+          "SEP": 2620.3,
+          "OCT": 2355.5,
+          "NOV": 2025.2,
+          "DEC": 2206.7
+        },
+        "recommended_system_size_kw": 23.4,
+        "recommended_panel_count": 52,
+        "solar_score": 66,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1287000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1209000.0,
+          "annual_savings_inr": 219891.0,
+          "monthly_savings_inr": 18324.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7496410.0,
+          "co2_tons_annual": 25.76,
+          "trees_equivalent": 1288,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2707499584963,
+              13.034730528125044
+            ],
+            [
+              80.27081219116441,
+              13.034785531045394
+            ],
+            [
+              80.27073939500562,
+              13.034864761875804
+            ],
+            [
+              80.27072523704747,
+              13.034852248688319
+            ],
+            [
+              80.27069386706056,
+              13.03488639156282
+            ],
+            [
+              80.27064579235058,
+              13.034843901829955
+            ],
+            [
+              80.2707499584963,
+              13.034730528125044
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10263,
+        "neighborhood": "Mylapore",
+        "address": "#110, Kutchery Road, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 145.9,
+        "roof_area_sqft": 1570.5,
+        "usable_area_m2": 105.0,
+        "usable_area_sqft": 1130.2,
+        "orientation_deg": 100.4,
+        "aspect_ratio": 1.79,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 32085.0,
+        "monthly_generation_kwh": {
+          "JAN": 2492.0,
+          "FEB": 2598.6,
+          "MAR": 3196.1,
+          "APR": 3205.7,
+          "MAY": 3231.5,
+          "JUN": 2656.7,
+          "JUL": 2593.3,
+          "AUG": 2704.8,
+          "SEP": 2676.3,
+          "OCT": 2405.9,
+          "NOV": 2068.5,
+          "DEC": 2254.0
+        },
+        "recommended_system_size_kw": 23.9,
+        "recommended_panel_count": 53,
+        "solar_score": 66,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1314500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1236500.0,
+          "annual_savings_inr": 224595.0,
+          "monthly_savings_inr": 18716.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7656776.0,
+          "co2_tons_annual": 26.31,
+          "trees_equivalent": 1315,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27194784104037,
+              13.034598022052814
+            ],
+            [
+              80.2720297372743,
+              13.034612934977675
+            ],
+            [
+              80.27200254823819,
+              13.034756565911605
+            ],
+            [
+              80.27192065200427,
+              13.034741652986744
+            ],
+            [
+              80.27194784104037,
+              13.034598022052814
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10264,
+        "neighborhood": "Mylapore",
+        "address": "#88, North Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 110.1,
+        "roof_area_sqft": 1185.1,
+        "usable_area_m2": 79.3,
+        "usable_area_sqft": 853.6,
+        "orientation_deg": 105.8,
+        "aspect_ratio": 1.67,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 24232.0,
+        "monthly_generation_kwh": {
+          "JAN": 1882.1,
+          "FEB": 1962.5,
+          "MAR": 2413.8,
+          "APR": 2421.1,
+          "MAY": 2440.6,
+          "JUN": 2006.5,
+          "JUL": 1958.6,
+          "AUG": 2042.7,
+          "SEP": 2021.3,
+          "OCT": 1817.0,
+          "NOV": 1562.2,
+          "DEC": 1702.3
+        },
+        "recommended_system_size_kw": 18.0,
+        "recommended_panel_count": 40,
+        "solar_score": 59,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 990000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 912000.0,
+          "annual_savings_inr": 169624.0,
+          "monthly_savings_inr": 14135.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 5782733.0,
+          "co2_tons_annual": 19.87,
+          "trees_equivalent": 994,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26378304469152,
+              13.035708697471751
+            ],
+            [
+              80.2638549910712,
+              13.035728847263949
+            ],
+            [
+              80.26382065334825,
+              13.035846787756633
+            ],
+            [
+              80.26374870696857,
+              13.035826637964435
+            ],
+            [
+              80.26378304469152,
+              13.035708697471751
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10265,
+        "neighborhood": "Mylapore",
+        "address": "#81, North Mada Street, Mylapore, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 81.1,
+        "roof_area_sqft": 873.0,
+        "usable_area_m2": 58.4,
+        "usable_area_sqft": 628.6,
+        "orientation_deg": 87.1,
+        "aspect_ratio": 1.2,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 17845.0,
+        "monthly_generation_kwh": {
+          "JAN": 1386.0,
+          "FEB": 1445.3,
+          "MAR": 1777.6,
+          "APR": 1783.0,
+          "MAY": 1797.4,
+          "JUN": 1477.6,
+          "JUL": 1442.4,
+          "AUG": 1504.4,
+          "SEP": 1488.6,
+          "OCT": 1338.2,
+          "NOV": 1150.5,
+          "DEC": 1253.6
+        },
+        "recommended_system_size_kw": 13.1,
+        "recommended_panel_count": 29,
+        "solar_score": 54,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 720500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 642500.0,
+          "annual_savings_inr": 124915.0,
+          "monthly_savings_inr": 10410.0,
+          "payback_years": 5.1,
+          "lifetime_savings_25yr_inr": 4258537.0,
+          "co2_tons_annual": 14.63,
+          "trees_equivalent": 732,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26510404064206,
+              13.035815786625706
+            ],
+            [
+              80.26517981559633,
+              13.035812268120704
+            ],
+            [
+              80.26518411426741,
+              13.035901322401207
+            ],
+            [
+              80.26510833931314,
+              13.035904840906209
+            ],
+            [
+              80.26510404064206,
+              13.035815786625706
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

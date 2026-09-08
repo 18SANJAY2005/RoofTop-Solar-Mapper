@@ -1,0 +1,70 @@
+{
+  "total_buildings": 315,
+  "total_solar_kw": 18392.9,
+  "total_annual_mwh": 24711.0,
+  "total_co2_offset_tons": 20262.9,
+  "neighborhoods": {
+    "adyar": {
+      "name": "Adyar",
+      "center": [
+        13.0065,
+        80.257
+      ],
+      "building_count": 55,
+      "total_capacity_kw": 1426.3,
+      "total_annual_mwh": 1930.6
+    },
+    "besant_nagar": {
+      "name": "Besant Nagar",
+      "center": [
+        12.999,
+        80.2675
+      ],
+      "building_count": 45,
+      "total_capacity_kw": 1902.7,
+      "total_annual_mwh": 2566.0
+    },
+    "t_nagar": {
+      "name": "T. Nagar",
+      "center": [
+        13.0415,
+        80.2335
+      ],
+      "building_count": 60,
+      "total_capacity_kw": 5252.3,
+      "total_annual_mwh": 7038.9
+    },
+    "anna_nagar": {
+      "name": "Anna Nagar",
+      "center": [
+        13.085,
+        80.21
+      ],
+      "building_count": 55,
+      "total_capacity_kw": 2700.3,
+      "total_annual_mwh": 3635.7
+    },
+    "mylapore": {
+      "name": "Mylapore",
+      "center": [
+        13.0335,
+        80.2685
+      ],
+      "building_count": 50,
+      "total_capacity_kw": 1092.1,
+      "total_annual_mwh": 1479.0
+    },
+    "omr": {
+      "name": "OMR / Thoraipakkam",
+      "center": [
+        12.942,
+        80.236
+      ],
+      "building_count": 50,
+      "total_capacity_kw": 6019.2,
+      "total_annual_mwh": 8060.7
+    }
+  },
+  "total_solar_mw": 18.39,
+  "total_annual_gwh": 24.711
+}

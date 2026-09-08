@@ -1,0 +1,2402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chennai Rooftop Solar Potential Mapper | High-Resolution Satellite & Accurate Feasibility</title>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+
+  <!-- Chart.js for Monthly Generation Profiles -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-main: #0b0f19;
+      --bg-panel: rgba(17, 24, 39, 0.94);
+      --bg-card: rgba(31, 41, 55, 0.75);
+      --border-panel: rgba(255, 255, 255, 0.12);
+      --border-accent: rgba(59, 130, 246, 0.4);
+      --primary: #2563eb;
+      --primary-glow: rgba(37, 99, 235, 0.4);
+      --accent-solar: #f59e0b;
+      --accent-green: #10b981;
+      --accent-cyan: #06b6d4;
+      --accent-red: #ef4444;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --text-dim: #6b7280;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg-main);
+      color: var(--text-main);
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    #app {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100vw;
+      position: relative;
+    }
+
+    /* Top Navigation */
+    header {
+      height: 64px;
+      background: rgba(11, 15, 25, 0.96);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-panel);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      z-index: 1000;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo-icon {
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(135deg, #f59e0b, #ef4444);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      box-shadow: 0 0 16px rgba(245, 158, 11, 0.4);
+    }
+    .brand-text h1 {
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      background: linear-gradient(90deg, #fff, #93c5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .brand-text p {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .nav-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .dropdown-select {
+      background: rgba(31, 41, 55, 0.85);
+      border: 1px solid var(--border-panel);
+      color: var(--text-main);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Main Content Area */
+    #main-content {
+      flex: 1;
+      position: relative;
+      display: flex;
+      overflow: hidden;
+    }
+
+    #map {
+      height: 100%;
+      width: 100%;
+      background: #090d16;
+      z-index: 1;
+    }
+
+    /* Prominent Manual Address Search Card (Centered Hero) */
+    .home-address-card {
+      position: absolute;
+      top: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 500;
+      background: rgba(17, 24, 39, 0.95);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 16px;
+      padding: 14px 20px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7), 0 0 25px rgba(37, 99, 235, 0.25);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 660px;
+      max-width: 94vw;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .home-address-card:focus-within {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 14px 45px rgba(0, 0, 0, 0.8), 0 0 30px rgba(6, 182, 212, 0.35);
+    }
+    .search-input-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+    }
+    .search-icon {
+      font-size: 20px;
+      color: var(--accent-solar);
+      display: flex;
+      align-items: center;
+    }
+    .search-input-row input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: inherit;
+    }
+    .search-input-row input::placeholder {
+      color: #94a3b8;
+      font-weight: 400;
+    }
+    .clear-input-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      font-size: 16px;
+      padding: 0 4px;
+      display: none;
+    }
+    .clear-input-btn:hover {
+      color: #fff;
+    }
+    .estimate-btn {
+      background: linear-gradient(135deg, #2563eb, #3b82f6);
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 4px 14px var(--primary-glow);
+      transition: all 0.15s;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .estimate-btn:hover {
+      background: linear-gradient(135deg, #1d4ed8, #2563eb);
+      transform: translateY(-1px);
+    }
+    .estimate-btn:disabled {
+      opacity: 0.6;
+      cursor: default;
+      transform: none;
+    }
+
+    /* Autocomplete Suggestions Dropdown */
+    #suggestionsBox {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #111827;
+      border: 1px solid var(--border-panel);
+      border-radius: 10px;
+      margin-top: 6px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+      z-index: 600;
+      overflow: hidden;
+      display: none;
+    }
+    .suggestion-item {
+      padding: 10px 14px;
+      font-size: 13px;
+      color: #e2e8f0;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .suggestion-item:last-child {
+      border-bottom: none;
+    }
+    .suggestion-item:hover {
+      background: rgba(37, 99, 235, 0.25);
+      color: #fff;
+    }
+
+    /* Action bar under search: Quick chips & Draw Roof button */
+    .search-bottom-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      font-size: 11px;
+    }
+    .quick-chips {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      overflow-x: auto;
+      padding-bottom: 2px;
+    }
+    .chip-label {
+      font-size: 10px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .chip-btn {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      color: #cbd5e1;
+      padding: 3px 9px;
+      border-radius: 6px;
+      font-size: 11px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s;
+    }
+    .chip-btn:hover {
+      background: rgba(59, 130, 246, 0.25);
+      border-color: var(--primary);
+      color: #fff;
+    }
+    .draw-roof-btn {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      color: #34d399;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+      transition: all 0.15s;
+    }
+    .draw-roof-btn:hover, .draw-roof-btn.active {
+      background: #10b981;
+      color: #000;
+    }
+    .crop-roof-btn {
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: #38bdf8;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+      transition: all 0.15s;
+    }
+    .crop-roof-btn:hover, .crop-roof-btn.active {
+      background: #38bdf8;
+      color: #0b0f19;
+      box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+    }
+
+    /* Floating Crop Rooftop Toolbar */
+    .crop-toolbar {
+      position: absolute;
+      top: 92px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 500;
+      background: rgba(17, 24, 39, 0.96);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(56, 189, 248, 0.5);
+      border-radius: 14px;
+      padding: 10px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6), 0 0 20px rgba(56, 189, 248, 0.2);
+      max-width: 90vw;
+    }
+    .crop-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .crop-title {
+      font-size: 12px;
+      font-weight: 800;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .crop-live-badge {
+      background: rgba(16, 185, 129, 0.2);
+      border: 1px solid rgba(16, 185, 129, 0.5);
+      color: #34d399;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 6px;
+    }
+    .crop-close-btn {
+      background: transparent;
+      border: none;
+      color: #9ca3af;
+      font-size: 16px;
+      cursor: pointer;
+      line-height: 1;
+      padding: 2px 4px;
+      border-radius: 4px;
+      transition: color 0.15s;
+    }
+    .crop-close-btn:hover {
+      color: #ef4444;
+    }
+    .crop-controls-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .crop-group {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2px 6px;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .crop-lbl {
+      font-size: 10px;
+      font-weight: 700;
+      color: #9ca3af;
+      text-transform: uppercase;
+      margin-right: 2px;
+    }
+    .crop-mini-btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #e2e8f0;
+      border-radius: 4px;
+      padding: 3px 7px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.1s;
+    }
+    .crop-mini-btn:hover {
+      background: #38bdf8;
+      color: #000;
+      border-color: #38bdf8;
+    }
+    .crop-action-btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #e2e8f0;
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .crop-action-btn:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+    .crop-done-btn {
+      background: #10b981;
+      border-color: #10b981;
+      color: #000;
+    }
+    .crop-done-btn:hover {
+      background: #34d399;
+      color: #000;
+    }
+    .crop-hint-text {
+      font-size: 10px;
+      color: #9ca3af;
+      line-height: 1.3;
+    }
+
+    /* Draggable Rooftop Polygon & Center Move Badge */
+    .rooftop-draggable-polygon {
+      cursor: move !important;
+      transition: fill-opacity 0.15s, stroke 0.15s;
+    }
+    .rooftop-draggable-polygon:hover {
+      fill-opacity: 0.92 !important;
+      stroke: #67e8f9 !important;
+    }
+    .crop-center-move-icon {
+      background: transparent !important;
+      border: none !important;
+    }
+    .crop-center-move-badge {
+      background: rgba(15, 23, 42, 0.94);
+      border: 2px solid #38bdf8;
+      color: #38bdf8;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.7), 0 0 15px rgba(56, 189, 248, 0.6);
+      cursor: grab;
+      user-select: none;
+      white-space: nowrap;
+      letter-spacing: 0.02em;
+      transition: transform 0.15s, background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .crop-center-move-badge:hover, .crop-center-move-badge:active {
+      transform: scale(1.1);
+      background: #0284c7;
+      border-color: #ffffff;
+      color: #ffffff;
+      cursor: grabbing;
+    }
+
+    /* Draggable Crop Corner Handles on Map */
+    .crop-corner-handle {
+      width: 16px;
+      height: 16px;
+      background: #ffffff;
+      border: 3px solid #0284c7;
+      border-radius: 50%;
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.9), 0 2px 6px rgba(0,0,0,0.6);
+      cursor: grab;
+      transition: transform 0.15s, background 0.15s;
+    }
+    .crop-corner-handle:hover, .crop-corner-handle:active {
+      transform: scale(1.4);
+      background: #38bdf8;
+      border-color: #ffffff;
+      cursor: grabbing;
+    }
+    .drawer-crop-btn {
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: #38bdf8;
+      padding: 9px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 100%;
+      transition: all 0.15s;
+      margin-top: 4px;
+    }
+    .drawer-crop-btn:hover {
+      background: #38bdf8;
+      color: #0b0f19;
+    }
+
+    /* Loading Overlay Indicator */
+    #statusBanner {
+      position: absolute;
+      top: 92px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 500;
+      background: rgba(17, 24, 39, 0.95);
+      backdrop-filter: blur(14px);
+      border: 1px solid var(--accent-cyan);
+      border-radius: 20px;
+      padding: 8px 18px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #38bdf8;
+      display: none;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+
+    /* Pin Adjustment Instruction */
+    #pinHint {
+      position: absolute;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 400;
+      background: rgba(17, 24, 39, 0.9);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 11px;
+      color: #e2e8f0;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* City Summary Badge (Left) */
+    .city-stats-bar {
+      position: absolute;
+      top: 16px;
+      left: 20px;
+      z-index: 400;
+      background: rgba(17, 24, 39, 0.88);
+      backdrop-filter: blur(14px);
+      border: 1px solid var(--border-panel);
+      border-radius: 12px;
+      padding: 10px 16px;
+      display: flex;
+      gap: 16px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    }
+    .city-stat-item {
+      display: flex;
+      flex-direction: column;
+    }
+    .city-stat-label {
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-dim);
+      font-weight: 700;
+    }
+    .city-stat-val {
+      font-size: 14px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .city-stat-val span {
+      font-size: 10px;
+      font-weight: 500;
+      color: var(--accent-solar);
+    }
+
+    /* Map Controls (Right) */
+    .map-controls-group {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      z-index: 400;
+      display: flex;
+      gap: 8px;
+    }
+    .ctrl-btn {
+      background: rgba(17, 24, 39, 0.88);
+      backdrop-filter: blur(14px);
+      border: 1px solid var(--border-panel);
+      color: var(--text-main);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: all 0.15s;
+    }
+    .ctrl-btn:hover, .ctrl-btn.active {
+      background: rgba(37, 99, 235, 0.25);
+      border-color: var(--primary);
+      color: #fff;
+    }
+
+    /* Legend (Bottom Left) */
+    .map-legend {
+      position: absolute;
+      bottom: 24px;
+      left: 20px;
+      z-index: 400;
+      background: rgba(17, 24, 39, 0.92);
+      backdrop-filter: blur(14px);
+      border: 1px solid var(--border-panel);
+      border-radius: 12px;
+      padding: 12px 16px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+      font-size: 11px;
+    }
+    .legend-title {
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .legend-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+    .legend-swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+    }
+
+    /* Solar Audit Drawer / Sidebar */
+    #audit-drawer {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 490px;
+      height: 100%;
+      background: var(--bg-panel);
+      backdrop-filter: blur(24px);
+      border-left: 1px solid var(--border-panel);
+      z-index: 900;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: -15px 0 50px rgba(0,0,0,0.7);
+      overflow: hidden;
+    }
+    #audit-drawer.open {
+      transform: translateX(0);
+    }
+
+    .drawer-header {
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--border-panel);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      background: rgba(0,0,0,0.25);
+    }
+    .drawer-header-left {
+      max-width: 390px;
+    }
+    .home-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      color: var(--accent-green);
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 6px;
+      margin-bottom: 6px;
+    }
+    .drawer-header h2 {
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.3;
+      word-break: break-word;
+    }
+    .drawer-header p {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .close-btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: #fff;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      transition: 0.15s;
+    }
+    .close-btn:hover {
+      background: rgba(239, 68, 68, 0.5);
+    }
+
+    .drawer-body {
+      flex: 1;
+      padding: 20px 24px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    /* Score Card Hero */
+    .score-hero {
+      background: linear-gradient(135deg, rgba(30, 58, 138, 0.4), rgba(17, 24, 39, 0.8));
+      border: 1px solid var(--border-accent);
+      border-radius: 14px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .score-left {
+      display: flex;
+      flex-direction: column;
+    }
+    .score-badge-tag {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--accent-solar);
+      margin-bottom: 2px;
+    }
+    .score-rating-text {
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .bill-offset-tag {
+      font-size: 11px;
+      color: var(--accent-green);
+      font-weight: 700;
+      margin-top: 4px;
+    }
+    .score-circle {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: rgba(16, 185, 129, 0.15);
+      border: 3px solid var(--accent-green);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.35);
+    }
+    .score-circle .num {
+      font-size: 21px;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+    }
+    .score-circle .sub {
+      font-size: 9px;
+      color: var(--text-dim);
+      font-weight: 600;
+    }
+
+    /* Key Metrics Grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .metric-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-panel);
+      border-radius: 12px;
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+    }
+    .metric-card .label {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .metric-card .val {
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .metric-card .subtext {
+      font-size: 10px;
+      color: var(--text-dim);
+      margin-top: 2px;
+    }
+
+    /* Financial & Subsidy Breakdown */
+    .financial-card {
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      border-radius: 14px;
+      padding: 18px;
+    }
+    .fin-title {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--accent-solar);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .fin-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      font-size: 12px;
+    }
+    .fin-row:last-child { border-bottom: none; }
+    .fin-label { color: var(--text-muted); }
+    .fin-val { font-weight: 700; color: #fff; font-family: 'JetBrains Mono', monospace; }
+    .fin-val.highlight-green { color: var(--accent-green); }
+    .fin-val.highlight-gold { color: var(--accent-solar); }
+
+    /* Interactive Customize Drawer Section */
+    .customize-box {
+      background: rgba(31, 41, 55, 0.5);
+      border: 1px solid var(--border-panel);
+      border-radius: 12px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .customize-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .cust-slider-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .cust-slider-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .cust-slider-label b {
+      color: var(--accent-cyan);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .cust-slider-group input[type="range"] {
+      width: 100%;
+      accent-color: var(--primary);
+    }
+
+    /* Chart Section */
+    .chart-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-panel);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .chart-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .chart-unit {
+      font-size: 11px;
+      color: var(--accent-solar);
+      font-weight: 600;
+    }
+    .chart-container {
+      height: 140px;
+      position: relative;
+    }
+
+    /* AI Satellite Vision Button */
+    .ai-vision-btn {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 13px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s;
+      box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+    }
+    .ai-vision-btn:hover {
+      background: linear-gradient(135deg, #2563eb, #60a5fa);
+      transform: translateY(-1px);
+    }
+
+    /* Satellite AI Modal */
+    #ai-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.82);
+      backdrop-filter: blur(16px);
+      z-index: 2000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    #ai-modal.show {
+      display: flex;
+    }
+    .ai-modal-content {
+      background: #111827;
+      border: 1px solid var(--border-panel);
+      border-radius: 18px;
+      width: 740px;
+      max-width: 92vw;
+      padding: 24px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.8);
+      position: relative;
+    }
+    .modal-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .modal-head h3 {
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .satellite-compare-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+    .compare-pane {
+      background: #1f2937;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border-panel);
+    }
+    .compare-pane img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      display: block;
+    }
+    .compare-label {
+      padding: 8px 12px;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      background: rgba(0,0,0,0.5);
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.3); }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <!-- Header Navbar -->
+    <header>
+      <div class="brand">
+        <div class="logo-icon">☀️</div>
+        <div class="brand-text">
+          <h1>CHENNAI ROOFTOP SOLAR MAPPER</h1>
+          <p>High-Resolution Satellite Imagery • Street-Level Geocoding • PM Surya Ghar Subsidy</p>
+        </div>
+      </div>
+
+      <div class="nav-controls">
+        <select id="neighborhoodSelect" class="dropdown-select">
+          <option value="all">📍 Quick Jumps (Chennai)</option>
+          <option value="adyar">Adyar (Kasturba & Gandhi Nagar)</option>
+          <option value="besant_nagar">Besant Nagar (Beachside)</option>
+          <option value="t_nagar">T. Nagar (Pondy Bazaar / Usman Rd)</option>
+          <option value="anna_nagar">Anna Nagar (2nd & 3rd Ave)</option>
+          <option value="mylapore">Mylapore (North/South Mada St)</option>
+          <option value="omr">OMR / Thoraipakkam (Tech Corridor)</option>
+        </select>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <div id="main-content">
+      <!-- Leaflet Map Container -->
+      <div id="map"></div>
+
+      <!-- Prominent Manual Address Search Card (Centered Hero) -->
+      <div class="home-address-card">
+        <div class="search-input-row">
+          <span class="search-icon">🏡</span>
+          <input id="homeAddressInput" type="text" placeholder="Enter your home address manually (e.g. 12 Kasturba Nagar, Adyar, Chennai)..." autocomplete="off" />
+          <button id="clearInputBtn" class="clear-input-btn" title="Clear">&times;</button>
+          <button id="estimateHomeBtn" class="estimate-btn">
+            <span>⚡</span> Calculate Solar
+          </button>
+        </div>
+
+        <!-- Autocomplete Suggestions Dropdown -->
+        <div id="suggestionsBox"></div>
+
+        <!-- Action bar: Quick chips & Draw Roof button -->
+        <div class="search-bottom-row">
+          <div class="quick-chips">
+            <span class="chip-label">Quick Try:</span>
+            <button class="chip-btn" data-addr="57/27, Aadhi Moola Perumal Kovil Street, Vadapalani, Chennai">🏡 Vadapalani Home</button>
+            <button class="chip-btn" data-addr="12, Kasturba Nagar, Adyar, Chennai">Adyar Villa</button>
+            <button class="chip-btn" data-addr="Plot 42, 2nd Main Road, Besant Nagar, Chennai">Besant Nagar</button>
+            <button class="chip-btn" data-addr="15, Usman Road, T Nagar, Chennai">T. Nagar</button>
+            <button class="chip-btn" data-addr="34, 4th Avenue, Anna Nagar, Chennai">Anna Nagar</button>
+            <button class="chip-btn" data-addr="10, North Mada Street, Mylapore, Chennai">Mylapore</button>
+          </div>
+          <button id="cropRoofBtn" class="crop-roof-btn" title="Crop and resize green box to match your rooftop walls">
+            <span>✂️</span> Crop Roof Box
+          </button>
+          <button id="drawRoofBtn" class="draw-roof-btn" title="Click points on map to outline your terrace manually">
+            <span>✏️</span> Draw My Roof
+          </button>
+        </div>
+      </div>
+
+      <!-- Status Indicator -->
+      <div id="statusBanner">
+        <span>⏳</span> <span id="statusText">Locating exact rooftop and calculating solar potential...</span>
+      </div>
+
+      <!-- Floating Crop Rooftop Toolbar -->
+      <div id="cropToolbar" class="crop-toolbar" style="display: none;">
+        <div class="crop-header">
+          <div class="crop-title">
+            <span>✂️ Crop Rooftop Box</span>
+            <span id="cropLiveAreaBadge" class="crop-live-badge">1,298 sq ft</span>
+          </div>
+          <button id="cropCloseBtn" class="crop-close-btn" title="Close Crop Mode">&times;</button>
+        </div>
+        <div class="crop-controls-row">
+          <div class="crop-group">
+            <span class="crop-lbl">Width:</span>
+            <button id="cropWidthMinus" class="crop-mini-btn" title="Shrink Width">-</button>
+            <button id="cropWidthPlus" class="crop-mini-btn" title="Expand Width">+</button>
+          </div>
+          <div class="crop-group">
+            <span class="crop-lbl">Length:</span>
+            <button id="cropLengthMinus" class="crop-mini-btn" title="Shrink Length">-</button>
+            <button id="cropLengthPlus" class="crop-mini-btn" title="Expand Length">+</button>
+          </div>
+          <div class="crop-group">
+            <span class="crop-lbl">Rotate:</span>
+            <button id="cropRotateCcw" class="crop-mini-btn" title="Rotate 5° Counter-Clockwise">↺ 5°</button>
+            <button id="cropRotateCw" class="crop-mini-btn" title="Rotate 5° Clockwise">↻ 5°</button>
+          </div>
+          <div class="crop-group">
+            <span class="crop-lbl">Move:</span>
+            <button id="cropMoveUp" class="crop-mini-btn" title="Nudge Up (North)">↑</button>
+            <button id="cropMoveDown" class="crop-mini-btn" title="Nudge Down (South)">↓</button>
+            <button id="cropMoveLeft" class="crop-mini-btn" title="Nudge Left (West)">←</button>
+            <button id="cropMoveRight" class="crop-mini-btn" title="Nudge Right (East)">→</button>
+          </div>
+          <button id="cropResetBtn" class="crop-action-btn" title="Reset to Detected Box">↺ Reset</button>
+          <button id="cropDoneBtn" class="crop-action-btn crop-done-btn" title="Save & Apply Cropped Rooftop">✓ Done</button>
+        </div>
+        <div class="crop-hint-text">
+          💡 Click &amp; drag the green box (or center ✥ handle) to move it over your roof! Drag corner handles to crop walls.
+        </div>
+      </div>
+
+      <!-- Instruction Hint -->
+      <div id="pinHint">
+        <span>📍</span> Tip: Click &amp; drag the green box or center ✥ handle to move it onto your rooftop! Drag corners to crop.
+      </div>
+
+      <!-- City Aggregate Metrics Ribbon (Left) -->
+      <div class="city-stats-bar">
+        <div class="city-stat-item">
+          <span class="city-stat-label">Mapped Rooftops</span>
+          <span class="city-stat-val" id="statCount">315</span>
+        </div>
+        <div class="city-stat-item">
+          <span class="city-stat-label">Solar PV Potential</span>
+          <span class="city-stat-val" id="statCapacity">18.4 <span>MWp</span></span>
+        </div>
+        <div class="city-stat-item">
+          <span class="city-stat-label">Annual Clean Output</span>
+          <span class="city-stat-val" id="statGeneration">24.7 <span>GWh/yr</span></span>
+        </div>
+        <div class="city-stat-item">
+          <span class="city-stat-label">CO₂ Offset</span>
+          <span class="city-stat-val" id="statCo2">20,263 <span>t/yr</span></span>
+        </div>
+      </div>
+
+      <!-- Basemap Switchers (Right) -->
+      <div class="map-controls-group">
+        <button id="basemapGoogleHybrid" class="ctrl-btn active">🛰️ Google Satellite HD</button>
+        <button id="basemapEsri" class="ctrl-btn">🌍 Esri Aerial</button>
+        <button id="basemapDark" class="ctrl-btn">🌙 Dark GIS</button>
+        <button id="basemapStreet" class="ctrl-btn">🗺️ Street</button>
+      </div>
+
+      <!-- Legend -->
+      <div class="map-legend">
+        <div class="legend-title">Solar Potential Index</div>
+        <div class="legend-row">
+          <span class="legend-swatch" style="background:#10b981"></span>
+          <span>Excellent (Score 75 - 100)</span>
+        </div>
+        <div class="legend-row">
+          <span class="legend-swatch" style="background:#84cc16"></span>
+          <span>Good (Score 50 - 74)</span>
+        </div>
+        <div class="legend-row">
+          <span class="legend-swatch" style="background:#f59e0b"></span>
+          <span>Moderate (Score 30 - 49)</span>
+        </div>
+        <div class="legend-row">
+          <span class="legend-swatch" style="background:#ef4444"></span>
+          <span>Low Potential (&lt; 30)</span>
+        </div>
+      </div>
+
+      <!-- Solar Potential & Financial Audit Drawer -->
+      <div id="audit-drawer">
+        <div class="drawer-header">
+          <div class="drawer-header-left">
+            <div class="home-badge"><span>✓</span> Verified Rooftop Analysis</div>
+            <h2 id="drawerAddress">12, Kasturba Nagar, Adyar, Chennai</h2>
+            <p id="drawerSub">Adyar, Chennai • Residential • Azimuth: 15°</p>
+          </div>
+          <button id="closeDrawerBtn" class="close-btn">&times;</button>
+        </div>
+
+        <div class="drawer-body">
+          <!-- Hero Solar Score -->
+          <div class="score-hero">
+            <div class="score-left">
+              <span class="score-badge-tag">Photovoltaic Viability</span>
+              <span class="score-rating-text" id="scoreRating">Exceptional Potential</span>
+              <span class="bill-offset-tag" id="billOffsetTag">⚡ 100% of Electric Bill Covered!</span>
+            </div>
+            <div class="score-circle">
+              <span class="num" id="heroScore">88</span>
+              <span class="sub">/ 100</span>
+            </div>
+          </div>
+
+          <!-- Key Metrics Grid -->
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="label">Usable Rooftop Area</span>
+              <span class="val" id="metricUsableArea">115 m²</span>
+              <span class="subtext" id="metricTotalArea">Total: 160 m² (1,722 sqft)</span>
+            </div>
+            <div class="metric-card">
+              <span class="label">Recommended System</span>
+              <span class="val" id="metricSystemSize">3.5 kWp</span>
+              <span class="subtext" id="metricPanels">8 Panels (450W Mono)</span>
+              <span class="subtext" style="color:var(--accent-cyan); font-weight:600; display:block; margin-top:2px;" id="metricMaxRoof">Max Roof: 19.8 kWp</span>
+            </div>
+            <div class="metric-card">
+              <span class="label">Annual Generation</span>
+              <span class="val" id="metricAnnualKwh">6,100 kWh</span>
+              <span class="subtext" id="metricDailyKwh">~16.7 kWh / day</span>
+            </div>
+            <div class="metric-card">
+              <span class="label">Annual TANGEDCO Savings</span>
+              <span class="val" id="metricAnnualSavings">₹ 42,700</span>
+              <span class="subtext" id="metricMonthlySavings">₹ 3,558 / month</span>
+            </div>
+          </div>
+
+          <!-- Interactive Customizer (Monthly Bill & Terrace Area) -->
+          <div class="customize-box">
+            <div class="customize-title"><span>⚙️</span> Adjust for Your Household</div>
+            <div class="cust-slider-group">
+              <div class="cust-slider-label">
+                <span>Monthly Electricity Bill:</span>
+                <b id="billDisplayVal">₹ 3,500 / month</b>
+              </div>
+              <input id="billSlider" type="range" min="1000" max="20000" step="500" value="3500" />
+            </div>
+            <div class="cust-slider-group">
+              <div class="cust-slider-label">
+                <span>Terrace Roof Size:</span>
+                <b id="roofDisplayVal">1,722 sq ft</b>
+              </div>
+              <input id="roofSlider" type="range" min="400" max="5000" step="100" value="1722" />
+            </div>
+            <button id="drawerCropBtn" class="drawer-crop-btn" title="Drag corners of green box on map to match house walls">
+              <span>✂️</span> Crop & Fit Box to Rooftop Walls
+            </button>
+          </div>
+
+          <!-- Monthly Generation Profile Chart -->
+          <div class="chart-box">
+            <div class="chart-header">
+              <span class="chart-title">Monthly Solar Generation Profile</span>
+              <span class="chart-unit">kWh / month</span>
+            </div>
+            <div class="chart-container" id="chartContainer">
+              <canvas id="generationChart"></canvas>
+            </div>
+          </div>
+
+          <!-- Financial & Subsidy Breakdown -->
+          <div class="financial-card">
+            <div class="fin-title">
+              <span>💰</span> Investment & Subsidy Breakdown
+            </div>
+            <div class="fin-row">
+              <span class="fin-label">Turnkey System CAPEX (@ ₹55k/kWp)</span>
+              <span class="fin-val" id="finGross">₹ 2,47,500</span>
+            </div>
+            <div class="fin-row">
+              <span class="fin-label">PM Surya Ghar Subsidy (Central)</span>
+              <span class="fin-val highlight-gold" id="finSubsidy">- ₹ 78,000</span>
+            </div>
+            <div class="fin-row">
+              <span class="fin-label">Net Investment Required</span>
+              <span class="fin-val highlight-green" id="finNet">₹ 1,69,500</span>
+            </div>
+            <div class="fin-row">
+              <span class="fin-label">Simple Payback Period</span>
+              <span class="fin-val highlight-green" id="finPayback">4.0 Years</span>
+            </div>
+            <div class="fin-row">
+              <span class="fin-label">25-Year Cumulative Savings</span>
+              <span class="fin-val highlight-gold" id="finLifetime">₹ 15.6 Lakhs</span>
+            </div>
+            <div class="fin-row">
+              <span class="fin-label">Annual CO₂ Reduction</span>
+              <span class="fin-val" id="finCo2">5.0 Metric Tons (~250 trees)</span>
+            </div>
+          </div>
+
+          <!-- Satellite AI Vision Inspector Button -->
+          <button id="openAiVisionBtn" class="ai-vision-btn">
+            <span>🔬</span> Inspect Satellite AI Segmentation (U-Net)
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Satellite AI Vision Modal -->
+  <div id="ai-modal">
+    <div class="ai-modal-content">
+      <div class="modal-head">
+        <div>
+          <h3>🛰️ Deep Learning Rooftop Segmentation</h3>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:2px;">
+            High-Resolution Aerial Imagery segmented with U-Net architecture
+          </p>
+        </div>
+        <button id="closeAiModalBtn" class="close-btn">&times;</button>
+      </div>
+
+      <div class="satellite-compare-grid">
+        <div class="compare-pane">
+          <div class="compare-label">Raw High-Res Satellite Tile</div>
+          <img id="modalSatelliteImg" src="" alt="Satellite Tile" />
+        </div>
+        <div class="compare-pane">
+          <div class="compare-label">U-Net Rooftop Mask & Boundary</div>
+          <img id="modalOverlayImg" src="" alt="Segmented Rooftop Mask" />
+        </div>
+      </div>
+
+      <div style="background: rgba(31, 41, 55, 0.5); padding: 14px; border-radius: 10px; font-size: 12px; color: var(--text-muted); line-height: 1.5;">
+        <b style="color: #fff;">Inference Pipeline:</b> The 256×256 RGB tile is normalized, fed through the encoder-decoder CNN with skip connections, thresholded, and filtered through morphological operations. OpenCV contour detection then converts detected rooftop masks into georeferenced WGS84 polygons with ~92% confidence.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // App State
+    let map = null;
+    let geojsonLayer = null;
+    let selectedLayer = null;
+    let homeMarker = null;
+    let currentBuildingData = null;
+    let generationChart = null;
+    let allFeatures = [];
+    let isDrawing = false;
+    let drawnPoints = [];
+    let drawTempLine = null;
+    let debounceTimer = null;
+    let cropHandles = [];
+    let centerMoveHandle = null;
+    let currentPolygonCoords = [];
+    let initialPolygonCoords = [];
+    let isCropMode = false;
+    let isDraggingWholeRooftop = false;
+    let rooftopHasMoved = false;
+    let rooftopDragStartLatLng = null;
+    let rooftopDragStartCoords = null;
+
+    // High-Resolution Base Tile Layers
+    const baseLayers = {
+      googleHybrid: L.tileLayer('https://mt{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
+        attribution: '&copy; Google Maps',
+        maxZoom: 21,
+        subdomains: ['0', '1', '2', '3']
+      }),
+      esri: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Esri, Maxar, Earthstar Geographics',
+        maxZoom: 19
+      }),
+      dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; CartoDB &copy; OpenStreetMap',
+        maxZoom: 19
+      dark: L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; OpenStreetMap',
+        maxZoom: 20
+      }),
+      street: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors',
+        maxZoom: 19
+      })
+    };
+
+    // Make Google Satellite HD the default crystal clear basemap!
+    let activeBasemap = baseLayers.googleHybrid;
+
+    function initMap() {
+      map = L.map('map', {
+        center: [13.0039, 80.2485],
+        zoom: 18,
+        layers: [activeBasemap],
+        zoomControl: false,
+        maxZoom: 21
+      });
+
+      L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+      // Whole-rooftop polygon dragging listeners
+      map.on('mousemove', handleMapMouseMoveOnPolyDrag);
+      map.on('mouseup', endWholeRooftopDrag);
+      window.addEventListener('mouseup', endWholeRooftopDrag);
+
+      // Click handler on map
+      map.on('click', (e) => {
+        if (isDrawing) {
+          handleDrawClick(e.latlng);
+        } else {
+          hideSuggestions();
+          const curBill = parseInt(document.getElementById('billSlider')?.value) || 3500;
+          const curRoof = parseInt(document.getElementById('roofSlider')?.value) || null;
+          analyzeHomeLocation(null, e.latlng.lat, e.latlng.lng, curBill, curRoof);
+        }
+      });
+    }
+
+    // Basemap Switchers
+    document.getElementById('basemapGoogleHybrid').addEventListener('click', () => switchBasemap('googleHybrid'));
+    document.getElementById('basemapEsri').addEventListener('click', () => switchBasemap('esri'));
+    document.getElementById('basemapDark').addEventListener('click', () => switchBasemap('dark'));
+    document.getElementById('basemapStreet').addEventListener('click', () => switchBasemap('street'));
+
+    function switchBasemap(type) {
+      document.querySelectorAll('.map-controls-group .ctrl-btn').forEach(b => b.classList.remove('active'));
+      const btnId = type === 'googleHybrid' ? 'basemapGoogleHybrid' : ('basemap' + type.charAt(0).toUpperCase() + type.slice(1));
+      const btn = document.getElementById(btnId);
+      if (btn) btn.classList.add('active');
+
+      map.removeLayer(activeBasemap);
+      activeBasemap = baseLayers[type];
+      map.addLayer(activeBasemap);
+    }
+
+    // Status Banner Helpers
+    function showStatus(msg) {
+      const banner = document.getElementById('statusBanner');
+      document.getElementById('statusText').textContent = msg;
+      banner.style.display = 'flex';
+    }
+    function hideStatus() {
+      document.getElementById('statusBanner').style.display = 'none';
+    }
+
+    // Main Manual Address Analysis
+    async function analyzeHomeLocation(addressText, lat = null, lon = null, monthlyBill = null, roofSqft = null, customCoords = null) {
+      showStatus("Locating exact rooftop and calculating solar potential...");
+      const btn = document.getElementById('estimateHomeBtn');
+      btn.disabled = true;
+
+      const billToUse = monthlyBill !== null ? monthlyBill : (parseInt(document.getElementById('billSlider')?.value) || 3500);
+      const roofToUse = roofSqft !== null ? roofSqft : (parseInt(document.getElementById('roofSlider')?.value) || null);
+
+      try {
+        let res;
+        if (customCoords) {
+          res = await fetch('/api/estimate', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              custom_coords: customCoords,
+              monthly_bill: billToUse,
+              roof_sqft: roofToUse
+            })
+          });
+        } else {
+          let url = '/api/estimate?';
+          if (addressText) url += `address=${encodeURIComponent(addressText)}`;
+          else if (lat !== null && lon !== null) url += `lat=${lat}&lon=${lon}`;
+          if (billToUse) url += `&monthly_bill=${billToUse}`;
+          if (roofToUse) url += `&roof_sqft=${roofToUse}`;
+          res = await fetch(url);
+        }
+
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+
+        // Fly map smoothly to rooftop location at high-res zoom level 19
+        map.flyTo([data.lat, data.lon], 19, { duration: 1.0 });
+
+        // Place custom draggable marker on rooftop
+        if (homeMarker) map.removeLayer(homeMarker);
+        const homeIcon = L.divIcon({
+          className: 'custom-home-pin',
+          html: `<div style="background:#2563eb; width:30px; height:30px; border-radius:50%; border:3px solid #fff; box-shadow:0 0 25px #38bdf8; display:flex; align-items:center; justify-content:center; font-size:15px; cursor:grab;" title="Drag me directly onto your rooftop!">🏡</div>`,
+          iconSize: [30, 30],
+          iconAnchor: [15, 15]
+        });
+
+        homeMarker = L.marker([data.lat, data.lon], { icon: homeIcon, draggable: true }).addTo(map);
+
+        // Allow dragging the pin directly onto the exact rooftop!
+        homeMarker.on('dragend', (e) => {
+          const pos = e.target.getLatLng();
+          const curBill = parseInt(document.getElementById('billSlider')?.value) || 3500;
+          const curRoof = parseInt(document.getElementById('roofSlider')?.value) || null;
+          analyzeHomeLocation(null, pos.lat, pos.lng, curBill, curRoof);
+        });
+
+        currentBuildingData = data;
+        document.getElementById('homeAddressInput').value = data.address || addressText;
+        document.getElementById('clearInputBtn').style.display = 'block';
+
+        if (data.geometry && data.geometry.coordinates && data.geometry.coordinates.length > 0) {
+          currentPolygonCoords = data.geometry.coordinates[0].map(p => [p[0], p[1]]);
+          if (!initialPolygonCoords || initialPolygonCoords.length === 0 || !customCoords) {
+            initialPolygonCoords = JSON.parse(JSON.stringify(currentPolygonCoords));
+          }
+          // Render highlighted, draggable rooftop polygon with crop and move handles!
+          renderEditablePolygon(currentPolygonCoords, data);
+          const curSqft = calculateApproxSqft(currentPolygonCoords);
+          const badge = document.getElementById('cropLiveAreaBadge');
+          if (badge) badge.textContent = `${Math.round(curSqft).toLocaleString()} sq ft`;
+        }
+
+        openAuditDrawer(data);
+      } catch (err) {
+        alert(err.message || 'Could not locate address. Try specifying locality (e.g. Adyar, T. Nagar).');
+      } finally {
+        hideStatus();
+        btn.disabled = false;
+      }
+    }
+
+    // Open & Populate the Solar Feasibility Drawer
+    function openAuditDrawer(props) {
+      document.getElementById('drawerAddress').textContent = props.address || 'Chennai Rooftop';
+      document.getElementById('drawerSub').textContent = `${props.matched_landmark || props.neighborhood || 'Chennai'} • Coordinates: (${props.lat.toFixed(5)}, ${props.lon.toFixed(5)})`;
+
+      const score = props.solar_score || props.score_0_100 || 50;
+      document.getElementById('heroScore').textContent = score;
+
+      let rating = "Exceptional Potential";
+      if (score < 30) rating = "Low Solar Potential";
+      else if (score < 50) rating = "Moderate Potential";
+      else if (score < 75) rating = "Good Solar Potential";
+      document.getElementById('scoreRating').textContent = rating;
+
+      const fin = props.financials || {};
+      if (fin.bill_offset_pct) {
+        document.getElementById('billOffsetTag').style.display = 'block';
+        document.getElementById('billOffsetTag').textContent = `⚡ ${fin.bill_offset_pct}% of Electric Bill Covered!`;
+      } else {
+        document.getElementById('billOffsetTag').style.display = 'none';
+      }
+
+      // Areas
+      const roofSqft = props.roof_area_sqft || Math.round(props.roof_area_m2 * 10.7639);
+      document.getElementById('metricUsableArea').textContent = `${props.usable_area_m2} m²`;
+      document.getElementById('metricTotalArea').textContent = `Total: ${props.roof_area_m2} m² (${roofSqft.toLocaleString()} sqft)`;
+
+      // Sliders initial sync
+      document.getElementById('roofSlider').value = roofSqft;
+      document.getElementById('roofDisplayVal').textContent = `${roofSqft.toLocaleString()} sq ft`;
+
+      const currentBill = fin.monthly_bill_inr || 3500;
+      document.getElementById('billSlider').value = currentBill;
+      document.getElementById('billDisplayVal').textContent = `₹ ${currentBill.toLocaleString()} / month`;
+
+      // System Size & Panels
+      const kw = props.recommended_system_size_kw || 3.0;
+      document.getElementById('metricSystemSize').textContent = `${kw} kWp`;
+      document.getElementById('metricPanels').textContent = `${props.recommended_panel_count || Math.round(kw/0.45)} Panels (450W Mono)`;
+      if (document.getElementById('metricMaxRoof')) {
+        const maxKw = props.max_system_size_kw || Math.round((props.usable_area_m2 / 1.95) * 0.45);
+        document.getElementById('metricMaxRoof').textContent = `Max Roof Capacity: ${maxKw} kWp`;
+      }
+
+      // Generation
+      const annualKwh = props.annual_kwh_potential || props.estimated_annual_kwh || 4000;
+      document.getElementById('metricAnnualKwh').textContent = `${Math.round(annualKwh).toLocaleString()} kWh`;
+      document.getElementById('metricDailyKwh').textContent = `~${Math.round(annualKwh / 365)} kWh / day`;
+
+      // Financials
+      const savings = fin.annual_savings_inr || Math.round(annualKwh * 7.0);
+      document.getElementById('metricAnnualSavings').textContent = formatInrLakh(savings);
+      document.getElementById('metricMonthlySavings').textContent = `₹ ${Math.round(savings / 12).toLocaleString()} / month`;
+
+      document.getElementById('finGross').textContent = `₹ ${(fin.gross_capex_inr || kw * 55000).toLocaleString()}`;
+      document.getElementById('finSubsidy').textContent = `- ₹ ${(fin.subsidy_inr || 78000).toLocaleString()}`;
+      document.getElementById('finNet').textContent = `₹ ${(fin.net_capex_inr || Math.max(0, kw * 55000 - 78000)).toLocaleString()}`;
+      document.getElementById('finPayback').textContent = `${fin.payback_years || 4.0} Years`;
+      document.getElementById('finLifetime').textContent = formatInrCrore(fin.lifetime_savings_25yr_inr || (savings * 22));
+      document.getElementById('finCo2').textContent = `${fin.co2_tons_annual || (annualKwh * 0.82 / 1000).toFixed(1)} Metric Tons (~${fin.trees_equivalent || 150} trees)`;
+
+      // Render chart safely
+      renderMonthlyChart(props.monthly_generation_kwh);
+
+      // Open Drawer
+      document.getElementById('audit-drawer').classList.add('open');
+    }
+
+    function formatInrLakh(val) {
+      if (val >= 100000) {
+        return `₹ ${(val / 100000).toFixed(2)} Lakhs`;
+      }
+      return `₹ ${Math.round(val).toLocaleString()}`;
+    }
+
+    function formatInrCrore(val) {
+      if (val >= 10000000) {
+        return `₹ ${(val / 10000000).toFixed(2)} Crores`;
+      }
+      return `₹ ${(val / 100000).toFixed(2)} Lakhs`;
+    }
+
+    // Safe Monthly Chart Renderer
+    function renderMonthlyChart(monthlyData) {
+      const container = document.getElementById('chartContainer');
+      const labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      const defaultCurve = [420, 480, 560, 580, 570, 490, 460, 480, 490, 420, 370, 390];
+      let values = defaultCurve;
+      if (monthlyData) {
+        const mKeys = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+        values = mKeys.map(k => monthlyData[k] || 0);
+      }
+
+      if (typeof Chart !== 'undefined') {
+        const canvas = document.getElementById('generationChart');
+        const ctx = canvas.getContext('2d');
+        if (generationChart) generationChart.destroy();
+
+        generationChart = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Generation (kWh)',
+              data: values,
+              backgroundColor: values.map(v => v >= 500 ? 'rgba(245, 158, 11, 0.88)' : 'rgba(59, 130, 246, 0.78)'),
+              borderRadius: 4,
+              borderSkipped: false
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: (c) => `${c.raw.toLocaleString()} kWh`
+                }
+              }
+            },
+            scales: {
+              x: {
+                grid: { display: false },
+                ticks: { color: '#9ca3af', font: { size: 10 } }
+              },
+              y: {
+                grid: { color: 'rgba(255, 255, 255, 0.06)' },
+                ticks: { color: '#6b7280', font: { size: 9 } }
+              }
+            }
+          }
+        });
+      } else {
+        const maxVal = Math.max(...values, 1);
+        let barsHtml = `<div style="display:flex; align-items:flex-end; justify-content:space-between; height:100%; padding-top:10px;">`;
+        values.forEach((v, i) => {
+          const hPct = Math.round((v / maxVal) * 85);
+          const color = v >= 500 ? '#f59e0b' : '#3b82f6';
+          barsHtml += `
+            <div style="display:flex; flex-direction:column; align-items:center; flex:1; gap:4px;">
+              <div style="background:${color}; height:${hPct}%; width:70%; border-radius:3px;" title="${v} kWh"></div>
+              <span style="font-size:9px; color:#9ca3af;">${labels[i]}</span>
+            </div>
+          `;
+        });
+        barsHtml += `</div>`;
+        container.innerHTML = barsHtml;
+      }
+    }
+
+    // Autocomplete Suggestions logic
+    const addressInput = document.getElementById('homeAddressInput');
+    const suggestionsBox = document.getElementById('suggestionsBox');
+    const clearBtn = document.getElementById('clearInputBtn');
+
+    addressInput.addEventListener('input', (e) => {
+      const q = e.target.value.trim();
+      clearBtn.style.display = q ? 'block' : 'none';
+
+      clearTimeout(debounceTimer);
+      if (q.length < 2) {
+        hideSuggestions();
+        return;
+      }
+
+      debounceTimer = setTimeout(async () => {
+        try {
+          const res = await fetch(`/api/suggestions?q=${encodeURIComponent(q)}`);
+          const items = await res.json();
+          renderSuggestions(items);
+        } catch (err) {
+          hideSuggestions();
+        }
+      }, 200);
+    });
+
+    function renderSuggestions(items) {
+      if (!items || items.length === 0) {
+        hideSuggestions();
+        return;
+      }
+      let html = '';
+      items.forEach(item => {
+        html += `<div class="suggestion-item" data-name="${item.name}" data-lat="${item.lat}" data-lon="${item.lon}">📍 ${item.name}</div>`;
+      });
+      suggestionsBox.innerHTML = html;
+      suggestionsBox.style.display = 'block';
+
+      document.querySelectorAll('.suggestion-item').forEach(el => {
+        el.addEventListener('click', () => {
+          const name = el.getAttribute('data-name');
+          const lat = parseFloat(el.getAttribute('data-lat'));
+          const lon = parseFloat(el.getAttribute('data-lon'));
+          addressInput.value = name;
+          hideSuggestions();
+          analyzeHomeLocation(name, lat, lon);
+        });
+      });
+    }
+
+    function hideSuggestions() {
+      suggestionsBox.style.display = 'none';
+      suggestionsBox.innerHTML = '';
+    }
+
+    clearBtn.addEventListener('click', () => {
+      addressInput.value = '';
+      clearBtn.style.display = 'none';
+      hideSuggestions();
+      addressInput.focus();
+    });
+
+    // Enter Key & Estimate Button
+    document.getElementById('estimateHomeBtn').addEventListener('click', () => {
+      const addr = addressInput.value.trim();
+      if (addr) {
+        hideSuggestions();
+        analyzeHomeLocation(addr);
+      }
+    });
+
+    addressInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const addr = addressInput.value.trim();
+        if (addr) {
+          hideSuggestions();
+          analyzeHomeLocation(addr);
+        }
+      }
+    });
+
+    // Quick Sample Address Chips
+    document.querySelectorAll('.chip-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const addr = btn.getAttribute('data-addr');
+        addressInput.value = addr;
+        clearBtn.style.display = 'block';
+        hideSuggestions();
+        analyzeHomeLocation(addr);
+      });
+    });
+
+    // Interactive Sliders in Drawer
+    document.getElementById('billSlider').addEventListener('input', (e) => {
+      const bill = parseInt(e.target.value);
+      document.getElementById('billDisplayVal').textContent = `₹ ${bill.toLocaleString()} / month`;
+    });
+    document.getElementById('billSlider').addEventListener('change', (e) => {
+      const bill = parseInt(e.target.value);
+      const roof = parseInt(document.getElementById('roofSlider').value);
+      if (currentBuildingData) {
+        analyzeHomeLocation(currentBuildingData.address, currentBuildingData.lat, currentBuildingData.lon, bill, roof);
+      }
+    });
+
+    document.getElementById('roofSlider').addEventListener('input', (e) => {
+      const roof = parseInt(e.target.value);
+      document.getElementById('roofDisplayVal').textContent = `${roof.toLocaleString()} sq ft`;
+    });
+    document.getElementById('roofSlider').addEventListener('change', (e) => {
+      const roof = parseInt(e.target.value);
+      const bill = parseInt(document.getElementById('billSlider').value);
+      if (currentBuildingData) {
+        analyzeHomeLocation(currentBuildingData.address, currentBuildingData.lat, currentBuildingData.lon, bill, roof);
+      }
+    });
+
+    // Manual Roof Outline Drawing Tool
+    const drawBtn = document.getElementById('drawRoofBtn');
+    drawBtn.addEventListener('click', () => {
+      isDrawing = !isDrawing;
+      drawnPoints = [];
+      if (drawTempLine) map.removeLayer(drawTempLine);
+
+      if (isDrawing) {
+        drawBtn.classList.add('active');
+        drawBtn.innerHTML = `<span>⏹️</span> Finish Drawing`;
+        showStatus("Click corners of your rooftop terrace on the map. Double click to finish.");
+      } else {
+        finishDrawing();
+      }
+    });
+
+    function handleDrawClick(latlng) {
+      drawnPoints.push([latlng.lng, latlng.lat]);
+
+      if (drawTempLine) map.removeLayer(drawTempLine);
+      const polyCoords = drawnPoints.map(p => [p[1], p[0]]);
+      drawTempLine = L.polyline(polyCoords, { color: '#34d399', weight: 3, dashArray: '5, 5' }).addTo(map);
+
+      if (drawnPoints.length >= 4) {
+        showStatus(`Captured ${drawnPoints.length} points. Click 'Finish Drawing' or click 1st point to calculate.`);
+      }
+    }
+
+    function finishDrawing() {
+      isDrawing = false;
+      drawBtn.classList.remove('active');
+      drawBtn.innerHTML = `<span>✏️</span> Draw My Roof`;
+      hideStatus();
+
+      if (drawnPoints.length >= 3) {
+        if (drawnPoints[0] !== drawnPoints[drawnPoints.length - 1]) {
+          drawnPoints.push(drawnPoints[0]);
+        }
+        if (drawTempLine) map.removeLayer(drawTempLine);
+        analyzeHomeLocation(null, null, null, null, null, drawnPoints);
+      }
+    }
+
+    // Neighborhood dropdown
+    document.getElementById('neighborhoodSelect').addEventListener('change', (e) => {
+      loadNeighborhood(e.target.value);
+    });
+
+    async function loadNeighborhood(nhood) {
+      if (nhood === 'all') {
+        map.setView([13.04, 80.24], 14);
+        return;
+      }
+      try {
+        const res = await fetch(`/api/buildings?neighborhood=${nhood}`);
+        const data = await res.json();
+        if (geojsonLayer) map.removeLayer(geojsonLayer);
+
+        geojsonLayer = L.geoJSON(data, {
+          style: (f) => ({
+            fillColor: f.properties?.fill_color || '#10b981',
+            weight: 1.5,
+            color: '#fff',
+            fillOpacity: 0.75
+          }),
+          onEachFeature: (feature, layer) => {
+            layer.on('click', () => {
+              selectBuilding(feature, layer);
+            });
+          }
+        }).addTo(map);
+
+        map.fitBounds(geojsonLayer.getBounds(), { padding: [40, 40], maxZoom: 18 });
+      } catch (err) {
+        console.error("Neighborhood loading error:", err);
+      }
+    }
+
+    function selectBuilding(feature, layer) {
+      if (selectedLayer) map.removeLayer(selectedLayer);
+      currentBuildingData = feature.properties;
+      currentBuildingData.geometry = feature.geometry;
+      if (feature.geometry && feature.geometry.coordinates && feature.geometry.coordinates.length > 0) {
+        currentPolygonCoords = feature.geometry.coordinates[0].map(p => [p[0], p[1]]);
+        initialPolygonCoords = JSON.parse(JSON.stringify(currentPolygonCoords));
+        renderEditablePolygon(currentPolygonCoords, currentBuildingData);
+      }
+      openAuditDrawer(currentBuildingData);
+    }
+
+    // Close Drawer
+    document.getElementById('closeDrawerBtn').addEventListener('click', () => {
+      document.getElementById('audit-drawer').classList.remove('open');
+    });
+
+    // AI Satellite Vision Modal
+    document.getElementById('openAiVisionBtn').addEventListener('click', async () => {
+      if (!currentBuildingData) return;
+      const btn = document.getElementById('openAiVisionBtn');
+      const origText = btn.innerHTML;
+      btn.innerHTML = '<span>⏳</span> Segmenting Satellite Tile...';
+      btn.disabled = true;
+
+      try {
+        const lat = currentBuildingData.lat || 13.0065;
+        const lon = currentBuildingData.lon || 80.2570;
+
+        const res = await fetch(`/api/segment_satellite?lat=${lat}&lon=${lon}&zoom=18`);
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+
+        document.getElementById('modalSatelliteImg').src = `data:image/jpeg;base64,${data.satellite_b64}`;
+        document.getElementById('modalOverlayImg').src = `data:image/jpeg;base64,${data.overlay_b64}`;
+        document.getElementById('ai-modal').classList.add('show');
+      } catch (e) {
+        alert("Satellite segmentation error: " + e.message);
+      } finally {
+        btn.innerHTML = origText;
+        btn.disabled = false;
+      }
+    });
+
+    document.getElementById('closeAiModalBtn').addEventListener('click', () => {
+      document.getElementById('ai-modal').classList.remove('show');
+    });
+
+    // Close suggestions on outside click
+    document.addEventListener('click', (e) => {
+      if (!document.querySelector('.home-address-card').contains(e.target)) {
+        hideSuggestions();
+      }
+    });
+
+    // ==================== Interactive Rooftop Box Cropping & Moving Engine ====================
+    function toggleCropMode(forceState = null) {
+      isCropMode = forceState !== null ? forceState : !isCropMode;
+      const toolbar = document.getElementById('cropToolbar');
+      const cropBtn = document.getElementById('cropRoofBtn');
+
+      if (isCropMode) {
+        toolbar.style.display = 'flex';
+        if (cropBtn) cropBtn.classList.add('active');
+        if (currentPolygonCoords && currentPolygonCoords.length >= 3) {
+          renderCropHandles(currentPolygonCoords);
+          const curSqft = calculateApproxSqft(currentPolygonCoords);
+          document.getElementById('cropLiveAreaBadge').textContent = `${Math.round(curSqft).toLocaleString()} sq ft`;
+        }
+        showStatus("✂️ Crop & Move Mode: Drag any corner to reshape, or drag the green box to move!");
+      } else {
+        toolbar.style.display = 'none';
+        if (cropBtn) cropBtn.classList.remove('active');
+        hideStatus();
+      }
+    }
+
+    function renderEditablePolygon(coords, data) {
+      if (selectedLayer) {
+        map.removeLayer(selectedLayer);
+        selectedLayer = null;
+      }
+
+      if (!coords || coords.length < 3) return;
+
+      const latlngs = coords.map(p => [p[1], p[0]]);
+      selectedLayer = L.polygon(latlngs, {
+        fillColor: data?.fill_color || '#10b981',
+        weight: 3.5,
+        color: '#38bdf8',
+        fillOpacity: 0.82,
+        className: 'rooftop-draggable-polygon'
+      }).addTo(map);
+
+      setupWholePolygonDragging(selectedLayer);
+      renderCropHandles(coords);
+    }
+
+    function setupWholePolygonDragging(polygon) {
+      polygon.on('mousedown', (e) => {
+        if (isDrawing) return;
+        if (e.originalEvent) {
+          L.DomEvent.stopPropagation(e.originalEvent);
+          L.DomEvent.preventDefault(e.originalEvent);
+        } else {
+          L.DomEvent.stopPropagation(e);
+        }
+
+        isDraggingWholeRooftop = true;
+        rooftopHasMoved = false;
+        rooftopDragStartLatLng = e.latlng;
+        rooftopDragStartCoords = JSON.parse(JSON.stringify(currentPolygonCoords));
+        map.dragging.disable();
+
+        if (polygon.getElement()) {
+          polygon.getElement().style.cursor = 'grabbing';
+        }
+        document.body.style.cursor = 'grabbing';
+      });
+    }
+
+    function handleMapMouseMoveOnPolyDrag(e) {
+      if (!isDraggingWholeRooftop || !rooftopDragStartLatLng || !rooftopDragStartCoords) return;
+
+      const dLat = e.latlng.lat - rooftopDragStartLatLng.lat;
+      const dLon = e.latlng.lng - rooftopDragStartLatLng.lng;
+
+      if (Math.abs(dLat) > 0.0000005 || Math.abs(dLon) > 0.0000005) {
+        rooftopHasMoved = true;
+      }
+
+      currentPolygonCoords = rooftopDragStartCoords.map(p => [p[0] + dLon, p[1] + dLat]);
+
+      if (selectedLayer) {
+        selectedLayer.setLatLngs(currentPolygonCoords.map(p => [p[1], p[0]]));
+      }
+      updateCropHandlePositions();
+      updateCenterHandlePosition();
+
+      if (homeMarker) {
+        const c = getPolygonCentroid(currentPolygonCoords);
+        homeMarker.setLatLng([c.lat, c.lon]);
+      }
+
+      const curSqft = calculateApproxSqft(currentPolygonCoords);
+      const curM2 = Math.round(curSqft / 10.7639);
+      const areaText = `${Math.round(curSqft).toLocaleString()} sq ft (${curM2} m²)`;
+      const badge = document.getElementById('cropLiveAreaBadge');
+      if (badge) badge.textContent = areaText;
+      const roofDisplay = document.getElementById('roofDisplayVal');
+      if (roofDisplay) roofDisplay.textContent = `${Math.round(curSqft).toLocaleString()} sq ft`;
+    }
+
+    function endWholeRooftopDrag() {
+      if (isDraggingWholeRooftop) {
+        isDraggingWholeRooftop = false;
+        rooftopDragStartLatLng = null;
+        rooftopDragStartCoords = null;
+        map.dragging.enable();
+        document.body.style.cursor = '';
+        if (selectedLayer && selectedLayer.getElement()) {
+          selectedLayer.getElement().style.cursor = 'move';
+        }
+        if (rooftopHasMoved) {
+          rooftopHasMoved = false;
+          applyCroppedPolygon();
+        } else {
+          document.getElementById('audit-drawer').classList.add('open');
+        }
+      }
+    }
+
+    function clearCropHandles() {
+      cropHandles.forEach(h => map.removeLayer(h));
+      cropHandles = [];
+      if (centerMoveHandle) {
+        map.removeLayer(centerMoveHandle);
+        centerMoveHandle = null;
+      }
+    }
+
+    function renderCropHandles(coords) {
+      clearCropHandles();
+      if (!coords || coords.length < 3) return;
+
+      // 1. Center Draggable Move Handle
+      const c = getPolygonCentroid(coords);
+      const centerIcon = L.divIcon({
+        className: 'crop-center-move-icon',
+        html: `<div class="crop-center-move-badge" title="Drag to move entire green box over your roof">✥ Drag to Move Roof</div>`,
+        iconSize: [144, 26],
+        iconAnchor: [72, 13]
+      });
+
+      centerMoveHandle = L.marker([c.lat, c.lon], {
+        draggable: true,
+        icon: centerIcon,
+        zIndexOffset: 1500
+      }).addTo(map);
+
+      let centerDragStartPos = null;
+      let centerDragStartCoords = null;
+
+      centerMoveHandle.on('dragstart', (e) => {
+        centerDragStartPos = e.target.getLatLng();
+        centerDragStartCoords = JSON.parse(JSON.stringify(currentPolygonCoords));
+      });
+
+      centerMoveHandle.on('drag', (e) => {
+        if (!centerDragStartPos || !centerDragStartCoords) return;
+        const curPos = e.target.getLatLng();
+        const dLat = curPos.lat - centerDragStartPos.lat;
+        const dLon = curPos.lng - centerDragStartPos.lng;
+
+        currentPolygonCoords = centerDragStartCoords.map(p => [p[0] + dLon, p[1] + dLat]);
+        if (selectedLayer) {
+          selectedLayer.setLatLngs(currentPolygonCoords.map(p => [p[1], p[0]]));
+        }
+        updateCropHandlePositions();
+
+        if (homeMarker) {
+          const newC = getPolygonCentroid(currentPolygonCoords);
+          homeMarker.setLatLng([newC.lat, newC.lon]);
+        }
+
+        const curSqft = calculateApproxSqft(currentPolygonCoords);
+        const curM2 = Math.round(curSqft / 10.7639);
+        const areaText = `${Math.round(curSqft).toLocaleString()} sq ft (${curM2} m²)`;
+        const badge = document.getElementById('cropLiveAreaBadge');
+        if (badge) badge.textContent = areaText;
+        const roofDisplay = document.getElementById('roofDisplayVal');
+        if (roofDisplay) roofDisplay.textContent = `${Math.round(curSqft).toLocaleString()} sq ft`;
+      });
+
+      centerMoveHandle.on('dragend', () => {
+        centerDragStartPos = null;
+        centerDragStartCoords = null;
+        applyCroppedPolygon();
+      });
+
+      // 2. Corner Resizing / Cropping Handles
+      const points = [];
+      for (let i = 0; i < coords.length; i++) {
+        if (i > 0 && i === coords.length - 1 && coords[i][0] === coords[0][0] && coords[i][1] === coords[0][1]) continue;
+        points.push({ index: i, coord: coords[i] });
+      }
+
+      points.forEach(pt => {
+        const i = pt.index;
+        const [lon, lat] = pt.coord;
+
+        const handleIcon = L.divIcon({
+          className: 'crop-corner-icon',
+          html: `<div class="crop-corner-handle" title="Corner ${i+1}: Drag to crop rooftop wall"></div>`,
+          iconSize: [16, 16],
+          iconAnchor: [8, 8]
+        });
+
+        const handleMarker = L.marker([lat, lon], {
+          draggable: true,
+          icon: handleIcon,
+          zIndexOffset: 1200
+        }).addTo(map);
+        handleMarker._pointIndex = i;
+
+        handleMarker.on('drag', (e) => {
+          const newLatLng = e.target.getLatLng();
+          currentPolygonCoords[i] = [newLatLng.lng, newLatLng.lat];
+          if (i === 0) {
+            currentPolygonCoords[currentPolygonCoords.length - 1] = [newLatLng.lng, newLatLng.lat];
+          }
+
+          if (selectedLayer) {
+            selectedLayer.setLatLngs(currentPolygonCoords.map(p => [p[1], p[0]]));
+          }
+          updateCenterHandlePosition();
+
+          const curSqft = calculateApproxSqft(currentPolygonCoords);
+          const curM2 = Math.round(curSqft / 10.7639);
+          const areaText = `${Math.round(curSqft).toLocaleString()} sq ft (${curM2} m²)`;
+          const badge = document.getElementById('cropLiveAreaBadge');
+          if (badge) badge.textContent = areaText;
+          const roofDisplay = document.getElementById('roofDisplayVal');
+          if (roofDisplay) roofDisplay.textContent = `${Math.round(curSqft).toLocaleString()} sq ft`;
+          const metricArea = document.getElementById('metricTotalArea');
+          if (metricArea) metricArea.textContent = `Total: ${curM2} m² (${Math.round(curSqft).toLocaleString()} sqft)`;
+        });
+
+        handleMarker.on('dragend', () => {
+          applyCroppedPolygon();
+        });
+
+        cropHandles.push(handleMarker);
+      });
+    }
+
+    function updateCropHandlePositions() {
+      if (!currentPolygonCoords || !cropHandles || cropHandles.length === 0) return;
+      cropHandles.forEach(h => {
+        const idx = h._pointIndex;
+        if (idx !== undefined && currentPolygonCoords[idx]) {
+          const [lon, lat] = currentPolygonCoords[idx];
+          h.setLatLng([lat, lon]);
+        }
+      });
+    }
+
+    function updateCenterHandlePosition() {
+      if (!centerMoveHandle || !currentPolygonCoords || currentPolygonCoords.length < 3) return;
+      const c = getPolygonCentroid(currentPolygonCoords);
+      centerMoveHandle.setLatLng([c.lat, c.lon]);
+    }
+
+    function calculateApproxSqft(coords) {
+      if (!coords || coords.length < 3) return 0;
+      let area = 0;
+      const latScale = Math.cos((13.05 * Math.PI) / 180) * 111000;
+      const mPerLat = 111000;
+      const n = coords.length;
+      for (let i = 0; i < n; i++) {
+        const j = (i + 1) % n;
+        const x1 = coords[i][0] * latScale;
+        const y1 = coords[i][1] * mPerLat;
+        const x2 = coords[j][0] * latScale;
+        const y2 = coords[j][1] * mPerLat;
+        area += x1 * y2 - x2 * y1;
+      }
+      return (Math.abs(area) / 2.0) * 10.7639;
+    }
+
+    function getPolygonCentroid(coords) {
+      let sumLat = 0, sumLon = 0, count = 0;
+      for (let i = 0; i < coords.length; i++) {
+        if (i > 0 && i === coords.length - 1 && coords[i][0] === coords[0][0] && coords[i][1] === coords[0][1]) continue;
+        sumLon += coords[i][0];
+        sumLat += coords[i][1];
+        count++;
+      }
+      return { lat: sumLat / Math.max(1, count), lon: sumLon / Math.max(1, count) };
+    }
+
+    function moveRooftop(dMetersNorth, dMetersEast) {
+      if (!currentPolygonCoords || currentPolygonCoords.length < 3) return;
+      const mPerDegLat = 111000;
+      const mPerDegLon = Math.cos((13.05 * Math.PI) / 180) * 111000;
+      const dLat = dMetersNorth / mPerDegLat;
+      const dLon = dMetersEast / mPerDegLon;
+
+      currentPolygonCoords = currentPolygonCoords.map(p => [p[0] + dLon, p[1] + dLat]);
+      if (selectedLayer) {
+        selectedLayer.setLatLngs(currentPolygonCoords.map(p => [p[1], p[0]]));
+      }
+      updateCropHandlePositions();
+      updateCenterHandlePosition();
+
+      if (homeMarker) {
+        const c = getPolygonCentroid(currentPolygonCoords);
+        homeMarker.setLatLng([c.lat, c.lon]);
+      }
+      applyCroppedPolygon();
+    }
+
+    function scaleRooftop(scaleX, scaleY) {
+      if (!currentPolygonCoords || currentPolygonCoords.length < 3) return;
+      const c = getPolygonCentroid(currentPolygonCoords);
+      currentPolygonCoords = currentPolygonCoords.map(p => {
+        const dLon = p[0] - c.lon;
+        const dLat = p[1] - c.lat;
+        return [
+          c.lon + dLon * scaleX,
+          c.lat + dLat * scaleY
+        ];
+      });
+      if (currentPolygonCoords.length > 3) {
+        currentPolygonCoords[currentPolygonCoords.length - 1] = [currentPolygonCoords[0][0], currentPolygonCoords[0][1]];
+      }
+
+      if (selectedLayer) {
+        selectedLayer.setLatLngs(currentPolygonCoords.map(p => [p[1], p[0]]));
+      }
+      updateCropHandlePositions();
+      updateCenterHandlePosition();
+      const curSqft = calculateApproxSqft(currentPolygonCoords);
+      const badge = document.getElementById('cropLiveAreaBadge');
+      if (badge) badge.textContent = `${Math.round(curSqft).toLocaleString()} sq ft`;
+      applyCroppedPolygon();
+    }
+
+    function rotateRooftop(angleDeg) {
+      if (!currentPolygonCoords || currentPolygonCoords.length < 3) return;
+      const c = getPolygonCentroid(currentPolygonCoords);
+      const rad = (angleDeg * Math.PI) / 180;
+      const cos = Math.cos(rad);
+      const sin = Math.sin(rad);
+      const latScale = Math.cos((c.lat * Math.PI) / 180);
+
+      currentPolygonCoords = currentPolygonCoords.map(p => {
+        const dx = (p[0] - c.lon) * latScale;
+        const dy = (p[1] - c.lat);
+        const rx = dx * cos - dy * sin;
+        const ry = dx * sin + dy * cos;
+        return [
+          c.lon + (rx / latScale),
+          c.lat + ry
+        ];
+      });
+      if (currentPolygonCoords.length > 3) {
+        currentPolygonCoords[currentPolygonCoords.length - 1] = [currentPolygonCoords[0][0], currentPolygonCoords[0][1]];
+      }
+
+      if (selectedLayer) {
+        selectedLayer.setLatLngs(currentPolygonCoords.map(p => [p[1], p[0]]));
+      }
+      updateCropHandlePositions();
+      updateCenterHandlePosition();
+      applyCroppedPolygon();
+    }
+
+    async function applyCroppedPolygon() {
+      if (!currentPolygonCoords || currentPolygonCoords.length < 3) return;
+      const curBill = parseInt(document.getElementById('billSlider')?.value) || 3500;
+      const addr = currentBuildingData?.address || document.getElementById('homeAddressInput')?.value || "Chennai Rooftop";
+
+      const c = getPolygonCentroid(currentPolygonCoords);
+      if (homeMarker) {
+        homeMarker.setLatLng([c.lat, c.lon]);
+      }
+
+      showStatus("Recalculating solar potential for cropped rooftop...");
+      try {
+        const res = await fetch('/api/estimate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            address: addr,
+            custom_coords: currentPolygonCoords,
+            monthly_bill: curBill
+          })
+        });
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+
+        currentBuildingData = data;
+        openAuditDrawer(data);
+        showStatus("✓ Rooftop adjusted and recalculated!");
+        setTimeout(hideStatus, 1500);
+      } catch (err) {
+        showStatus("Error: " + err.message);
+        setTimeout(hideStatus, 2000);
+      }
+    }
+
+    // Crop UI Event Listeners
+    document.getElementById('cropRoofBtn').addEventListener('click', () => toggleCropMode());
+    document.getElementById('drawerCropBtn').addEventListener('click', () => {
+      toggleCropMode(true);
+      if (currentBuildingData) {
+        map.flyTo([currentBuildingData.lat, currentBuildingData.lon], 20, { duration: 0.8 });
+      }
+    });
+    document.getElementById('cropCloseBtn').addEventListener('click', () => toggleCropMode(false));
+    document.getElementById('cropDoneBtn').addEventListener('click', () => {
+      toggleCropMode(false);
+      showStatus("✓ Cropped rooftop saved!");
+      setTimeout(hideStatus, 1500);
+    });
+    document.getElementById('cropWidthPlus').addEventListener('click', () => scaleRooftop(1.06, 1.0));
+    document.getElementById('cropWidthMinus').addEventListener('click', () => scaleRooftop(0.94, 1.0));
+    document.getElementById('cropLengthPlus').addEventListener('click', () => scaleRooftop(1.0, 1.06));
+    document.getElementById('cropLengthMinus').addEventListener('click', () => scaleRooftop(1.0, 0.94));
+    document.getElementById('cropRotateCw').addEventListener('click', () => rotateRooftop(5));
+    document.getElementById('cropRotateCcw').addEventListener('click', () => rotateRooftop(-5));
+    document.getElementById('cropMoveUp').addEventListener('click', () => moveRooftop(1.5, 0));
+    document.getElementById('cropMoveDown').addEventListener('click', () => moveRooftop(-1.5, 0));
+    document.getElementById('cropMoveLeft').addEventListener('click', () => moveRooftop(0, -1.5));
+    document.getElementById('cropMoveRight').addEventListener('click', () => moveRooftop(0, 1.5));
+    document.getElementById('cropResetBtn').addEventListener('click', () => {
+      if (initialPolygonCoords && initialPolygonCoords.length >= 3) {
+        currentPolygonCoords = JSON.parse(JSON.stringify(initialPolygonCoords));
+        if (selectedLayer) {
+          selectedLayer.setLatLngs(currentPolygonCoords.map(p => [p[1], p[0]]));
+        }
+        updateCropHandlePositions();
+        updateCenterHandlePosition();
+        applyCroppedPolygon();
+      }
+    });
+
+    // Keyboard Arrow Keys for Micro-Nudging Rooftop
+    window.addEventListener('keydown', (e) => {
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName)) return;
+      if (currentPolygonCoords && currentPolygonCoords.length >= 3) {
+        if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          moveRooftop(1.2, 0);
+        } else if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          moveRooftop(-1.2, 0);
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          moveRooftop(0, -1.2);
+        } else if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          moveRooftop(0, 1.2);
+        }
+      }
+    });
+
+    // Bootstrap
+    window.addEventListener('DOMContentLoaded', () => {
+      initMap();
+      // Load initial home address calculation for Kasturba Nagar Adyar
+      analyzeHomeLocation("12, Kasturba Nagar, Adyar, Chennai");
+    });
+  </script>
+</body>
+</html>

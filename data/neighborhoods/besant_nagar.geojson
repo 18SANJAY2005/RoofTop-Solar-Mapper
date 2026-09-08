@@ -1,0 +1,3452 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10056,
+        "neighborhood": "Besant Nagar",
+        "address": "#31, Elliot's Promenade, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 182.9,
+        "roof_area_sqft": 1968.7,
+        "usable_area_m2": 131.7,
+        "usable_area_sqft": 1417.6,
+        "orientation_deg": 12.3,
+        "aspect_ratio": 1.87,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 41515.0,
+        "monthly_generation_kwh": {
+          "JAN": 3224.4,
+          "FEB": 3362.3,
+          "MAR": 4135.4,
+          "APR": 4147.9,
+          "MAY": 4181.3,
+          "JUN": 3437.5,
+          "JUL": 3355.5,
+          "AUG": 3499.7,
+          "SEP": 3462.9,
+          "OCT": 3113.0,
+          "NOV": 2676.5,
+          "DEC": 2916.4
+        },
+        "recommended_system_size_kw": 30.2,
+        "recommended_panel_count": 67,
+        "solar_score": 75,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1661000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1583000.0,
+          "annual_savings_inr": 290605.0,
+          "monthly_savings_inr": 24217.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 9907154.0,
+          "co2_tons_annual": 34.04,
+          "trees_equivalent": 1702,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26350051955319,
+              12.995072604185001
+            ],
+            [
+              80.2634808783173,
+              12.995160014362217
+            ],
+            [
+              80.26331449515186,
+              12.995124050256518
+            ],
+            [
+              80.26333413638775,
+              12.995036640079302
+            ],
+            [
+              80.26350051955319,
+              12.995072604185001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10057,
+        "neighborhood": "Besant Nagar",
+        "address": "#126, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 164.0,
+        "roof_area_sqft": 1765.3,
+        "usable_area_m2": 118.1,
+        "usable_area_sqft": 1271.2,
+        "orientation_deg": 13.5,
+        "aspect_ratio": 1.66,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 37228.0,
+        "monthly_generation_kwh": {
+          "JAN": 2891.5,
+          "FEB": 3015.1,
+          "MAR": 3708.4,
+          "APR": 3719.5,
+          "MAY": 3749.5,
+          "JUN": 3082.6,
+          "JUL": 3009.0,
+          "AUG": 3138.3,
+          "SEP": 3105.3,
+          "OCT": 2791.5,
+          "NOV": 2400.1,
+          "DEC": 2615.2
+        },
+        "recommended_system_size_kw": 27.0,
+        "recommended_panel_count": 60,
+        "solar_score": 71,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1485000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1407000.0,
+          "annual_savings_inr": 260596.0,
+          "monthly_savings_inr": 21716.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 8884103.0,
+          "co2_tons_annual": 30.53,
+          "trees_equivalent": 1526,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26461764479248,
+              12.995272067501558
+            ],
+            [
+              80.26459591153355,
+              12.995359470529914
+            ],
+            [
+              80.26444828776289,
+              12.995324159715045
+            ],
+            [
+              80.26447002102182,
+              12.995236756686689
+            ],
+            [
+              80.26461764479248,
+              12.995272067501558
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10058,
+        "neighborhood": "Besant Nagar",
+        "address": "#138, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 418.4,
+        "roof_area_sqft": 4503.6,
+        "usable_area_m2": 301.2,
+        "usable_area_sqft": 3242.1,
+        "orientation_deg": 11.4,
+        "aspect_ratio": 1.29,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 94945.0,
+        "monthly_generation_kwh": {
+          "JAN": 7374.3,
+          "FEB": 7689.6,
+          "MAR": 9457.7,
+          "APR": 9486.2,
+          "MAY": 9562.6,
+          "JUN": 7861.7,
+          "JUL": 7674.1,
+          "AUG": 8003.8,
+          "SEP": 7919.7,
+          "OCT": 7119.5,
+          "NOV": 6121.1,
+          "DEC": 6669.9
+        },
+        "recommended_system_size_kw": 69.3,
+        "recommended_panel_count": 154,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3811500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3733500.0,
+          "annual_savings_inr": 664615.0,
+          "monthly_savings_inr": 55385.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 22657709.0,
+          "co2_tons_annual": 77.85,
+          "trees_equivalent": 3893,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26605205774362,
+              12.994894125224638
+            ],
+            [
+              80.26601891600603,
+              12.99505346716991
+            ],
+            [
+              80.26580872982359,
+              12.995011413646006
+            ],
+            [
+              80.26584187156118,
+              12.994852071700734
+            ],
+            [
+              80.26605205774362,
+              12.994894125224638
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10059,
+        "neighborhood": "Besant Nagar",
+        "address": "#98, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 380.1,
+        "roof_area_sqft": 4091.4,
+        "usable_area_m2": 273.7,
+        "usable_area_sqft": 2946.1,
+        "orientation_deg": 123.3,
+        "aspect_ratio": 2.01,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 83635.0,
+        "monthly_generation_kwh": {
+          "JAN": 6495.9,
+          "FEB": 6773.6,
+          "MAR": 8331.1,
+          "APR": 8356.2,
+          "MAY": 8423.5,
+          "JUN": 6925.2,
+          "JUL": 6760.0,
+          "AUG": 7050.4,
+          "SEP": 6976.3,
+          "OCT": 6271.4,
+          "NOV": 5392.0,
+          "DEC": 5875.4
+        },
+        "recommended_system_size_kw": 63.0,
+        "recommended_panel_count": 140,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3465000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3387000.0,
+          "annual_savings_inr": 794532.0,
+          "monthly_savings_inr": 66211.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 27086789.0,
+          "co2_tons_annual": 68.58,
+          "trees_equivalent": 3429,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26690057243685,
+              12.995144707310558
+            ],
+            [
+              80.2670092420931,
+              12.995215298392745
+            ],
+            [
+              80.26690610521847,
+              12.995368028793735
+            ],
+            [
+              80.26688515856385,
+              12.99535442198693
+            ],
+            [
+              80.26684335468018,
+              12.99541632733301
+            ],
+            [
+              80.26675563167855,
+              12.995359343057627
+            ],
+            [
+              80.26690057243685,
+              12.995144707310558
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10060,
+        "neighborhood": "Besant Nagar",
+        "address": "#3, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 158.5,
+        "roof_area_sqft": 1706.1,
+        "usable_area_m2": 114.1,
+        "usable_area_sqft": 1228.2,
+        "orientation_deg": 122.8,
+        "aspect_ratio": 1.47,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 34866.0,
+        "monthly_generation_kwh": {
+          "JAN": 2708.0,
+          "FEB": 2823.8,
+          "MAR": 3473.1,
+          "APR": 3483.6,
+          "MAY": 3511.6,
+          "JUN": 2887.0,
+          "JUL": 2818.1,
+          "AUG": 2939.2,
+          "SEP": 2908.3,
+          "OCT": 2614.4,
+          "NOV": 2247.8,
+          "DEC": 2449.3
+        },
+        "recommended_system_size_kw": 26.1,
+        "recommended_panel_count": 58,
+        "solar_score": 68,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1435500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1357500.0,
+          "annual_savings_inr": 244062.0,
+          "monthly_savings_inr": 20338.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8320435.0,
+          "co2_tons_annual": 28.59,
+          "trees_equivalent": 1430,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26809541590643,
+              12.994984689200058
+            ],
+            [
+              80.26817561836842,
+              12.995035730512178
+            ],
+            [
+              80.26809889059717,
+              12.995151707419835
+            ],
+            [
+              80.26801868813519,
+              12.995100666107714
+            ],
+            [
+              80.26809541590643,
+              12.994984689200058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10061,
+        "neighborhood": "Besant Nagar",
+        "address": "#115, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 148.8,
+        "roof_area_sqft": 1601.7,
+        "usable_area_m2": 107.1,
+        "usable_area_sqft": 1152.8,
+        "orientation_deg": 2.4,
+        "aspect_ratio": 1.86,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 33760.0,
+        "monthly_generation_kwh": {
+          "JAN": 2622.1,
+          "FEB": 2734.2,
+          "MAR": 3363.0,
+          "APR": 3373.1,
+          "MAY": 3400.3,
+          "JUN": 2795.4,
+          "JUL": 2728.7,
+          "AUG": 2846.0,
+          "SEP": 2816.1,
+          "OCT": 2531.5,
+          "NOV": 2176.5,
+          "DEC": 2371.7
+        },
+        "recommended_system_size_kw": 24.3,
+        "recommended_panel_count": 54,
+        "solar_score": 68,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1336500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1258500.0,
+          "annual_savings_inr": 236320.0,
+          "monthly_savings_inr": 19693.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 8056499.0,
+          "co2_tons_annual": 27.68,
+          "trees_equivalent": 1384,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26922399415331,
+              12.995121298078656
+            ],
+            [
+              80.2692202793199,
+              12.995202104836517
+            ],
+            [
+              80.26906706227022,
+              12.99519532917306
+            ],
+            [
+              80.26907077710364,
+              12.995114522415198
+            ],
+            [
+              80.26922399415331,
+              12.995121298078656
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10062,
+        "neighborhood": "Besant Nagar",
+        "address": "#109, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 183.1,
+        "roof_area_sqft": 1970.9,
+        "usable_area_m2": 131.8,
+        "usable_area_sqft": 1418.7,
+        "orientation_deg": 121.5,
+        "aspect_ratio": 1.51,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 40274.0,
+        "monthly_generation_kwh": {
+          "JAN": 3128.1,
+          "FEB": 3261.8,
+          "MAR": 4011.8,
+          "APR": 4023.9,
+          "MAY": 4056.3,
+          "JUN": 3334.8,
+          "JUL": 3255.3,
+          "AUG": 3395.1,
+          "SEP": 3359.4,
+          "OCT": 3020.0,
+          "NOV": 2596.5,
+          "DEC": 2829.3
+        },
+        "recommended_system_size_kw": 30.2,
+        "recommended_panel_count": 67,
+        "solar_score": 74,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1661000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1583000.0,
+          "annual_savings_inr": 281918.0,
+          "monthly_savings_inr": 23493.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 9611002.0,
+          "co2_tons_annual": 33.02,
+          "trees_equivalent": 1651,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27029340618638,
+              12.99520640566524
+            ],
+            [
+              80.27037994828245,
+              12.995258704920948
+            ],
+            [
+              80.27029964716418,
+              12.995386527202893
+            ],
+            [
+              80.27021310506811,
+              12.995334227947184
+            ],
+            [
+              80.27029340618638,
+              12.99520640566524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10063,
+        "neighborhood": "Besant Nagar",
+        "address": "#50, Beach Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 142.9,
+        "roof_area_sqft": 1538.2,
+        "usable_area_m2": 102.9,
+        "usable_area_sqft": 1107.6,
+        "orientation_deg": 117.3,
+        "aspect_ratio": 1.23,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 31443.0,
+        "monthly_generation_kwh": {
+          "JAN": 2442.2,
+          "FEB": 2546.6,
+          "MAR": 3132.2,
+          "APR": 3141.6,
+          "MAY": 3166.9,
+          "JUN": 2603.6,
+          "JUL": 2541.5,
+          "AUG": 2650.7,
+          "SEP": 2622.8,
+          "OCT": 2357.8,
+          "NOV": 2027.2,
+          "DEC": 2208.9
+        },
+        "recommended_system_size_kw": 23.4,
+        "recommended_panel_count": 52,
+        "solar_score": 66,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1287000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1209000.0,
+          "annual_savings_inr": 220101.0,
+          "monthly_savings_inr": 18342.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 7503569.0,
+          "co2_tons_annual": 25.78,
+          "trees_equivalent": 1289,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26330881330149,
+              12.996419596345039
+            ],
+            [
+              80.26340035198051,
+              12.9964663609835
+            ],
+            [
+              80.26335595317815,
+              12.996549961967071
+            ],
+            [
+              80.26332784468993,
+              12.996535602099708
+            ],
+            [
+              80.26331346668303,
+              12.996562675251559
+            ],
+            [
+              80.26325003649224,
+              12.99653027048046
+            ],
+            [
+              80.26330881330149,
+              12.996419596345039
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10064,
+        "neighborhood": "Besant Nagar",
+        "address": "#59, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 471.7,
+        "roof_area_sqft": 5077.3,
+        "usable_area_m2": 339.6,
+        "usable_area_sqft": 3655.4,
+        "orientation_deg": 0.8,
+        "aspect_ratio": 2.18,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 107049.0,
+        "monthly_generation_kwh": {
+          "JAN": 8314.5,
+          "FEB": 8669.9,
+          "MAR": 10663.5,
+          "APR": 10695.6,
+          "MAY": 10781.8,
+          "JUN": 8864.0,
+          "JUL": 8652.5,
+          "AUG": 9024.2,
+          "SEP": 8929.4,
+          "OCT": 8027.2,
+          "NOV": 6901.5,
+          "DEC": 7520.2
+        },
+        "recommended_system_size_kw": 78.3,
+        "recommended_panel_count": 174,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4306500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4228500.0,
+          "annual_savings_inr": 749343.0,
+          "monthly_savings_inr": 62445.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 25546212.0,
+          "co2_tons_annual": 87.78,
+          "trees_equivalent": 4389,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26464099952977,
+              12.99604412143576
+            ],
+            [
+              80.26463870785466,
+              12.996177159858435
+            ],
+            [
+              80.26434319905744,
+              12.996172263204118
+            ],
+            [
+              80.26434549073255,
+              12.996039224781443
+            ],
+            [
+              80.26464099952977,
+              12.99604412143576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10065,
+        "neighborhood": "Besant Nagar",
+        "address": "#126, Beach Road, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 165.6,
+        "roof_area_sqft": 1782.5,
+        "usable_area_m2": 119.2,
+        "usable_area_sqft": 1283.1,
+        "orientation_deg": 94.6,
+        "aspect_ratio": 1.71,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 36424.0,
+        "monthly_generation_kwh": {
+          "JAN": 2829.0,
+          "FEB": 2950.0,
+          "MAR": 3628.3,
+          "APR": 3639.3,
+          "MAY": 3668.6,
+          "JUN": 3016.0,
+          "JUL": 2944.1,
+          "AUG": 3070.6,
+          "SEP": 3038.3,
+          "OCT": 2731.3,
+          "NOV": 2348.3,
+          "DEC": 2558.8
+        },
+        "recommended_system_size_kw": 27.4,
+        "recommended_panel_count": 61,
+        "solar_score": 70,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1507000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1429000.0,
+          "annual_savings_inr": 254968.0,
+          "monthly_savings_inr": 21247.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8692236.0,
+          "co2_tons_annual": 29.87,
+          "trees_equivalent": 1493,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26556231760662,
+              12.996100963370411
+            ],
+            [
+              80.26565277396955,
+              12.996108324341376
+            ],
+            [
+              80.26563994998216,
+              12.996259917698739
+            ],
+            [
+              80.26554949361923,
+              12.996252556727773
+            ],
+            [
+              80.26556231760662,
+              12.996100963370411
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10066,
+        "neighborhood": "Besant Nagar",
+        "address": "#30, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 157.5,
+        "roof_area_sqft": 1695.3,
+        "usable_area_m2": 113.4,
+        "usable_area_sqft": 1220.6,
+        "orientation_deg": 116.7,
+        "aspect_ratio": 1.16,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 34652.0,
+        "monthly_generation_kwh": {
+          "JAN": 2691.4,
+          "FEB": 2806.4,
+          "MAR": 3451.8,
+          "APR": 3462.2,
+          "MAY": 3490.1,
+          "JUN": 2869.3,
+          "JUL": 2800.8,
+          "AUG": 2921.1,
+          "SEP": 2890.4,
+          "OCT": 2598.4,
+          "NOV": 2234.0,
+          "DEC": 2434.3
+        },
+        "recommended_system_size_kw": 26.1,
+        "recommended_panel_count": 58,
+        "solar_score": 68,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1435500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1357500.0,
+          "annual_savings_inr": 242564.0,
+          "monthly_savings_inr": 20214.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8269366.0,
+          "co2_tons_annual": 28.41,
+          "trees_equivalent": 1421,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26663622855703,
+              12.99597302672499
+            ],
+            [
+              80.26673222233352,
+              12.996020675270309
+            ],
+            [
+              80.26667603684633,
+              12.996129560921798
+            ],
+            [
+              80.26658004306985,
+              12.996081912376479
+            ],
+            [
+              80.26663622855703,
+              12.99597302672499
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10067,
+        "neighborhood": "Besant Nagar",
+        "address": "#64, 4th Main Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 175.6,
+        "roof_area_sqft": 1890.1,
+        "usable_area_m2": 126.4,
+        "usable_area_sqft": 1360.6,
+        "orientation_deg": 86.4,
+        "aspect_ratio": 1.99,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 38624.0,
+        "monthly_generation_kwh": {
+          "JAN": 2999.9,
+          "FEB": 3128.2,
+          "MAR": 3847.5,
+          "APR": 3859.1,
+          "MAY": 3890.2,
+          "JUN": 3198.2,
+          "JUL": 3121.9,
+          "AUG": 3256.0,
+          "SEP": 3221.8,
+          "OCT": 2896.3,
+          "NOV": 2490.1,
+          "DEC": 2713.4
+        },
+        "recommended_system_size_kw": 28.8,
+        "recommended_panel_count": 64,
+        "solar_score": 72,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1584000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1506000.0,
+          "annual_savings_inr": 270368.0,
+          "monthly_savings_inr": 22531.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 9217245.0,
+          "co2_tons_annual": 31.67,
+          "trees_equivalent": 1584,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26800192008929,
+              12.996329231520347
+            ],
+            [
+              80.26808831238445,
+              12.996324074675602
+            ],
+            [
+              80.26809878735295,
+              12.996492884124953
+            ],
+            [
+              80.2680123950578,
+              12.996498040969698
+            ],
+            [
+              80.26800192008929,
+              12.996329231520347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10068,
+        "neighborhood": "Besant Nagar",
+        "address": "#110, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 404.7,
+        "roof_area_sqft": 4356.2,
+        "usable_area_m2": 291.4,
+        "usable_area_sqft": 3136.6,
+        "orientation_deg": 107.6,
+        "aspect_ratio": 1.52,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 89043.0,
+        "monthly_generation_kwh": {
+          "JAN": 6916.0,
+          "FEB": 7211.6,
+          "MAR": 8869.9,
+          "APR": 8896.6,
+          "MAY": 8968.3,
+          "JUN": 7373.1,
+          "JUL": 7197.1,
+          "AUG": 7506.4,
+          "SEP": 7427.5,
+          "OCT": 6677.0,
+          "NOV": 5740.6,
+          "DEC": 6255.3
+        },
+        "recommended_system_size_kw": 67.0,
+        "recommended_panel_count": 149,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3685000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3607000.0,
+          "annual_savings_inr": 623301.0,
+          "monthly_savings_inr": 51942.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 21249253.0,
+          "co2_tons_annual": 73.02,
+          "trees_equivalent": 3651,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26939539652123,
+              12.995929963894907
+            ],
+            [
+              80.26953875535388,
+              12.995974990698056
+            ],
+            [
+              80.2694690469241,
+              12.996188487667306
+            ],
+            [
+              80.26932568809146,
+              12.996143460864158
+            ],
+            [
+              80.26939539652123,
+              12.995929963894907
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10069,
+        "neighborhood": "Besant Nagar",
+        "address": "#62, Beach Road, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 386.5,
+        "roof_area_sqft": 4160.2,
+        "usable_area_m2": 278.3,
+        "usable_area_sqft": 2995.6,
+        "orientation_deg": 26.9,
+        "aspect_ratio": 1.33,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 85041.0,
+        "monthly_generation_kwh": {
+          "JAN": 6605.1,
+          "FEB": 6887.4,
+          "MAR": 8471.1,
+          "APR": 8496.7,
+          "MAY": 8565.1,
+          "JUN": 7041.6,
+          "JUL": 6873.6,
+          "AUG": 7168.9,
+          "SEP": 7093.6,
+          "OCT": 6376.8,
+          "NOV": 5482.6,
+          "DEC": 5974.1
+        },
+        "recommended_system_size_kw": 63.9,
+        "recommended_panel_count": 142,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3514500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3436500.0,
+          "annual_savings_inr": 595287.0,
+          "monthly_savings_inr": 49607.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 20294215.0,
+          "co2_tons_annual": 69.73,
+          "trees_equivalent": 3487,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27068939659824,
+              12.996130817398798
+            ],
+            [
+              80.27061790787947,
+              12.996267965649373
+            ],
+            [
+              80.27043163072284,
+              12.996174562845523
+            ],
+            [
+              80.27050311944161,
+              12.996037414594948
+            ],
+            [
+              80.27068939659824,
+              12.996130817398798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10070,
+        "neighborhood": "Besant Nagar",
+        "address": "#117, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 154.1,
+        "roof_area_sqft": 1658.7,
+        "usable_area_m2": 111.0,
+        "usable_area_sqft": 1194.8,
+        "orientation_deg": 179.5,
+        "aspect_ratio": 1.14,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 34990.0,
+        "monthly_generation_kwh": {
+          "JAN": 2717.6,
+          "FEB": 2833.8,
+          "MAR": 3485.4,
+          "APR": 3495.9,
+          "MAY": 3524.1,
+          "JUN": 2897.2,
+          "JUL": 2828.1,
+          "AUG": 2949.6,
+          "SEP": 2918.6,
+          "OCT": 2623.7,
+          "NOV": 2255.8,
+          "DEC": 2458.0
+        },
+        "recommended_system_size_kw": 25.2,
+        "recommended_panel_count": 56,
+        "solar_score": 69,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1386000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1308000.0,
+          "annual_savings_inr": 244930.0,
+          "monthly_savings_inr": 20411.0,
+          "payback_years": 5.3,
+          "lifetime_savings_25yr_inr": 8350026.0,
+          "co2_tons_annual": 28.69,
+          "trees_equivalent": 1435,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26314823938364,
+              12.997133932056665
+            ],
+            [
+              80.26314880329002,
+              12.997239253252344
+            ],
+            [
+              80.26302682548527,
+              12.997239881491664
+            ],
+            [
+              80.26302626157889,
+              12.997134560295985
+            ],
+            [
+              80.26314823938364,
+              12.997133932056665
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10071,
+        "neighborhood": "Besant Nagar",
+        "address": "#58, Elliot's Promenade, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 195.0,
+        "roof_area_sqft": 2099.0,
+        "usable_area_m2": 140.4,
+        "usable_area_sqft": 1511.3,
+        "orientation_deg": 1.4,
+        "aspect_ratio": 2.13,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 44257.0,
+        "monthly_generation_kwh": {
+          "JAN": 3437.4,
+          "FEB": 3584.4,
+          "MAR": 4408.6,
+          "APR": 4421.9,
+          "MAY": 4457.5,
+          "JUN": 3664.6,
+          "JUL": 3577.2,
+          "AUG": 3730.9,
+          "SEP": 3691.7,
+          "OCT": 3318.7,
+          "NOV": 2853.3,
+          "DEC": 3109.1
+        },
+        "recommended_system_size_kw": 32.4,
+        "recommended_panel_count": 72,
+        "solar_score": 77,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1782000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1704000.0,
+          "annual_savings_inr": 309799.0,
+          "monthly_savings_inr": 25817.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 10561506.0,
+          "co2_tons_annual": 36.29,
+          "trees_equivalent": 1815,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26446179974265,
+              12.997094906704913
+            ],
+            [
+              80.2644593167019,
+              12.997181453118703
+            ],
+            [
+              80.26427162406351,
+              12.997176273055242
+            ],
+            [
+              80.26427410710426,
+              12.997089726641452
+            ],
+            [
+              80.26446179974265,
+              12.997094906704913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10072,
+        "neighborhood": "Besant Nagar",
+        "address": "#113, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 180.5,
+        "roof_area_sqft": 1942.9,
+        "usable_area_m2": 130.0,
+        "usable_area_sqft": 1399.3,
+        "orientation_deg": 107.8,
+        "aspect_ratio": 1.75,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 39724.0,
+        "monthly_generation_kwh": {
+          "JAN": 3085.4,
+          "FEB": 3217.3,
+          "MAR": 3957.1,
+          "APR": 3969.0,
+          "MAY": 4001.0,
+          "JUN": 3289.3,
+          "JUL": 3210.8,
+          "AUG": 3348.8,
+          "SEP": 3313.6,
+          "OCT": 2978.8,
+          "NOV": 2561.0,
+          "DEC": 2790.6
+        },
+        "recommended_system_size_kw": 29.7,
+        "recommended_panel_count": 66,
+        "solar_score": 81,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1633500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1555500.0,
+          "annual_savings_inr": 377378.0,
+          "monthly_savings_inr": 31448.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 12865374.0,
+          "co2_tons_annual": 32.57,
+          "trees_equivalent": 1629,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26588497120665,
+              12.99733315645515
+            ],
+            [
+              80.2659739360232,
+              12.997361383557491
+            ],
+            [
+              80.26592344023857,
+              12.997514478268252
+            ],
+            [
+              80.26583447542201,
+              12.997486251165911
+            ],
+            [
+              80.26588497120665,
+              12.99733315645515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10073,
+        "neighborhood": "Besant Nagar",
+        "address": "#83, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 459.5,
+        "roof_area_sqft": 4946.0,
+        "usable_area_m2": 330.8,
+        "usable_area_sqft": 3560.7,
+        "orientation_deg": 0.2,
+        "aspect_ratio": 1.58,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 104275.0,
+        "monthly_generation_kwh": {
+          "JAN": 8099.0,
+          "FEB": 8445.2,
+          "MAR": 10387.2,
+          "APR": 10418.5,
+          "MAY": 10502.4,
+          "JUN": 8634.3,
+          "JUL": 8428.2,
+          "AUG": 8790.4,
+          "SEP": 8698.0,
+          "OCT": 7819.2,
+          "NOV": 6722.6,
+          "DEC": 7325.3
+        },
+        "recommended_system_size_kw": 76.0,
+        "recommended_panel_count": 169,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4180000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4102000.0,
+          "annual_savings_inr": 729925.0,
+          "monthly_savings_inr": 60827.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 24884223.0,
+          "co2_tons_annual": 85.51,
+          "trees_equivalent": 4275,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26711915189865,
+              12.997085964433142
+            ],
+            [
+              80.26711805531214,
+              12.99724009020098
+            ],
+            [
+              80.26686952609255,
+              12.997238389225034
+            ],
+            [
+              80.26687062267906,
+              12.997084263457195
+            ],
+            [
+              80.26711915189865,
+              12.997085964433142
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10074,
+        "neighborhood": "Besant Nagar",
+        "address": "#11, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 181.0,
+        "roof_area_sqft": 1948.3,
+        "usable_area_m2": 130.3,
+        "usable_area_sqft": 1402.5,
+        "orientation_deg": 30.6,
+        "aspect_ratio": 2.15,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 39816.0,
+        "monthly_generation_kwh": {
+          "JAN": 3092.5,
+          "FEB": 3224.7,
+          "MAR": 3966.2,
+          "APR": 3978.1,
+          "MAY": 4010.2,
+          "JUN": 3296.9,
+          "JUL": 3218.2,
+          "AUG": 3356.5,
+          "SEP": 3321.2,
+          "OCT": 2985.6,
+          "NOV": 2566.9,
+          "DEC": 2797.1
+        },
+        "recommended_system_size_kw": 29.7,
+        "recommended_panel_count": 66,
+        "solar_score": 73,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1633500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1555500.0,
+          "annual_savings_inr": 278712.0,
+          "monthly_savings_inr": 23226.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 9501705.0,
+          "co2_tons_annual": 32.65,
+          "trees_equivalent": 1632,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26796264556548,
+              12.99741173191768
+            ],
+            [
+              80.2679193540494,
+              12.997483095008965
+            ],
+            [
+              80.26776321932691,
+              12.997391981723268
+            ],
+            [
+              80.26780651084299,
+              12.997320618631983
+            ],
+            [
+              80.26796264556548,
+              12.99741173191768
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10075,
+        "neighborhood": "Besant Nagar",
+        "address": "#24, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 279.3,
+        "roof_area_sqft": 3006.4,
+        "usable_area_m2": 201.1,
+        "usable_area_sqft": 2164.6,
+        "orientation_deg": 116.6,
+        "aspect_ratio": 1.74,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 61450.0,
+        "monthly_generation_kwh": {
+          "JAN": 4772.8,
+          "FEB": 4976.9,
+          "MAR": 6121.3,
+          "APR": 6139.7,
+          "MAY": 6189.2,
+          "JUN": 5088.3,
+          "JUL": 4966.9,
+          "AUG": 5180.3,
+          "SEP": 5125.8,
+          "OCT": 4607.9,
+          "NOV": 3961.7,
+          "DEC": 4316.9
+        },
+        "recommended_system_size_kw": 46.4,
+        "recommended_panel_count": 103,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2552000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2474000.0,
+          "annual_savings_inr": 430150.0,
+          "monthly_savings_inr": 35846.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 14664450.0,
+          "co2_tons_annual": 50.39,
+          "trees_equivalent": 2519,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26913142356686,
+              12.997366695307315
+            ],
+            [
+              80.2692355514352,
+              12.997418317037075
+            ],
+            [
+              80.26914376716108,
+              12.997596413696856
+            ],
+            [
+              80.26903963929274,
+              12.997544791967096
+            ],
+            [
+              80.26913142356686,
+              12.997366695307315
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10076,
+        "neighborhood": "Besant Nagar",
+        "address": "#10, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 112.6,
+        "roof_area_sqft": 1212.0,
+        "usable_area_m2": 81.1,
+        "usable_area_sqft": 873.0,
+        "orientation_deg": 103.1,
+        "aspect_ratio": 1.86,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 24782.0,
+        "monthly_generation_kwh": {
+          "JAN": 1924.8,
+          "FEB": 2007.1,
+          "MAR": 2468.6,
+          "APR": 2476.0,
+          "MAY": 2496.0,
+          "JUN": 2052.0,
+          "JUL": 2003.0,
+          "AUG": 2089.1,
+          "SEP": 2067.2,
+          "OCT": 1858.3,
+          "NOV": 1597.7,
+          "DEC": 1740.9
+        },
+        "recommended_system_size_kw": 18.4,
+        "recommended_panel_count": 41,
+        "solar_score": 60,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1012000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 934000.0,
+          "annual_savings_inr": 173474.0,
+          "monthly_savings_inr": 14456.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 5913985.0,
+          "co2_tons_annual": 20.32,
+          "trees_equivalent": 1016,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27043465634239,
+              12.997263197224061
+            ],
+            [
+              80.27050440438174,
+              12.997279365776192
+            ],
+            [
+              80.27047369175105,
+              12.997406813170901
+            ],
+            [
+              80.2704039437117,
+              12.99739064461877
+            ],
+            [
+              80.27043465634239,
+              12.997263197224061
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10077,
+        "neighborhood": "Besant Nagar",
+        "address": "#49, 4th Main Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 205.7,
+        "roof_area_sqft": 2214.1,
+        "usable_area_m2": 148.1,
+        "usable_area_sqft": 1594.1,
+        "orientation_deg": 138.5,
+        "aspect_ratio": 2.01,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 45255.0,
+        "monthly_generation_kwh": {
+          "JAN": 3515.0,
+          "FEB": 3665.2,
+          "MAR": 4508.0,
+          "APR": 4521.6,
+          "MAY": 4558.0,
+          "JUN": 3747.3,
+          "JUL": 3657.8,
+          "AUG": 3815.0,
+          "SEP": 3774.9,
+          "OCT": 3393.5,
+          "NOV": 2917.6,
+          "DEC": 3179.2
+        },
+        "recommended_system_size_kw": 33.8,
+        "recommended_panel_count": 75,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1859000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1781000.0,
+          "annual_savings_inr": 316785.0,
+          "monthly_savings_inr": 26399.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 10799669.0,
+          "co2_tons_annual": 37.11,
+          "trees_equivalent": 1855,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26324776969066,
+              12.99832989874283
+            ],
+            [
+              80.26331102339343,
+              12.998400389500548
+            ],
+            [
+              80.26320363933294,
+              12.998493082442884
+            ],
+            [
+              80.26319133048642,
+              12.998479365302531
+            ],
+            [
+              80.26315443861998,
+              12.99851121002542
+            ],
+            [
+              80.26310349376375,
+              12.998454436408055
+            ],
+            [
+              80.26324776969066,
+              12.99832989874283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10078,
+        "neighborhood": "Besant Nagar",
+        "address": "#125, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 279.2,
+        "roof_area_sqft": 3005.3,
+        "usable_area_m2": 201.0,
+        "usable_area_sqft": 2163.5,
+        "orientation_deg": 86.9,
+        "aspect_ratio": 1.7,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 61420.0,
+        "monthly_generation_kwh": {
+          "JAN": 4770.5,
+          "FEB": 4974.4,
+          "MAR": 6118.2,
+          "APR": 6136.7,
+          "MAY": 6186.1,
+          "JUN": 5085.7,
+          "JUL": 4964.4,
+          "AUG": 5177.7,
+          "SEP": 5123.3,
+          "OCT": 4605.6,
+          "NOV": 3959.7,
+          "DEC": 4314.7
+        },
+        "recommended_system_size_kw": 46.4,
+        "recommended_panel_count": 103,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2552000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2474000.0,
+          "annual_savings_inr": 429940.0,
+          "monthly_savings_inr": 35828.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 14657291.0,
+          "co2_tons_annual": 50.36,
+          "trees_equivalent": 2518,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26449718987718,
+              12.998363721907957
+            ],
+            [
+              80.26461504351965,
+              12.998357736082303
+            ],
+            [
+              80.26462544399541,
+              12.998554717484506
+            ],
+            [
+              80.26450759035293,
+              12.99856070331016
+            ],
+            [
+              80.26449718987718,
+              12.998363721907957
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10079,
+        "neighborhood": "Besant Nagar",
+        "address": "#30, Beach Road, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 206.2,
+        "roof_area_sqft": 2219.5,
+        "usable_area_m2": 148.5,
+        "usable_area_sqft": 1598.4,
+        "orientation_deg": 102.9,
+        "aspect_ratio": 1.12,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 45377.0,
+        "monthly_generation_kwh": {
+          "JAN": 3524.4,
+          "FEB": 3675.1,
+          "MAR": 4520.2,
+          "APR": 4533.8,
+          "MAY": 4570.3,
+          "JUN": 3757.4,
+          "JUL": 3667.7,
+          "AUG": 3825.3,
+          "SEP": 3785.1,
+          "OCT": 3402.7,
+          "NOV": 2925.5,
+          "DEC": 3187.8
+        },
+        "recommended_system_size_kw": 34.2,
+        "recommended_panel_count": 76,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1881000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1803000.0,
+          "annual_savings_inr": 317639.0,
+          "monthly_savings_inr": 26470.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 10828784.0,
+          "co2_tons_annual": 37.21,
+          "trees_equivalent": 1860,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26589137054565,
+              12.99817999910141
+            ],
+            [
+              80.26601347976472,
+              12.998207885503158
+            ],
+            [
+              80.26598177627018,
+              12.998341426981955
+            ],
+            [
+              80.2658596670511,
+              12.998313540580208
+            ],
+            [
+              80.26589137054565,
+              12.99817999910141
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10080,
+        "neighborhood": "Besant Nagar",
+        "address": "#121, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 362.4,
+        "roof_area_sqft": 3900.8,
+        "usable_area_m2": 260.9,
+        "usable_area_sqft": 2808.3,
+        "orientation_deg": 12.8,
+        "aspect_ratio": 1.88,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 82241.0,
+        "monthly_generation_kwh": {
+          "JAN": 6387.6,
+          "FEB": 6660.7,
+          "MAR": 8192.3,
+          "APR": 8217.0,
+          "MAY": 8283.2,
+          "JUN": 6809.8,
+          "JUL": 6647.3,
+          "AUG": 6932.9,
+          "SEP": 6860.1,
+          "OCT": 6166.9,
+          "NOV": 5302.1,
+          "DEC": 5777.4
+        },
+        "recommended_system_size_kw": 59.9,
+        "recommended_panel_count": 133,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3294500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3216500.0,
+          "annual_savings_inr": 781290.0,
+          "monthly_savings_inr": 65108.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 26635315.0,
+          "co2_tons_annual": 67.44,
+          "trees_equivalent": 3372,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26684021121217,
+              12.998395828953084
+            ],
+            [
+              80.26681156245692,
+              12.998518330298303
+            ],
+            [
+              80.2665772549369,
+              12.998465618941095
+            ],
+            [
+              80.26660590369215,
+              12.998343117595876
+            ],
+            [
+              80.26684021121217,
+              12.998395828953084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10081,
+        "neighborhood": "Besant Nagar",
+        "address": "#130, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 202.0,
+        "roof_area_sqft": 2174.3,
+        "usable_area_m2": 145.4,
+        "usable_area_sqft": 1565.1,
+        "orientation_deg": 2.3,
+        "aspect_ratio": 1.25,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 45833.0,
+        "monthly_generation_kwh": {
+          "JAN": 3559.8,
+          "FEB": 3712.0,
+          "MAR": 4565.6,
+          "APR": 4579.3,
+          "MAY": 4616.2,
+          "JUN": 3795.1,
+          "JUL": 3704.6,
+          "AUG": 3863.7,
+          "SEP": 3823.1,
+          "OCT": 3436.8,
+          "NOV": 2954.9,
+          "DEC": 3219.8
+        },
+        "recommended_system_size_kw": 33.3,
+        "recommended_panel_count": 74,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1831500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1753500.0,
+          "annual_savings_inr": 320831.0,
+          "monthly_savings_inr": 26736.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 10937604.0,
+          "co2_tons_annual": 37.58,
+          "trees_equivalent": 1879,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26820294807408,
+              12.998266379562848
+            ],
+            [
+              80.26819780483426,
+              12.998383657701297
+            ],
+            [
+              80.26807774190995,
+              12.998378592675039
+            ],
+            [
+              80.26807881735486,
+              12.99835406996522
+            ],
+            [
+              80.26804939244772,
+              12.99835282863341
+            ],
+            [
+              80.26805346024263,
+              12.99826007320478
+            ],
+            [
+              80.26820294807408,
+              12.998266379562848
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10082,
+        "neighborhood": "Besant Nagar",
+        "address": "#140, Elliot's Promenade, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 393.4,
+        "roof_area_sqft": 4234.5,
+        "usable_area_m2": 283.2,
+        "usable_area_sqft": 3048.3,
+        "orientation_deg": 4.8,
+        "aspect_ratio": 1.64,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 89271.0,
+        "monthly_generation_kwh": {
+          "JAN": 6933.6,
+          "FEB": 7230.0,
+          "MAR": 8892.5,
+          "APR": 8919.3,
+          "MAY": 8991.2,
+          "JUN": 7391.9,
+          "JUL": 7215.5,
+          "AUG": 7525.5,
+          "SEP": 7446.4,
+          "OCT": 6694.0,
+          "NOV": 5755.3,
+          "DEC": 6271.3
+        },
+        "recommended_system_size_kw": 65.2,
+        "recommended_panel_count": 145,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3586000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3508000.0,
+          "annual_savings_inr": 624897.0,
+          "monthly_savings_inr": 52075.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 21303663.0,
+          "co2_tons_annual": 73.2,
+          "trees_equivalent": 3660,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26917841754633,
+              12.998271672912722
+            ],
+            [
+              80.2691655566372,
+              12.998416168886076
+            ],
+            [
+              80.26899010821346,
+              12.998401147207417
+            ],
+            [
+              80.26899324901355,
+              12.998365859424798
+            ],
+            [
+              80.26892728851311,
+              12.998360211967725
+            ],
+            [
+              80.26893700862215,
+              12.998251003776991
+            ],
+            [
+              80.26917841754633,
+              12.998271672912722
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10083,
+        "neighborhood": "Besant Nagar",
+        "address": "#82, 4th Main Road, Besant Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 567.9,
+        "roof_area_sqft": 6112.8,
+        "usable_area_m2": 408.9,
+        "usable_area_sqft": 4401.4,
+        "orientation_deg": 105.6,
+        "aspect_ratio": 1.36,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 124948.0,
+        "monthly_generation_kwh": {
+          "JAN": 9704.7,
+          "FEB": 10119.5,
+          "MAR": 12446.5,
+          "APR": 12484.0,
+          "MAY": 12584.5,
+          "JUN": 10346.1,
+          "JUL": 10099.2,
+          "AUG": 10533.1,
+          "SEP": 10422.4,
+          "OCT": 9369.4,
+          "NOV": 8055.4,
+          "DEC": 8777.6
+        },
+        "recommended_system_size_kw": 94.0,
+        "recommended_panel_count": 209,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 5170000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 5092000.0,
+          "annual_savings_inr": 1187006.0,
+          "monthly_savings_inr": 98917.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 40466791.0,
+          "co2_tons_annual": 102.46,
+          "trees_equivalent": 5123,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27066030939767,
+              12.998242725024992
+            ],
+            [
+              80.27084187934675,
+              12.998292841966084
+            ],
+            [
+              80.27077254285805,
+              12.998534485029223
+            ],
+            [
+              80.27059097290898,
+              12.998484368088132
+            ],
+            [
+              80.27066030939767,
+              12.998242725024992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10084,
+        "neighborhood": "Besant Nagar",
+        "address": "#85, Elliot's Promenade, Besant Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 297.2,
+        "roof_area_sqft": 3199.0,
+        "usable_area_m2": 214.0,
+        "usable_area_sqft": 2303.5,
+        "orientation_deg": 17.8,
+        "aspect_ratio": 1.82,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 67457.0,
+        "monthly_generation_kwh": {
+          "JAN": 5239.4,
+          "FEB": 5463.4,
+          "MAR": 6719.6,
+          "APR": 6739.9,
+          "MAY": 6794.2,
+          "JUN": 5585.7,
+          "JUL": 5452.4,
+          "AUG": 5686.7,
+          "SEP": 5626.9,
+          "OCT": 5058.4,
+          "NOV": 4349.0,
+          "DEC": 4738.9
+        },
+        "recommended_system_size_kw": 49.1,
+        "recommended_panel_count": 109,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2700500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2622500.0,
+          "annual_savings_inr": 640842.0,
+          "monthly_savings_inr": 53404.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 21847235.0,
+          "co2_tons_annual": 55.31,
+          "trees_equivalent": 2766,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26352614312003,
+              12.999649022314784
+            ],
+            [
+              80.26348881296565,
+              12.999762216899809
+            ],
+            [
+              80.26334327481699,
+              12.999716046455676
+            ],
+            [
+              80.26335000456038,
+              12.999695640150831
+            ],
+            [
+              80.26328581450439,
+              12.999675276531939
+            ],
+            [
+              80.26331641491538,
+              12.99958248825176
+            ],
+            [
+              80.26352614312003,
+              12.999649022314784
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10085,
+        "neighborhood": "Besant Nagar",
+        "address": "#20, Beach Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 163.1,
+        "roof_area_sqft": 1755.6,
+        "usable_area_m2": 117.4,
+        "usable_area_sqft": 1263.7,
+        "orientation_deg": 130.0,
+        "aspect_ratio": 1.26,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 35874.0,
+        "monthly_generation_kwh": {
+          "JAN": 2786.3,
+          "FEB": 2905.4,
+          "MAR": 3573.5,
+          "APR": 3584.3,
+          "MAY": 3613.2,
+          "JUN": 2970.5,
+          "JUL": 2899.6,
+          "AUG": 3024.2,
+          "SEP": 2992.4,
+          "OCT": 2690.1,
+          "NOV": 2312.8,
+          "DEC": 2520.2
+        },
+        "recommended_system_size_kw": 27.0,
+        "recommended_panel_count": 60,
+        "solar_score": 69,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1485000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1407000.0,
+          "annual_savings_inr": 251118.0,
+          "monthly_savings_inr": 20926.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8560984.0,
+          "co2_tons_annual": 29.42,
+          "trees_equivalent": 1471,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26468957536075,
+              12.999652135489516
+            ],
+            [
+              80.26476980827051,
+              12.999718525701146
+            ],
+            [
+              80.26468461501331,
+              12.999817564823847
+            ],
+            [
+              80.26460438210354,
+              12.999751174612216
+            ],
+            [
+              80.26468957536075,
+              12.999652135489516
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10086,
+        "neighborhood": "Besant Nagar",
+        "address": "#98, Elliot's Promenade, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 183.2,
+        "roof_area_sqft": 1971.9,
+        "usable_area_m2": 131.9,
+        "usable_area_sqft": 1419.8,
+        "orientation_deg": 10.6,
+        "aspect_ratio": 1.46,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 41578.0,
+        "monthly_generation_kwh": {
+          "JAN": 3229.3,
+          "FEB": 3367.4,
+          "MAR": 4141.7,
+          "APR": 4154.2,
+          "MAY": 4187.6,
+          "JUN": 3442.7,
+          "JUL": 3360.6,
+          "AUG": 3505.0,
+          "SEP": 3468.2,
+          "OCT": 3117.7,
+          "NOV": 2680.5,
+          "DEC": 2920.8
+        },
+        "recommended_system_size_kw": 30.2,
+        "recommended_panel_count": 67,
+        "solar_score": 75,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1661000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1583000.0,
+          "annual_savings_inr": 291046.0,
+          "monthly_savings_inr": 24254.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 9922189.0,
+          "co2_tons_annual": 34.09,
+          "trees_equivalent": 1705,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26601836107133,
+              12.999498890011454
+            ],
+            [
+              80.26599901434696,
+              12.999598331214978
+            ],
+            [
+              80.26585084255925,
+              12.99957060058953
+            ],
+            [
+              80.26587018928362,
+              12.999471159386006
+            ],
+            [
+              80.26601836107133,
+              12.999498890011454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10087,
+        "neighborhood": "Besant Nagar",
+        "address": "#59, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 357.9,
+        "roof_area_sqft": 3852.4,
+        "usable_area_m2": 257.7,
+        "usable_area_sqft": 2773.9,
+        "orientation_deg": 175.2,
+        "aspect_ratio": 1.18,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 81232.0,
+        "monthly_generation_kwh": {
+          "JAN": 6309.3,
+          "FEB": 6579.0,
+          "MAR": 8091.8,
+          "APR": 8116.2,
+          "MAY": 8181.6,
+          "JUN": 6726.3,
+          "JUL": 6565.8,
+          "AUG": 6847.9,
+          "SEP": 6775.9,
+          "OCT": 6091.3,
+          "NOV": 5237.1,
+          "DEC": 5706.6
+        },
+        "recommended_system_size_kw": 59.4,
+        "recommended_panel_count": 132,
+        "solar_score": 88,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 3267000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3189000.0,
+          "annual_savings_inr": 771704.0,
+          "monthly_savings_inr": 64309.0,
+          "payback_years": 4.1,
+          "lifetime_savings_25yr_inr": 26308531.0,
+          "co2_tons_annual": 66.61,
+          "trees_equivalent": 3331,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2670511314704,
+              12.999690919191307
+            ],
+            [
+              80.26706415047263,
+              12.999848213561883
+            ],
+            [
+              80.2668756677086,
+              12.999863220401318
+            ],
+            [
+              80.26686264870636,
+              12.999705926030742
+            ],
+            [
+              80.2670511314704,
+              12.999690919191307
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10088,
+        "neighborhood": "Besant Nagar",
+        "address": "#12, 4th Main Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 176.1,
+        "roof_area_sqft": 1895.5,
+        "usable_area_m2": 126.8,
+        "usable_area_sqft": 1364.9,
+        "orientation_deg": 25.8,
+        "aspect_ratio": 1.28,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 38746.0,
+        "monthly_generation_kwh": {
+          "JAN": 3009.4,
+          "FEB": 3138.1,
+          "MAR": 3859.6,
+          "APR": 3871.3,
+          "MAY": 3902.5,
+          "JUN": 3208.3,
+          "JUL": 3131.8,
+          "AUG": 3266.3,
+          "SEP": 3232.0,
+          "OCT": 2905.4,
+          "NOV": 2498.0,
+          "DEC": 2721.9
+        },
+        "recommended_system_size_kw": 29.2,
+        "recommended_panel_count": 65,
+        "solar_score": 72,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1606000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1528000.0,
+          "annual_savings_inr": 271222.0,
+          "monthly_savings_inr": 22602.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 9246359.0,
+          "co2_tons_annual": 31.77,
+          "trees_equivalent": 1589,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26815293975741,
+              12.999655573844688
+            ],
+            [
+              80.26810558153666,
+              12.999750786036527
+            ],
+            [
+              80.2679810317145,
+              12.99969119252205
+            ],
+            [
+              80.26802838993525,
+              12.999595980330211
+            ],
+            [
+              80.26815293975741,
+              12.999655573844688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10089,
+        "neighborhood": "Besant Nagar",
+        "address": "#45, Beach Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 151.7,
+        "roof_area_sqft": 1632.9,
+        "usable_area_m2": 109.2,
+        "usable_area_sqft": 1175.4,
+        "orientation_deg": 105.1,
+        "aspect_ratio": 1.72,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 33368.0,
+        "monthly_generation_kwh": {
+          "JAN": 2591.7,
+          "FEB": 2702.5,
+          "MAR": 3323.9,
+          "APR": 3334.0,
+          "MAY": 3360.8,
+          "JUN": 2763.0,
+          "JUL": 2697.1,
+          "AUG": 2813.0,
+          "SEP": 2783.4,
+          "OCT": 2502.2,
+          "NOV": 2151.3,
+          "DEC": 2344.1
+        },
+        "recommended_system_size_kw": 25.2,
+        "recommended_panel_count": 56,
+        "solar_score": 67,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1386000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1308000.0,
+          "annual_savings_inr": 233576.0,
+          "monthly_savings_inr": 19465.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 7962951.0,
+          "co2_tons_annual": 27.36,
+          "trees_equivalent": 1368,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26905601065079,
+              12.999380485096133
+            ],
+            [
+              80.26913946706199,
+              12.99940289553769
+            ],
+            [
+              80.2691001085773,
+              12.99954388957065
+            ],
+            [
+              80.2690166521661,
+              12.999521479129092
+            ],
+            [
+              80.26905601065079,
+              12.999380485096133
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10090,
+        "neighborhood": "Besant Nagar",
+        "address": "#3, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 206.7,
+        "roof_area_sqft": 2224.9,
+        "usable_area_m2": 148.8,
+        "usable_area_sqft": 1601.7,
+        "orientation_deg": 176.3,
+        "aspect_ratio": 1.61,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 46905.0,
+        "monthly_generation_kwh": {
+          "JAN": 3643.1,
+          "FEB": 3798.8,
+          "MAR": 4672.3,
+          "APR": 4686.4,
+          "MAY": 4724.2,
+          "JUN": 3883.9,
+          "JUL": 3791.2,
+          "AUG": 3954.1,
+          "SEP": 3912.5,
+          "OCT": 3517.2,
+          "NOV": 3024.0,
+          "DEC": 3295.1
+        },
+        "recommended_system_size_kw": 34.2,
+        "recommended_panel_count": 76,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1881000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1803000.0,
+          "annual_savings_inr": 328335.0,
+          "monthly_savings_inr": 27361.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 11193426.0,
+          "co2_tons_annual": 38.46,
+          "trees_equivalent": 1923,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27076603593676,
+              12.999283173912762
+            ],
+            [
+              80.27077254497918,
+              12.999385533640817
+            ],
+            [
+              80.27060480366188,
+              12.999395794437898
+            ],
+            [
+              80.27059829461946,
+              12.999293434709843
+            ],
+            [
+              80.27076603593676,
+              12.999283173912762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10091,
+        "neighborhood": "Besant Nagar",
+        "address": "#65, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 165.6,
+        "roof_area_sqft": 1782.5,
+        "usable_area_m2": 119.2,
+        "usable_area_sqft": 1283.1,
+        "orientation_deg": 89.3,
+        "aspect_ratio": 1.48,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 36424.0,
+        "monthly_generation_kwh": {
+          "JAN": 2829.0,
+          "FEB": 2950.0,
+          "MAR": 3628.3,
+          "APR": 3639.3,
+          "MAY": 3668.6,
+          "JUN": 3016.0,
+          "JUL": 2944.1,
+          "AUG": 3070.6,
+          "SEP": 3038.3,
+          "OCT": 2731.3,
+          "NOV": 2348.3,
+          "DEC": 2558.8
+        },
+        "recommended_system_size_kw": 27.4,
+        "recommended_panel_count": 61,
+        "solar_score": 70,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1507000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1429000.0,
+          "annual_savings_inr": 254968.0,
+          "monthly_savings_inr": 21247.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 8692236.0,
+          "co2_tons_annual": 29.87,
+          "trees_equivalent": 1493,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26323312978411,
+              13.000779152180709
+            ],
+            [
+              80.26333065537314,
+              13.000778179357127
+            ],
+            [
+              80.2633321234714,
+              13.000919756350992
+            ],
+            [
+              80.26323459788237,
+              13.000920729174574
+            ],
+            [
+              80.26323312978411,
+              13.000779152180709
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10092,
+        "neighborhood": "Besant Nagar",
+        "address": "#6, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 513.6,
+        "roof_area_sqft": 5528.3,
+        "usable_area_m2": 369.8,
+        "usable_area_sqft": 3980.5,
+        "orientation_deg": 87.2,
+        "aspect_ratio": 1.73,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 113000.0,
+        "monthly_generation_kwh": {
+          "JAN": 8776.7,
+          "FEB": 9151.9,
+          "MAR": 11256.3,
+          "APR": 11290.2,
+          "MAY": 11381.2,
+          "JUN": 9356.7,
+          "JUL": 9133.5,
+          "AUG": 9525.9,
+          "SEP": 9425.8,
+          "OCT": 8473.4,
+          "NOV": 7285.1,
+          "DEC": 7938.3
+        },
+        "recommended_system_size_kw": 85.0,
+        "recommended_panel_count": 189,
+        "solar_score": 86,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4675000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4597000.0,
+          "annual_savings_inr": 1073500.0,
+          "monthly_savings_inr": 89458.0,
+          "payback_years": 4.3,
+          "lifetime_savings_25yr_inr": 36597204.0,
+          "co2_tons_annual": 92.66,
+          "trees_equivalent": 4633,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2643153928788,
+              13.000497388998454
+            ],
+            [
+              80.26447413076676,
+              13.000490243128104
+            ],
+            [
+              80.26448672879174,
+              13.000759446814214
+            ],
+            [
+              80.26432799090378,
+              13.000766592684565
+            ],
+            [
+              80.2643153928788,
+              13.000497388998454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10093,
+        "neighborhood": "Besant Nagar",
+        "address": "#74, Customs Colony, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 167.9,
+        "roof_area_sqft": 1807.3,
+        "usable_area_m2": 120.9,
+        "usable_area_sqft": 1301.4,
+        "orientation_deg": 17.6,
+        "aspect_ratio": 2.17,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 38110.0,
+        "monthly_generation_kwh": {
+          "JAN": 2960.0,
+          "FEB": 3086.5,
+          "MAR": 3796.3,
+          "APR": 3807.7,
+          "MAY": 3838.4,
+          "JUN": 3155.6,
+          "JUL": 3080.3,
+          "AUG": 3212.7,
+          "SEP": 3178.9,
+          "OCT": 2857.7,
+          "NOV": 2457.0,
+          "DEC": 2677.2
+        },
+        "recommended_system_size_kw": 27.9,
+        "recommended_panel_count": 62,
+        "solar_score": 71,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1534500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1456500.0,
+          "annual_savings_inr": 266770.0,
+          "monthly_savings_inr": 22231.0,
+          "payback_years": 5.5,
+          "lifetime_savings_25yr_inr": 9094584.0,
+          "co2_tons_annual": 31.25,
+          "trees_equivalent": 1563,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26587531771219,
+              13.000877472390934
+            ],
+            [
+              80.26585055065628,
+              13.000953207629319
+            ],
+            [
+              80.26568291210373,
+              13.000900472093642
+            ],
+            [
+              80.26570767915963,
+              13.000824736855257
+            ],
+            [
+              80.26587531771219,
+              13.000877472390934
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10094,
+        "neighborhood": "Besant Nagar",
+        "address": "#25, Beach Road, Besant Nagar, Chennai",
+        "building_type": "commercial",
+        "roof_area_m2": 243.3,
+        "roof_area_sqft": 2618.9,
+        "usable_area_m2": 175.2,
+        "usable_area_sqft": 1885.8,
+        "orientation_deg": 106.0,
+        "aspect_ratio": 1.85,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 53536.0,
+        "monthly_generation_kwh": {
+          "JAN": 4158.1,
+          "FEB": 4335.9,
+          "MAR": 5332.9,
+          "APR": 5349.0,
+          "MAY": 5392.1,
+          "JUN": 4432.9,
+          "JUL": 4327.2,
+          "AUG": 4513.1,
+          "SEP": 4465.7,
+          "OCT": 4014.5,
+          "NOV": 3451.5,
+          "DEC": 3760.9
+        },
+        "recommended_system_size_kw": 40.1,
+        "recommended_panel_count": 89,
+        "solar_score": 87,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 2205500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 2127500.0,
+          "annual_savings_inr": 508592.0,
+          "monthly_savings_inr": 42383.0,
+          "payback_years": 4.2,
+          "lifetime_savings_25yr_inr": 17338654.0,
+          "co2_tons_annual": 43.9,
+          "trees_equivalent": 2195,
+          "tariff_inr_per_kwh": 9.5
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26674149844466,
+              13.000681368840848
+            ],
+            [
+              80.26684316087174,
+              13.000710353978244
+            ],
+            [
+              80.2667886199463,
+              13.000894372138756
+            ],
+            [
+              80.26668695751921,
+              13.00086538700136
+            ],
+            [
+              80.26674149844466,
+              13.000681368840848
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10095,
+        "neighborhood": "Besant Nagar",
+        "address": "#107, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 152.9,
+        "roof_area_sqft": 1645.8,
+        "usable_area_m2": 110.1,
+        "usable_area_sqft": 1185.1,
+        "orientation_deg": 178.5,
+        "aspect_ratio": 1.24,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 34706.0,
+        "monthly_generation_kwh": {
+          "JAN": 2695.6,
+          "FEB": 2810.8,
+          "MAR": 3457.2,
+          "APR": 3467.6,
+          "MAY": 3495.5,
+          "JUN": 2873.7,
+          "JUL": 2805.2,
+          "AUG": 2925.7,
+          "SEP": 2895.0,
+          "OCT": 2602.5,
+          "NOV": 2237.5,
+          "DEC": 2438.1
+        },
+        "recommended_system_size_kw": 25.2,
+        "recommended_panel_count": 56,
+        "solar_score": 68,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1386000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1308000.0,
+          "annual_savings_inr": 242942.0,
+          "monthly_savings_inr": 20245.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 8282252.0,
+          "co2_tons_annual": 28.46,
+          "trees_equivalent": 1423,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26823554626715,
+              13.000800124547531
+            ],
+            [
+              80.26823795663216,
+              13.000900336952816
+            ],
+            [
+              80.26811079434175,
+              13.000903279156542
+            ],
+            [
+              80.26810838397674,
+              13.000803066751258
+            ],
+            [
+              80.26823554626715,
+              13.000800124547531
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10096,
+        "neighborhood": "Besant Nagar",
+        "address": "#87, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 453.6,
+        "roof_area_sqft": 4882.5,
+        "usable_area_m2": 326.6,
+        "usable_area_sqft": 3515.5,
+        "orientation_deg": 179.9,
+        "aspect_ratio": 1.4,
+        "orientation_factor": 0.98,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 102951.0,
+        "monthly_generation_kwh": {
+          "JAN": 7996.2,
+          "FEB": 8338.0,
+          "MAR": 10255.3,
+          "APR": 10286.2,
+          "MAY": 10369.0,
+          "JUN": 8524.7,
+          "JUL": 8321.2,
+          "AUG": 8678.8,
+          "SEP": 8587.6,
+          "OCT": 7719.9,
+          "NOV": 6637.3,
+          "DEC": 7232.3
+        },
+        "recommended_system_size_kw": 75.2,
+        "recommended_panel_count": 167,
+        "solar_score": 79,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4136000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 4058000.0,
+          "annual_savings_inr": 720657.0,
+          "monthly_savings_inr": 60055.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 24568264.0,
+          "co2_tons_annual": 84.42,
+          "trees_equivalent": 4221,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26923432810094,
+              13.000405021314574
+            ],
+            [
+              80.2692342751892,
+              13.000570691397943
+            ],
+            [
+              80.26904118877212,
+              13.000570632076382
+            ],
+            [
+              80.26904119871385,
+              13.000539503884237
+            ],
+            [
+              80.26899784163852,
+              13.000539490563728
+            ],
+            [
+              80.26899788460852,
+              13.000404948672504
+            ],
+            [
+              80.26923432810094,
+              13.000405021314574
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10097,
+        "neighborhood": "Besant Nagar",
+        "address": "#94, Elliot's Promenade, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 190.5,
+        "roof_area_sqft": 2050.5,
+        "usable_area_m2": 137.2,
+        "usable_area_sqft": 1476.8,
+        "orientation_deg": 108.4,
+        "aspect_ratio": 1.9,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 41924.0,
+        "monthly_generation_kwh": {
+          "JAN": 3256.3,
+          "FEB": 3395.5,
+          "MAR": 4176.2,
+          "APR": 4188.8,
+          "MAY": 4222.5,
+          "JUN": 3471.5,
+          "JUL": 3388.6,
+          "AUG": 3534.2,
+          "SEP": 3497.1,
+          "OCT": 3143.7,
+          "NOV": 2702.9,
+          "DEC": 2945.2
+        },
+        "recommended_system_size_kw": 31.5,
+        "recommended_panel_count": 70,
+        "solar_score": 75,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1732500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1654500.0,
+          "annual_savings_inr": 293468.0,
+          "monthly_savings_inr": 24456.0,
+          "payback_years": 5.6,
+          "lifetime_savings_25yr_inr": 10004758.0,
+          "co2_tons_annual": 34.38,
+          "trees_equivalent": 1719,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.27046832802273,
+              13.00070619896757
+            ],
+            [
+              80.27055591150993,
+              13.000735110231215
+            ],
+            [
+              80.27050000336612,
+              13.000898033571033
+            ],
+            [
+              80.27041241987892,
+              13.000869122307389
+            ],
+            [
+              80.27046832802273,
+              13.00070619896757
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10098,
+        "neighborhood": "Besant Nagar",
+        "address": "#28, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 114.9,
+        "roof_area_sqft": 1236.8,
+        "usable_area_m2": 82.7,
+        "usable_area_sqft": 890.2,
+        "orientation_deg": 121.6,
+        "aspect_ratio": 1.84,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 25271.0,
+        "monthly_generation_kwh": {
+          "JAN": 1962.8,
+          "FEB": 2046.7,
+          "MAR": 2517.3,
+          "APR": 2524.9,
+          "MAY": 2545.2,
+          "JUN": 2092.5,
+          "JUL": 2042.6,
+          "AUG": 2130.3,
+          "SEP": 2107.9,
+          "OCT": 1895.0,
+          "NOV": 1629.2,
+          "DEC": 1775.3
+        },
+        "recommended_system_size_kw": 18.9,
+        "recommended_panel_count": 42,
+        "solar_score": 60,
+        "fill_color": "#84cc16",
+        "financials": {
+          "gross_capex_inr": 1039500.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 961500.0,
+          "annual_savings_inr": 176897.0,
+          "monthly_savings_inr": 14741.0,
+          "payback_years": 5.4,
+          "lifetime_savings_25yr_inr": 6030681.0,
+          "co2_tons_annual": 20.72,
+          "trees_equivalent": 1036,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26325154420864,
+              13.001470464153345
+            ],
+            [
+              80.26331350847153,
+              13.001508040398091
+            ],
+            [
+              80.26324303035169,
+              13.001619838722226
+            ],
+            [
+              80.2631810660888,
+              13.001582262477479
+            ],
+            [
+              80.26325154420864,
+              13.001470464153345
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10099,
+        "neighborhood": "Besant Nagar",
+        "address": "#105, Tiger Varadachari Road, Besant Nagar, Chennai",
+        "building_type": "apartments",
+        "roof_area_m2": 442.2,
+        "roof_area_sqft": 4759.8,
+        "usable_area_m2": 318.4,
+        "usable_area_sqft": 3427.2,
+        "orientation_deg": 124.0,
+        "aspect_ratio": 1.34,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 97294.0,
+        "monthly_generation_kwh": {
+          "JAN": 7556.8,
+          "FEB": 7879.8,
+          "MAR": 9691.7,
+          "APR": 9721.0,
+          "MAY": 9799.3,
+          "JUN": 8056.2,
+          "JUL": 7864.0,
+          "AUG": 8201.9,
+          "SEP": 8115.7,
+          "OCT": 7295.7,
+          "NOV": 6272.6,
+          "DEC": 6834.9
+        },
+        "recommended_system_size_kw": 73.4,
+        "recommended_panel_count": 163,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 4037000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 3959000.0,
+          "annual_savings_inr": 681058.0,
+          "monthly_savings_inr": 56755.0,
+          "payback_years": 5.8,
+          "lifetime_savings_25yr_inr": 23218275.0,
+          "co2_tons_annual": 79.78,
+          "trees_equivalent": 3989,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26447948792415,
+              13.001697488594301
+            ],
+            [
+              80.26462061327638,
+              13.00179138754348
+            ],
+            [
+              80.26451624644521,
+              13.001942277341106
+            ],
+            [
+              80.26448782073723,
+              13.001923364055388
+            ],
+            [
+              80.26446356323585,
+              13.001958434675357
+            ],
+            [
+              80.2643508635916,
+              13.001883449011896
+            ],
+            [
+              80.26447948792415,
+              13.001697488594301
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10100,
+        "neighborhood": "Besant Nagar",
+        "address": "#108, Elliot's Promenade, Besant Nagar, Chennai",
+        "building_type": "house",
+        "roof_area_m2": 206.9,
+        "roof_area_sqft": 2227.1,
+        "usable_area_m2": 149.0,
+        "usable_area_sqft": 1603.8,
+        "orientation_deg": 85.8,
+        "aspect_ratio": 2.08,
+        "orientation_factor": 0.95,
+        "annual_irradiance_kwh_m2_day": 5.38,
+        "annual_kwh_potential": 45530.0,
+        "monthly_generation_kwh": {
+          "JAN": 3536.3,
+          "FEB": 3687.5,
+          "MAR": 4535.4,
+          "APR": 4549.1,
+          "MAY": 4585.7,
+          "JUN": 3770.0,
+          "JUL": 3680.1,
+          "AUG": 3838.2,
+          "SEP": 3797.8,
+          "OCT": 3414.1,
+          "NOV": 2935.3,
+          "DEC": 3198.5
+        },
+        "recommended_system_size_kw": 34.2,
+        "recommended_panel_count": 76,
+        "solar_score": 78,
+        "fill_color": "#10b981",
+        "financials": {
+          "gross_capex_inr": 1881000.0,
+          "subsidy_inr": 78000.0,
+          "net_capex_inr": 1803000.0,
+          "annual_savings_inr": 318710.0,
+          "monthly_savings_inr": 26559.0,
+          "payback_years": 5.7,
+          "lifetime_savings_25yr_inr": 10865296.0,
+          "co2_tons_annual": 37.33,
+          "trees_equivalent": 1867,
+          "tariff_inr_per_kwh": 7.0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.26541846844823,
+              13.001465313740125
+            ],
+            [
+              80.2655130513411,
+              13.001458781217556
+            ],
+            [
+              80.26552377520487,
+              13.001608141812282
+            ],
+            [
+              80.26549947180551,
+              13.001609820366404
+            ],
+            [
+              80.26550257496343,
+              13.001653040750726
+            ],
+            [
+              80.26543229546992,
+              13.001657894719171
+            ],
+            [
+              80.26541846844823,
+              13.001465313740125
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
